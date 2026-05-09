@@ -127,11 +127,11 @@ DisplayDexEntry:
 	ld hl, sp+$0
 	ld d, h
 	ld e, l
-	hlcoord 12, 7
-	lb bc, 2, PRINTNUM_MONEY | 4
+	hlcoord 13, 7
+	lb bc, 1, (2 << 4) | 3
 	call PrintNum
-	hlcoord 14, 7
-	ld [hl], $5e ; ft symbol
+;	hlcoord 14, 7
+;	ld [hl], $5e ; ft symbol
 	pop af
 	pop hl
 
@@ -152,7 +152,7 @@ DisplayDexEntry:
 	ld d, h
 	ld e, l
 	hlcoord 11, 9
-	lb bc, 2, PRINTNUM_RIGHTALIGN | 5
+	lb bc, 2, (3 << 4) | 4
 	call PrintNum
 	pop de
 

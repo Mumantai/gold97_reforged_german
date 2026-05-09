@@ -110,7 +110,7 @@ PlacePartyNicknames:
 	ret
 
 .CANCEL:
-	db "CANCEL@"
+	db "ABBRECHEN@"
 
 PlacePartyHPBar:
 	xor a
@@ -341,10 +341,10 @@ PlacePartyMonTMHMCompatibility:
 	ret
 
 .string_able
-	db "ABLE@"
+	db "OK@"
 
 .string_not_able
-	db "NOT ABLE@"
+	db "NEIN@"
 
 PlacePartyMonEvoStoneCompatibility:
 	ld a, [wPartyCount]
@@ -425,9 +425,9 @@ PlacePartyMonEvoStoneCompatibility:
 	ret
 
 .string_able
-	db "ABLE@"
+	db "OK@"
 .string_not_able
-	db "NOT ABLE@"
+	db "NEIN@"
 
 PlacePartyMonGender:
 	ld a, [wPartyCount]
@@ -469,13 +469,13 @@ PlacePartyMonGender:
 	ret
 
 .male
-	db "♂…MALE@"
+	db "♂…MÄNNL.@"
 
 .female
-	db "♀…FEMALE@"
+	db "♀…WEIBL.@"
 
 .unknown
-	db "…UNKNOWN@"
+	db "…NEUTRUM@"
 
 PlacePartyMonMobileBattleSelection:
 	ld a, [wPartyCount]
@@ -483,7 +483,7 @@ PlacePartyMonMobileBattleSelection:
 	ret z
 	ld c, a
 	ld b, 0
-	hlcoord 12, 1
+	hlcoord 12, 2
 .loop
 	push bc
 	push hl
@@ -512,7 +512,7 @@ PlacePartyMonMobileBattleSelection:
 .loop2
 	push hl
 	push bc
-	hlcoord 12, 1
+	hlcoord 12, 2
 .loop3
 	and a
 	jr z, .done
@@ -550,9 +550,9 @@ PlacePartyMonMobileBattleSelection:
 .String_Sanka_Shinai:
 	db "さんかしない@" ; Cancel
 .String_Kettei_Yameru:
-	db "けってい　　やめる@" ; Quit
+	db "O.K.  ZURÜCK@";"けってい　　やめる@" ; Quit
 .Strings_1_2_3:
-	db "１@", "２@", "３@" ; 1st, 2nd, 3rd
+	db "ERSTES@", "ZWEITES@", "DRITTES@" ; 1st, 2nd, 3rd
 
 PartyMenuCheckEgg:
 	ld a, LOW(wPartySpecies)
@@ -756,33 +756,31 @@ PartyMenuStrings:
 	dw ToWhichPKMNString
 
 ChooseAMonString:
-	db "Choose a #MON.@"
+	db "#MON wählen.@"
 
 UseOnWhichPKMNString:
-	db "Use on which <PK><MN>?@"
+	db "Welches <PKMN>?@"
 
 WhichPKMNString:
-	db "Which <PK><MN>?@"
+	db "Welches #MON?@"
 
 TeachWhichPKMNString:
-	db "Teach which <PK><MN>?@"
+	db "#MON wählen.@"
 
 MoveToWhereString:
-	db "Move to where?@"
+	db "Wohin verschieben?@"
 
 ChooseAFemalePKMNString:
-; unused
-	db "Choose a ♀<PK><MN>.@"
+	db "Wähle weibl. <PKMN>@"
 
-ChooseAMalePKMNString:
-; unused
-	db "Choose a ♂<PK><MN>.@"
+ChooseAMalePKMNString: ; unreferenced
+	db "Wähle männl. <PKMN>@"
 
 ToWhichPKMNString:
-	db "To which <PK><MN>?@"
+	db "Welchem <PKMN>?@"
 
 YouHaveNoPKMNString:
-	db "You have no <PK><MN>!@"
+	db "Du hast kein <PKMN>!@"
 
 PrintPartyMenuActionText:
 	ld a, [wCurPartyMon]

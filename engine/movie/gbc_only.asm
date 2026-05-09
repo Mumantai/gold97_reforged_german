@@ -124,10 +124,10 @@ DrawGBCOnlyGraphic:
 	ret
 
 GBCOnlyString:
-	db   "This Game Pak is"
-	next "designed only for"
-	next "use on the"
-	next "Game Boy Color.@"
+	db   "Dieses Modul ist"
+	next "aussließlich mit"
+	next "dem Game Boy Color"
+	next "kompatibel.@"
 
 GBCOnlyGFX:
 IF DEF(_GOLD)

@@ -300,7 +300,7 @@ Text_WhatTimeIsIt:
 	text_end
 
 String_oclock:
-	db "o'clock@"
+	db "UHR@"
 
 Text_WhatHrs:
 	; What?@ @
@@ -412,15 +412,15 @@ SetDayOfWeek:
 	call LoadStandardMenuHeader
 	ld hl, .WhatDayIsItText
 	call PrintText
-	hlcoord 9, 3
+	hlcoord 8, 3
 	ld b, 2
 	ld c, 9
 	call TextBox
-	hlcoord 14, 3
+	hlcoord 13, 3
 	ld [hl], TIMESET_UP_ARROW
-	hlcoord 14, 6
+	hlcoord 13, 6
 	ld [hl], TIMESET_DOWN_ARROW
-	hlcoord 10, 5
+	hlcoord 9, 5
 	call .PlaceWeekdayString
 	call ApplyTilemap
 	ld c, 10
@@ -488,11 +488,11 @@ SetDayOfWeek:
 .finish_dpad
 	xor a
 	ldh [hBGMapMode], a
-	hlcoord 10, 4
+	hlcoord 9, 4
 	ld b, 2
 	ld c, 9
 	call ClearBox
-	hlcoord 10, 5
+	hlcoord 9, 5
 	call .PlaceWeekdayString
 	call WaitBGMap
 	and a
@@ -524,13 +524,13 @@ SetDayOfWeek:
 	dw .Saturday
 	dw .Sunday
 
-.Sunday:    db " SUNDAY@"
-.Monday:    db " MONDAY@"
-.Tuesday:   db " TUESDAY@"
-.Wednesday: db "WEDNESDAY@"
-.Thursday:  db "THURSDAY@"
-.Friday:    db " FRIDAY@"
-.Saturday:  db "SATURDAY@"
+.Sunday:    db "SONNTAG@"
+.Monday:    db "MONTAG@"
+.Tuesday:   db "DIENSTAG@"
+.Wednesday: db "MITTWOCH@"
+.Thursday:  db "DONNERSTAG@"
+.Friday:    db "FREITAG@"
+.Saturday:  db "SAMSTAG@"
 
 .WhatDayIsItText:
 	; What day is it?
@@ -717,9 +717,9 @@ GetTimeOfDayString:
 	ld de, .day_string
 	ret
 
-.nite_string: db "NITE@"
-.morn_string: db "MORN@"
-.day_string:  db "DAY@"
+.nite_string: db "NACHT@"
+.morn_string: db "VORMITTAG@"
+.day_string:  db "TAG@"
 
 AdjustHourForAMorPM:
 ; Convert the hour stored in c (0-23) to a 1-12 value

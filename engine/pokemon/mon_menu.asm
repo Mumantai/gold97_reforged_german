@@ -387,8 +387,8 @@ GiveTakeItemMenuData:
 .Items:
 	db STATICMENU_CURSOR ; flags
 	db 2 ; # items
-	db "GIVE@"
-	db "TAKE@"
+	db "GIB@"
+	db "NIMM@"
 
 TookAndMadeHoldText:
 	text_far UnknownText_0x1c1b2c
@@ -549,16 +549,16 @@ MonMailAction:
 
 .MenuHeader:
 	db MENU_BACKUP_TILES ; flags
-	menu_coords 12, 10, SCREEN_WIDTH - 1, SCREEN_HEIGHT - 1
+	menu_coords 10, 10, SCREEN_WIDTH - 1, SCREEN_HEIGHT - 1
 	dw .MenuData
 	db 1 ; default option
 
 .MenuData:
 	db STATICMENU_CURSOR ; flags
 	db 3 ; items
-	db "READ@"
-	db "TAKE@"
-	db "QUIT@"
+	db "LIES@"
+	db "NIMM@"
+	db "ZURÜCK@"
 
 .mailwilllosemessagetext
 ; The MAIL will lose its message. OK?
@@ -1096,7 +1096,7 @@ MoveScreenAttributes:
 	db D_UP | D_DOWN | D_LEFT | D_RIGHT | A_BUTTON | B_BUTTON
 
 String_MoveWhere:
-	db "Where?@"
+	db "WO?@"
 
 SetUpMoveScreenBG:
 	call ClearBGPalettes
@@ -1233,9 +1233,9 @@ PlaceMoveData:
 String_MoveType_Top:
 	db "┌─────┐@"
 String_MoveType_Bottom:
-	db "│TYPE/└@"
+	db "│TYP/ └@"
 String_MoveAtk:
-	db "ATK/@"
+	db "ANGR/@"
 String_MoveNoPower:
 	db "---@"
 

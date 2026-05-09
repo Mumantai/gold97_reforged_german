@@ -61,21 +61,21 @@ _OptionsMenu:
 	ret
 
 StringOptions:
-	db "TEXT SPEED<LF>"
-	db "        :<LF>"
-	db "BATTLE SCENE<LF>"
-	db "        :<LF>"
-	db "BATTLE STYLE<LF>"
-	db "        :<LF>"
+	db "TEXT-TEMPO<LF>"
+	db "     :<LF>"
+	db "KAMPFANIMATION<LF>"
+	db "     :<LF>"
+	db "KAMPFSTIL<LF>"
+	db "     :<LF>"
 	db "SOUND<LF>"
-	db "        :<LF>"
-	db "TYPE CHART<LF>"
-	db "        :<LF>"
-	db "MENU ACCOUNT<LF>"
-	db "        :<LF>"
-	db "FRAME<LF>"
-	db "        :TYPE<LF>"
-	db "CANCEL@"
+	db "     :<LF>"
+	db "TYPEN-TABELLE<LF>"  ; alt. TYPEN-WIRKUNGEN oder ähnliches
+	db "     :<LF>"
+	db "MENÜ-STEUERUNG<LF>"
+	db "     :<LF>"
+	db "RAHMEN<LF>"
+	db "     :TYP <LF>"
+	db "ZURÜCK@"
 
 GetOptionPointer:
 	ld a, [wJumptableIndex] ; load the cursor position to a
@@ -146,7 +146,7 @@ Options_TextSpeed:
 	ld e, [hl]
 	inc hl
 	ld d, [hl]
-	hlcoord 11, 3
+	hlcoord 8, 3
 	call PlaceString
 	and a
 	ret
@@ -157,9 +157,9 @@ Options_TextSpeed:
 	dw .Mid
 	dw .Slow
 
-.Fast: db "FAST@"
-.Mid:  db "MID @"
-.Slow: db "SLOW@"
+.Fast: db "3@"
+.Mid:  db "2@"
+.Slow: db "1@"
 
 GetTextSpeed:
 ; converts TEXT_DELAY_* value in a to OPT_TEXT_SPEED_* value in c,
@@ -216,13 +216,13 @@ Options_BattleScene:
 	ld de, .Off
 
 .Display:
-	hlcoord 11, 5
+	hlcoord 8, 5
 	call PlaceString
 	and a
 	ret
 
-.On:  db "ON @"
-.Off: db "OFF@"
+.On:  db "AN @"
+.Off: db "AUS@"
 
 Options_BattleStyle:
 	ld hl, wOptions
@@ -254,13 +254,13 @@ Options_BattleStyle:
 	ld de, .Set
 
 .Display:
-	hlcoord 11, 7
+	hlcoord 8, 7
 	call PlaceString
 	and a
 	ret
 
-.Shift: db "SHIFT@"
-.Set:   db "SET  @"
+.Shift: db "WECHSEL@"
+.Set:   db "FOLGEND@"
 
 Options_Sound:
 	ld hl, wOptions
@@ -299,7 +299,7 @@ Options_Sound:
 	ld de, .Stereo
 
 .Display:
-	hlcoord 11, 9
+	hlcoord 8, 9
 	call PlaceString
 	and a
 	ret
@@ -353,7 +353,7 @@ Options_Print:
 	ld e, [hl]
 	inc hl
 	ld d, [hl]
-	hlcoord 11, 11
+	hlcoord 8, 11
 	call PlaceString
 	and a
 	ret
@@ -424,13 +424,13 @@ Options_MenuAccount:
 	ld de, .On
 
 .Display:
-	hlcoord 11, 13
+	hlcoord 8, 13
 	call PlaceString
 	and a
 	ret
 
-.Off: db "OFF@"
-.On:  db "ON @"
+.Off: db "AUS@"
+.On:  db "AN @"
 
 Options_Frame:
 	ld hl, wTextBoxFrame
@@ -456,7 +456,7 @@ Options_Frame:
 	ld [hl], a
 UpdateFrame:
 	ld a, [wTextBoxFrame]
-	hlcoord 16, 15 ; where on the screen the number is drawn
+	hlcoord 13, 15 ; where on the screen the number is drawn
 	add "1"
 	ld [hl], a
 	call LoadFontsExtra

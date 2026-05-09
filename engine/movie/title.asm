@@ -437,8 +437,8 @@ TitleScreenLoadGFX:
 	call ByteFill
 
 ; 'GOLD VERSION'
-	hlbgcoord 6, 6
-	ld bc, 9 ; length of version text
+	hlbgcoord 5, 6
+	ld bc, 11 ; length of version text
 	ld a, 1
 	call ByteFill
 

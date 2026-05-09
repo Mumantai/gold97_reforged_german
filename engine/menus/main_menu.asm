@@ -29,7 +29,7 @@ MainMenu:
 
 .MenuHeader:
 	db MENU_BACKUP_TILES ; flags
-	menu_coords 0, 0, 16, 7
+	menu_coords 0, 0, 17, 7
 	dw .MenuData
 	db 1 ; default option
 
@@ -41,12 +41,12 @@ MainMenu:
 	dw .Strings
 
 .Strings:
-	db "CONTINUE@"
-	db "NEW GAME@"
-	db "OPTION@"
-	db "MYSTERY GIFT@"
-	db "MOBILE@"
-	db "MOBILE STUDIUM@"
+	db "WEITER@"
+	db "NEUES SPIEL@"
+	db "OPTIONEN@"
+	db "GEHEIMGABE@"
+	db "MOBIL@"
+	db "MOBILES STADION@"
 
 .Jumptable:
 	dw MainMenu_Continue
@@ -258,7 +258,7 @@ MainMenu_PrintCurrentTimeAndDay:
 	call .PlaceCurrentDay
 	ld de, .VersionNumberPrint
 	call PlaceString
-	decoord 1, 16
+	decoord 4, 16
 	ldh a, [hHours]
 	ld c, a
 	farcall PrintHour
@@ -280,7 +280,7 @@ MainMenu_PrintCurrentTimeAndDay:
 	ret
 
 .TimeNotSet:
-	db "TIME NOT SET@"
+	db "UHR NICHT GESTELLT@"
 
 .UnusedText:
 	; Clock time unknown
@@ -308,13 +308,13 @@ MainMenu_PrintCurrentTimeAndDay:
 
 
 .Days:
-	db "SUNDAY   @"
-	db "MONDAY   @"
-	db "TUESDAY  @"
-	db "WEDNESDAY@"
-	db "THURSDAY @"
-	db "FRIDAY   @"
-	db "SATURDAY @"
+	db "SONNTAG   @"
+	db "MONTAG    @"
+	db "DIENSTAG  @"
+	db "MITTWOCH  @"
+	db "DONNERSTAG@"
+	db "FREITAG   @"
+	db "SAMSTAG   @"
 .Day:
 	db "@"
 

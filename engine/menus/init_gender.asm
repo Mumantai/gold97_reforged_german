@@ -43,15 +43,15 @@ InitGender:
 
 .MenuHeader:
 	db MENU_BACKUP_TILES ; flags
-	menu_coords 6, 4, 12, 9
+	menu_coords 5, 4, 14, 9
 	dw .MenuData
 	db 1 ; default option
 
 .MenuData:
 	db STATICMENU_CURSOR | STATICMENU_WRAP | STATICMENU_DISABLE_B ; flags
 	db 2 ; items
-	db "BOY@"
-	db "GIRL@"
+	db "JUNGE@"
+	db "MÄDCHEN@"
 
 TextJump_AreYouABoyOrAreYouAGirl:
 	; Are you a boy? Or are you a girl?

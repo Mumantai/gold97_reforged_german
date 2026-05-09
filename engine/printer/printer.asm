@@ -608,7 +608,7 @@ Unreferenced_Function847bd:
 	ret
 
 String_PressBToCancel:
-	db "Press B to Cancel@"
+	db "  Abbr. B-KNOPF@"
 
 PrinterStatusStringPointers:
 	dw GBPrinterString_Null ; @
@@ -657,7 +657,7 @@ PrintPCBox_Page1:
 	ret
 
 .String_PokemonList:
-	db "#MON LIST@"
+	db "#MON-LISTE@"
 
 PrintPCBox_Page2:
 	hlcoord 0, 0

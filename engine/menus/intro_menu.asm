@@ -28,16 +28,16 @@ PrintDayOfWeek:
 	ret
 
 .Days:
-	db "SUN@"
-	db "MON@"
-	db "TUES@"
-	db "WEDNES@"
-	db "THURS@"
-	db "FRI@"
-	db "SATUR@"
+	db "SONNTAG@"
+	db "MONTAG@"
+	db "DIENSTAG@"
+	db "MITTWOCH@"
+	db "DONNERSTAG@"
+	db "FREITAG@"
+	db "SAMSTAG@"
 
 .Day:
-	db "DAY@"
+	db "@"
 
 NewGame_ClearTileMapEtc:
 	xor a
@@ -268,7 +268,7 @@ InitializeMagikarpHouse:
 	ret
 
 .Ralph:
-	db "RALPH@"
+	db "ANGELO@"
 
 InitializeNPCNames:
 	ld hl, .Rival
@@ -292,9 +292,9 @@ InitializeNPCNames:
 	ret
 
 .Rival:  db "???@"
-.Red:    db "RED@"
-.Green:  db "GREEN@"
-.Mom:    db "MOM@"
+.Red:    db "ROT@"
+.Green:  db "GRÜN@"
+.Mom:    db "MAMA@"
 
 InitializeWorld:
 	call ShrinkPlayer
@@ -522,46 +522,46 @@ Continue_LoadMenuHeader:
 
 .MenuHeader_Dex:
 	db MENU_BACKUP_TILES ; flags
-	menu_coords 0, 0, 15, 9
+	menu_coords 0, 0, 17, 9
 	dw .MenuData_Dex
 	db 1 ; default option
 
 .MenuData_Dex:
 	db 0 ; flags
 	db 4 ; items
-	db "PLAYER@"
-	db "BADGES@"
+	db "SPIELER@"
+	db "ORDEN@"
 	db "#DEX@"
-	db "TIME@"
+	db "SPIELZEIT@"
 
 .MenuHeader_NoDex:
 	db MENU_BACKUP_TILES ; flags
-	menu_coords 0, 0, 15, 9
+	menu_coords 0, 0, 17, 9
 	dw .MenuData_NoDex
 	db 1 ; default option
 
 .MenuData_NoDex:
 	db 0 ; flags
 	db 4 ; items
-	db "PLAYER <PLAYER>@"
-	db "BADGES@"
+	db "SPIELER@"
+	db "ORDEN@"
 	db " @"
-	db "TIME@"
+	db "SPIELZEIT@"
 
 Continue_DisplayBadgesDexPlayerName:
 	call MenuBoxCoord2Tile
 	push hl
-	decoord 13, 4, 0
+	decoord 15, 4, 0
 	add hl, de
 	call Continue_DisplayBadgeCount
 	pop hl
 	push hl
-	decoord 12, 6, 0
+	decoord 14, 6, 0
 	add hl, de
 	call Continue_DisplayPokedexNumCaught
 	pop hl
 	push hl
-	decoord 8, 2, 0
+	decoord 10, 2, 0
 	add hl, de
 	ld de, .Player
 	call PlaceString
@@ -572,13 +572,13 @@ Continue_DisplayBadgesDexPlayerName:
 	db "<PLAYER>@"
 
 Continue_PrintGameTime:
-	decoord 9, 8, 0
+	decoord 11, 8, 0
 	add hl, de
 	call Continue_DisplayGameTime
 	ret
 
 Continue_UnknownGameTime:
-	decoord 9, 8, 0
+	decoord 11, 8, 0
 	add hl, de
 	ld de, .three_question_marks
 	call PlaceString
@@ -778,7 +778,7 @@ NamePlayer:
 .Chris:
 	db "GOLD@@@@@@@"
 .Kris:
-	db "KRIS@@@@@@@"
+	db "KRISTA@@@@@"
 
 Unreferenced_Function60e9:
 	call LoadMenuHeader

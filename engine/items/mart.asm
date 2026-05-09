@@ -838,16 +838,16 @@ Text_Mart_HowMayIHelpYou:
 
 MenuHeader_BuySell:
 	db MENU_BACKUP_TILES ; flags
-	menu_coords 0, 0, 7, 8
+	menu_coords 0, 0, 11, 8
 	dw .MenuData
 	db 1 ; default option
 
 .MenuData
 	db STATICMENU_CURSOR ; strings
 	db 3 ; items
-	db "BUY@"
-	db "SELL@"
-	db "QUIT@"
+	db "KAUF@"
+	db "VERKAUF@"
+	db "TSCHÜSS!@"
 
 Text_Mart_HereYouGo:
 	; Here you are. Thank you!

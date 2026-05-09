@@ -104,9 +104,9 @@ DisplayMoneyAndCoinBalance:
 	ret
 
 MoneyString:
-	db "MONEY@"
+	db "GELD@"
 CoinString:
-	db "COIN@"
+	db "MÜNZEN@"
 ShowMoney_TerminatorString:
 	db "@"
 
@@ -174,7 +174,7 @@ StartMenu_PrintBugContestStatus:
 	call GetPokemonName
 
 .no_contest_mon
-	hlcoord 8, 1
+	hlcoord 9, 1
 	call PlaceString
 	ld a, [wContestMon]
 	and a
@@ -197,11 +197,11 @@ StartMenu_PrintBugContestStatus:
 .Balls_JP:
 	db "ボール　　　こ@"
 .CAUGHT:
-	db "CAUGHT@"
+	db "BESITZ:@"
 .Balls_EN:
-	db "BALLS:@"
+	db "BÄLLE:@"
 .None:
-	db "None@"
+	db "KEINE@"
 .LEVEL:
 	db "LEVEL@"
 
