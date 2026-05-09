@@ -33,4 +33,4 @@ _DeleteSaveData:
 	db STATICMENU_CURSOR | STATICMENU_NO_TOP_SPACING ; flags
 	db 2 ; items
 	db "NEIN@"
-	db "JA@""
+	db "JA@"
