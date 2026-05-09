@@ -99,7 +99,7 @@ UnknownText_0x1bc14f::
 	text_decimal wCurPartyLevel, 1, 3
 	text "!@"
 	sound_dex_fanfare_50_79 ; plays SFX_DEX_FANFARE_50_79, identical to SFX_LEVEL_UP
-	text_promptbutton
+	text_waitbutton
 	text_end
 
 	text_end ; unreferenced
@@ -1395,7 +1395,7 @@ UnknownText_0x1bd3be::
 	text_ram wStringBuffer1
 	text "!@"
 	sound_item
-	text_promptbutton
+	text_waitbutton
 	text_end
 
 	text_end ; unreferenced
