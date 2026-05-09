@@ -34,7 +34,7 @@ jobs:
 
       - name: Gold ROM bauen
         run: |
-          make -j -k all
+          make -j$(nproc) --output-sync=target all
         working-directory: .
 
       - name: Freier Speicherplatz prüfen
