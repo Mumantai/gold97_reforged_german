@@ -39,7 +39,7 @@ jobs:
 
       - name: Freier Speicherplatz prüfen
         run: |
-          tools/free_space.awk pokecrystal.map
+          sudo tools/free_space.awk pokecrystal.map
 
       - name: Dateien hochladen
         if: success()
