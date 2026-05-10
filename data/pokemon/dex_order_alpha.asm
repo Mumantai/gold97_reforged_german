@@ -17,7 +17,7 @@ AlphabeticalPokedexOrder:
     db CLOYSTER
     db AZUMARILL
     db QWILFISH
-    db BELLEDAM
+    db BELLRUN
     db BEEDRILL
     db VENUSAUR
     db IVYSAUR
@@ -31,7 +31,7 @@ AlphabeticalPokedexOrder:
     db DIGLETT
     db DUGTRIO
     db DITTO
-    db DODAERIE
+    db CHIX
     db DODRIO
     db DODUO
     db DONPHAN
@@ -40,7 +40,7 @@ AlphabeticalPokedexOrder:
     db DRATINI
     db GLOOM
     db DYNABEAR
-    db ELEKID
+    db ELEBABE
     db ELECTABUZZ
     db CHIKORITA
     db ENTEI
@@ -54,7 +54,7 @@ AlphabeticalPokedexOrder:
     db PETICORN
     db LEAFEON
     db GROWLITHE
-    db KAZAPPELIN
+    db NUMBPUFF
     db RAPIDASH
     db GYARADOS
     db GENGAR
@@ -91,7 +91,7 @@ AlphabeticalPokedexOrder:
     db KANGASKHAN
     db HITMONTOP
     db MAGIKARP
-    db MOIBELLE
+    db RINRING
     db HITMONLEE
     db KINGLER
     db GEODUDE
@@ -111,7 +111,7 @@ AlphabeticalPokedexOrder:
     db LEDYBA
     db ELECTRODE
     db LUGIA
-    db WARFURS
+    db WOLFAN
     db GROTESS
     db MACHOP
     db MACHAMP
@@ -119,7 +119,7 @@ AlphabeticalPokedexOrder:
     db MAGMAR
     db MAGNEMITE
     db MAGNETON
-    db MANTINE
+    db RAYLEEP
     db MARILL
     db MACHOKE
     db MEOWTH
@@ -149,7 +149,7 @@ AlphabeticalPokedexOrder:
     db VENOMOTH
     db ONIX
     db EXEGGCUTE
-    db PHANDARIN
+    db PANGSHI
     db MR__MIME
     db BALLERINE
     db SKARMORY
@@ -165,7 +165,7 @@ AlphabeticalPokedexOrder:
     db PINSIR
     db CLEFABLE
     db AQUALLO
-    db PUPPERON
+    db PUDDIPUP
     db PONYTA
     db FARFETCH_D
     db PORYGON
@@ -203,7 +203,7 @@ AlphabeticalPokedexOrder:
     db KINGDRA
     db SEADRA
     db HORSEA
-    db COINPUR
+    db NYANYA
     db SCYTHER
     db ALAKAZAM
     db GRIMER
@@ -222,7 +222,7 @@ AlphabeticalPokedexOrder:
     db STARYU
     db TANGTRIP
     db SUICUNE
-    db LUXWAN
+    db MADAME
     db TANGELA
     db PIDGEOTTO
     db PIDGEOT
@@ -236,7 +236,7 @@ AlphabeticalPokedexOrder:
     db DROWZEE
     db BLASTOISE
     db WEEPINBELL
-    db STROMEN
+    db KURSTRAW
     db MAREEP
     db VOLTORB
     db KOTORA
@@ -246,7 +246,7 @@ AlphabeticalPokedexOrder:
     db TRITALES
     db FLAAFFY
     db SPINARAK
-    db WEARLYCAN
+    db WARWOLF
     db XATU
     db PRAXE
     db ZAPDOS
