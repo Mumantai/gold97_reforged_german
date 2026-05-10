@@ -38,9 +38,26 @@ _LoadStandardFont::
 	ret
 
 _LoadFontsExtra1::
+	ld de, FontsExtra_SolidBlackGFX
+	ld hl, vTiles2 tile "■" ; $60
+	lb bc, BANK(FontsExtra_SolidBlackGFX), 1
+	call Get1bppViaHDMA
+	ld de, PokegearPhoneIconGFX
+	ld hl, vTiles2 tile "☎" ; $62
+	lb bc, BANK(PokegearPhoneIconGFX), 1
+	call Get2bppViaHDMA
+	ld de, FontExtra + 3 tiles ; "<BOLD_D>"
+	ld hl, vTiles2 tile "<BOLD_D>"
+	lb bc, BANK(FontExtra), 22 ; "<BOLD_D>" to "ぉ"
+	call Get2bppViaHDMA
 	jr LoadFrame
 
 _LoadFontsExtra2::
+	ld de, FontsExtra2_UpArrowGFX
+	ld hl, vTiles2 tile "▲" ; $61
+	ld b, BANK(FontsExtra2_UpArrowGFX)
+	ld c, 1
+	call Get2bppViaHDMA
 	ret
 
 _LoadFontsBattleExtra::
@@ -58,7 +75,7 @@ LoadFrame:
 	call AddNTimes
 	ld d, h
 	ld e, l
-	ld hl, vTiles0 tile "┌" ; $ba
+	ld hl, vTiles2 tile "┌" ; $79
 	lb bc, BANK(Frames), 6 ; "┌" to "┘"
 	call Get1bpp_2
 	ld hl, vTiles2 tile " " ; $7f
