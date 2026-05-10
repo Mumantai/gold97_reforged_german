@@ -220,7 +220,7 @@ BattleText_0x80a4f:
 	prompt
 
 BattleText_MonFainted:
-	text_ram wBattleMonNickname
+	text_ram wBattleMonNick
 	text_start
 	line "wurde besiegt!"
 	prompt
@@ -327,13 +327,13 @@ BattleText_ItemsCantBeUsedHere:
 	prompt
 
 BattleText_MonIsAlreadyOut:
-	text_ram wBattleMonNickname
+	text_ram wBattleMonNick
 	text_start
 	line "kämpft bereits."
 	prompt
 
 BattleText_MonCantBeRecalled:
-	text_ram wBattleMonNickname
+	text_ram wBattleMonNick
 	text_start
 	line "kann nicht aus-"
 	cont "getauscht werden!"
@@ -351,7 +351,7 @@ BattleText_TheMoveIsDisabled:
 	prompt
 
 BattleText_MonHasNoMovesLeft:
-	text_ram wBattleMonNickname
+	text_ram wBattleMonNick
 	text_start
 	line "hat keine Attacken"
 	cont "mehr übrig!"
@@ -560,38 +560,38 @@ DisabledMoveText:
 	prompt
 
 LoafingAroundText:
-	text_ram wBattleMonNickname
+	text_ram wBattleMonNick
 	text_start
 	line "faulenzt."
 	prompt
 
 BeganToNapText:
-	text_ram wBattleMonNickname
+	text_ram wBattleMonNick
 	text_start
 	line "macht ein"
 	cont "Nickerchen!"
 	prompt
 
 WontObeyText:
-	text_ram wBattleMonNickname
+	text_ram wBattleMonNick
 	text_start
 	line "ist ungehorsam!"
 	prompt
 
 TurnedAwayText:
-	text_ram wBattleMonNickname
+	text_ram wBattleMonNick
 	text_start
 	line "wendet sich ab!"
 	prompt
 
 IgnoredOrdersText:
-	text_ram wBattleMonNickname
+	text_ram wBattleMonNick
 	text_start
 	line "ignoriert Befehl!"
 	prompt
 
 IgnoredSleepingText:
-	text_ram wBattleMonNickname
+	text_ram wBattleMonNick
 	text " igno-"
 	line "riert den Befehl"
 	cont "…es schläft!"
