@@ -909,82 +909,82 @@ _PnP_Text4::
 
 	text_end ; unreferenced
 
-_PnP_CuteText::
+_PnP_cute::
 	text_start
 	line "ist niedlich."
 	done
 
-_PnP_LazyText::
+_PnP_lazy::
 	text_start
 	line "irgendwie faul."
 	done
 
-_PnP_HappyText::
+_PnP_happy::
 	text_start
 	line "ist immer heiter."
 	done
 
-_PnP_NoisyText::
+_PnP_noisy::
 	text_start
 	line "ist ziemlich laut."
 	done
 
-_PnP_PrecociousText::
+_PnP_precocious::
 	text_start
 	line "ist frühreif."
 	done
 
-_PnP_BoldText::
+_PnP_bold::
 	text_start
 	line "ist wohl dreist."
 	done
 
-_PnP_PickyText::
+_PnP_picky::
 	text_start
 	line "ist zu wählerisch!"
 	done
 
-_PnP_SortOfOKText::
+_PnP_sortofok::
 	text_start
 	line "ist O.K."
 	done
 
-_PnP_SoSoText::
+_PnP_soso::
 	text_start
 	line "geht so."
 	done
 
-_PnP_GreatText::
+_PnP_great::
 	text_start
 	line "ist großartig."
 	done
 
-_PnP_MyTypeText::
+_PnP_myType::
 	text_start
 	line "ist mein Typ."
 	done
 
-_PnP_CoolText::
+_PnP_cool::
 	text_start
 	line "ist so cool, oder?"
 	done
 
-_PnP_InspiringText::
+_PnP_inspiring::
 	text_start
 	line "ist inspirierend!"
 	done
 
-_PnP_WeirdText::
+_PnP_weird::
 	text_start
 	line "ist verrückt."
 	done
 
-_PnP_RightForMeText::
+_PnP_rightForMe::
 	text_start
 	line "ist genau richtig?"
 	done
 
-_PnP_OddText::
+_PnP_odd::
 	text_start
 	line "ist merkwürdig!"
 	done
