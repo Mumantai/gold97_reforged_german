@@ -713,7 +713,7 @@ UnknownText_0x1c502e::
 	text_decimal hMoneyTemp, 3, 6
 	text " für"
 	line "@"
-	text_decimal wItemQuantityChange, 1, 2
+	text_decimal wItemQuantityChangeBuffer, 1, 2
 	text " x @"
 	text_ram wStringBuffer2
 	text "."
