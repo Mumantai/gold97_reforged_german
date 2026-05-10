@@ -1,135 +1,137 @@
 UnknownText_0x1c0000::
-	text "Oh, no picture?"
-	line "Come again, OK?"
+	text "Kein Foto? Schau"
+	line "mal wieder vorbei!"
 	done
 
 UnknownText_0x1c0021::
-	text "An EGG? My talent"
-	line "is worth more…"
+	text "Ein EI? Mein"
+	line "Talent hat mehr"
+	cont "verdient…"
 	done
 
 UnknownText_0x1c0043::
-	text "Hello, hello! I'm"
-	line "the NAME RATER."
+	text "Hallo! Ich bin der"
+	line "NAMEN-BEWERTER."
 
-	para "I rate the names"
-	line "of #MON."
+	para "Ich bewerte die"
+	line "Namen deiner"
+	cont "#MON."
 
-	para "Would you like me"
-	line "to rate names?"
+	para "Soll ich einen"
+	line "Namen bewerten?"
 	done
 
 UnknownText_0x1c00a0::
-	text "Which #MON's"
-	line "nickname should I"
-	cont "rate for you?"
+	text "Welchen #MON-"
+	line "Spitznamen soll"
+	cont "ich bewerten?"
 	prompt
 
 UnknownText_0x1c00cd::
 	text "Hm… @"
 	text_ram wStringBuffer1
 	text "…"
-	line "That's a fairly"
-	cont "decent name."
+	line "Das ist kein"
+	cont "schlechter Name."
 
-	para "But, how about a"
-	line "slightly better"
-	cont "nickname?"
+	para "Aber überlege dir"
+	line "einen besseren"
+	cont "Spitznamen!"
 
-	para "Want me to give it"
-	line "a better name?"
+	para "Soll ich ihm einen"
+	line "neuen Namen geben?"
 	done
 
 UnknownText_0x1c0142::
-	text "All right. What"
-	line "name should we"
-	cont "give it, then?"
+	text "O.K. Welchen"
+	line "Namen möchtest"
+	cont "du haben?"
 	prompt
 
 UnknownText_0x1c0171::
-	text "That's a better"
-	line "name than before!"
+	text "Dieser Name"
+	line "ist besser!"
 
-	para "Well done!"
+	para "Gut gemacht!"
 	done
 
 UnknownText_0x1c019e::
-	text "OK, then. Come"
-	line "again sometime."
+	text "O.K. Du kannst"
+	line "mich immer be-"
+	cont "suchen."
 	done
 
 UnknownText_0x1c01be::
 	text "Hm… @"
 	text_ram wStringBuffer1
 	text "?"
-	line "What a great name!"
-	cont "It's perfect."
+	line "Ein wirklich"
+	cont "tadelloser Name!"
 
-	para "Treat @"
+	para "Kümmere dich gut"
+	line "um @"
 	text_ram wStringBuffer1
-	text_start
-	line "with loving care."
+	text "."
 	done
 
 UnknownText_0x1c0208::
-	text "Whoa… That's just"
-	line "an EGG."
+	text "Wow… Das ist nur"
+	line "ein EI."
 	done
 
 UnknownText_0x1c0222::
-	text "It might look the"
-	line "same as before,"
+	text "Er sieht genauso"
+	line "aus, wie der alte,"
 
-	para "but this new name"
-	line "is much better!"
+	para "aber er ist "
+	line "viel besser."
 
-	para "Well done!"
+	para "Gut gemacht!"
 	done
 
 UnknownText_0x1c0272::
-	text "All right. This"
-	line "#MON is now"
-	cont "named @"
+	text "O.K. Der neue Name"
+	line "dieses #MON"
+	cont "ist @"
 	text_ram wStringBuffer1
 	text "."
 	prompt
 
 Text_Gained::
 	text_ram wStringBuffer1
-	text " gained@"
+	text " erhält@"
 	text_end
 
 Text_ABoostedStringBuffer2ExpPoints::
 	text_start
-	line "a boosted"
+	line "spezielle"
 	cont "@"
-	text_decimal wStringBuffer2, 2, 5 ; fixed
-	text " EXP. Points!"
+	text_decimal wStringBuffer2, 2, 5
+	text " EP!"
 	prompt
 
 Text_StringBuffer2ExpPoints::
 	text_start
 	line "@"
 	text_decimal wStringBuffer2, 2, 5
-	text " EXP. Points!"
+	text " EP!"
 	prompt
 
 Text_GoMon::
-	text "Go! @"
+	text "Los! @"
 	text_end
 
 Text_DoItMon::
-	text "Do it! @"
+	text "Los! @"
 	text_end
 
 Text_GoForItMon::
-	text "Go for it,"
-	line "@"
+	text "Los! @"
 	text_end
 
 Text_YourFoesWeakGetmMon::
-	text "Your foe's weak!"
-	line "Get'm, @"
+	text "Mach es fertig!"
+	line "Los, @"
 	text_end
 
 Text_BattleMonNick01::
@@ -143,107 +145,111 @@ Text_BattleMonNickComma::
 	text_end
 
 Text_ThatsEnoughComeBack::
-	text " that's"
-	line "enough! Come back!@"
+	text " genug!"
+	line "Komm zurück!@"
 	text_end
 
 Text_OKComeBack::
-	text " OK!"
-	line "Come back!@"
+	text " O.K.!"
+	line "Komm zurück!@"
 	text_end
 
 Text_GoodComeBack::
-	text " good!"
-	line "Come back!@"
+	text " super!"
+	line "Komm zurück!@"
 	text_end
 
 Text_ComeBack::
-	text " come"
-	line "back!"
+	text " komm"
+	line "zurück!"
 	done
 
 UnknownText_0x1c0373::
-	text "Booted up a TM."
+	text "TM aktiviert."
 	prompt
 
 UnknownText_0x1c0384::
-	text "Booted up an HM."
+	text "VM aktiviert."
 	prompt
 
 UnknownText_0x1c0396::
-	text "It contained"
+	text "Sie enthält"
 	line "@"
 	text_ram wStringBuffer2
 	text "."
 
-	para "Teach @"
+	para "@"
 	text_ram wStringBuffer2
 	text_start
-	line "to a #MON?"
+	line "einem #MON"
+	cont "beibringen?"
 	done
 
 UnknownText_0x1c03c2::
 	text_ram wStringBuffer2
-	text " is"
-	line "not compatible"
-	cont "with @"
+	text " ist"
+	line "nicht kompatibel"
+	cont "mit @"
 	text_ram wStringBuffer1
 	text "."
 
-	para "It can't learn"
+	para "Es kann"
 	line "@"
 	text_ram wStringBuffer2
-	text "."
+	text_start
+	cont "nicht erlernen."
 	prompt
 
 UnknownText_0x1c03fa::
-	text "You have no room"
-	line "for any more"
+	text "Du hast keinen"
+	line "Platz mehr für:"
 	cont "@"
 	text_ram wStringBuffer1
-	text "S."
+	text "."
 	prompt
 
 UnknownText_0x1c0421::
-	text "You received"
+	text "Du erhältst"
 	line "@"
 	text_ram wStringBuffer1
 	text "!"
 	prompt
 
 UnknownText_0x1c0436::
-	text "The link has been"
-	line "cancelled."
+	text "Die Verbindung"
+	line "wurde getrennt."
 	prompt
 
 UnknownText_0x1c0454::
-	text "Communication"
-	line "error."
+	text "Übertragungs-"
+	line "fehler."
 	prompt
 
 UnknownText_0x1c046a::
-	text "Must retrieve GIFT"
-	line "at #MON CENTER."
+	text "Hole dir die"
+	line "GABE im"
+	cont "#MON-CENTER."
 	prompt
 
 UnknownText_0x1c048e::
-	text "Your friend isn't"
-	line "ready."
+	text "Dein Freund ist"
+	line "nicht bereit."
 	prompt
 
 UnknownText_0x1c04a7::
-	text "Sorry--only five"
-	line "GIFTS a day."
+	text "Nur fünf GABEN"
+	line "pro Tag."
 	prompt
 
 UnknownText_0x1c04c6::
-	text "Sorry. One GIFT"
-	line "a day per person."
+	text "Nur eine GABE"
+	line "pro Person pro"
+	cont "Tag."
 	prompt
 
 UnknownText_0x1c04e9::
 	text_ram wMysteryGiftPartnerName
-	text " sent"
+	text " schickte"
 	line "@"
 	text_ram wStringBuffer1
 	text "."
@@ -251,69 +257,73 @@ UnknownText_0x1c04e9::
 
 UnknownText_0x1c04fa::
 	text_ram wMysteryGiftPartnerName
-	text " sent"
+	text " schickte"
 	line "@"
 	text_ram wStringBuffer1
 	text_start
-	cont "to @"
+	cont "zur Adresse von"
+	cont "@"
 	text_ram wMysteryGiftPlayerName
-	text "'s home."
+	text "."
 	prompt
 
 UnknownText_0x1c051a::
-	text "Received"
+	text "Erhält KARTE von"
 	line "@"
 	text_ram wc850
-	text "'s CARD."
+	text "."
 	prompt
 
 UnknownText_0x1c0531::
 	text_ram wc850
-	text "'s CARD was"
-	line "listed as no.@"
+	text "s KARTE"
+	line "ist Nr.@"
 	text_decimal wDeciramBuffer, 1, 2
 	text "."
 	prompt
 
 UnknownText_0x1c0555::
-	text "The CARD was not"
-	line "registered."
+	text "Die KARTE wurde"
+	line "nicht registriert."
 	prompt
 
 UnknownText_0x1c0573::
-	text "The link has been"
-	line "cancelled."
+	text "Die Verbindung"
+	line "wurde getrennt."
 	prompt
 
 UnknownText_0x1c0591::
-	text "Communication"
-	line "error."
+	text "Übertragungs-"
+	line "fehler."
 	prompt
 
 _BadgeRequiredText::
-	text "Sorry! A new BADGE"
-	line "is required."
+	text "Du benötigst einen"
+	line "neuen ORDEN."
 	prompt
 
 UnknownText_0x1c05c8::
-	text "Can't use that"
-	line "here."
+	text "Du kannst das hier"
+	line "nicht benutzen."
 	prompt
 
 UnknownText_0x1c05dd::
 	text_ram wStringBuffer2
-	text " used"
-	line "CUT!"
+	text " setzt"
+	line "den ZERSCHNEIDER"
+	cont "ein!"
 	prompt
 
 UnknownText_0x1c05ec::
-	text "There's nothing to"
-	line "CUT here."
+	text "Hier kann"
+	line "man nichts"
+	cont "zerschneiden."
 	prompt
 
 UnknownText_0x1c0609::
-	text "A blinding FLASH"
-	line "lights the area!@"
+	text "Ein gleißender"
+	line "BLITZ erhellt"
+	cont "das Gebiet!@"
 	text_waitbutton
 	text_end
 
@@ -321,354 +331,376 @@ UnknownText_0x1c0609::
 
 _UsedSurfText::
 	text_ram wStringBuffer2
-	text " used"
-	line "SURF!"
+	text " setzt"
+	line "SURFER ein!"
 	done
 
 _CantSurfText::
-	text "You can't SURF"
-	line "here."
+	text "SURFER kann hier"
+	line "nicht eingesetzt"
+	cont "werden."
 	prompt
 
 _AlreadySurfingText::
-	text "You're already"
-	line "SURFING."
+	text "SURFER ist bereits"
+	line "eingesetzt."
 	prompt
 
 _AskSurfText::
-	text "The water is calm."
-	line "Want to SURF?"
+	text "Die See ist ruhig."
+	line "Möchtest du SURFER"
+	cont "einsetzen?"
 	done
 
 UnknownText_0x1c068e::
 	text_ram wStringBuffer2
-	text " used"
-	line "WATERFALL!"
+	text " setzt"
+	line "KASKADE ein!"
 	done
 
 UnknownText_0x1c06a3::
-	text "Wow, it's a huge"
-	line "waterfall."
+	text "Wow, das ist ein"
+	line "großer Wasserfall."
 	done
 
 UnknownText_0x1c06bf::
-	text "Do you want to use"
-	line "WATERFALL?"
+	text "Möchtest du"
+	line "KASKADE einsetzen?"
 	done
 
 UnknownText_0x1c06de::
 	text_ram wStringBuffer2
-	text " used"
-	line "DIG!"
+	text " setzt"
+	line "SCHAUFLER ein!"
 	done
 
 UnknownText_0x1c06ed::
-	text "<PLAYER> used an"
-	line "ESCAPE ROPE."
+	text "<PLAYER> setzt"
+	line "FLUCHTSEIL ein."
 	done
 
 UnknownText_0x1c0705::
-	text "Can't use that"
-	line "here."
+	text "Das kann hier"
+	line "nicht eingesetzt"
+	cont "werden."
 	done
 
 UnknownText_0x1c071a::
-	text "Return to the last"
-	line "#MON CENTER."
+	text "Bringt dich zum"
+	line "letzten #MON-"
+	cont "CENTER."
 	done
 
 UnknownText_0x1c073b::
-	text "Can't use that"
-	line "here."
-
-	para ""
-	done
+	text "Das kann hier"
+	line "nicht eingesetzt"
+	cont "werden."
+	prompt
 
 UnknownText_0x1c0751::
-	text "A #MON is using"
-	line "STRENGTH already."
+	text "Ein #MON setzt"
+	line "bereits STÄRKE"
+	cont "ein."
 	prompt
 
 UnknownText_0x1c0774::
 	text_ram wStringBuffer2
-	text " used"
-	line "STRENGTH!"
+	text " setzt"
+	line "STÄRKE ein!"
 	done
 
 UnknownText_0x1c0788::
 	text_ram wStringBuffer1
-	text " can"
-	line "move heavy"
-	cont "objects."
+	text " kann"
+	line "Felsen bewegen."
 	prompt
 
 UnknownText_0x1c07a0::
-	text "A #MON may be"
-	line "able to move this."
+	text "Ein #MON könnte"
+	line "das vielleicht"
+	cont "bewegen."
 
-	para "Want to use"
-	line "STRENGTH?"
+	para "Möchtest du STÄRKE"
+	line "einsetzen?"
 	done
 
 UnknownText_0x1c07d8::
-	text "Heavy objects may"
-	line "now be moved!"
+	text "Du kannst jetzt"
+	line "Felsen bewegen!"
 	done
 
 UnknownText_0x1c07f4::
-	text "A #MON may be"
-	line "able to move this."
+	text "Ein #MON könnte"
+	line "das vielleicht"
+	cont "bewegen."
 	done
 
 UnknownText_0x1c0816::
 	text_ram wStringBuffer2
-	text " used"
-	line "WHIRLPOOL!"
+	text " setzt"
+	line "WHIRLPOOL ein!"
 	prompt
 
 UnknownText_0x1c082b::
-	text "It's a vicious"
-	line "whirlpool!"
+	text "Das ist ein"
+	line "teuflischer"
+	cont "Strudel!"
 
-	para "A #MON may be"
-	line "able to pass it."
+	para "Ein #MON könnte"
+	line "den Strudel"
+	cont "durchqueren."
 	done
 
 UnknownText_0x1c0864::
-	text "A whirlpool is in"
-	line "the way."
+	text "Ein Strudel ist"
+	line "im Weg."
 
-	para "Want to use"
-	line "WHIRLPOOL?"
+	para "Möchtest du"
+	line "WHIRLPOOL"
+	cont "einsetzen?"
 	done
 
 UnknownText_0x1c0897::
 	text_ram wStringBuffer2
-	text " did a"
-	line "HEADBUTT!"
+	text " setzt"
+	line "KOPFNUSS ein!"
 	prompt
 
 UnknownText_0x1c08ac::
-	text "Nope. Nothing…"
+	text "Nein. Nichts…"
 	done
 
 UnknownText_0x1c08bc::
-	text "A #MON could be"
-	line "in this tree."
+	text "Vielleicht steckt"
+	line "ein #MON in"
+	cont "diesem Baum."
 
-	para "Want to HEADBUTT"
-	line "it?"
+	para "Möchtest du KOPF-"
+	line "NUSS einsetzen?"
 	done
 
 UnknownText_0x1c08f0::
 	text_ram wStringBuffer2
-	text " used"
-	line "ROCK SMASH!"
+	text " setzt"
+	line "ZERTRÜMMERER ein!"
 	prompt
 
 UnknownText_0x1c0906::
-	text "Maybe a #MON"
-	line "can break this."
+	text "Ein #MON könnte"
+	line "ihn vielleicht"
+	cont "zerschmettern."
 	done
 
 UnknownText_0x1c0924::
-	text "This rock looks"
-	line "breakable."
+	text "Dieser Fels sieht"
+	line "zerbrechlich aus."
 
-	para "Want to use ROCK"
-	line "SMASH?"
+	para "Soll ZERTRÜMMERER"
+	line "eingesetzt werden?"
 	done
 
 UnknownText_0x1c0958::
-	text "Oh!"
-	line "A bite!"
+	text "Uah!"
+	line "Da hat etwas"
+	cont "angebissen!"
 	prompt
 
 UnknownText_0x1c0965::
-	text "Not even a nibble!"
+	text "Nicht einmal"
+	line "angeknabbert!"
 	prompt
 
 UnknownText_0x1c0979::
-	text "Looks like there's"
-	line "nothing here."
+	text "Hier scheint"
+	line "nichts zu sein."
 	prompt
 
 UnknownText_0x1c099a::
-	text "You can't get off"
-	line "here!"
+	text "Du kannst hier"
+	line "nicht absteigen!"
 	done
 
 UnknownText_0x1c09b2::
-	text "<PLAYER> got on the"
-	line "@"
+	text "<PLAYER> steigt"
+	line "aufs @"
 	text_ram wStringBuffer2
 	text "."
 	done
 
 UnknownText_0x1c09c7::
-	text "<PLAYER> got off"
-	line "the @"
+	text "<PLAYER> steigt vom"
+	line "@"
 	text_ram wStringBuffer2
-	text "."
+	text " ab."
 	done
 
 _CantGetOffBoardText::
-	text "You can't get off"
-	line "here!"
+	text "Du kannst hier"
+	line "nicht absteigen!"
 	done
 
 _GotOnBoardText::
-	text "<PLAYER> got on the"
-	line "@"
+	text "<PLAYER> steigt"
+	line "aufs @"
 	text_ram wStringBuffer2
 	text "."
 	done
 
 _GotOffBoardText::
-	text "<PLAYER> got off"
-	line "the @"
+	text "<PLAYER> steigt vom"
+	line "@"
 	text_ram wStringBuffer2
-	text "."
+	text " ab."
 	done
 
 UnknownText_0x1c09dd::
-	text "This tree can be"
-	line "CUT!"
+	text "Du kannst den"
+	line "ZERSCHNEIDER hier"
+	cont "einsetzen!"
 
-	para "Want to use CUT?"
+	para "Möchtest du den"
+	line "ZERSCHNEIDER"
+
+	para "einsetzen?"
 	done
 
 UnknownText_0x1c0a05::
-	text "This tree can be"
-	line "CUT!"
+	text "Der ZERSCHNEIDER"
+	line "kann hier"
+	cont "eingesetzt werden!"
 	done
 
 UnknownText_0x1c0a1c::
-	text "<PLAYER> found"
+	text "<PLAYER> findet"
 	line "@"
 	text_ram wStringBuffer3
 	text "!"
 	done
 
 UnknownText_0x1c0a2c::
-	text "But <PLAYER> can't"
-	line "carry any more"
-	cont "items."
+	text "<PLAYER> kann keine"
+	line "weiteren Items"
+	cont "mehr tragen!"
 	done
 
 UnknownText_0x1c0a4e::
-	text "<PLAYER> is out of"
-	line "useable #MON!"
+	text "<PLAYER> hat kein"
+	line "kampffähiges"
+	cont "#MON mehr!"
 
-	para "<PLAYER> whited"
-	line "out!"
+	para "<PLAYER> fällt"
+	line "in Ohnmacht!"
 	done
 
 UnknownText_0x1c0a77::
-	text "Yes! ITEMFINDER"
-	line "indicates there's"
-	cont "an item nearby."
+	text "Der DETEKTOR zeigt"
+	line "dir an, dass ein"
+	cont "Item in der Nähe"
+	cont "ist."
 	prompt
 
 UnknownText_0x1c0aa9::
-	text "Nope! ITEMFINDER"
-	line "isn't responding."
+	text "Der DETEKTOR"
+	line "reagiert nicht."
 	prompt
 
 UnknownText_0x1c0acc::
 	text_ram wStringBuffer3
 	text_start
-	line "fainted!"
+	line "wurde besiegt!"
 	prompt
 
 UnknownText_0x1c0ada::
-	text "<PLAYER> is out of"
-	line "useable #MON!"
+	text "<PLAYER> hat kein"
+	line "kampffähiges"
+	cont "#MON mehr!"
 
-	para "<PLAYER> whited"
-	line "out!"
+	para "<PLAYER> wird"
+	line "ohnmächtig!"
 	prompt
 
 UnknownText_0x1c0b03::
 	text_ram wStringBuffer3
-	text " used"
-	line "SWEET SCENT!"
+	text_start
+	line "ben. LOCKDUFT!"
 	done
 
 UnknownText_0x1c0b1a::
-	text "Looks like there's"
-	line "nothing here…"
+	text "Hier ist wohl"
+	line "nichts…"
 	done
 
 UnknownText_0x1c0b3b::
-	text "<PLAYER> sprinkled"
-	line "water."
+	text "<PLAYER>"
+	line "verspritzt Wasser."
 
-	para "But nothing"
-	line "happened…"
+	para "Nichts geschieht…"
 	done
 
 UnknownText_0x1c0b65::
-	text "<PLAYER>'s #MON"
-	line "were all healed!"
+	text "Die #MON"
+	line "von <PLAYER>"
+	cont "wurden geheilt!"
 	done
 
 Text_AnEGGCantHoldAnItem::
-	text "An EGG can't hold"
-	line "an item."
+	text "Ein EI kann kein"
+	line "Item tragen."
 	prompt
 
 UnknownText_0x1c0b9a::
-	text "No items."
+	text "Keine Items."
 	done
 
 UnknownText_0x1c0ba5::
-	text "Throw away how"
-	line "many?"
+	text "Wie viele"
+	line "wegwerfen?"
 	done
 
 UnknownText_0x1c0bbb::
-	text "Throw away @"
-	text_decimal wItemQuantityChangeBuffer, 1, 2
-	text_start
+	text "Wegwerfen?"
 	line "@"
+	text_decimal wItemQuantityChangeBuffer, 1, 2
+	text " x @"
 	text_ram wStringBuffer2
-	text "(S)?"
+	text "?"
 	done
 
 UnknownText_0x1c0bd8::
-	text "Threw away"
-	line "@"
+	text_decimal wItemQuantityChangeBuffer, 1, 2
+	text " x @"
 	text_ram wStringBuffer2
-	text "(S)."
+	text_start
+	line "weggeworfen."
 	prompt
 
 UnknownText_0x1c0bee::
-	text "OAK: <PLAYER>!"
-	line "This isn't the"
-	cont "time to use that!"
+	text "EICH: <PLAYER>!"
+	line "Es ist noch nicht"
+	cont "an der Zeit, dies"
+	cont "zu benutzen!"
 	prompt
 
 Text_YouDontHaveAMon::
-	text "You don't have a"
+	text "Du hast kein"
 	line "#MON!"
 	prompt
 
 UnknownText_0x1c0c2e::
-	text "Registered the"
-	line "@"
 	text_ram wStringBuffer2
-	text "."
+	text_start
+	line "eingetragen."
 	prompt
 
 UnknownText_0x1c0c45::
-	text "You can't register"
-	line "that item."
+	text "Du kannst dieses"
+	line "Item nicht"
+	cont "eintragen."
 	prompt
 
 UnknownText_0x1c0c63::
-	text "Where should this"
-	line "be moved to?"
+	text "Wo soll das"
+	line "hin?"
 	done
 
 UnknownText_0x1c0c83::
@@ -676,17 +708,18 @@ UnknownText_0x1c0c83::
 	done
 
 Text_YouCantUseItInABattle::
-	text "You can't use it"
-	line "in a battle."
+	text "Du kannst das"
+	line "im Kampf nicht"
+	cont "benutzen."
 	prompt
 
 Text_AreYouABoyOrAreYouAGirl::
-	text "Are you a boy?"
-	line "Or are you a girl?"
+	text "Bist du ein Junge?"
+	line "Oder ein Mädchen?"
 	done
 
 UnknownText_0x1c0cc6::
-	text "<USER>'s"
+	text "<USER>s"
 	line "@"
 	text_ram wStringBuffer2
 	text_end
@@ -695,28 +728,28 @@ UnknownText_0x1c0cc6::
 
 UnknownText_0x1c0cd0::
 	text_pause
-	text "<SCROLL>went way up!"
+	text "<SCROLL>steigt stark!"
 	prompt
 
 UnknownText_0x1c0ce0::
-	text " went up!"
+	text " steigt!"
 	prompt
 
 UnknownText_0x1c0ceb::
-	text "<TARGET>'s"
+	text "<TARGET>s"
 	line "@"
 	text_ram wStringBuffer2
 	text_end
 
-	text_end ; unused
+	text_end ; unreferenced
 
 UnknownText_0x1c0cf5::
 	text_pause
-	text "<SCROLL>sharply fell!"
+	text "<SCROLL>sinkt stark!"
 	prompt
 
 UnknownText_0x1c0d06::
-	text " fell!"
+	text " sinkt!"
 	prompt
 
 UnknownText_0x1c0d0e::
@@ -725,32 +758,33 @@ UnknownText_0x1c0d0e::
 
 UnknownText_0x1c0d12::
 	text_start
-	line "made a whirlwind!"
+	line "erzeugt einen"
+	cont "Wirbelwind!"
 	prompt
 
 UnknownText_0x1c0d26::
 	text_start
-	line "took in sunlight!"
+	line "badet im Licht!"
 	prompt
 
 UnknownText_0x1c0d3a::
 	text_start
-	line "lowered its head!"
+	line "duckt sich!"
 	prompt
 
 UnknownText_0x1c0d4e::
 	text_start
-	line "is glowing!"
+	line "leuchtet!"
 	prompt
 
 UnknownText_0x1c0d5c::
 	text_start
-	line "flew up high!"
+	line "fliegt empor!"
 	prompt
 
 UnknownText_0x1c0d6c::
 	text_start
-	line "dug a hole!"
+	line "gräbt ein Loch!"
 	prompt
 
 _ActorNameText::
@@ -759,16 +793,16 @@ _ActorNameText::
 
 _UsedMove1Text::
 	text_start
-	line "used @"
+	line "ben. @"
 	text_end
 
 _UsedMove2Text::
 	text_start
-	line "used @"
+	line "ben. @"
 	text_end
 
 _UsedInsteadText::
-	text "instead,"
+	text "stattdessen"
 	cont "@"
 	text_end
 
@@ -799,7 +833,7 @@ _EndUsedMove5Text::
 	done
 
 UnknownText_0x1c0db0::
-	text "Huh?"
+	text "Huch?"
 
 	para "@"
 	text_end
@@ -810,8 +844,9 @@ UnknownText_0x1c0db8::
 
 UnknownText_0x1c0dba::
 	text_ram wStringBuffer1
-	text " came"
-	line "out of its EGG!@"
+	text_start
+	line "schlüpft aus dem"
+	cont "EI!@"
 	sound_caught_mon
 	text_waitbutton
 	text_end
@@ -819,101 +854,105 @@ UnknownText_0x1c0dba::
 	text_end ; unused
 
 UnknownText_0x1c0dd8::
-	text "Give a nickname to"
+	text "Möchtest du"
 	line "@"
 	text_ram wStringBuffer1
-	text "?"
+	text " einen"
+	cont "Spitznamen geben?"
 	done
 
 UnknownText_0x1c0df3::
-	text "It's @"
 	text_ram wBreedMon2Nick
-	text_start
-	line "that was left with"
-	cont "the DAY-CARE LADY."
+	text " hast du"
+	line "der PENSIONSLEI-"
+	cont "TERIN anvertraut."
 	done
 
 UnknownText_0x1c0e24::
-	text "It's @"
 	text_ram wBreedMon1
-	text_start
-	line "that was left with"
-	cont "the DAY-CARE MAN."
+	text " hast du"
+	line "dem PENSIONSLEITER"
+	cont "anvertraut."
 	done
 
 UnknownText_0x1c0e54::
-	text "It's brimming with"
-	line "energy."
+	text "Es strotzt vor"
+	line "Energie."
 	prompt
 
-UnknownText_0x1c0e6f::
-	text "It has no interest"
-	line "in @"
 	text_ram wStringBuffer1
-	text "."
+	text_start
+	line "ist nicht"
+	cont "interessiert."
 	prompt
 
 UnknownText_0x1c0e8d::
-	text "It appears to care"
-	line "for @"
+	text "Es kümmert sich um"
+	line "@"
 	text_ram wStringBuffer1
 	text "."
 	prompt
 
 UnknownText_0x1c0eac::
-	text "It's friendly with"
-	line "@"
+	text "Es ist freundlich"
+	line "gegenüber"
+
+	para "@"
 	text_ram wStringBuffer1
 	text "."
 	prompt
 
 UnknownText_0x1c0ec6::
-	text "It shows interest"
-	line "in @"
+	text "Es zeigt Interesse"
+	line "an @"
 	text_ram wStringBuffer1
 	text "."
 	prompt
 
 _EmptyMailboxText::
-	text "There's no MAIL"
-	line "here."
+	text "Hier sind keine"
+	line "BRIEFE."
 	prompt
 
 ClearedMailPutAwayText::
-	text "The cleared MAIL"
-	line "was put away."
+	text "Der leere BRIEF"
+	line "wurde eingesteckt."
 	prompt
 
 MailPackFullText::
-	text "The PACK is full."
+	text "Dein BEUTEL"
+	line "ist voll."
 	prompt
 
 MailMessageLostText::
-	text "The MAIL's message"
-	line "will be lost. OK?"
+	text "Soll der Inhalt"
+	line "des BRIEFes"
+	cont "gelöscht werden?"
 	done
 
 MailAlreadyHoldingItemText::
-	text "It's already hold-"
-	line "ing an item."
+	text "Es hat schon"
+	line "ein Item."
 	prompt
 
 MailEggText::
-	text "An EGG can't hold"
-	line "any MAIL."
+	text "Du kannst einem EI"
+	line "keinen BRIEF"
+	cont "geben."
 	prompt
 
 MailMovedFromBoxText::
-	text "The MAIL was moved"
-	line "from the MAILBOX."
+	text "Der BRIEF wurde"
+	line "aus dem BRIEF-"
+	cont "KASTEN gelöscht."
 	prompt
 
 UnknownText_0x1c0fb3::
-	text "Yes"
+	text "Ja"
 	prompt
 
 UnknownText_0x1c0fb8::
-	text "No"
+	text "Nein"
 	prompt
 
 UnknownText_0x1c0fbc::
@@ -921,82 +960,88 @@ UnknownText_0x1c0fbc::
 	text " @"
 	text_ram wStringBuffer1
 	text_start
-	line "Animation type @"
+	line "Animationstyp @"
 	text_ram wStringBuffer2
 	text_end
 
-	text_end ; unused
+	text_end ; unreferenced
 
 UnknownText_0x1c0fdd::
-	text "#MON number?"
+	text "#MON-Nummer?"
 	done
 
 Text_WasSentToBillsPC::
 	text_ram wStringBuffer1
-	text " was"
-	line "sent to BILL's PC."
+	text_start
+	line "wurde auf Bills PC"
+	cont "übertragen."
 	prompt
 
 UnknownText_0x1c1006::
-	text "You gotta have"
-	line "#MON to call!"
+	text "Du benötigst"
+	line "#MON!"
 	prompt
 
 UnknownText_0x1c1024::
-	text "What?"
+	text "Was?"
 	done
 
 UnknownText_0x1c102b::
-	text "There is a #MON"
-	line "holding MAIL."
+	text "Es gibt #MON,"
+	line "die einen"
+	cont "BRIEF tragen."
 
-	para "Please remove the"
-	line "MAIL."
+	para "Entferne den"
+	line "BRIEF."
 	prompt
 
 UnknownText_0x1c1062::
-	text "You don't have a"
-	line "single #MON!"
+	text "Du hast kein"
+	line "#MON mehr!"
 	prompt
 
 UnknownText_0x1c1080::
-	text "You can't deposit"
-	line "your last #MON!"
+	text "Du kannst das"
+	line "letzte #MON"
+	cont "nicht ablegen!"
 	prompt
 
 UnknownText_0x1c10a2::
-	text "You can't take any"
-	line "more #MON."
+	text "Du kannst keine"
+	line "weiteren #MON"
+	cont "mehr mitnehmen."
 	prompt
 
 UnknownText_0x1c10c0::
-	text "Caught @"
 	text_ram wStringBuffer1
-	text "!"
+	text " wurde"
+	line "gefangen!"
 	prompt
 
 UnknownText_0x1c10cf::
-	text "Switch #MON?"
+	text "#MON tauschen?"
 	done
 
 UnknownText_0x1c10dd::
-	text "You already caught"
-	line "a @"
+	text "Du hast bereits"
+	line "ein @"
 	text_ram wStringBuffer1
-	text "."
+	text_start
+	cont "gefangen."
 	prompt
 
 ContestJudging_FirstPlaceText::
-	text "This Bug-Catching"
-	line "Contest winner is@"
+	text "Der Gewinner des"
+	line "Käferturniers ist@"
 	text_pause
 	text "…"
 
 	para "@"
 	text_ram wBugContestWinnerName
 	text ","
-	line "who caught a"
-	cont "@"
+	line "mit einem"
+
+	para "@"
 	text_ram wStringBuffer1
 	text "!@"
 	text_end
@@ -1004,19 +1049,21 @@ ContestJudging_FirstPlaceText::
 ContestJudging_FirstPlaceScoreText::
 	text_start
 
-	para "The winning score"
-	line "was @"
+	para "Mit einer Punkt-"
+	line "zahl von @"
 	text_decimal wBugContestFirstPlaceScore, 2, 3
-	text " points!"
+	text_start
+	cont "Punkten!"
 	prompt
 
 ContestJudging_SecondPlaceText::
-	text "Placing second was"
+	text "Zweiter wurde"
 	line "@"
 	text_ram wBugContestWinnerName
 	text ","
 
-	para "who caught a"
+	para "mit einem"
+	line ""
 	line "@"
 	text_ram wStringBuffer1
 	text "!@"
@@ -1025,19 +1072,19 @@ ContestJudging_SecondPlaceText::
 ContestJudging_SecondPlaceScoreText::
 	text_start
 
-	para "The score was"
+	para "Die Punktzahl ist"
 	line "@"
 	text_decimal wBugContestSecondPlaceScore, 2, 3
-	text " points!"
+	text "!"
 	prompt
 
 ContestJudging_ThirdPlaceText::
-	text "Placing third was"
+	text "Dritter wurde"
 	line "@"
 	text_ram wBugContestWinnerName
 	text ","
 
-	para "who caught a"
+	para "mit einem"
 	line "@"
 	text_ram wStringBuffer1
 	text "!@"
@@ -1046,521 +1093,561 @@ ContestJudging_ThirdPlaceText::
 ContestJudging_ThirdPlaceScoreText::
 	text_start
 
-	para "The score was"
-	line "@"
+	para "Mit einer Punkt-"
+	line "zahl von @"
 	text_decimal wBugContestThirdPlaceScore, 2, 3
-	text " points!"
+	text "!"
 	prompt
 
 UnknownText_0x1c1203::
-	text "Let me measure"
-	line "that MAGIKARP."
+	text "Lass mich dein"
+	line "KARPADOR messen."
 
-	para "…Hm, it measures"
+	para "…Hm, es ist"
 	line "@"
 	text_ram wStringBuffer1
-	text "."
+	text "cm"
+	cont "groß."
 	prompt
 
 UnknownText_0x1c123a::
-	text "CURRENT RECORD"
+	text "AKTUELLER REKORD"
 
 	para "@"
 	text_ram wStringBuffer1
-	text " caught by"
-	line "@"
+	text "cm gefangen"
+	line "von @"
 	text_ram wMagikarpRecordHoldersName
+	text "@"
 	text_waitbutton
 	text_end
 
 	text_end ; unused
 
 UnknownText_0x1c1261::
-	text "Congratulations!"
+	text "Glückwunsch!"
 
-	para "We have a match"
-	line "with the ID number"
-
-	para "of @"
+	para "Die ID-Nummer"
+	line "von @"
 	text_ram wStringBuffer1
-	text " in"
-	line "your party."
+	text_start
+
+	para "in deinem Team"
+	line "ist stimmig."
 	prompt
 
 UnknownText_0x1c12ae::
-	text "Congratulations!"
+	text "Glückwunsch!"
 
-	para "We have a match"
-	line "with the ID number"
-
-	para "of @"
+	para "Die ID-Nummer"
+	line "von @"
 	text_ram wStringBuffer1
-	text " in"
-	line "your PC BOX."
+	text_start
+
+	para "in deiner PC-BOX"
+	line "ist stimmig."
 	prompt
 
 UnknownText_0x1c12fc::
-	text "Give a nickname to"
-	line "the @"
+	text "Möchtest du"
+	line "@"
 	text_ram wStringBuffer1
-	text " you"
-	cont "received?"
+	text " einen"
+	cont "Spitznamen geben?"
 	done
 
 UnknownText_0x1c1328::
-	text "Bzzzzt! You must"
-	line "have a #MON to"
-	cont "use this!"
+	text "Dies kann nur"
+	line "ein #MON"
+	cont "benutzen!"
 	prompt
 
 UnknownText_0x1c1353::
-	text "<PLAYER> turned on"
-	line "the PC."
+	text "<PLAYER> schaltet"
+	line "den PC ein."
 	prompt
 
 UnknownText_0x1c1368::
-	text "What do you want"
-	line "to do?"
+	text "Was möchtest du"
+	line "tun?"
 	done
 
 _PlayersPCHowManyWithdrawText::
-	text "How many do you"
-	line "want to withdraw?"
+	text "Wie viele möchtest"
+	line "du mitnehmen?"
 	done
 
 _PlayersPCWithdrewItemsText::
-	text "Withdrew @"
 	text_decimal wItemQuantityChangeBuffer, 1, 2
-	text_start
-	line "@"
+	text " x @"
 	text_ram wStringBuffer2
-	text "(S)."
+	text_start
+	line "wurde mitgenommen."
 	prompt
 
 _PlayersPCNoRoomWithdrawText::
-	text "There's no room"
-	line "for more items."
+	text "Du kannst keine"
+	line "weiteren Items"
+	cont "mehr tragen."
 	prompt
 
 UnknownText_0x1c13df::
-	text "No items here!"
+	text "Du trägst keine"
+	line "Items!"
 	prompt
 
 _PlayersPCHowManyDepositText::
-	text "How many do you"
-	line "want to deposit?"
+	text "Wie viele möchtest"
+	line "du ablegen?"
 	done
 
 _PlayersPCDepositItemsText::
-	text "Deposited @"
 	text_decimal wItemQuantityChangeBuffer, 1, 2
-	text_start
-	line "@"
+	text " x @"
 	text_ram wStringBuffer2
-	text "(S)."
+	text_start
+	line "wurde abgelegt."
 	prompt
 
 _PlayersPCNoRoomDepositText::
-	text "There's no room to"
-	line "store items."
+	text "Es ist kein Platz"
+	line "für weitere Items."
 	prompt
 
 UnknownText_0x1c144d::
-	text "<PLAYER> turned on"
-	line "the PC."
+	text "<PLAYER> schaltet"
+	line "den PC ein."
 	prompt
 
 UnknownText_0x1c1462::
-	text "Access whose PC?"
+	text "Zugriff auf"
+	line "wessen PC?"
 	done
 
 UnknownText_0x1c1474::
-	text "BILL's PC"
-	line "accessed."
+	text "Die Verbindung zu"
+	line "BILLs PC wurde"
+	cont "hergestellt."
 
-	para "#MON Storage"
-	line "System opened."
+	para "Du hast Zugriff"
+	line "auf das #MON-"
+	cont "LAGERUNGS-SYSTEM."
 	prompt
 
 UnknownText_0x1c14a4::
-	text "Accessed own PC."
+	text "Die Verbindung zu"
+	line "deinem PC wurde"
+	cont "hergestellt."
 
-	para "Item Storage"
-	line "System opened."
+	para "Du hast Zugriff"
+	line "auf das ITEM-"
+	cont "LAGERUNGS-SYSTEM."
 	prompt
 
 UnknownText_0x1c14d2::
-	text "PROF.OAK's PC"
-	line "accessed."
+	text "Die Verbindung zu"
+	line "PROF. EICHs PC"
+	cont "wurde hergestellt."
 
-	para "#DEX Rating"
-	line "System opened."
+	para "Du hast Zugriff"
+	line "auf die #DEX-"
+	cont "BEWERTUNG."
 	prompt
 
 UnknownText_0x1c1505::
 	text "…"
-	line "Link closed…"
+	line "Verbindung"
+	cont "beendet…"
 	done
 
 _OakPCText1::
-	text "Want to get your"
-	line "#DEX rated?"
+	text "Soll dein #DEX"
+	line "bewertet werden?"
 	done
 
 _OakPCText2::
-	text "Current #DEX"
-	line "completion level:"
+	text "In deinem #DEX"
+	line "steht:"
 	prompt
 
 _OakPCText3::
+	text "Ges.: @"
 	text_ram wStringBuffer3
-	text " #MON seen"
-	line "@"
+	text " #MON"
+	line "Bes.: @"
 	text_ram wStringBuffer4
-	text " #MON owned"
+	text " #MON"
 
-	para "PROF.OAK's"
-	line "Rating:"
+	para "PROF. EICHs"
+	line "Bewertung:"
 	done
 
 _OakRating01::
-	text "Look for #MON"
-	line "in grassy areas!"
+	text "Suche in"
+	line "hohem Gras nach"
+	cont "#MON!"
 	done
 
 _OakRating02::
-	text "Good. I see you"
-	line "understand how to"
-	cont "use # BALLS."
+	text "Gut. Ich sehe, du"
+	line "kannst mit #-"
+	cont "BÄLLEN umgehen."
 	done
 
 _OakRating03::
-	text "You're getting"
-	line "good at this."
+	text "Du wirst immer"
+	line "besser, hast aber"
 
-	para "But you have a"
-	line "long way to go."
+	para "noch einen langen"
+	line "Weg vor dir."
 	done
 
 _OakRating04::
-	text "You need to fill"
-	line "up the #DEX."
+	text "Vervollständige"
+	line "den #DEX. Fange"
 
-	para "Catch different"
-	line "kinds of #MON!"
+	para "alle Typen von"
+	line "#MON!"
 	done
 
 _OakRating05::
-	text "You're trying--I"
-	line "can see that."
+	text "Du gibst dir Mühe."
+	line "Dein #DEX"
 
-	para "Your #DEX is"
-	line "coming together."
+	para "wird immer"
+	line "besser."
 	done
 
 _OakRating06::
-	text "To evolve, some"
-	line "#MON grow,"
+	text "Manche #MON"
+	line "entwickeln sich"
 
-	para "others use the"
-	line "effects of STONES."
+	para "durch Level,"
+	line "andere benötigen"
+	cont "STEINE."
 	done
 
 _OakRating07::
-	text "Have you gotten a"
-	line "fishing ROD? You"
+	text "Hast du eine"
+	line "ANGEL? Du"
 
-	para "can catch #MON"
-	line "by fishing."
+	para "kannst damit"
+	line "#MON fangen."
 	done
 
 _OakRating08::
-	text "Excellent! You"
-	line "seem to like col-"
-	cont "lecting things!"
+	text "Sehr gut! Sammeln"
+	line "scheint dir Spaß"
+	cont "zu machen!"
 	done
 
 _OakRating09::
-	text "Some #MON only"
-	line "appear during"
+	text "Du kannst manchen"
+	line "#MON nur zu"
 
-	para "certain times of"
-	line "the day."
+	para "gewissen Tages-"
+	line "zeiten begegnen."
 	done
 
 _OakRating10::
-	text "Your #DEX is"
-	line "filling up. Keep"
-	cont "up the good work!"
+	text "Es wird immer"
+	line "besser. Mach"
+	cont "weiter so!"
 	done
 
 _OakRating11::
-	text "I'm impressed."
-	line "You're evolving"
+	text "Beeindruckend."
+	line "Du fängst nicht"
 
-	para "#MON, not just"
-	line "catching them."
+	para "nur #MON, du"
+	line "trainierst sie"
+	cont "auch."
 	done
 
 _OakRating12::
-	text "Have you met KURT?"
-	line "His custom BALLS"
-	cont "should help."
+	text "Hast du KURT schon"
+	line "getroffen? Seine"
+	cont "handgefertigten"
+	cont "#BÄLLE werden"
+	cont "dir helfen."
 	done
 
 _OakRating13::
-	text "Wow. You've found"
-	line "more #MON than"
+	text "Wow. Du hast mehr"
+	line "#MON entdeckt,"
 
-	para "the last #DEX"
-	line "research project."
+	para "als die letzte"
+	line "#DEX-For-"
+	cont "schungsgruppe."
 	done
 
 _OakRating14::
-	text "Are you trading"
-	line "your #MON?"
+	text "Tauschst du deine"
+	line "#MON?"
 
-	para "It's tough to do"
-	line "this alone!"
+	para "Alleine ist das"
+	line "sehr schwierig!"
 	done
 
 _OakRating15::
-	text "Wow! You've hit"
-	line "200! Your #DEX"
-	cont "is looking great!"
+	text "Wow! Die 200-Marke"
+	line "ist erreicht! Dein"
+	cont "#DEX sieht"
+	cont "großartig aus!"
 	done
 
 _OakRating16::
-	text "You've found so"
-	line "many #MON!"
+	text "Du hast so viele"
+	line "#MON gefunden!"
 
-	para "You've really"
-	line "helped my studies!"
+	para "Du hast mir damit"
+	line "sehr geholfen!"
 	done
 
 _OakRating17::
-	text "Magnificent! You"
-	line "could become a"
+	text "Fantastisch! Du"
+	line "könntest auch ein"
 
-	para "#MON professor"
-	line "right now!"
+	para "#MON-Professor"
+	line "werden!"
 	done
 
 _OakRating18::
-	text "Your #DEX is"
-	line "amazing! You're"
+	text "Dein #DEX ist"
+	line "Wahnsinn! Du"
 
-	para "ready to turn"
-	line "professional!"
+	para "wirst noch zu"
+	line "einem Profi!"
 	done
 
 _OakRating19::
-	text "Whoa! A perfect"
-	line "#DEX! I've"
+	text "Boah! Der perfekte"
+	line "#DEX! Davon"
 
-	para "dreamt about this!"
-	line "Congratulations!"
+	para "habe ich immer"
+	line "geträumt!"
+	cont "Gratulation!"
 	done
 
 _OakPCText4::
-	text "The link to PROF."
-	line "OAK's PC closed."
+	text "Die Verbindung zu"
+	line "PROF. EICHs PC"
+	cont "wurde getrennt."
 	done
 
 UnknownText_0x1c19cd::
-	text "Triple-theme"
-	line "trainer ranking!"
+	text "Dreifache Trainer"
+	line "Bestenliste!"
 
-	para "The SAVE file you"
-	line "just sent might"
-	cont "make the rankings!"
+	para "Dieser SPIELSTAND"
+	line "könnte die Besten-"
+	cont "liste erreichen!"
 
 	para ""
 	done
 
 UnknownText_0x1c1a22::
-	text "There is no"
-	line "ranking data."
+	text "Es gibt keine"
+	line "Bestenliste."
 
-	para "Link to obtain"
-	line "ranking data."
+	para "Verbindung erstel-"
+	line "len, um Besten-"
+	cont "liste zu erhalten."
 
 	para ""
 	done
 
 UnknownText_0x1c1a5b::
-	text " , yeah!"
+	text "!"
 	done
 
 UnknownText_0x1c1a65::
-	text "Darn…"
+	text "Mist…"
 	done
 
 UnknownText_0x1c1a6c::
-	text "Would you like to"
-	line "end the Contest?"
+	text "Möchtest du den"
+	line "Wettkampf beenden?"
 	done
 
 UnknownText_0x1c1a90::
-	text "Toss out how many"
+	text "Wie viele"
 	line "@"
 	text_ram wStringBuffer2
-	text "(S)?"
+	text_start
+	cont "wegwerfen?"
 	done
 
 UnknownText_0x1c1aad::
-	text "Throw away @"
-	text_decimal wItemQuantityChangeBuffer, 1, 2
-	text_start
+	text "Wegwerfen"
 	line "@"
+	text_decimal wItemQuantityChangeBuffer, 1, 2
+	text " x @"
 	text_ram wStringBuffer2
-	text "(S)?"
+	text "?"
 	done
 
 UnknownText_0x1c1aca::
-	text "Discarded"
-	line "@"
+	text_decimal wItemQuantityChangeBuffer, 1, 2
+	text " x @"
 	text_ram wStringBuffer1
-	text "(S)."
+	text_start
+	line "wurde weggeworfen."
 	prompt
 
 UnknownText_0x1c1adf::
-	text "That's too impor-"
-	line "tant to toss out!"
+	text "Dieses Item ist"
+	line "zu wichtig! Du"
+	cont "kannst es nicht"
+	cont "wegwerfen!"
 	prompt
 
 UnknownText_0x1c1b03::
-	text "OAK: <PLAYER>!"
-	line "This isn't the"
-	cont "time to use that!"
+	text "EICH: <PLAYER>!"
+	line "Es ist noch nicht"
+	cont "an der Zeit, dies"
+	cont "zu benutzen."
 	done
 
 UnknownText_0x1c1b2c::
-	text "Took @"
-	text_ram wMonOrItemNameBuffer
-	text "'s"
-	line "@"
+	text "Nimmt @"
 	text_ram wStringBuffer1
-	text " and"
+	text_start
+	line "von @"
+	text_ram wMonOrItemNameBuffer
+	text_start
 
-	para "made it hold"
+	para "und gibt ihm"
 	line "@"
 	text_ram wStringBuffer2
 	text "."
 	prompt
 
 UnknownText_0x1c1b57::
-	text "Made @"
+	text "Gibt @"
 	text_ram wMonOrItemNameBuffer
 	text_start
-	line "hold @"
+	line "@"
 	text_ram wStringBuffer2
 	text "."
 	prompt
 
 UnknownText_0x1c1b6f::
-	text "Please remove the"
-	line "MAIL first."
+	text "Entferne zuerst"
+	line "den BRIEF."
 	prompt
 
 UnknownText_0x1c1b8e::
 	text_ram wMonOrItemNameBuffer
-	text " isn't"
-	line "holding anything."
+	text_start
+	line "trägt kein Item."
 	prompt
 
 UnknownText_0x1c1baa::
-	text "Item storage space"
-	line "full."
+	text "Du kannst keine"
+	line "weiteren Items"
+	cont "mehr lagern."
 	prompt
 
 UnknownText_0x1c1bc4::
-	text "Took @"
+	text "Nimmt @"
 	text_ram wStringBuffer1
 	text_start
-	line "from @"
+	line "von @"
 	text_ram wMonOrItemNameBuffer
 	text "."
 	prompt
 
 UnknownText_0x1c1bdc::
 	text_ram wMonOrItemNameBuffer
-	text " is"
-	line "already holding"
+	text " hält"
+	line "schon das Item"
 
 	para "@"
 	text_ram wStringBuffer1
 	text "."
-	line "Switch items?"
+	line "Items wechseln?"
 	done
 
 UnknownText_0x1c1c09::
-	text "This item can't be"
-	line "held."
+	text "Du kannst dieses"
+	line "Item keinem"
+	cont "#MON geben."
 	prompt
 
 UnknownText_0x1c1c22::
-	text "The MAIL will lose"
-	line "its message. OK?"
+	text "Der Inhalt des"
+	line "BRIEFes wird"
+	cont "gelöscht"
+	cont "Einverstanden?"
 	done
 
 UnknownText_0x1c1c47::
-	text "MAIL detached from"
+	text "BRIEF entfernt von"
 	line "@"
 	text_ram wStringBuffer1
 	text "."
 	prompt
 
 UnknownText_0x1c1c62::
-	text "There's no space"
-	line "for removing MAIL."
+	text "Es ist nicht"
+	line "genügend Platz"
+	cont "für entfernte"
+	cont "BRIEFE."
 	prompt
 
 UnknownText_0x1c1c86::
-	text "Send the removed"
-	line "MAIL to your PC?"
+	text "Den entfernten"
+	line "BRIEF auf deinen"
+	cont "PC übertragen?"
 	done
 
 UnknownText_0x1c1ca9::
-	text "Your PC's MAILBOX"
-	line "is full."
+	text "Du kannst keine"
+	line "weiteren BRIEFE"
+	cont "auf deinen PC"
+	cont "übertragen."
 	prompt
 
 UnknownText_0x1c1cc4::
-	text "The MAIL was sent"
-	line "to your PC."
+	text "Der BRIEF wurde"
+	line "auf deinen PC"
+	cont "übertragen."
 	prompt
 
 UnknownText_0x1c1ce3::
-	text "Not enough HP!"
+	text "Nicht genügend KP!"
 	prompt
 
 UnknownText_0x1c1cf3::
-	text "An item in your"
-	line "PACK may be"
+	text "Ein Item aus"
+	line "deinem BEUTEL"
 
-	para "registered for use"
-	line "on SELECT Button."
+	para "kann auf"
+	line "SELECT"
+	cont "gelegt werden."
 	done
 
 _OakText1::
-	text "Hello! Sorry to"
-	line "keep you waiting!"
+	text "Hi! Entschuldige"
+	line "die Verspätung!"
 
-	para "Welcome to the"
-	line "world of #MON!"
+	para "Willkommen in der"
+	line "Welt der #MON!"
 
-	para "My name is OAK."
+	para "Mein Name ist"
+	line "EICH!"
+	cont "Man nennt mich"
 
-	para "People call me the"
-	line "#MON PROF."
+	para "den #MON-"
+	line "PROFESSOR."
 	prompt
 
 _OakText2::
-	text "This world is in-"
-	line "habited by crea-"
-	cont "tures that we call"
-	cont "#MON.@"
+	text "Diese Welt wird"
+	line "von Wesen"
+	cont "bewohnt, die man"
+	cont "#MON nennt.@"
 	text_end
 
 _OakText3::
@@ -1570,26 +1657,29 @@ _OakText3::
 	text_end ; unused
 
 _OakText4::
-	text "People and #MON"
-	line "live together by"
+	text "Menschen und"
+	line "#MON leben"
 
-	para "supporting each"
-	line "other."
+	para "zusammen und"
+	line "helfen einander."
 
-	para "Some people play"
-	line "with #MON, some"
-	cont "battle with them."
+	para "Für manche Leute"
+	line "sind #MON"
+	cont "Haustiere, andere"
+	cont "tragen Kämpfe mit"
+	cont "ihnen aus."
 	prompt
 
 _OakText5::
-	text "But we don't know"
-	line "everything about"
-	cont "#MON yet."
+	text "Leider wissen wir"
+	line "noch nicht alles"
+	cont "über #MON."
 
-	para "There are still"
-	line "many mysteries to"
-	cont "solve."
+	para "Es gibt noch"
+	line "viele Geheimnisse"
+	cont "zu lüften."
 
-	para "That's why I study"
-	line "#MON every day."
+	para "Darum studiere"
+	line "ich #MON"
+	cont "tagaus, tagein!"
 	prompt
