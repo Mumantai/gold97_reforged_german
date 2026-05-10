@@ -586,162 +586,162 @@ _OPT_MaryText1::
 
 	text_end ; unused
 
-_OPT_SweetAdorablyText::
+_OPT_SweetAdorably::
 	text_start
 	line "Wie bezaubernd."
 	done
 
-_OPT_WigglySlicklyText::
+_OPT_WigglySlickly::
 	text_start
 	line "Wie smart."
 	done
 
-_OPT_AptlyNamedText::
+_OPT_AptlyNamed::
 	text_start
 	line "Wie reizend."
 	done
 
-_OPT_UndeniablyKindOfText::
+_OPT_UndeniablyKindOf::
 	text_start
 	line "Wie freundlich."
 	done
 
-_OPT_UnbearablyText::
+_OPT_Unbearably::
 	text_start
 	line "Nicht zu ertragen…"
 	done
 
-_OPT_WowImpressivelyText::
+_OPT_WowImpressively::
 	text_start
 	line "Wow, faszinierend."
 	done
 
-_OPT_AlmostPoisonouslyText::
+_OPT_AlmostPoisonously::
 	text_start
 	line "Fast giftig."
 	done
 
-_OPT_SensuallyText::
+_OPT_Sensually::
 	text_start
 	line "Wie einfühlsam."
 	done
 
-_OPT_MischievouslyText::
+_OPT_Mischievously::
 	text_start
 	line "So schelmisch."
 	done
 
-_OPT_TopicallyText::
+_OPT_Topically::
 	text_start
 	line "Sehr aktuell."
 	done
 
-_OPT_AddictivelyText::
+_OPT_Addictively::
 	text_start
 	line "Suchterregend."
 	done
 
-_OPT_LooksInWaterText::
+_OPT_LooksInWater::
 	text_start
 	line "Schaut ins Wasser."
 	done
 
-_OPT_EvolutionMustBeText::
+_OPT_EvolutionMustBe::
 	text_start
 	line "Entwicklung, ja."
 	done
 
-_OPT_ProvocativelyText::
+_OPT_Provocatively::
 	text_start
 	line "Wie provozierend."
 	done
 
-_OPT_FlippedOutText::
+_OPT_FlippedOut::
 	text_start
 	line "Wie ausgeflippt."
 	done
 
-_OPT_HeartMeltinglyText::
+_OPT_HeartMeltingly::
 	text_start
 	line "Wie wunderbar."
 	done
 
-_OPT_CuteText::
+_OPT_Cute::
 	text_start
 	line "Wie niedlich."
 	done
 
-_OPT_WeirdText::
+_OPT_Weird::
 	text_start
 	line "Wie verrückt."
 	done
 
-_OPT_PleasantText::
+_OPT_Pleasant::
 	text_start
 	line "Wie angenehm."
 	done
 
-_OPT_BoldSortOfText::
+_OPT_BoldSortOf::
 	text_start
 	line "Wie dreist."
 	done
 
-_OPT_FrighteningText::
+_OPT_Frightening::
 	text_start
 	line "Furchterregend."
 	done
 
-_OPT_SuaveDebonairText::
+_OPT_SuaveDebonair::
 	text_start
 	line "Wie weltmännisch!"
 	done
 
-_OPT_PowerfulText::
+_OPT_Powerful::
 	text_start
 	line "Wie stark."
 	done
 
-_OPT_ExcitingText::
+_OPT_Exciting::
 	text_start
 	line "Wie aufregend."
 	done
 
-_OPT_GroovyText::
+_OPT_Groovy::
 	text_start
 	line "Jetzt!"
 	done
 
-_OPT_InspiringText::
+_OPT_Inspiring::
 	text_start
 	line "Wie inspirierend."
 	done
 
-_OPT_FriendlyText::
+_OPT_Friendly::
 	text_start
 	line "Wie freundlich."
 	done
 
-_OPT_HotHotHotText::
+_OPT_HotHotHot::
 	text_start
 	line "Wie interessant!"
 	done
 
-_OPT_StimulatingText::
+_OPT_Stimulating::
 	text_start
 	line "Wie anregend."
 	done
 
-_OPT_GuardedText::
+_OPT_Guarded::
 	text_start
 	line "Gut geschützt."
 	done
 
-_OPT_LovelyText::
+_OPT_Lovely::
 	text_start
 	line "Wie lieblich."
 	done
 
-_OPT_SpeedyText::
+_OPT_Speedy::
 	text_start
 	line "Wie rasant."
 	done
