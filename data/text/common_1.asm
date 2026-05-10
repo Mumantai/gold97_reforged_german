@@ -540,27 +540,84 @@ UnknownText_0x1bc80a::
 
 _OPT_IntroText1::
 	text_start
-	line "MARGIT:"
+	line "MARGIT: KENs"
 	done
 
 _OPT_IntroText2::
 	text_start
-	line "PROF. EICHs"
+	line "#MON-TALK!"
 	done
 
 _OPT_IntroText3::
 	text_start
-	line "#MON-TALK!"
+	line "Mit MARGIT!"
 	done
 
-_OPT_IntroText3_2::
+_OPT_SwarmText1::
 	text_start
-	line "Mit MARGIT!"
+	line "Eilmeldung!"
+	done
+
+_OPT_SwarmText2::
+	text_start
+	line "Ein ganzer Schwarm"
+	done
+
+_OPT_SwarmText3::
+	text_start
+	line "@"
+	text_from_ram wMonOrItemNameBuffer
+	text " ist"
+	db "@@"
+
+_OPT_SwarmText4::
+	text_start
+	line "hier aufgetaucht:"
+	done
+
+_OPT_SwarmText5::
+	text_start
+	line "@"
+	text_from_ram wStringBuffer1
+	text "!"
+	done
+
+_OPT_SwarmText6::
+	text_start
+	line "Falls ein Trainer"
+	cont "da draußen ein"
+	done
+
+_OPT_SwarmText7::
+	text_start
+	line "@"
+	text_from_ram wMonOrItemNameBuffer
+	db "@@"
+
+_OPT_SwarmText8::
+	text_start
+	line "fangen will,"
+	cont "sollte er sich"
+	done
+
+_OPT_SwarmText9::
+	text_start
+	line "hierhin begeben:"
+	done
+
+_OPT_SwarmText10::
+	text_start
+	line "Und jetzt weiter"
+	done
+
+_OPT_SwarmText11::
+	text_start
+	line "mit der Sendung!"
 	done
 
 _OPT_OakText1::
 	text_start
-	line "EICH: @"
+	line "KEN: @"
 	text_ram wMonOrItemNameBuffer
 	text_end
 
