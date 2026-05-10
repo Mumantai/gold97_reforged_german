@@ -10,20 +10,20 @@ BattleText_PlayerPickedUpPayDayMoney:
 WildPokemonAppearedText:
 	text "Ein wildes"
 	line "@"
-	text_ram wEnemyMonNickname
+	text_ram wEnemyMonNick
 	text "!"
 	prompt
 
 HookedPokemonAttackedText:
 	text "Das gefangene"
 	line "@"
-	text_ram wEnemyMonNickname
+	text_ram wEnemyMonNick
 	text_start
 	cont "greift an!"
 	prompt
 
 PokemonFellFromTreeText:
-	text_ram wEnemyMonNickname
+	text_ram wEnemyMonNick
 	text_start
 	line "fällt vom Baum!"
 	prompt
@@ -31,7 +31,7 @@ PokemonFellFromTreeText:
 WildLeafeonAppearedText:
 	text "Ein wildes"
 	line "@"
-	text_ram wEnemyMonNickname
+	text_ram wEnemyMonNick
 	text "!"
 	prompt
 
@@ -43,14 +43,14 @@ WantsToBattleText::
 BattleText_WildFled:
 	text "Das wilde"
 	line "@"
-	text_ram wEnemyMonNickname
+	text_ram wEnemyMonNick
 	text_start
 	cont "ist geflohen!"
 	prompt
 
 BattleText_EnemyFled:
 	text "Gegn. @"
-	text_ram wEnemyMonNickname
+	text_ram wEnemyMonNick
 	text_start
 	line "ist geflohen!"
 	prompt
@@ -169,7 +169,7 @@ BattleText_TheSandstormSubsided:
 
 BattleText_EnemyMonFainted:
 	text "Gegn. @"
-	text_ram wEnemyMonNickname
+	text_ram wEnemyMonNick
 	text_start
 	line "wurde besiegt!"
 	prompt
@@ -246,7 +246,7 @@ BattleText_EnemyIsAboutToUseWillPlayerChangeMon:
 	text "<ENEMY>"
 	line "setzt"
 	cont "@"
-	text_ram wEnemyMonNickname
+	text_ram wEnemyMonNick
 	text " ein."
 
 	para "Möchtest du das"
@@ -257,7 +257,7 @@ BattleText_EnemySentOut:
 	text "<ENEMY>"
 	line "schickt"
 	cont "@"
-	text_ram wEnemyMonNickname
+	text_ram wEnemyMonNick
 	text_start
 	cont "in den Kampf!"
 	done
@@ -375,14 +375,14 @@ BattleText_StringBuffer1GrewToLevel:
 
 BattleText_WildMonIsEating:
 	text "Wildes @"
-	text_ram wEnemyMonNickname
+	text_ram wEnemyMonNick
 	text_start
 	line "frisst!"
 	prompt
 
 BattleText_WildMonIsAngry:
 	text "Wildes @"
-	text_ram wEnemyMonNickname
+	text_ram wEnemyMonNick
 	text_start
 	line "ist wütend!"
 	prompt
