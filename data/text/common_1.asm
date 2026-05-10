@@ -979,7 +979,7 @@ _PnP_weird::
 	line "ist verrückt."
 	done
 
-_PnP_rightForMe::
+_PnP_rightforme::
 	text_start
 	line "ist genau richtig?"
 	done
