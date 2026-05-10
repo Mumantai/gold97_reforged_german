@@ -341,12 +341,12 @@ UnknownText_0x1c4837::
 	text " mit"
 
 	para "@"
-	text_ram wSeerOT
+	text_ram wSeerOTName
 	text_start
 	line "getauscht?"
 
 	para "@"
-	text_ram wSeerOT
+	text_ram wSeerOTName
 	text " traf"
 	line "@"
 	text_ram wSeerNickname
