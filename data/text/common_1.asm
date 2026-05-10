@@ -959,7 +959,7 @@ _PnP_great::
 	line "ist großartig."
 	done
 
-_PnP_myType::
+_PnP_mytype::
 	text_start
 	line "ist mein Typ."
 	done
