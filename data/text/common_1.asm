@@ -1206,7 +1206,7 @@ Text_EnemyWithdrew::
 	text "<ENEMY>"
 	line "ersetzt"
 	cont "@"
-	text_ram wEnemyMonNickname
+	text_ram wEnemyMonNick
 	text "!"
 	prompt
 
@@ -1218,7 +1218,7 @@ Text_EnemyUsedOn::
 	cont "bei"
 
 	para "@"
-	text_ram wEnemyMonNickname
+	text_ram wEnemyMonNick
 	text_start
 	line "ein!"
 	prompt
