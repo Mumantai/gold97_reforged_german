@@ -162,7 +162,7 @@ MerchandiseShelfText:
 	cont "Merchandising!"
 	done
 
-LookTownMapText:
+TownMapText:
 	text "Dies ist die"
 	line "KARTE."
 	done
