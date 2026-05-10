@@ -1303,7 +1303,7 @@ UnknownText_0x1c5b53::
 	cont "Eintrag im"
 	cont "#DEX angelegt.@"
 	sound_slot_machine_start
-	text_promptbutton
+	text_waitbutton
 	text_end
 
 	text_end ; unused
