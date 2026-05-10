@@ -91,7 +91,7 @@ PerishCountText:
 	text "<USER>:"
 	line "ABGESANG steht bei"
 	cont "@"
-	text_decimal wTextDecimalByte, 1, 1
+	text_decimal wDeciramBuffer, 1, 1
 	text "!"
 	prompt
 
@@ -728,7 +728,7 @@ SpiteEffectText:
 	text_ram wStringBuffer1
 	text_start
 	cont "sinkt um @"
-	text_decimal wTextDecimalByte, 1, 1
+	text_decimal wDeciramBuffer, 1, 1
 	text "!"
 	prompt
 
@@ -1108,7 +1108,7 @@ SafeguardProtectText:
 
 MagnitudeText:
 	text "Intensität @"
-	text_decimal wTextDecimalByte, 1, 1
+	text_decimal wDeciramBuffer, 1, 1
 	text "!"
 	prompt
 
