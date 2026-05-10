@@ -172,6 +172,14 @@ WindowText:
 	line "Sieht gut aus!"
 	done
 
+LavaText:
+    text "Oh! Die Lava ist"
+    line "sehr heiß!"
+
+    para "Besser nicht näher"
+    line "rangehen!"
+    done
+
 TVText:
 	text "Dies ist ein"
 	line "Fernsehgerät."
