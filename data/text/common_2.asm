@@ -880,6 +880,7 @@ UnknownText_0x1c0e54::
 	line "Energie."
 	prompt
 
+UnknownText_0x1c0e6f::
 	text_ram wStringBuffer1
 	text_start
 	line "ist nicht"
