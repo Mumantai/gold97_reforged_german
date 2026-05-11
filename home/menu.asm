@@ -164,7 +164,7 @@ InterpretTwoOptionMenu::
 
 YesNoMenuHeader::
 	db MENU_BACKUP_TILES ; flags
-	menu_coords 10, 5, 16, 9
+	menu_coords 10, 5, 15, 9
 	dw .MenuData
 	db 1 ; default option
 
