@@ -109,7 +109,7 @@ CrownCityName:          db "KOROKANIA CITY@"    ; Coroa (port. Krone) + oukan (j
 CrownPassName:          db "KOROKANIA-PFAD@"
 DaitoRanchName:         db "DAITO RANCH@"       ; NICHT FINAL Daito - Ort in Ryukyu
 DeepwaterPassageName:   db "TIEFWASSERPFAD@"    ;
-DragonsDenName:         db "DRACHENSCHLUND@"    ;
+DragonsMawName:         db "DRACHENSCHLUND@"    ;
 EndonCaveName:          db "ENDON HÖHLE@"       ; NICHT FINAL Endon vielleicht von "No End" ?
 FastShipName:           db "SCHNELLBOOT@"
 ForkedStraitName:       db "MEERESGABELUNG@"    ;
