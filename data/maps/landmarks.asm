@@ -156,7 +156,7 @@ UrasoeParkName:         db "URASHI-PARK@"       ; okinawa. für Urasoe - Stadt a
 UrasoeTrailName:        db "URASHI-WANDERWEG@"  ;
 VictoryRoadName:        db "SIEGESSTRAẞE@"
 WestportCityName:       db "PORT ABANISHI@"     ; Port (alt. Hafen) + Abanti (ahd. Abend bzw. Westen) + Nishi (jap. Westen)     evtl. PORT ABANTIA
-WhirlIslandsName:       db "STRUDELINSEL@"      ;
+WhirlIslandName:        db "STRUDELINSEL@"      ;
 
 
 Route101Name:           db "ROUTE 101@"
