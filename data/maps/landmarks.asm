@@ -101,16 +101,16 @@ BattleTowerName:        db "DUELLTURM@"
 BirdonTownName:         db "TOTOMONIA@"         ; Tottori + Flegmon
 BlueForestName:         db "KITAOMORIA¯CITY@"   ; Kita (jap. Norden) + ao (jap. Blau) + mori (jap. Wald)
 BoardwalkName:          db "PROMENADE@"
-BoulderMineName:        db "GERÖLLMINE@"        ;
+BoulderMinesName:        db "GERÖLLMINE@"        ;
 BrassTowerName:         db "MESSINGTURM@"
 CastleMountainName:     db "SCHLOSS-BERG@"      ; NICHT FINAL
 CharredSummitName:      db "RUẞGIPFEL@"         ;
-CrownCityName:          db "KOROKANIA CITY@"    ; Coroa (port. Krone) + oukan (jap. Krone)
+CrownCityName:          db "KOROKANIA¯CITY@"    ; Coroa (port. Krone) + oukan (jap. Krone)
 CrownPassName:          db "KOROKANIA-PFAD@"
 DaitoRanchName:         db "DAITO RANCH@"       ; NICHT FINAL Daito - Ort in Ryukyu
 DeepwaterPassageName:   db "TIEFWASSERPFAD@"    ;
 DragonsMawName:         db "DRACHENSCHLUND@"    ;
-EndonCaveName:          db "ENDON HÖHLE@"       ; NICHT FINAL Endon vielleicht von "No End" ?
+EndonCaveName:          db "ENDON¯HÖHLE@"       ; NICHT FINAL Endon vielleicht von "No End" ?
 FastShipName:           db "SCHNELLBOOT@"
 ForkedStraitName:       db "MEERESGABELUNG@"    ;
 FrostpointTownName:     db "SPIZARDIA@"         ; Spitze + Blizzard     NICHT FINAL
@@ -121,12 +121,12 @@ IsenStraitName:         db "ISEN-STRAẞE@"       ;
 JadeForestName:         db "JADEWALD@"
 JouleCaveName:          db "JOULEHÖHLE@"
 KantoRegionName:        db "KANTO-REGION@"      ; alt. Kanto
-KeramaStraitName:       db "STRAẞE VON KIRAMA@"     ; okinawa. für Kerama - Inselgruppe in Ryukyu
-KikaiCalderaName:       db "KIKAI KESSEL@"      ; Caldera (span. Kessel) ggf. aber auch Caldera, da Fachbegriff
-KikaiStraitName:        db "STRAẞE VON KIKAI@"  ; Kikai - Ort in Ryukyu
+KeramaStraitName:       db "STRAẞE¯VON¯KIRAMA@" ; okinawa. für Kerama - Inselgruppe in Ryukyu
+KikaiCalderaName:       db "KIKAI¯KESSEL@"      ; Caldera (span. Kessel) ggf. aber auch Caldera, da Fachbegriff
+KikaiStraitName:        db "STRAẞE¯VON¯KIKAI@"  ; Kikai - Ort in Ryukyu
 KikaiVillageName:       db "KIKAITANI@"         ; Kikai - Ort in Ryukyu + tanima (jap. Tal)
 KobanIslandName:        db "SATORIA-INSEL@"     ; Satou (jap. Zucker)    alt. Satoria Eiland
-KumeCityName:           db "KUMIA CITY@"        ; Kumijima (okinawaisch für Kume-jima) - Eine Ryukyu-Insel
+KumeCityName:           db "KUMIA¯CITY@"        ; Kumijima (okinawaisch für Kume-jima) - Eine Ryukyu-Insel
 KumePointName:          db "KUMIA-SPITZE@"      ;
 MagmaShaftName:         db "MAGMA-SCHACHT@"
 MeridianPathName:       db "MERIDIAN-PFAD@"
@@ -135,27 +135,27 @@ NagoVillageName:        db "NAGOTANI@"          ; Nago - Stadt auf Okinawa + tan
 NanjoForestName:        db "NANJUU-WALD@"       ; Nanchuu /Nanjuu - okinawa. für Nanjo
 NationalParkName:       db "NATIONALPARK@"      ;
 NihonLeagueName:        db "NIHON¯LIGA@"
-PagotaCityName:         db "PAGETIA CITY@"      ; Pagode + vetus (lat. alt)
+PagotaCityName:         db "PAGETIA¯CITY@"      ; Pagode + vetus (lat. alt)
 RadioTowerName:         db "RADIOTURM@"         ;
 RainbowIslandName:      db "REGENBOGENINSEL@"
 RuinsOfAlphName:        db "ALPH-RUINEN@"       ; doch GLYPHONTIA-RUINEN?
 RyukyuCityName:         db "RUUCHUU CITY@"      ; Ruuchuu - ryukyu für Ryukyu
 SanskritTownName:       db "GLYPHONTIA@"        ; Glyphe + Font
 SeasidePathName:        db "KÜSTENPFAD@"
-SilentHillsName:        db "SILENITIA HÜGEL@"
+SilentHillsName:        db "SILENITIA¯HÜGEL@"
 SilentTownName:         db "SILENITIA@"         ; Silens (lat. Stille) + initium (lat. Anfang)
 SlowpokeWellName:       db "FLEGMON-BRUNNEN@"   ;
-StandCityName:          db "SENDESTIA CITY@"    ; Sendai + Podest
-SunpointCityName:       db "KAZANAMI CITY@"     ; Kazan (jap. Vulkan) + Minami (jap. Süden)
-SunpointDocksName:      db "KAZANAMI DOCKS@"
-TatsugoPathName:        db "TATSUGO PFAD@"      ; Tatsugo - Ort in Ryukyu
-TeknosCityName:         db "TEKNOPIA CITY@"     ; Teknos (griech. Technik) + Utopia
+StandCityName:          db "SENDESTIA¯CITY@"    ; Sendai + Podest
+SunpointCityName:       db "KAZANAMI¯CITY@"     ; Kazan (jap. Vulkan) + Minami (jap. Süden)
+SunpointDocksName:      db "KAZANAMI¯DOCKS@"
+TatsugoPathName:        db "TATSUGO¯PFAD@"      ; Tatsugo - Ort in Ryukyu
+TeknosCityName:         db "TEKNOPIA¯CITY@"     ; Teknos (griech. Technik) + Utopia
 TidalGrottoName:        db "GEZEITENGROTTE@"
 TropicalIslandName:     db "TROPENINSEL@"
 UrasoeParkName:         db "URASHI-PARK@"       ; okinawa. für Urasoe - Stadt auf Okinawa
 UrasoeTrailName:        db "URASHI-WANDERWEG@"  ;
 VictoryRoadName:        db "SIEGESSTRAẞE@"
-WestportCityName:       db "PORT ABANISHI@"     ; Port (alt. Hafen) + Abanti (ahd. Abend bzw. Westen) + Nishi (jap. Westen)     evtl. PORT ABANTIA
+WestportCityName:       db "PORT¯ABANISHI@"     ; Port (alt. Hafen) + Abanti (ahd. Abend bzw. Westen) + Nishi (jap. Westen)     evtl. PORT ABANTIA
 WhirlIslandName:        db "STRUDELINSEL@"      ;
 
 
