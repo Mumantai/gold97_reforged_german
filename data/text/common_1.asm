@@ -175,7 +175,7 @@ UnknownText_0x1bc29c::
 	prompt
 
 UnknownText_0x1bc2eb::
-	text "What time is it?"
+	text "Wie spät ist es?"
 	done
 
 UnknownText_0x1bc2fd::
