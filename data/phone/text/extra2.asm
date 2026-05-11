@@ -1,299 +1,320 @@
+;TODO fertigstellen
 UnknownText_0x174000:
 	text "Hi, <PLAY_G>!"
-	line "Our BICYCLE sales"
+	line "Unsere FAHRRAD-"
+	cont "Verkäufe brechen"
+	cont "alle Rekorde!"
 
-	para "have gone through"
-	line "the roof!"
+	para "Das verdanken wir"
+	line "nur dir, weil du"
 
-	para "We owe it all to"
-	line "your advertising"
+	para "mit unserem FAHR-"
+	line "RAD herumgefahren"
+	cont "bist."
 
-	para "by riding around"
-	line "on our BICYCLE."
+	para "Als Dankeschön"
+	line "darfst du das"
 
-	para "As our way of say-"
-	line "ing thanks, please"
-
-	para "keep that BICYCLE."
-	line "Thanks again!"
+	para "FAHRRAD behalten."
+	line "Herzlichen Dank!"
 	done
 
 JackIntelligenceText:
-	text "My @"
-	text_ram wStringBuffer4
-	text "'s"
-	line "intelligence keeps"
+	text "Die Intelligenz"
+	line "von meinem"
 
-	para "rising. It might"
-	line "be smarter than"
-	cont "yours!"
+	para "@"
+	text_ram wStringBuffer4
+	text " steigt"
+	line "und steigt. Es"
+
+	para "könnte intelligen-"
+	line "ter als deines"
+	cont "sein!"
 	done
 
 JackDefeatedMonText:
-	text "The other day, I"
-	line "easily defeated a"
-	cont "@"
+	text "Neulich habe ich"
+	line "mit Leichtigkeit"
+	cont "ein @"
 	text_ram wStringBuffer4
-	text "."
+	text_start
+	cont "besiegt."
 
-	para "I think swapping"
-	line "tips with you is"
-	cont "starting to help."
+	para "Ich denke, wenn"
+	line "wir uns gegensei-"
+	cont "tig Tipps geben,"
+	cont "hilft uns das."
 	done
 
 UnknownText_0x174165:
-	text "Oh, and listen."
-	line "I missed catching"
+	text "Oh, und hör zu."
+	line "Ich habe es nur"
 
-	para "a @"
+	para "knapp verpasst,"
+	line "ein @"
 	text_ram wStringBuffer4
-	text " by"
-	line "just a tiny bit."
+	text_start
+	cont "zu fangen."
 
-	para "If I'd been a bit"
-	line "more informed, I'm"
-
-	para "sure I would've"
-	line "caught it…"
+	para "Wäre ich besser"
+	line "informiert gewe-"
+	cont "sen, hätte ich es"
+	cont "bestimmt gefangen…"
 	done
 
 UnknownText_0x1741e1:
-	text "Do you want to"
-	line "battle? I'll show"
+	text "Willst du kämpfen?"
+	line "Ich zeige dir, wie"
 
-	para "you how to battle"
-	line "logically."
+	para "man logisch"
+	line "kämpft."
 
-	para "I'll be in"
+	para "Ich warte hier:"
 	line "@"
 	text_ram wStringBuffer5
 	text "."
 
-	para "Give me a shout if"
-	line "you're nearby."
+	para "Melde dich, wenn"
+	line "du in der Nähe"
+	cont "bist."
 	done
 
 UnknownText_0x174251:
-	text "See you later!"
+	text "Bis später!"
 	done
 
 JackThunderTriviaText:
-	text "Did you know?"
+	text "Hast du gewusst?"
 
-	para "When it's raining,"
-	line "THUNDER is sure to"
-	cont "strike."
+	para "Wenn es regnet,"
+	line "trifft DONNER"
+	cont "mit Sicherheit."
 	done
 
 JackRolloutTriviaText:
-	text "Did you know…?"
+	text "Hast du gewusst…?"
 
-	para "If you use DEFENSE"
-	line "CURL, ROLLOUT's"
+	para "Wenn du EINIGLER"
+	line "einsetzt, steigt"
 
-	para "power goes way up"
-	line "past normal."
+	para "die Stärke von"
+	line "WALZER überdurch-"
+	cont "schnittlich an."
 	done
 
 JackSolarbeamTriviaText:
-	text "Did you know…?"
+	text "Hast du gewusst…?"
 
-	para "If the sunlight is"
-	line "harsh, SOLARBEAM"
+	para "Wenn das Sonnen-"
+	line "licht stark ist,"
 
-	para "doesn't need to be"
-	line "charged up."
+	para "muss SOLARSTRAHL"
+	line "nicht aufgeladen"
+	cont "werden."
 	done
 
 JackStompTriviaText:
-	text "Did you know…?"
+	text "Hast du gewusst…?"
 
-	para "If the opponent"
-	line "uses MINIMIZE,"
+	para "Setzt der Gegner"
+	line "KOMPRIMATOR ein,"
 
-	para "your STOMP becomes"
-	line "more powerful."
+	para "wird dein STAMPFER"
+	line "noch stärker."
 	done
 
 JackGustTriviaText:
-	text "Did you know…?"
+	text "Hast du gewusst…?"
 
-	para "If your opponent"
-	line "is FLYing, your"
+	para "Setzt dein Gegner"
+	line "FLIEGEN ein, wird"
 
-	para "GUST becomes much"
-	line "more powerful."
+	para "WINDSTOSS viel"
+	line "stärker."
 	done
 
 JackTwisterTriviaText:
-	text "Did you know…?"
+	text "Hast du gewusst…?"
 
-	para "If your opponent"
-	line "is FLYing, your"
+	para "Setzt dein Gegner"
+	line "FLIEGEN ein, wird"
 
-	para "TWISTER becomes"
-	line "more powerful."
+	para "WINDHOSE viel"
+	line "stärker."
 	done
 
 JackEarthquakeTriviaText:
-	text "Did you know…?"
+	text "Hast du gewusst…?"
 
-	para "If your opponent"
-	line "uses DIG, your"
+	para "Setzt dein Gegner"
+	line "SCHAUFLER ein,"
 
-	para "EARTHQUAKE becomes"
-	line "more powerful."
+	para "wird ERDBEBEN"
+	line "viel stärker."
 	done
 
 JackMagnitudeTriviaText:
-	text "Did you know…?"
+	text "Hast du gewusst…?"
 
-	para "If your opponent"
-	line "uses DIG, your"
+	para "Setzt dein Gegner"
+	line "SCHAUFLER ein,"
 
-	para "MAGNITUDE becomes"
-	line "more powerful."
+	para "wird INTENSITÄT"
+	line "viel stärker."
 	done
 
 JackSandstormTriviaText:
-	text "Did you know…?"
+	text "Hast du gewusst…?"
 
-	para "The rock, ground"
-	line "and steel types"
+	para "#MON der Ele-"
+	line "mentklassen Boden,"
 
-	para "can't be hurt by"
-	line "SANDSTORM."
+	para "Gestein und Stahl"
+	line "werden von"
+
+	para "SANDSTURM nicht"
+	line "verletzt."
 	done
 
 JackSunnyDayTriviaText:
-	text "Did you know…?"
+	text "Hast du gewusst…?"
 
-	para "If the sunlight is"
-	line "harsh, water-type"
+	para "Wenn das Sonnen-"
+	line "licht stark ist,"
 
-	para "moves become much"
-	line "weaker."
+	para "sind Wasser-"
+	line "Attacken viel"
+
+	para "schwächer."
 	done
 
 JackRainDanceTriviaText:
-	text "Did you know…?"
+	text "Hast du gewusst…?"
 
-	para "When it's raining,"
-	line "fire-type moves"
+	para "Bei Regen sind"
+	line "Feuer-Attacken"
 
-	para "become much weaker"
-	line "than usual."
+	para "viel schwächer"
+	line "als gewöhnlich."
 	done
 
 UnknownText_0x1745c2:
-	text "My friend heard"
-	line "some great tips."
+	text "Mein Kamerad er-"
+	line "hielt einige"
+	cont "gute Tipps."
 
-	para "He's going to let"
-	line "me in on some."
+	para "Er verrät mir auch"
+	line "einige."
 
-	para "When he tells me,"
-	line "I'll call right"
-	cont "away and tell you."
+	para "Wenn er sie mir"
+	line "sagt, rufe ich"
+	cont "dich sofort an."
 	done
 
 UnknownText_0x174638:
-	text "Hey, <PLAY_G>!"
+	text "Heh, <PLAY_G>!"
 
-	para "Do you remember"
-	line "your promise?"
+	para "Erinnerst du dich"
+	line "an dein Ver-"
+	cont "sprechen? Wir"
 
-	para "We have to battle"
-	line "soon!"
+	para "müssen bald"
+	line "kämpfen!"
 
-	para "I'll be at"
+	para "Ich warte hier:"
 	line "@"
 	text_ram wStringBuffer5
 	text "."
 	done
 
 UnknownText_0x174688:
-	text "I fancied up my"
+	text "Ich habe mein"
 	line "@"
 	text_ram wStringBuffer4
-	text " and"
+	text " ver-"
+	cont "schönert und es"
 
-	para "made it even cuter"
-	line "than before!"
+	para "ist somit noch"
+	line "süßer als zuvor!"
 	done
 
 UnknownText_0x1746c3:
-	text "I happened to come"
-	line "across a wild"
-	cont "SNUBBULL recently."
+	text "Ich habe vor"
+	line "kurzem ein wildes"
+	cont "SNUBBULL gesehen."
 
-	para "My SNUBBULL, I"
-	line "assure you, was"
+	para "Mein SNUBBULL, da"
+	line "bin ich sicher,"
 
-	para "far cuter than the"
-	line "wild one."
+	para "war viel süßer"
+	line "als das wilde."
 	done
 
 UnknownText_0x174734:
-	text "I happened to see"
-	line "a wild MARILL the"
+	text "Ich habe neulich"
+	line "zufällig ein"
 
-	para "other day."
-	line "Or so I thought."
+	para "wildes MARILL ge-"
+	line "sehen. Dachte ich"
+	cont "zumindest."
 
-	para "A closer look"
-	line "showed it was"
+	para "Bei näherem Hin-"
+	line "sehen, stellte ich"
 
-	para "@"
+	para "fest, dass es ein"
+	line "@"
 	text_ram wStringBuffer4
-	text ". I was"
-	line "quite miffed."
+	text " war."
+	cont "Ich war verärgert."
 	done
 
 UnknownText_0x1747ac:
-	text "You can expect a"
-	line "call from me."
+	text "Ich melde mich,"
+	line "versprochen."
 	done
 
 BeverlyFoundNuggetText:
-	text "My husband got"
-	line "some NUGGETS."
+	text "Mein Mann hat"
+	line "einige NUGGETS."
 
-	para "If you'd like, you"
-	line "could have one as"
+	para "Wenn du möchtest,"
+	line "gebe ich dir einen"
 
-	para "thanks for helping"
-	line "me out."
+	para "dafür, dass du"
+	line "mir geholfen hast."
 
-	para "I'll be at"
+	para "Ich bin hier:"
 	line "@"
 	text_ram wStringBuffer5
 	text "."
 
-	para "Please come see me"
-	line "when you can."
+	para "Komm vorbei, wenn"
+	line "du möchtest."
 	done
 
 UnknownText_0x17485b:
-	text "Are your #MON"
-	line "in prime form?"
+	text "Sind deine #-"
+	line "MON in Top-Form?"
 
-	para "Let's chat about"
-	line "#MON again."
+	para "Lass uns mal wie-"
+	line "der über #MON"
+	cont "plaudern."
 	done
 
 UnknownText_0x174895:
-	text "Pardon?"
-	line "Oh, the NUGGET?"
+	text "Wie bitte?"
+	line "Oh, der NUGGET?"
 
-	para "There's no need to"
-	line "hurry. Come see me"
+	para "Nur keine Eile."
+	line "Du findest mich"
 
-	para "in @"
+	para "hier:"
+	line "@"
 	text_ram wStringBuffer5
-	text_start
-	line "when you can."
+	text "."
 	done
+
 
 UnknownText_0x1748ea:
 	text "Hey, I challenge"
@@ -340,319 +361,347 @@ UnknownText_0x1749c7:
 	done
 
 GavenGreaterText:
-	text "My @"
+	text "Mein @"
 	text_ram wStringBuffer4
 	text_start
-	line "might be greater"
-	cont "than I imagined."
+	line "könnte stärker"
+	cont "sein, als ich"
+	cont "dachte."
 
-	para "I doubt I'll see a"
-	line "@"
-	text_ram wStringBuffer4
-	text " that's"
-	cont "better than mine."
-	done
-
-UnknownText_0x174a80:
-	text "Oh, and I managed"
-	line "to barely defeat"
+	para "Ich bezweifle,"
+	line "dass ich ein"
 
 	para "@"
 	text_ram wStringBuffer4
-	text " the"
-	line "other day."
+	text " sehe,"
+	line "das besser als"
 
-	para "I've never seen a"
-	line "@"
+	para "meines ist."
+	done
+
+UnknownText_0x174a80:
+	text "Oh, ich habe vor"
+	line "kurzem knapp gegen"
+
+	para "ein @"
 	text_ram wStringBuffer4
-	text " get"
-	cont "that strong…"
+	text_start
+	line "gewonnen."
 
-	para "You shouldn't let"
-	line "your guard down,"
+	para "Ich habe noch nie"
+	line "so ein starkes"
 
-	para "even against a"
-	line "#MON you're"
-	cont "used to seeing."
+	para "@"
+	text_ram wStringBuffer4
+	text_start
+	line "gesehen…"
+
+	para "Du solltest deine"
+	line "Verteidigung nicht"
+
+	para "vernachlässigen,"
+	line "auch wenn du die-"
+	cont "ses #MON öfter"
+	cont "siehst."
 	done
 
 UnknownText_0x174b2d:
-	text "And a while back,"
-	line "I tried to catch a"
-	cont "wild @"
+	text "Vor geraumer Zeit,"
+	line "versuchte ich ein"
+
+	para "wildes @"
 	text_ram wStringBuffer4
-	text "."
+	text_start
+	line "zu fangen."
 
-	para "But it managed to"
-	line "elude me."
+	para "Aber es ist mir"
+	line "entkommen."
 
-	para "One wrong decision"
-	line "could mean total"
+	para "Eine einzige fal-"
+	line "sche Entscheidung"
 
-	para "failure… You ought"
-	line "to be careful too."
+	para "kann über Sieg"
+	line "oder Niederlage"
+
+	para "entscheiden…"
+	line "Auch du solltest"
+
+	para "vorsichtig sein!"
 	done
 
 UnknownText_0x174bc5:
-	text "Let's battle!"
+	text "Auf in den Kampf!"
 
-	para "I'll be waiting on"
+	para "Hier warte ich:"
 	line "@"
 	text_ram wStringBuffer5
 	text "."
 
-	para "Give me a shout"
-	line "when you're close."
+	para "Ruf an, wenn du in"
+	line "der Nähe bist."
 	done
 
 UnknownText_0x174c0e:
-	text "OK, I'll talk to"
-	line "you soon!"
+	text "O.K., ich melde"
+	line "mich bald!"
 	done
 
 UnknownText_0x174c29:
-	text "I obsess over how"
-	line "to beat you."
+	text "Ich bin davon"
+	line "besessen, dich"
+	cont "zu besiegen."
 	done
 
 UnknownText_0x174c49:
-	text "<PLAY_G>, why"
-	line "aren't you here?"
+	text "<PLAY_G>, wo"
+	line "bist du?"
 
-	para "I'll take you down"
-	line "with @"
+	para "Ich mache dich auf"
+	line "@"
 	text_ram wStringBuffer5
-	text "!"
+	text " fertig!"
 	done
 
 UnknownText_0x174c7f:
-	text "Do you remember my"
-	line "sweet @"
+	text "Erinnerst du dich"
+	line "an mein süßes"
+	cont "@"
 	text_ram wStringBuffer4
 	text "?"
 
 	para "@"
 	text_ram wStringBuffer4
-	text " runs"
-	line "very fast."
+	text " rennt"
+	line "sehr schnell."
 
-	para "It's exhilarating"
-	line "to ride on its"
+	para "Es ist wahrlich"
+	line "berauschend auf"
 
-	para "back when it"
-	line "really gets going."
+	para "ihm zu reiten,"
+	line "wenn es loslegt."
 	done
 
 UnknownText_0x174cf6:
-	text "Oh, have you ever"
-	line "seen a @"
+	text "Oh, hast du schon"
+	line "je ein @"
 	text_ram wStringBuffer4
 	text_start
-	cont "before?"
+	cont "gesehen?"
 
-	para "I just battled"
-	line "one…"
+	para "Ich habe gerade"
+	line "gegen eines"
+	cont "gekämpft…"
 
-	para "It was much faster"
-	line "than I expected."
+	para "Es war schneller,"
+	line "als ich dachte."
 
-	para "I was a little"
-	line "shocked."
+	para "Ich war ein wenig"
+	line "perplex."
 
-	para "I still won, of"
-	line "course."
+	para "Natürlich habe ich"
+	line "dennoch gewonnen."
 	done
 
 UnknownText_0x174d86:
-	text "Oh, I just saw a"
-	line "wild @"
+	text "Oh, ich habe"
+	line "soeben ein wildes"
+
+	para "@"
 	text_ram wStringBuffer4
-	text "."
+	text_start
+	line "gesehen."
 
-	para "I was trying to"
-	line "catch it when I"
+	para "Ich wollte es"
+	line "fangen, aber ich"
 
-	para "noticed that I was"
-	line "all out of #"
-	cont "BALLS."
+	para "musste feststel-"
+	line "len, dass ich"
 
-	para "If you don't check"
-	line "your items, you"
+	para "keine #BÄLLE"
+	line "mehr hatte."
 
-	para "may run out at the"
-	line "worst time."
+	para "Wenn du deinen"
+	line "Item-Bestand nicht"
 
-	para "I hope you learn"
-	line "from my mistake."
+	para "kennst, kann es"
+	line "dir ähnlich erge-"
+	cont "hen! Lerne aus"
+	cont "meinem Fehler."
 	done
 
 UnknownText_0x174e4e:
-	text "Do you want to"
-	line "battle? I'm going"
-	cont "to win this time!"
+	text "Willst du kämpfen?"
+	line "Dieses Mal gewinne"
+	cont "ich!"
 
-	para "I'll be waiting"
-	line "for you around"
+	para "Hier erwarte ich"
+	line "dich:"
 
 	para "@"
 	text_ram wStringBuffer5
 	text "."
-	line "Look for me, OK?"
+	line "Komm vorbei, O.K.?"
 	done
 
 UnknownText_0x174eb7:
-	text "OK, bye-bye!"
+	text "O.K., bye-bye!"
 	done
 
 UnknownText_0x174ec5:
-	text "Let's battle again"
-	line "sometime!"
+	text "Lass uns wieder"
+	line "mal kämpfen!"
 	done
 
 BethForgetDealText:
-	text "Um… <PLAY_G>?"
-	line "What's wrong?"
+	text "Ähm… <PLAY_G>?"
+	line "Was ist los?"
 
-	para "Did you forget our"
-	line "deal?"
+	para "Hast du unsere Ab-"
+	line "machung vergessen?"
 
 	para "@"
 	text_ram wStringBuffer5
 	text "."
 
-	para "That's where I'm"
-	line "waiting."
+	para "Genau dort warte"
+	line "ich auf dich."
+	done
 	done
 
 JoseAromaText:
-	text "Hey listen, my"
-	line "@"
+	text "Sperr die Ohren"
+	line "auf, die Stange"
+
+	para "meines @"
 	text_ram wStringBuffer4
-	text "'s stick"
+	text "s"
+	line "riecht verlockend."
 
-	para "has this really"
-	line "delicious aroma."
-
-	para "That aroma gets my"
-	line "appetite going!"
+	para "Der Duft bringt"
+	line "meine Geschmacks-"
+	cont "nerven in Ekstase!"
 	done
 
 UnknownText_0x174f90:
-	text "A while ago, my"
-	line "FARFETCH'D KO'd"
-	cont "this @"
+	text "Vor geraumer Zeit"
+	line "schlug mein"
+
+	para "PORENTA ein"
+	line "@"
 	text_ram wStringBuffer4
-	text "."
+	text " K.O."
 
-	para "You should have"
-	line "seen FARFETCH'D"
+	para "Du hättest sehen"
+	line "sollen, wie grazil"
 
-	para "wield that stick."
-	line "Amazing stuff!"
+	para "PORENTA mit seiner"
+	line "Stange umgeht!"
+	cont "Einfach unfassbar!"
 	done
 
 UnknownText_0x174ffd:
-	text "I ran into a wild"
-	line "@"
+	text "Mir begegnete ein"
+	line "wildes @"
 	text_ram wStringBuffer4
 	text "…"
 
-	para "I was trying to"
-	line "catch it, but it"
+	para "Ich wollte es"
+	line "fangen, aber es"
 
-	para "took off faster"
-	line "than I thought it"
+	para "floh schneller,"
+	line "als ich dachte."
 
-	para "would. It was a"
-	line "bit disappointing."
+	para "Es war ein wenig"
+	line "enttäuschend."
 	done
 
 UnknownText_0x17507d:
-	text "Want to battle"
-	line "again?"
+	text "Willst du erneut"
+	line "kämpfen?"
 
-	para "For some reason,"
-	line "my FARFETCH'D is"
+	para "Aus irgendeinem"
+	line "Grund ist mein"
 
-	para "all worked up and"
-	line "raring to go."
+	para "PORENTA hitzig und"
+	line "kampfbereit."
 
-	para "@"
+	para "Ich bin hier:"
+	line "@"
 	text_ram wStringBuffer5
-	text "'s"
-	line "where I'm at."
+	text "."
 
-	para "Keep an eye out"
-	line "for me, OK?"
+	para "Schau doch einmal"
+	line "vorbei, O.K.?"
 	done
 
 UnknownText_0x175106:
-	text "Be seeing you!"
+	text "Wir sehen uns!"
 	done
 
 JoseFoundSomethingText:
-	text "My FARFETCH'D had"
-	line "something pretty"
-	cont "in its beak."
+	text "Mein PORENTA hatte"
+	line "etwas Schönes"
+	cont "im Schnabel."
 
-	para "Like I promised,"
-	line "you can have it."
+	para "Wie versprochen,"
+	line "gehört es dir."
 
-	para "Catch up to me on"
+	para "Besuche mich hier:"
 	line "@"
 	text_ram wStringBuffer5
 	text ","
 
-	para "and I'll let you"
-	line "have it."
+	para "und hole es dir"
+	line "bei mir ab."
 	done
 
 UnknownText_0x17519b:
-	text "I haven't gotten"
-	line "what I promised"
-	cont "you yet."
+	text "Ich habe noch"
+	line "nicht, was ich"
+	cont "dir versprach."
 
-	para "I'll call you as"
-	line "soon as I get it,"
+	para "Ich melde mich,"
+	line "alsbald ich es"
 
-	para "so could you wait"
-	line "a little longer?"
+	para "habe. Kannst du"
+	line "noch ein wenig"
+	cont "warten?"
 	done
 
 UnknownText_0x17520a:
-	text "<PLAY_G>, could you"
-	line "hurry over?"
+	text "<PLAY_G>, kommst"
+	line "du schnell zu mir?"
 
-	para "FARFETCH'D is"
-	line "agitated."
+	para "PORENTA ist"
+	line "aufgeregt."
 
-	para "If you don't come"
-	line "soon, it might"
+	para "Wenn du nicht bald"
+	line "kommst, schlägt es"
 
-	para "smack me with its"
-	line "stick!"
+	para "mich noch mit"
+	line "seiner Stange!"
 
 	para "@"
 	text_ram wStringBuffer5
 	text "!"
 
-	para "Please come as"
-	line "soon as you can!"
+	para "Bitte, komm so"
+	line "schnell du kannst!"
 	done
 
 UnknownText_0x17529c:
-	text "What's wrong?"
+	text "Was ist los?"
 
-	para "Don't you want"
-	line "this gift?"
+	para "Willst du das"
+	line "Geschenk nicht?"
 
-	para "Catch up to me on"
+	para "Ich bin hier:"
 	line "@"
 	text_ram wStringBuffer5
-	text ","
+	text "."
 
-	para "and I'll let you"
-	line "have it."
+	para "Komm vorbei und"
+	line "hole es dir ab."
 	done
 
 UnknownText_0x1752f5:
@@ -745,245 +794,253 @@ UnknownText_0x1754e5:
 	done
 
 JoeySharperText:
-	text "My @"
+	text "Mein @"
 	text_ram wStringBuffer4
-	text "'s"
-	line "looking sharper"
-	cont "than before!"
+	text_start
+	line "sieht entschlos-"
+	cont "sener aus!"
 
-	para "I doubt there's a"
-	line "#MON as cool as"
+	para "Ich bezweifle,"
+	line "dass du auch so"
 
-	para "this guy in your"
-	line "party!"
+	para "ein cooles #MON"
+	line "in deinem Team"
+	cont "hast!"
 	done
 
 UnknownText_0x175591:
-	text "Oh yeah, I took"
-	line "down a @"
+	text "Hossa, neulich"
+	line "besiegte ich ein"
+	para "@"
 	text_ram wStringBuffer4
 	text_start
-	para "in the wild the"
-	line "other day."
+	line "in der Wildnis."
 
-	para "It was a cakewalk."
-	line "Well, I guess it"
+	para "Es war ein Kinder-"
+	line "spiel. Nun, wir"
 
-	para "can't be helped,"
-	line "us being so tough."
+	para "sind eben so"
+	line "stark."
 	done
 
 UnknownText_0x175611:
-	text "Oh yeah, I saw a"
-	line "wild @"
+	text "Oh, ich sah ein"
+	line "wildes @"
 	text_ram wStringBuffer4
 	text "!"
 
-	para "I thought about"
-	line "going for it, but"
+	para "Ich wollte es zu-"
+	line "erst fangen, aber"
 
-	para "I decided to work"
-	line "with my one-and-"
+	para "ich besann mich"
+	line "eines Besseren und"
 
-	para "only right to the"
-	line "extreme end."
+	para "beschloss, mit"
+	line "meinem Ein und"
+	cont "Alles zu arbeiten."
 	done
 
 UnknownText_0x175693:
-	text "Let's get together"
-	line "and battle!"
+	text "Treffen wir uns"
+	line "für einen Kampf!"
 
-	para "I promise things"
-	line "will be different!"
+	para "Ich verspreche, es"
+	line "wird anders!"
 
-	para "@"
+	para "Ich bin hier:"
+	line "@"
 	text_ram wStringBuffer5
-	text "'s"
-	line "where I'll be."
+	text "."
 
-	para "Give me a shout"
-	line "when you come."
+	para "Ruf an, wenn du in"
+	line "der Nähe bist."
 	done
 
 UnknownText_0x17570a:
-	text "All right. Later!"
+	text "Gut, bis später!"
 	done
 
 UnknownText_0x17571d:
-	text "I'm checking out"
+	text "Ich experimentiere"
+	line "gerade mit den"
+
+	para "Attacken von"
 	line "@"
 	text_ram wStringBuffer4
-	text "'s moves"
+	text ", um"
 
-	para "and devising some"
-	line "strategies."
+	para "eine Strategie"
+	line "zu finden."
 
-	para "When I come up"
-	line "with a good one,"
-	cont "let's battle!"
+	para "Finde ich eine"
+	line "gute, dann müssen"
+	cont "wir kämpfen!"
 	done
 
 UnknownText_0x175786:
-	text "What's keeping"
-	line "you, <PLAYER>!"
+	text "Was hält dich auf,"
+	line "<PLAYER>!"
 
-	para "Let's get down and"
-	line "battle already!"
+	para "Lass uns endlich"
+	line "anfangen!"
 
-	para "I'm waiting on"
+	para "Ich warte hier:"
 	line "@"
 	text_ram wStringBuffer5
 	text "!"
 	done
 
 WadeAreYouGrowingText:
-	text "Are your #MON"
-	line "growing?"
+	text "Wachsen deine"
+	line "#MON?"
 
-	para "My #MON are"
-	line "growing a bit too"
+	para "Meine #MON"
+	line "wachsen mir zu"
 
-	para "quickly for me."
-	line "It's overwhelming!"
+	para "schnell. Es ist"
+	line "überwältigend!"
 
 	para "@"
 	text_ram wStringBuffer4
-	text "'s grow-"
-	line "ing especially"
+	text " wächst"
+	line "besonders schnell."
 
-	para "quickly. I think"
-	line "it'll get tough."
+	para "Ich denke, es wird"
+	line "stark."
 	done
 
 UnknownText_0x175869:
-	text "Oh yeah, we KO'd a"
-	line "wild @"
+	text "Yo, wir haben ein"
+	line "wildes @"
 	text_ram wStringBuffer4
 	text_start
-	para "with one hit a"
-	line "while back."
+	para "mit nur einem"
+	line "Schlag besiegt."
 
-	para "It went down so"
-	line "easily, I felt a"
+	para "Es ging so hart"
+	line "zu Boden, dass"
 
-	para "little sorry for"
-	line "the poor thing."
+	para "ich fast schon"
+	line "Mitleid hatte."
 	done
 
 UnknownText_0x1758e4:
-	text "Oh yeah, a wild"
+	text "Yo, ein wildes"
 	line "@"
 	text_ram wStringBuffer4
-	text " got"
+	text_start
 
-	para "away from me at"
-	line "the last second."
+	para "entkam mir nur"
+	line "ganz knapp."
 
-	para "I know it's a"
-	line "common #MON…"
+	para "Ich weiß, dass es"
+	line "kein seltenes"
+	cont "#MON ist…"
 
-	para "But it does annoy"
-	line "me that it got"
-
-	para "away when I almost"
-	line "had it."
+	para "Aber es ärgert"
+	line "mich, dass es ent-"
+	cont "kam, obwohl ich es"
+	cont "schon fast hatte."
 	done
 
 UnknownText_0x175976:
-	text "Do you feel like a"
-	line "#MON battle?"
+	text "Lust auf einen"
+	line "#MON-Kampf? Es"
 
-	para "It won't be like"
-	line "last time!"
+	para "wird nicht so wie"
+	line "das letzte Mal!"
 
-	para "@"
+	para "Ich bin hier:"
+	line "@"
 	text_ram wStringBuffer5
-	text "'s"
-	line "where I'll be."
+	text "."
 
-	para "Let me know when"
-	line "you get there."
+	para "Ruf an, wenn du"
+	line "da bist."
 	done
 
 UnknownText_0x1759e7:
-	text "See you later!"
+	text "Bis später!"
 	done
 
 WadeBugCatchingContestText:
-	text "The Bug-Catching"
-	line "Contest is at the"
+	text "Das Käferturnier"
+	line "findet heute im"
 
-	para "NATIONAL PARK"
-	line "today."
+	para "NATIONALPARK"
+	line "statt."
 
-	para "Are you going,"
+	para "Gehst du hin,"
 	line "<PLAY_G>?"
 
-	para "I'm trying to make"
-	line "up my mind."
+	para "Ich weiß es noch"
+	line "nicht sicher."
 	done
 
 WadeFoundBerryText:
-	text "I found all kinds"
-	line "of BERRIES. If you"
+	text "Ich habe alle mög-"
+	line "lichen BEEREN ge-"
+	cont "funden. Wenn du"
 
-	para "want, I'll share"
-	line "some with you."
+	para "willst, teile"
+	line "ich mit dir."
 
-	para "I'll be waiting on"
+	para "Ich warte hier:"
 	line "@"
 	text_ram wStringBuffer5
 	text "."
 	done
 
 UnknownText_0x175abe:
-	text "Huh? BERRIES?"
+	text "Huch? BEEREN?"
 
-	para "Sorry, I haven't"
-	line "found any yet."
+	para "Sorry, ich habe"
+	line "noch keine ge-"
+	cont "funden."
 
-	para "I'll call you if I"
-	line "find any. Will you"
-	cont "please wait?"
+	para "Ich rufe an, wenn"
+	line "ich welche finde."
+	cont "Bitte warte!"
 	done
 
 UnknownText_0x175b1e:
-	text "Let's battle"
-	line "already!"
+	text "Lass uns endlich"
+	line "kämpfen!"
 
-	para "@"
+	para "Ich warte hier:"
+	line "@"
 	text_ram wStringBuffer5
-	text " is"
-	line "where I am."
+	text "."
 
-	para "Please get here as"
-	line "soon as you can!"
+	para "Komm bitte schnell"
+	line "hierher!"
 	done
 
 UnknownText_0x175b6d:
-	text "How come you're"
-	line "not here yet?"
+	text "Wieso bist du noch"
+	line "nicht hier?"
 
-	para "@"
+	para "Ich bin hier:"
+	line "@"
 	text_ram wStringBuffer5
-	text " is"
-	line "where I am."
+	text "."
 
-	para "Please get here as"
-	line "soon as you can!"
+	para "Komm bitte schnell"
+	line "hierher!"
 	done
 
 RalphNeglectingKidsText:
-	text "I've been spending"
-	line "more time with my"
+	text "Ich habe mehr Zeit"
+	line "mit meinem"
 
 	para "@"
 	text_ram wStringBuffer4
-	text " than I"
-	line "have with my kids."
+	text " ver-"
+	line "bracht, als mit"
+	cont "meinen Kindern."
 
-	para "That's a bit sad,"
-	line "actually."
+	para "Das ist in der Tat"
+	line "schade."
 	done
 
 UnknownText_0x175c24:
@@ -1171,504 +1228,535 @@ UnknownText_0x17610a:
 	done
 
 LizHiTaniaText:
-	text "Hi, TANIA. How are"
-	line "you? This is LIZ."
+	text "Hi, TANJA. Wie"
+	line "geht es dir? Hier"
 
-	para "I'm fine, but I'm"
-	line "bored silly!"
+	para "ist ANETTE. Mir"
+	line "geht es gut, aber"
 
-	para "Huh… Wrong number?"
-	line "Oops! Sorry!"
+	para "ich langweile mich"
+	line "zu Tode!"
+
+	para "Huch… Verwählt?"
+	line "Ups! Sorry!"
 	done
 
 UnknownText_0x17620a:
-	text "OK, I'll call you"
-	line "later!"
+	text "O.K., ich rufe"
+	line "später an!"
 	done
 
 UnknownText_0x176223:
-	text "Listen, listen!"
+	text "Hör mal!"
 
-	para "I was listening to"
-	line "the radio in the"
+	para "Ich hörte in den"
+	line "ALPH-RUINEN Radio,"
 
-	para "RUINS OF ALPH when"
-	line "an odd broadcast"
+	para "als das Programm"
+	line "durch eine selt-"
+	cont "same Sendung un-"
+	cont "terbrochen wurde."
 
-	para "suddenly cut it on"
-	line "the regular show."
-
-	para "I wonder what it"
-	line "was. So strange!"
+	para "Ich frage mich,"
+	line "was das war? Sehr"
+	cont "merkwürdig!"
 	done
 
 UnknownText_0x1762c3:
-	text "Listen, listen!"
+	text "Hör zu!"
 
-	para "Don't you think"
-	line "FALKNER of VIOLET"
+	para "Denkst du nicht"
+	line "auch, dass FALK,"
 
-	para "GYM is cool and"
-	line "handsome?"
+	para "der ARENALEITER"
+	line "von VIOLA CITY,"
 
-	para "But they say his"
-	line "dad, who's out"
+	para "cool und schön"
+	line "ist?"
 
-	para "training on the"
-	line "road, is even more"
+	para "Aber, man sagt,"
+	line "dass sein Vater,"
 
-	para "cool and handsome"
-	line "than FALKNER."
+	para "der im Freien"
+	line "trainiert, noch"
 
-	para "I wish I could"
-	line "meet him!"
+	para "cooler und schöner"
+	line "als FALK ist."
+
+	para "Ich würde ihn ger-"
+	line "ne kennen lernen!"
 	done
 
 UnknownText_0x17638a:
-	text "Listen, listen!"
+	text "Hör zu!"
 
-	para "Do you know EARL,"
-	line "the artist who"
+	para "Kennst du EARL,"
+	line "den Künstler, der"
+	para "das ATELIER in"
+	line "PAGETIA CITY"
+	cont "betreibt?"
 
-	para "runs the ART"
-	line "STUDIO in PAGOTA?"
+	para "Ich sah, wie er"
+	line "Pirouetten machte,"
 
-	para "I saw him doing"
-	line "pirouettes while"
-
-	para "he was running. It"
-	line "was wildly funny!"
+	para "als er rannte. Das"
+	line "war sehr komisch!"
 	done
 
 UnknownText_0x176424:
-	text "Listen, listen!"
+	text "Hör zu!"
 
-	para "I collect #MON"
-	line "plush dolls."
+	para "Ich sammle"
+	line "#MON-Puppen"
+	cont "aus Plüsch."
 
-	para "But I can't seem"
-	line "to get a hold of a"
+	para "Aber ich habe"
+	line "keine SURFER-"
 
-	para "SURF PIKACHU DOLL."
-	line "None of my friends"
+	para "PIKACHU-PUPPE."
+	line "Auch keiner meiner"
 
-	para "have it. It must"
-	line "be totally rare!"
+	para "Freunde hat eine!"
+	line "Sie ist eine"
+	cont "Seltenheit!"
 
-	para "You could really"
-	line "brag about it if"
-	cont "you had one."
+	para "Du könntest wirk-"
+	line "lich damit ange-"
+	cont "ben, wenn du eine"
+	cont "hättest!"
 	done
 
 UnknownText_0x1764eb:
-	text "Listen, listen!"
+	text "Hör zu!"
 
-	para "Do you know about"
-	line "MOOMOO MILK?"
+	para "Weißt du Bescheid"
+	line "über die KUHMUH-"
+	cont "MILCH? Du kannst"
 
-	para "You can buy it at"
-	line "MOOMOO FARM."
+	para "sie auf der KUH-"
+	line "MUH-FARM kaufen."
 
-	para "It's supposed to"
-	line "be good for health"
+	para "Sie soll gut für"
+	line "die Gesundheit und"
 
-	para "and beauty."
-	line "I really want to"
+	para "Schönheit sein."
+	line "Ich möchte sie"
 
-	para "try some. I bet"
-	line "it's delicious!"
+	para "probieren. Ich"
+	line "wette, sie ist"
+	cont "köstlich!"
 	done
 
 UnknownText_0x176599:
-	text "Listen, listen!"
+	text "Hör zu!"
 
-	para "There's a #MON"
-	line "SALON in WESTPORT"
+	para "In PORT ABANISHI"
+	line "gibt es einen"
+	cont "#MON-SALON, der"
+	cont "von zwei Brüdern"
+	cont "geleitet wird."
 
-	para "that's run by two"
-	line "brothers."
+	para "Der Ältere ist"
+	line "gut, der Jüngere"
 
-	para "The older brother"
-	line "is good, but the"
+	para "ist nicht ganz"
+	line "so gut."
 
-	para "younger one really"
-	line "isn't."
+	para "Aber manchmal er-"
+	line "ledigt der Jüngere"
 
-	para "But sometimes the"
-	line "younger one does a"
+	para "die Aufgabe bes-"
+	line "ser als sein"
+	cont "Bruder."
 
-	para "better job than"
-	line "his brother."
+	para "Bei jedem Besuch"
+	line "fällt es mir"
 
-	para "Every time I go, I"
-	line "have a hard time"
-
-	para "trying to decide"
-	line "whom I should use…"
+	para "schwer, einen"
+	line "auszuwählen…"
 	done
 
 UnknownText_0x1766ac:
-	text "Listen, listen!"
+	text "Hör zu!"
 
-	para "TEKNOS GYM's"
-	line "WHITNEY began"
+	para "BIANKA, die ARENA-"
+	line "LEITERIN von"
 
-	para "battling only a"
-	line "little while ago!"
+	para "GENEOS CITY hat"
+	line "erst vor kurzem"
 
-	para "But the #MON"
-	line "LEAGUE chose her"
-	cont "as a GYM LEADER!"
+	para "mit dem Training"
+	line "begonnen!"
 
-	para "I bet she must be"
-	line "totally talented."
+	para "Aber die #MON"
+	line "LIGA hat sie zur"
+	cont "ARENALEITERIN"
+	cont "gewählt!"
+
+	para "Ich wette, sie hat"
+	line "sehr viel Talent."
 	done
 
 UnknownText_0x17674f:
-	text "Listen, listen!"
+	text "Hör zu!"
 
-	para "Have you ever"
-	line "taken part in a"
+	para "Hast du je am"
+	line "Käferturnier im"
 
-	para "Bug-Catching"
-	line "Contest at the"
-	cont "NATIONAL PARK?"
+	para "NATIONALPARK teil-"
+	line "genommen?"
 
-	para "I did once, but"
-	line "all I could catch"
-	cont "was a CATERPIE."
+	para "Ich nahm ein Mal"
+	line "teil, aber ich"
+	cont "fing nur ein"
+	cont "RAUPY."
 
-	para "But guess what!"
+	para "Aber, tata!"
 
-	para "I won with that"
-	line "CATERPIE. Isn't"
-	cont "that great?"
+	para "Ich habe mit dem"
+	line "RAUPY gewonnen."
+	cont "Ist das nicht"
+	cont "großartig?"
 	done
 
 UnknownText_0x176816:
-	text "Listen, listen!"
+	text "Hör zu!"
 
-	para "I saw a beautiful"
-	line "@"
+	para "@"
 	text_ram wStringBuffer4
-	text "!"
+	text_start
+	line "begegnete mir!"
 
-	para "I wish I could"
-	line "become a beautiful"
+	para "Ich wünschte, ich"
+	line "wäre wie"
 	cont "@"
 	text_ram wStringBuffer4
-	text " too."
+	text "."
 	done
 
 UnknownText_0x17686d:
-	text "Listen, listen!"
+	text "Hör zu!"
 
-	para "Uh… Um… Whoops!"
+	para "Uh… Ähm… Ups!"
 
-	para "I forgot what I"
-	line "was going to say!"
+	para "Ich vergaß, was"
+	line "ich sagen wollte!"
 	done
 
 UnknownText_0x1768b0:
-	text "Listen, listen!"
+	text "Hör zu!"
 
-	para "My @"
+	para "Mein @"
 	text_ram wStringBuffer4
 	text "…"
-	line "it… so pretty…"
+	line "es… ist so schön…"
 
-	para "and… giggle… so"
-	line "awesome… yes… but…"
+	para "und… kicher… so"
+	line "toll… ja… aber…"
 
-	para "very much… eeek!"
-	line "And… lovely…"
+	para "sehr… ieeek!"
+	line "Und… liebenswert…"
 
-	para "Just ravishing…"
-	line "Oh, too much!"
+	para "Einfach wunderbar…"
+	line "Oh, zu viel!"
 
-	para "…Hug it… sleeping…"
-	line "That's right…"
+	para "…Umarme es…"
+	line "wenn es schläft…"
+	cont "Jawohl…"
 
-	para "pretty… sigh… So"
-	line "nice… Cute…"
+	para "schön… seufz… so"
+	line "schön… niedlich…"
 
-	para "…Oops! Look at the"
-	line "time! I chatted"
-	cont "too long!"
+	para "…Ups! Sieh auf die"
+	line "Uhr! Ich plauderte"
+	cont "zu lang!"
 
-	para "I'm sorry I took"
-	line "so much of your"
+	para "Entschuldigung,"
+	line "dass ich so viel"
 
-	para "time!"
-	line "I love chatting!"
+	para "deiner Zeit in"
+	line "Anspruch nahm!"
+
+	para "Ich liebe es zu"
+	line "plaudern!"
 	done
 
 UnknownText_0x1769da:
-	text "I've got too much"
-	line "time on my hands!"
+	text "Ich habe zu viel"
+	line "Zeit! Lass uns"
+	cont "sofort kämpfen!"
 
-	para "Let's battle right"
-	line "away!"
-
-	para "I'll be waiting on"
+	para "Hier warte ich:"
 	line "@"
 	text_ram wStringBuffer5
 	text "!"
 	done
 
 AnthonyAteBerriesText:
-	text "The other day, I"
-	line "was watching my"
+	text "Neulich sah ich,"
+	line "wie mein"
 
 	para "@"
 	text_ram wStringBuffer4
-	text " eat"
-	line "some BERRIES."
+	text " einige"
+	line "BEEREN fraß."
 
-	para "It looked like it"
-	line "was enjoying its"
+	para "Es schien das Mahl"
+	line "zu genießen. Also"
 
-	para "meal, so I decided"
-	line "to try some."
+	para "aß ich auch"
+	line "welche."
 
-	para "I'm not sure if"
-	line "people should eat"
-
-	para "that stuff, but it"
-	line "was delicious!"
+	para "Ich weiß nicht, ob"
+	line "die Leute sie es-"
+	cont "sen sollten, aber"
+	cont "sie schmecken gut!"
 	done
 
 UnknownText_0x176aef:
-	text "Lately, I've been"
-	line "running across"
+	text "In letzter Zeit"
+	line "sind mir viele"
 
-	para "wild @"
+	para "wilde @"
 	text_ram wStringBuffer4
 	text_start
-	line "quite often."
+	line "begegnet."
 
-	para "They're easily"
-	line "taken care of."
+	para "Sie sind kein"
+	line "großes Problem."
 	done
 
 UnknownText_0x176b45:
-	text "Oh yeah, I was"
-	line "battling this"
-
-	para "@"
+	text "Oh yo, ich kämpfte"
+	line "neulich gegen"
+	cont "dieses @"
 	text_ram wStringBuffer4
-	text " the"
-	line "other day…"
+	text "…"
 
-	para "It took off when I"
-	line "got distracted by"
-	cont "a passing BEAUTY."
+	para "Es ist mir ent-"
+	line "wischt, als ich"
 
-	para "Learn from my"
-	line "mistake--always"
+	para "einer vorbeilau-"
+	line "fenden SCHÖNHEIT"
+	cont "nachsah."
 
-	para "stay focused on"
-	line "the job at hand!"
+	para "Lerne von meinem"
+	line "Fehler - konzen-"
+	cont "triere dich immer"
+	cont "auf die Aufgabe"
+	cont "vor dir!"
 	done
 
 UnknownText_0x176bee:
-	text "Come on--let's"
-	line "battle right now!"
+	text "Komm schon, lass"
+	line "uns jetzt kämpfen!"
 
-	para "@"
+	para "Ich warte hier:"
+	line "@"
 	text_ram wStringBuffer5
-	text " is"
-	line "where I am."
+	text "."
 
-	para "Come on down if"
-	line "you feel up to it!"
+	para "Schau vorbei, wenn"
+	line "du Lust hast!"
 	done
 
 UnknownText_0x176c47:
-	text "All right then!"
-	line "Be good!"
+	text "In Ordnung!"
+	line "Bleib sauber!"
 	done
 
 UnknownText_0x176c61:
-	text "<PLAYER>! It's"
-	line "mind-blowing!"
+	text "<PLAYER>! Es ist"
+	line "nicht zu fassen!"
 
-	para "I took a hike in"
-	line "@"
+	para "Gestern wanderte"
+	line "ich hier:"
+	cont "@"
 	text_ram wStringBuffer5
-	text_start
-	cont "yesterday, see?"
+	text "."
 
-	para "Well, there were"
-	line "tons of @"
+	para "Nun, da waren"
+	line "viele @"
+	text_ram wStringBuffer4
+	text "!"
+	para "Das musst du"
+	line "sehen!"
+
+	para "Ich habe das Ge-"
+	line "fühl, dass"
+
+	para "@"
 	text_ram wStringBuffer4
 	text_start
-	para "around! You have"
-	line "to see it!"
+	line "schüchtern sind."
 
-	para "I get this feeling"
-	line "that @"
-	text_ram wStringBuffer4
-	text_start
-	para "may be timid."
-	line "I didn't see any"
+	para "Ich habe sie nie"
+	line "in der Nähe von"
 
-	para "where there are"
-	line "strong #MON."
+	para "starken #MON"
+	line "gesehen."
 	done
 
 UnknownText_0x176d32:
-	text "Rare #MON?"
+	text "Seltene #MON?"
 
-	para "Hey, sorry! I was"
-	line "too focused on my"
+	para "Entschuldige! Ich"
+	line "war zu sehr mit"
 
-	para "hike, so I wasn't"
-	line "paying attention."
+	para "Wandern beschäf-"
+	line "tigt, um darauf"
+	cont "zu achten."
 	done
 
 UnknownText_0x176d85:
-	text "Hello! You haven't"
-	line "forgotten about"
+	text "Hallo! Du hast un-"
+	line "seren Kampf nicht"
 
-	para "our battle, have"
-	line "you?"
+	para "vergessen, oder"
+	line "etwa doch?"
 
 	para "@"
 	text_ram wStringBuffer5
 	text "!"
-	line "I'm waiting!"
+	line "Ich warte!"
 	done
 
 UnknownText_0x176dd1:
-	text "Hello? What? Where"
-	line "are the EEVEE?"
+	text "Hallo? Was? Wo"
+	line "EVOLI sind?"
 
-	para "ROUTE 106! Hurry!"
+	para "ROUTE 106! Auf!"
 
-	para "I know I've said"
-	line "it before, but"
+	para "Ich weiß, ich habe"
+	line "es schon erwähnt,"
 
-	para "EEVEE won't be"
-	line "around long!"
+	para "aber die EVOLI"
+	line "werden nicht lange"
+	cont "bleiben."
 	done
 
 ToddLooksCuteLikeMeText:
-	text "My @"
+	text "Mein @"
 	text_ram wStringBuffer4
-	text " is"
-	line "looking more and"
+	text_start
+	line "wird mir immer"
 
-	para "more like me. It's"
-	line "getting cuter!"
+	para "ähnlicher. Es wird"
+	line "immer niedlicher!"
 	done
 
 UnknownText_0x176e9c:
-	text "And, you know?"
+	text "Und, weißt du?"
 
-	para "Now we can KO"
+	para "Jetzt können wir"
 	line "@"
 	text_ram wStringBuffer4
-	text " easily."
+	text " leicht"
+	cont "K.O. schlagen."
 
-	para "I should challenge"
-	line "the GOLDENROD GYM."
+	para "Ich sollte die"
+	line "LEITERIN von"
+
+	para "DUKATIA heraus-"
+	line "fordern."
 	done
 
 UnknownText_0x176eee:
-	text "And, you know?"
-	line "We just failed to"
+	text "Und, pass auf!"
+	line "Wir haben nur"
 
-	para "beat @"
+	para "knapp gegen"
+	line "@"
 	text_ram wStringBuffer4
-	text " by"
-	line "a tiny margin."
+	text_start
+	cont "verloren."
 
-	para "I'm guessing my"
-	line "#MON's levels"
+	para "Ich denke, die Le-"
+	line "vel meiner #MON"
 
-	para "aren't high enough"
-	line "yet…"
+	para "sind noch nicht"
+	line "hoch genug…"
 	done
 
 UnknownText_0x176f60:
-	text "You must be a lot"
-	line "better now, huh?"
+	text "Du musst jetzt"
+	line "viel besser sein?"
 
-	para "How about showing"
-	line "me your technique"
+	para "Warum zeigst du"
+	line "mir nicht deine"
 
-	para "in a real battle"
-	line "with me?"
+	para "Technik in einem"
+	line "wahren Kampf?"
 
-	para "I'll be waiting on"
+	para "Ich warte hier:"
 	line "@"
 	text_ram wStringBuffer5
 	text "."
 	done
 
 UnknownText_0x176fdb:
-	text "See you later!"
+	text "Bis später!"
 	done
 
 UnknownText_0x176feb:
-	text "This is it--the"
-	line "one we've all been"
-	cont "waiting for!"
+	text "Jawohl, darauf"
+	line "haben wir alle"
+	cont "gewartet!"
 
-	para "CELADON DEPT."
-	line "STORE's bargain"
-	cont "sale is on now!"
+	para "Im KAUFHAUS"
+	line "von DUKATIA gibt"
+	cont "es jetzt Angebote!"
 
-	para "Want it cheap?"
-	line "Want it lots?"
+	para "Niedrige Preise?"
+	line "Große Auswahl?"
 
-	para "Don't miss this"
-	line "CELADON chance!"
+	para "Verpass nicht die"
+	line "Chance in DUKATIA!"
 
-	para "Huh? I sound like"
-	line "a huckster?"
+	para "Ich klinge wie ein"
+	line "Marktschreier?"
 
-	para "Well, yeah. I was"
-	line "mimicking them…"
+	para "Nun, ja. Ich habe"
+	line "sie imitiert…"
 
-	para "Anyway, you've got"
-	line "to get there as"
-	cont "soon as you can!"
+	para "Egal, du musst"
+	line "so schnell wie"
+	cont "möglich dorthin!"
 	done
 
 UnknownText_0x1770fb:
-	text "I'm saving up for"
-	line "the next bargain"
+	text "Ich spare schon"
+	line "für die nächsten"
 
-	para "sale. When's the"
-	line "next one?"
+	para "Angebote. Wann"
+	line "kommen sie?"
 	done
 
 UnknownText_0x177138:
-	text "Where are you?"
+	text "Wo bist du?"
 
-	para "Let's have our"
-	line "battle soon!"
+	para "Lass uns bald"
+	line "kämpfen!"
 
-	para "I'll be waiting on"
+	para "Ich warte hier:"
 	line "@"
 	text_ram wStringBuffer5
 	text "."
 	done
 
 UnknownText_0x17717c:
-	text "Haven't you gone"
-	line "to CELADON DEPT."
+	text "Warst du schon im"
+	line "KAUFHAUS von"
 
-	para "STORE? I've scoped"
-	line "it out already!"
+	para "DUKATIA CITY? Ich"
+	line "war schon dort und"
 
-	para "They had some real"
-	line "bargains."
+	para "habe Schnäppchen"
+	line "gemacht."
 
-	para "You should get"
-	line "there quickly."
+	para "Du musst dich"
+	line "beeilen."
+	done
 	done
 
 UnknownText_0x1771fd:

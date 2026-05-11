@@ -69,7 +69,7 @@ OddEgg1:
 	bigdw 12 ; Spd
 	bigdw 9 ; SAtk
 	bigdw 9 ; SDef
-	db "EGG@@@@@@@@"
+	db "EI@@@@@@@@@"
 	
 OddEgg2:
 	db PICHU
@@ -96,7 +96,7 @@ OddEgg2:
 	bigdw 12 ; Spd
 	bigdw 9 ; SAtk
 	bigdw 9 ; SDef
-	db "EGG@@@@@@@@"
+	db "EI@@@@@@@@@"
 	
 	db PICHU
 	db NO_ITEM
@@ -122,7 +122,7 @@ OddEgg2:
 	bigdw 12 ; Spd
 	bigdw 9 ; SAtk
 	bigdw 9 ; SDef
-	db "EGG@@@@@@@@"
+	db "EI@@@@@@@@@"
 	
 	db PICHU
 	db NO_ITEM
@@ -148,7 +148,7 @@ OddEgg2:
 	bigdw 12 ; Spd
 	bigdw 9 ; SAtk
 	bigdw 9 ; SDef
-	db "EGG@@@@@@@@"
+	db "EI@@@@@@@@@"
 
 	IF DEF(_GOLD)
 	db CLEFFA
@@ -184,7 +184,7 @@ OddEgg2:
 	bigdw 7 ; Spd
 	bigdw 10 ; SAtk
 	bigdw 8 ; SDef
-	db "EGG@@@@@@@@"
+	db "EI@@@@@@@@@"
 
 	IF DEF(_GOLD)
 	db CLEFFA
@@ -220,7 +220,7 @@ OddEgg2:
 	bigdw 7 ; Spd
 	bigdw 10 ; SAtk
 	bigdw 8 ; SDef
-	db "EGG@@@@@@@@"
+	db "EI@@@@@@@@@"
 	
 	IF DEF(_GOLD)
 	db CLEFFA
@@ -256,7 +256,7 @@ OddEgg2:
 	bigdw 7 ; Spd
 	bigdw 10 ; SAtk
 	bigdw 8 ; SDef
-	db "EGG@@@@@@@@"
+	db "EI@@@@@@@@@"
 	
 	IF DEF(_GOLD)
 	db CLEFFA
@@ -292,7 +292,7 @@ OddEgg2:
 	bigdw 7 ; Spd
 	bigdw 10 ; SAtk
 	bigdw 8 ; SDef
-	db "EGG@@@@@@@@"
+	db "EI@@@@@@@@@"
 	
 	db BALLERINE
 	db NO_ITEM
@@ -318,7 +318,7 @@ OddEgg2:
 	bigdw 7 ; Spd
 	bigdw 10 ; SAtk
 	bigdw 10 ; SDef
-	db "EGG@@@@@@@@"
+	db "EI@@@@@@@@@"
 	
 	db BALLERINE
 	db NO_ITEM
@@ -344,7 +344,7 @@ OddEgg2:
 	bigdw 7 ; Spd
 	bigdw 10 ; SAtk
 	bigdw 10 ; SDef
-	db "EGG@@@@@@@@"
+	db "EI@@@@@@@@@"
 	
 	db BALLERINE
 	db NO_ITEM
@@ -370,7 +370,7 @@ OddEgg2:
 	bigdw 7 ; Spd
 	bigdw 10 ; SAtk
 	bigdw 10 ; SDef
-	db "EGG@@@@@@@@"
+	db "EI@@@@@@@@@"
 
 	db BALLERINE
 	db NO_ITEM
@@ -396,7 +396,7 @@ OddEgg2:
 	bigdw 7 ; Spd
 	bigdw 10 ; SAtk
 	bigdw 10 ; SDef
-	db "EGG@@@@@@@@"
+	db "EI@@@@@@@@@"
 
 	db SMOOCHUM
 	db NO_ITEM
@@ -422,7 +422,7 @@ OddEgg2:
 	bigdw 12 ; Spd
 	bigdw 14 ; SAtk
 	bigdw 12 ; SDef
-	db "EGG@@@@@@@@"
+	db "EI@@@@@@@@@"
 
 	db SMOOCHUM
 	db NO_ITEM
@@ -448,7 +448,7 @@ OddEgg2:
 	bigdw 12 ; Spd
 	bigdw 14 ; SAtk
 	bigdw 12 ; SDef
-	db "EGG@@@@@@@@"
+	db "EI@@@@@@@@@"
 
 	db MAGBY
 	db NO_ITEM
@@ -474,7 +474,7 @@ OddEgg2:
 	bigdw 14 ; Spd
 	bigdw 13 ; SAtk
 	bigdw 11 ; SDef
-	db "EGG@@@@@@@@"
+	db "EI@@@@@@@@@"
 
 	db MAGBY
 	db NO_ITEM
@@ -500,7 +500,7 @@ OddEgg2:
 	bigdw 14 ; Spd
 	bigdw 13 ; SAtk
 	bigdw 11 ; SDef
-	db "EGG@@@@@@@@"
+	db "EI@@@@@@@@@"
 	
 	db MAGBY
 	db NO_ITEM
@@ -526,7 +526,7 @@ OddEgg2:
 	bigdw 14 ; Spd
 	bigdw 13 ; SAtk
 	bigdw 11 ; SDef
-	db "EGG@@@@@@@@"
+	db "EI@@@@@@@@@"
 	
 	db MAGBY
 	db NO_ITEM
@@ -552,7 +552,7 @@ OddEgg2:
 	bigdw 14 ; Spd
 	bigdw 13 ; SAtk
 	bigdw 11 ; SDef
-	db "EGG@@@@@@@@"
+	db "EI@@@@@@@@@"
 
 	db ELEBABE
 	db NO_ITEM
@@ -578,7 +578,7 @@ OddEgg2:
 	bigdw 15 ; Spd
 	bigdw 12 ; SAtk
 	bigdw 11 ; SDef
-	db "EGG@@@@@@@@"
+	db "EI@@@@@@@@@"
 
 	db ELEBABE
 	db NO_ITEM
@@ -604,7 +604,7 @@ OddEgg2:
 	bigdw 15 ; Spd
 	bigdw 12 ; SAtk
 	bigdw 11 ; SDef
-	db "EGG@@@@@@@@"
+	db "EI@@@@@@@@@"
 	
 	db ELEBABE
 	db NO_ITEM
@@ -630,7 +630,7 @@ OddEgg2:
 	bigdw 15 ; Spd
 	bigdw 12 ; SAtk
 	bigdw 11 ; SDef
-	db "EGG@@@@@@@@"
+	db "EI@@@@@@@@@"
 	
 	db ELEBABE
 	db NO_ITEM
@@ -656,7 +656,7 @@ OddEgg2:
 	bigdw 15 ; Spd
 	bigdw 12 ; SAtk
 	bigdw 11 ; SDef
-	db "EGG@@@@@@@@"
+	db "EI@@@@@@@@@"
 
 	db TYROGUE
 	db NO_ITEM
@@ -682,7 +682,7 @@ OddEgg2:
 	bigdw 9 ; Spd
 	bigdw 9 ; SAtk
 	bigdw 9 ; SDef
-	db "EGG@@@@@@@@"
+	db "EI@@@@@@@@@"
 
 	db TYROGUE
 	db NO_ITEM
@@ -708,4 +708,4 @@ OddEgg2:
 	bigdw 9 ; Spd
 	bigdw 9 ; SAtk
 	bigdw 9 ; SDef
-	db "EGG@@@@@@@@"
+	db "EI@@@@@@@@@"

@@ -1,4 +1,4 @@
-
+;TODO Texte lokalisieren
 UnknownText_0x64000:
 	text "I hate having to"
 	line "hang up on you!"
@@ -285,206 +285,204 @@ UnknownText_0x648dc:
 	done
 
 ArnieLovesTheCuteText:
-	text "I'm always with my"
-	line "@"
+	text "Mein @"
 	text_ram wStringBuffer4
-	text "!"
+	text_start
+	line "ist immer dabei!"
 
-	para "It's so cute!"
-	line "I just love it!"
+	para "Es ist so süß!"
+	line "Ich liebe es!"
 	done
 
 UnknownText_0x64a13:
-	text "Changing the topic"
-	line "here, I saw this"
-
-	para "@"
+	text "Themawechsel! Ich"
+	line "sah zum ersten Mal"
+	cont "ein @"
 	text_ram wStringBuffer4
-	text " for the"
-	line "first time."
+	text "."
 
-	para "It was easy to"
-	line "beat, actually."
+	para "Es war einfach zu"
+	line "besiegen."
 	done
 
 UnknownText_0x64a71:
-	text "I was wondering,"
-	line "do you happen to"
-	cont "have @"
+	text "Ich fragte mich,"
+	line "ob du zufällig ein"
+	cont "@"
 	text_ram wStringBuffer4
-	text "?"
+	text " hast?"
 
-	para "I can't seem to"
-	line "catch one. What is"
+	para "Ich kann keines"
+	line "fangen. Was ist"
 
-	para "its weakness, I"
-	line "wonder."
+	para "wohl seine"
+	line "Schwäche?"
 	done
 
 UnknownText_0x64ada:
-	text "Hey, let's battle"
-	line "our #MON!"
+	text "Heh, lass unsere"
+	line "#MON kämpfen!"
 
-	para "I won't lose to"
-	line "you battling or in"
+	para "Ich verliere weder"
+	line "im Kampf noch im"
 
-	para "the Bug-Catching"
-	line "Contest!"
+	para "Käferturnier"
+	line "gegen dich!"
 
-	para "I'll be here on"
+	para "Ich bin hier:"
 	line "@"
 	text_ram wStringBuffer5
 	text "!"
 	done
 
 UnknownText_0x64b48:
-	text "Let's talk again,"
-	line "huh?"
+	text "Lass uns erneut"
+	line "plaudern?"
 	done
 
 UnknownText_0x64b5f:
-	text "Boy, am I glad I"
-	line "caught you!"
+	text "Bin ich froh, dass"
+	line "ich dich noch"
+	cont "erwische!"
 
-	para "A whole bunch of"
+	para "Ein ganzer Schwarm"
 	line "@"
 	text_ram wStringBuffer4
-	text " have"
+	text " ist"
 
-	para "appeared around"
+	para "hier aufgetaucht:"
 	line "@"
 	text_ram wStringBuffer5
 	text "!"
 
-	para "You have to see"
-	line "this!"
+	para "Das musst du dir"
+	line "ansehen!"
 	done
 
 UnknownText_0x64bc6:
-	text "I haven't had any"
-	line "luck seeing rare"
-	cont "#MON lately…"
+	text "In letzter Zeit"
+	line "hatte ich kein"
 
-	para "But I know they're"
-	line "out there!"
+	para "Glück, seltene"
+	line "#MON zu sehen…"
+
+	para "Aber ich weiß,"
+	line "dass sie da sind!"
 	done
 
 UnknownText_0x64c13:
-	text "Hey, where are you"
-	line "now?"
+	text "Heh, wo bist du"
+	line "jetzt?"
 
-	para "Let's battle. I'll"
-	line "be waiting for you"
-	cont "on @"
+	para "Lass uns kämpfen."
+	line "Ich warte hier:"
+	cont "@"
 	text_ram wStringBuffer5
 	text "!"
 	done
 
 UnknownText_0x64c5a:
-	text "Hello? Are you"
-	line "coming or what?"
+	text "Hallo? Kommst du"
+	line "oder nicht?"
 
-	para "You're missing out"
-	line "on seeing CORASUN!"
+	para "Du verpasst YANMA"
+	line "zu sehen!"
 
-	para "Get down to ROUTE"
-	line "35 right now!"
+	para "Komm sofort zu"
+	line "ROUTE 35!"
 	done
 
 AlanGettingStrongerText:
-	text "My @"
+	text "Mein @"
 	text_ram wStringBuffer4
-	text "'s"
-	line "getting stronger,"
-
-	para "exactly as I"
-	line "calculated!"
+	text_start
+	line "wird immer stär-"
+	cont "ker, womit ich"
+	cont "gerechnet habe!"
 	done
 
 UnknownText_0x64cf3:
-	text "By the way, we"
-	line "knocked out a wild"
+	text "Apropos, wir"
+	line "besiegten neulich"
 
-	para "@"
+	para "ein wildes"
+	line "@"
 	text_ram wStringBuffer4
-	text " just"
-	line "the other day."
+	text "."
 
-	para "Studying up in"
-	line "advance worked!"
+	para "Die richtige Vor-"
+	line "bereitung lohnt!"
 	done
 
 UnknownText_0x64d4f:
-	text "By the way, a wild"
-	line "@"
+	text "Übrigens, gestern"
+	line "entkam mir ein"
+	cont "wildes @"
 	text_ram wStringBuffer4
-	text " escaped"
-	cont "on me yesterday."
+	text "."
 
-	para "A computational"
-	line "error on my part…"
+	para "Ein Berechnungs-"
+	line "fehler von mir…"
 	done
 
 UnknownText_0x64da4:
-	text "I've studied quite"
-	line "a bit since then,"
+	text "Ich habe seitdem"
+	line "einiges gelernt"
 
-	para "and I've gotten a"
-	line "lot better!"
+	para "und ich wurde viel"
+	line "besser!"
 
-	para "I'm hanging out on"
+	para "Ich bin hier:"
 	line "@"
 	text_ram wStringBuffer5
 	text "."
 
-	para "Can you come down"
-	line "for a battle?"
+	para "Schau doch auf ei-"
+	line "nen Kampf vorbei?"
 	done
 
 UnknownText_0x64e1f:
-	text "See you later!"
+	text "Bis später!"
 	done
 
 UnknownText_0x64e2f:
-	text "Hehehe, I picked"
-	line "up something nice!"
+	text "Hehehe, ich fand"
+	line "etwas Schönes!"
 
-	para "You can have it!"
-	line "Why don't you come"
-
-	para "to @"
+	para "Es gehört dir!"
+	line "Hole es dir hier:"
+	cont "@"
 	text_ram wStringBuffer5
-	text_start
-	line "and pick it up?"
 	done
 
 UnknownText_0x64e90:
-	text "I haven't picked"
-	line "up anything yet."
+	text "Ich habe noch"
+	line "nichts gefunden."
 
-	para "I'll call you if I"
-	line "find something."
+	para "Ich rufe an, wenn"
+	line "ich etwas finde."
 	done
 
 UnknownText_0x64ed4:
-	text "If we don't battle"
-	line "soon, I'll forget"
-	cont "my strategy!"
+	text "Falls wir nicht"
+	line "bald kämpfen, ver-"
+	cont "gesse ich meine"
+	cont "Strategie!"
 
-	para "I'm waiting on"
+	para "Ich warte hier:"
 	line "@"
 	text_ram wStringBuffer5
 	text "!"
 	done
 
 UnknownText_0x64f1a:
-	text "I have to do my"
-	line "homework, so can"
+	text "Ich muss meine"
+	line "Hausaufgaben"
 
-	para "you come get your"
-	line "gift right away?"
+	para "machen, kannst du"
+	line "gleich herkommen?"
 
-	para "I'm waiting on"
+	para "Ich warte hier:"
 	line "@"
 	text_ram wStringBuffer5
 	text "!"

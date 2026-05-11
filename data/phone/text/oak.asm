@@ -1,272 +1,300 @@
 OakPhoneStartText:
-	text "Hello, <PLAY_G>?"
+	text "Hallo, <PLAY_G>?"
 
-	para "Try not to overdo"
-	line "it."
+	para "Übertreib es"
+	line "nicht."
 
-	para "Be sure to heal"
-	line "your #MON if"
-	cont "they are hurt."
+	para "Heile deine #-"
+	line "MON, falls sie"
+	cont "verletzt sind."
 	done
 
 OakPhoneSawMrPokemonText:
-	text "Hello, <PLAY_G>?"
+	text "Hallo, <PLAY_G>?"
 
-	para "Did you meet MR."
-	line "#MON? Great!"
-	cont "Come back safely!"
+	para "Hast du MR. #-"
+	line "MON getroffen? "
+	cont "Komm heil wieder!"
 	done
 
 OakPhonePokemonStolenText:
-	text "<PLAY_G>? I'm very"
-	line "upset now."
+	text "<PLAY_G>? Ich bin"
+	line "sehr verärgert."
 
-	para "We had a #MON"
-	line "stolen from here."
+	para "Uns wurde ein"
+	line "#MON gestohlen."
 
-	para "How could anyone"
-	line "do that?"
+	para "Wie kann man so"
+	line "etwas nur tun?"
 	done
 
 OakPhoneAssistantText:
-	text "Hello, <PLAY_G>?"
+	text "Hallo, <PLAY_G>?"
 
-	para "Did you see my"
-	line "assistant? He's at"
+	para "Hast du meinen"
+	line "Assistenten"
 
-	para "the #MON CENTER"
-	line "in PAGOTA CITY."
+	para "getroffen? Er ist"
+	line "im #MON-CENTER"
+	cont "in PAGETIA CITY."
 	done
 
 OakPhoneTakingOnLeagueText:
-	text "Hello, <PLAY_G>?"
-	line "I hear you're"
-	para "taking the NIHON"
-	line "#MON LEAGUE"
-	cont "challenge."
-	para "That's great!"
-	line "I'm sure you've"
-	para "got a fighting"
-	line "chance to do"
-	cont "great things!"
+	text "Hallo, <PLAY_G>?"
+	line "Ich habe gehört,"
+	para "du willst dich der"
+	line "NIHON #MON LIGA"
+	cont "stellen?"
+
+	para "Das ist großartig!"
+	line "Ich bin sicher, du"
+	para "du hast das Zeug,"
+	line "um Großes zu"
+	cont "erreichen!"
 	done
 
 OakPhoneEggHatchedText:
-	text "Hello, <PLAY_G>?"
-	line "I hear you're"
-	para "taking the NIHON"
-	line "#MON LEAGUE"
-	cont "challenge."
-	para "That's great!"
-	line "I'm sure you've"
-	para "got a fighting"
-	line "chance to do"
-	cont "great things!"
+	text "Hallo, <PLAY_G>?"
+	line "Ich habe gehört,"
+	para "du willst dich der"
+	line "NIHON #MON LIGA"
+	cont "stellen?"
+
+	para "Das ist großartig!"
+	line "Ich bin sicher, du"
+	para "du hast das Zeug,"
+	line "um Großes zu"
+	cont "erreichen!"
 	done
 
 OakPhoneRocketsText:
-	text "Hello, <PLAY_G>?"
+	text "Hallo, <PLAY_G>?"
 
-	para "I worry that TEAM"
-	line "ROCKET is planning"
-	para "something truly"
-	line "terrible…"
-	para "But you don't need"
-	line "to dwell on that!"
-	para "Keep up the great"
-	line "work with catching"
-	para "#MON and the"
-	line "LEAGUE challenge!"
+    para "Ich befürchte,"
+    line "dass TEAM ROCKET"
+    para "etwas wirklich"
+    line "Schreckliches"
+    cont "plant…"
+
+    para "Aber mach dir"
+    line "darüber keine"
+    cont "Gedanken!"
+
+    para "Fülle weiter den"
+    line "#DEX und sammle"
+    cont "alle ARENA-ORDEN!"
 	done
 
 OakPhoneDiscovery2Text:
-	text "Hello, <PLAY_G>?"
+	text "Hallo, <PLAY_G>?"
 
-	para "It's still a"
-	line "mystery what kinds"
+	para "Es ist noch nicht"
+	line "gelöst, welche"
 
-	para "of moves hatched"
-	line "#MON have."
+	para "Attacken junge"
+	line "#MON haben."
 
-	para "We're investigat-"
-	line "ing that now."
+	para "Das untersuchen"
+	line "wir jetzt."
 	done
 
 OakPhonePokerusText:
-	text "Hello, <PLAY_G>?"
+	text "Hallo, <PLAY_G>?"
 
-	para "I discovered an"
-	line "odd thing."
+	para "Ich habe etwas"
+	line "Seltsames"
+	cont "entdeckt."
 
-	para "Apparently there's"
-	line "something called"
+	para "Scheinbar gibt es"
+	line "einen sogenannten"
 
-	para "#RUS that in-"
-	line "fects #MON."
+	para "#RUS, der"
+	line "#MON infiziert."
 
-	para "Yes, it's like a"
-	line "virus, so it's"
-	cont "called #RUS."
+	para "Es ist eine Art"
+	line "Virus und wird"
 
-	para "It multiplies fast"
-	line "and infects other"
+	para "daher #RUS"
+	line "genannt."
 
-	para "#MON too. But"
-	line "that's all."
+	para "Es vermehrt sich"
+	line "rapide und infi-"
+	cont "ziert andere #-"
+	cont "MON. Das ist"
+	cont "alles."
 
-	para "It doesn't seem to"
-	line "do anything, and"
+	para "Es scheint keine"
+	line "Auswirkungen zu"
 
-	para "it goes away over"
-	line "time."
+	para "haben und ver-"
+	line "schwindet nach"
+	cont "einiger Zeit."
 
-	para "I guess it's"
-	line "nothing to worry"
-	cont "about. Bye!"
+	para "Ich denke, man"
+	line "braucht sich"
+
+	para "darüber keine"
+	line "Sorgen zu machen!"
 	done
 	
 OakAfterRadioTower:
-	text "Hello, <PLAY_G>?"
-	para "So what was going"
-	line "on with TEAM"
-	cont "ROCKET?"
-	para "I heard they were"
-	line "trying to generate"
-	para "a signal that"
-	line "could control"
-	cont "#MON!"
-	para "That's insane!"
-	para "And apparently"
-	line "they had a lackey"
-	cont "who resembled me?"
-	para "That's even more"
-	line "unbelievable!"
-	para "I'm so incredibly"
-	line "proud of you and"
-	para "<RIVAL> for"
-	line "getting rid of"
-	cont "them!"
-	para "When you work with"
-	line "#MON, there's"
-	para "no limit to what"
-	line "you can do!"
+	text "Hallo, <PLAY_G>?"
+
+    para "Also was war da"
+    line "genau mit TEAM"
+    cont "ROCKET los?"
+
+    para "Sie sollen ein"
+    line "Signal erzeugt"
+    para "haben, mit dem"
+    line "sie #MON"
+    para "kontrollieren"
+    cont "können!"
+
+    para "Das ist doch"
+    line "wahnsinnig!"
+
+    para "Und angeblich gab"
+    line "es einen RÜPEL,"
+    para "der mein Zwilling"
+    line "sein könnte?"
+
+    para "Das ist noch viel"
+    line "unglaublicher!"
+
+    para "Ich bin so stolz"
+    line "auf dich und"
+    para "<RIVAL>, dass ihr"
+    line "sie loswerden"
+    cont "konntet!"
+
+    para "Wenn man mit"
+    line "seinen #MON"
+    para "zusammenarbeitet,"
+    line "kann man einfach"
+    cont "alles erreichen!"
 	done
 
 OakPhoneDisasterText:
-	text "Hello, <PLAY_G>?"
-	para "How goes the"
-	line "LEAGUE challenge?"
+	text "Hallo, <PLAY_G>?"
+
+	para "Wie läuft es bei"
+	line "dir so?"
+
 	para "…"
 	
-	para "Ah! You've already"
-	line "acquired three GYM"
-	cont "BADGES!"
+	para "Ah! Du hast schon"
+    line "drei ARENA-ORDEN"
+    cont "erhalten!"
 	
-	para "Very impressive!"
+	para "Beeindruckend!"
 	
-	para "Have you heard"
-	line "of BIRDON TOWN?"
+	para "Hast du schon von"
+	line "TOTOMONIA gehört?"
 	
-	para "It's a small town"
-	line "north of WESTPORT"
-	cont "CITY."
+    para "Es ist eine kleine"
+    line "Stadt nördlich von"
+    para "PORT ABANISHI."
 	
-	para "BIRDON TOWN is"
-	line "known for its"
-	cont "SLOWPOKE WELL."
+	para "TOTOMONIA ist"
+	line "berühmt für seinen"
+	cont "FLEGMONBRUNNEN."
+
+	para "Es wäre der ideale"
+	line "Ort, um die"
+	para "seltsame Beziehung"
+	line "zwischen FLEGMON"
+	para "und DISTURBAN zu"
+	line "untersuchen."
 	
-	para "It would be a good"
-	line "place to study the"
-	cont "odd relationship"
-	cont "between SLOWPOKE"
-	cont "and TURBAN."
+	para "<RIVAL>, BLAU und"
+	line "ich sind auf dem"
+	cont "Weg dorthin."
 	
-	para "<RIVAL>, BLUE,"
-	line "and myself are"
-	cont "heading there now."
-	
-	para "Please join us"
-	line "when you get the"
-	cont "chance!"
+	para "Bitte triff uns"
+	line "dort, wenn du"
+	cont "Zeit hast!"
 	done
 
 OakPhoneEggAssistantText:
-	text "Hello, <PLAY_G>?"
-	para "I hope you and"
-	line "<RIVAL> are"
-	cont "doing well."
-	para "I've sent one of"
-	line "my AIDEs out to"
-	para "the PAGOTA CITY"
-	line "#MON CENTER."
-	para "If you've got a"
-	line "moment, could you"
-	para "meet with him"
-	line "there?"
-	para "Thanks!"
+	text "Hallo, <PLAYER>?"
+	para "Ich hoffe, dir"
+	line "und <RIVAL> geht"
+	cont "es gut."
+
+    para "Mein Assistent ist"
+    line "im #MON-CENTER"
+
+    para "von PAGETIA CITY."
+    line "Sprich doch bitte"
+    cont "mit ihm?"
+
+    para "Danke!"
 	done
 
 OakPhoneRocketText:
-	text "<PLAY_G>, how are"
-	line "things going?"
+	text "<PLAY_G>, wie"
+	line "stehen die Dinge?"
 
-	para "I called because"
-	line "something odd is"
-	cont "happening with the"
-	cont "radio broadcasts."
+	para "Ich rufe an, weil"
+	line "etwas Merkwürdiges"
+	para "mit den Radiosen-"
+	line "dungen geschieht."
 
-	para "They were talking"
-	line "about TEAM ROCKET."
+	para "Sie redeten über"
+	line "TEAM ROCKET."
 
-	para "<PLAY_G>, do you"
-	line "know anything"
-	cont "about it?"
+	para "<PLAYER>, weißt"
+	line "du etwas darüber?"
 
 	para "…"
-	
-	para "Hm? You just dealt"
-	line "with TEAM ROCKET"
-	cont "in STAND CITY?"
 
-	para "What could they be"
-	line "up to?"
+	para "Was? Du hattest"
+	line "erst kürzlich mit"
+	cont "ihnen in SENDESTIA"
+	cont "CITY zu tun?"
 
-	para "If these odd radio"
-	line "broadcasts are"
-	cont "anything to go by,"
+	para "Was könnten sie"
+	line "nur vorhaben?"
+
+	para "Wenn diese seltsa-"
+	line "men Radiosendungen"
+	para "etwas damit zu tun"
+	line "haben, würde ich"
+	para "den JOPM RADIOTURM"
+	line "in PORT ABANISHI"
+	cont "aufsuchen."
+
+	para "Ich versuche mehr"
+	line "darüber herauszu-"
+	cont "finden."
 	
-	para "I'd check the"
-	line "JOPM RADIO TOWER"
-	cont "in WESTPORT CITY."
-	
-	para "I will try and"
-	line "do what I can from"
-	cont "my end."
-	
-	para "Keep me updated!"
+	para "Halt mich auf dem"
+	line "Laufenden!"
 	done
 
 OakPhoneGiftText:
-	text "Hello, <PLAY_G>?"
+	text "Hallo, <PLAY_G>?"
 
-	para "I have something"
-	line "here for you."
+	para "Ich habe hier"
+	line "etwas für dich."
 
-	para "Could you swing by"
-	line "my LAB?"
+	para "Schaust du mal in"
+	line "meinem LABOR"
+	cont "vorbei?"
 
-	para "See you later!"
+	para "Bis später!"
 	done
 
 OakPhoneUnusedText:
-	text "Hello, <PLAY_G>?"
-	line "How's it going?"
+	text "Hallo, <PLAY_G>?"
+	line "Wie steht's?"
 
-	para "I got ahold of"
-	line "something neat."
+	para "Ich habe etwas"
+	line "Tolles für dich."
 
-	para "Swing by my LAB"
-	line "and pick it up!"
+	para "Hol es dir im"
+	line "LABOR ab!"
 
-	para "See you later!"
+	para "Bis die Tage!"
 	done

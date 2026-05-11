@@ -93,89 +93,91 @@ Landmarks:
 	landmark  36, 124, FastShipName
 	; the formula to get these numbers from the X/Y in tilemap studio is: (X or Y) * 8 + 4
 
-SilentTownName:       db "SILENT TOWN@"
-CrownCityName:        db "CROWN CITY@"
-PagotaCityName:       db "PAGOTA CITY@"
-BirdonTownName:       db "BIRDON TOWN@"
-WestportCityName:     db "WESTPORT¯CITY@"
-TeknosCityName:       db "TEKNOS CITY@"
-AlloyCityName:        db "ALLOY CITY@"
-SunpointCityName:     db "SUNPOINT¯CITY@"
-SanskritTownName:     db "SANSKRIT¯TOWN@"
-BlueForestName:       db "BLUE FOREST@"
-BrassTowerName:       db "BRASS TOWER@"
-RuinsOfAlphName:      db "RUINS OF¯ALPH@"
-TidalGrottoName:      db "TIDAL¯GROTTO@"
-BoulderMinesName:     db "BOULDER¯MINES@"
-SlowpokeWellName:     db "SLOWPOKE¯WELL@"
-RadioTowerName:       db "RADIO TOWER@"
-NationalParkName:     db "NATIONAL¯PARK@"
-EndonCaveName:        db "ENDON CAVE@"
-WhirlIslandName:      db "WHIRL¯ISLAND@"
-ForkedStraitName:     db "FORKED¯STRAIT@"
-DragonsMawName:       db "DRAGON'S¯MAW@"
-DeepwaterPassageName: db "DEEPWATER¯PASSAGE@"
-TropicalIslandName:   db "TROPICAL¯ISLAND@"
-KobanIslandName:      db "KOBAN¯ISLAND@"
-CrownPassName:        db "CROWN¯PASS@"
-KumeCityName:         db "KUME CITY@"
-NagoVillageName:      db "NAGO¯VILLAGE@"
-AmamiCityName:        db "AMAMI TOWN@"
-KantoRegionName:      db "KANTO¯REGION@"
-RyukyuCityName:       db "RYUKYU CITY@"
-StandCityName:        db "STAND CITY@"
-FrostpointTownName:   db "FROSTPOINT¯TOWN@"
-NihonLeagueName:      db "NIHON¯LEAGUE@"
-VictoryRoadName:      db "VICTORY¯ROAD@"
-UrasoeParkName:       db "URASOE PARK@"
-CharredSummitName:    db "CHARRED¯SUMMIT@"
-NanjoForestName:      db "NANJO¯FOREST@"
-Route116Name:         db "ROUTE 116@"
-Route117Name:         db "ROUTE 117@"
-Route118Name:         db "ROUTE 118@"
-SunpointDocksName:    db "SUNPOINT¯DOCKS@"
-Route119Name:         db "ROUTE 119@"
-Route120Name:         db "ROUTE 120@"
-Route114Name:         db "ROUTE 114@"
-SeasidePathName:      db "SEASIDE¯PATH@"
-UrasoeTrailName:      db "URASOE¯TRAIL@"
-Route121Name:         db "ROUTE 121@"
-KeramaStraitName:     db "KERAMA¯STRAIT@"
-IsenStraitName:       db "ISEN STRAIT@"
-Route107Name:         db "ROUTE 107@"
-KumePointName:        db "KUME POINT@"
-MeridianPathName:     db "MERIDIAN¯PATH@"
-Route115Name:         db "ROUTE 115@"
-Route101Name:         db "ROUTE 101@"
-Route105Name:         db "ROUTE 105@"
-Route106Name:         db "ROUTE 106@"
-Route112Name:         db "ROUTE 112@"
-Route104Name:         db "ROUTE 104@"
-Route113Name:         db "ROUTE 113@"
-Route103Name:         db "ROUTE 103@"
-Route102Name:         db "ROUTE 102@"
-SilentHillsName:      db "SILENT¯HILLS@"
-Route108Name:         db "ROUTE 108@"
-Route109Name:         db "ROUTE 109@"
-Route110Name:         db "ROUTE 110@"
-Route111Name:         db "ROUTE 111@"
-BoardwalkName:        db "BOARDWALK@"
-AmpareCavernName:     db "AMPARE¯CAVERN@"
-JadeForestName:       db "JADE FOREST@"
-MagmaShaftName:       db "MAGMA SHAFT@"
-FastShipName:         db "FAST SHIP@"
-IcedCavernName:       db "ICED CAVERN@"
-JouleCaveName:        db "JOULE CAVE@"
-BattleTowerName:      db "BATTLE¯TOWER@"
-RainbowIslandName:    db "RAINBOW¯ISLAND@"
-TatsugoPathName:      db "TATSUGO¯PATH@"
-KikaiStraitName:      db "KIKAI¯STRAIT@"
-KikaiVillageName:     db "KIKAI¯VILLAGE@"
-KikaiCalderaName:     db "KIKAI¯CALDERA@"
-GreatEastStraitName:  db "GREAT EAST¯STRAIT@"
-DaitoRanchName:       db "DAITO RANCH@"
-AppleOrchardName:     db "APPLE¯ORCHARD@"
-MotobuPathName:       db "MOTOBU PATH@"
-IeTownName:           db "IE TOWN@"
-CastleMountainName:   db "CASTLE¯MOUNTAIN@"
-SpecialMapName:       db "SPECIAL@"
+AlloyCityName:          db "GENEOS¯CITY@"       ; Genus (lat. Gattung) + neos (griech. neu)
+AmamiTownName:          db "AMAMIA@"            ; NICHT FINAL Amami - Ort in Ryukyu
+AmpareCavernName:       db "AMPERA¯HÖHLE@"
+AppleOrchardName:       db "APFELGARTEN@"
+BattleTowerName:        db "DUELLTURM@"
+BirdonTownName:         db "TOTOMONIA@"         ; Tottori + Flegmon
+BlueForestName:         db "KITAOMORIA¯CITY@"   ; Kita (jap. Norden) + ao (jap. Blau) + mori (jap. Wald)
+BoardwalkName:          db "PROMENADE@"
+BoulderMineName:        db "GERÖLLMINE@"        ;
+BrassTowerName:         db "MESSINGTURM@"
+CastleMountainName:     db "SCHLOSS-BERG@"      ; NICHT FINAL
+CharredSummitName:      db "RUẞGIPFEL@"         ;
+CrownCityName:          db "KOROKANIA CITY@"    ; Coroa (port. Krone) + oukan (jap. Krone)
+CrownPassName:          db "KOROKANIA-PFAD@"
+DaitoRanchName:         db "DAITO RANCH@"       ; NICHT FINAL Daito - Ort in Ryukyu
+DeepwaterPassageName:   db "TIEFWASSERPFAD@"    ;
+DragonsDenName:         db "DRACHENSCHLUND@"    ;
+EndonCaveName:          db "ENDON HÖHLE@"       ; NICHT FINAL Endon vielleicht von "No End" ?
+FastShipName:           db "SCHNELLBOOT@"
+ForkedStraitName:       db "MEERESGABELUNG@"    ;
+FrostpointTownName:     db "SPIZARDIA@"         ; Spitze + Blizzard     NICHT FINAL
+GreatEastStraitName:    db "AGARIDINO-STRAẞE@"  ; ufuagari (okinawa. äußerster Osten) + Borodino (europ. Name für Daito-Inseln)
+IcedCavernName:         db "GEFRIERGROTTE@"     ; alt. FROSTHÖHLE
+IeTownName:             db "II-SHIMA@"          ; okinawa. Iejima - eine der Ryukyu Inseln
+IsenStraitName:         db "ISEN-STRAẞE@"       ;
+JadeForestName:         db "JADEWALD@"
+JouleCaveName:          db "JOULEHÖHLE@"
+KantoRegionName:        db "KANTO-REGION@"      ; alt. Kanto
+KeramaStraitName:       db "STRAẞE VON KIRAMA@"     ; okinawa. für Kerama - Inselgruppe in Ryukyu
+KikaiCalderaName:       db "KIKAI KESSEL@"      ; Caldera (span. Kessel) ggf. aber auch Caldera, da Fachbegriff
+KikaiStraitName:        db "STRAẞE VON KIKAI@"  ; Kikai - Ort in Ryukyu
+KikaiVillageName:       db "KIKAITANI@"         ; Kikai - Ort in Ryukyu + tanima (jap. Tal)
+KobanIslandName:        db "SATORIA-INSEL@"     ; Satou (jap. Zucker)    alt. Satoria Eiland
+KumeCityName:           db "KUMIA CITY@"        ; Kumijima (okinawaisch für Kume-jima) - Eine Ryukyu-Insel
+KumePointName:          db "KUMIA-SPITZE@"      ;
+MagmaShaftName:         db "MAGMA-SCHACHT@"
+MeridianPathName:       db "MERIDIAN-PFAD@"
+MotobuPathName:         db "MUTUBU-PFAD@"       ; okinawa. Motobu - Ort in Ryukyu
+NagoVillageName:        db "NAGOTANI@"          ; Nago - Stadt auf Okinawa + tanima (jap. Tal)
+NanjoForestName:        db "NANJUU-WALD@"       ; Nanchuu /Nanjuu - okinawa. für Nanjo
+NationalParkName:       db "NATIONALPARK@"      ;
+NihonLeagueName:        db "NIHON¯LIGA@"
+PagotaCityName:         db "PAGETIA CITY@"      ; Pagode + vetus (lat. alt)
+RadioTowerName:         db "RADIOTURM@"         ;
+RainbowIslandName:      db "REGENBOGENINSEL@"
+RuinsOfAlphName:        db "ALPH-RUINEN@"       ; doch GLYPHONTIA-RUINEN?
+RyukyuCityName:         db "RUUCHUU CITY@"      ; Ruuchuu - ryukyu für Ryukyu
+SanskritTownName:       db "GLYPHONTIA@"        ; Glyphe + Font
+SeasidePathName:        db "KÜSTENPFAD@"
+SilentHillsName:        db "SILENITIA HÜGEL@"
+SilentTownName:         db "SILENITIA@"         ; Silens (lat. Stille) + initium (lat. Anfang)
+SlowpokeWellName:       db "FLEGMON-BRUNNEN@"   ;
+StandCityName:          db "SENDESTIA CITY@"    ; Sendai + Podest
+SunpointCityName:       db "KAZANAMI CITY@"     ; Kazan (jap. Vulkan) + Minami (jap. Süden)
+SunpointDocksName:      db "KAZANAMI DOCKS@"
+TatsugoPathName:        db "TATSUGO PFAD@"      ; Tatsugo - Ort in Ryukyu
+TeknosCityName:         db "TEKNOPIA CITY@"     ; Teknos (griech. Technik) + Utopia
+TidalGrottoName:        db "GEZEITENGROTTE@"
+TropicalIslandName:     db "TROPENINSEL@"
+UrasoeParkName:         db "URASHI-PARK@"       ; okinawa. für Urasoe - Stadt auf Okinawa
+UrasoeTrailName:        db "URASHI-WANDERWEG@"  ;
+VictoryRoadName:        db "SIEGESSTRAẞE@"
+WestportCityName:       db "PORT ABANISHI@"     ; Port (alt. Hafen) + Abanti (ahd. Abend bzw. Westen) + Nishi (jap. Westen)     evtl. PORT ABANTIA
+WhirlIslandsName:       db "STRUDELINSEL@"      ;
+
+
+Route101Name:           db "ROUTE 101@"
+Route102Name:           db "ROUTE 102@"
+Route103Name:           db "ROUTE 103@"
+Route104Name:           db "ROUTE 104@"
+Route105Name:           db "ROUTE 105@"
+Route106Name:           db "ROUTE 106@"
+Route107Name:           db "ROUTE 107@"
+Route108Name:           db "ROUTE 108@"
+Route109Name:           db "ROUTE 109@"
+Route110Name:           db "ROUTE 110@"
+Route111Name:           db "ROUTE 111@"
+Route112Name:           db "ROUTE 112@"
+Route113Name:           db "ROUTE 113@"
+Route114Name:           db "ROUTE 114@"
+Route115Name:           db "ROUTE 115@"
+Route116Name:           db "ROUTE 116@"
+Route117Name:           db "ROUTE 117@"
+Route118Name:           db "ROUTE 118@"
+Route119Name:           db "ROUTE 119@"
+Route120Name:           db "ROUTE 120@"
+Route121Name:           db "ROUTE 121@"
+SpecialMapName:         db "SPEZIAL@"

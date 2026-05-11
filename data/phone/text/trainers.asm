@@ -1,60 +1,63 @@
+;TODO Texte lokalisieren
 UnknownText_0x1b4dc5:
-	text "Hello. This is"
+	text "Hallo. Hier ist"
 	line "@"
 	text_ram wStringBuffer3
 	text "…"
 
-	para "Good morning,"
+	para "Guten Morgen,"
 	line "<PLAY_G>!"
 	done
 
 UnknownText_0x1b4ded:
-	text "Hello. This is"
+	text "Hallo. Hier ist"
 	line "@"
 	text_ram wStringBuffer3
 	text "…"
 
-	para "How's it going,"
+	para "Wie geht's,"
 	line "<PLAY_G>?"
 	done
 
 UnknownText_0x1b4e16:
-	text "Hello. This is"
+	text "Hallo. Hier ist"
 	line "@"
 	text_ram wStringBuffer3
 	text "…"
 
-	para "Good evening,"
+	para "Guten Abend,"
 	line "<PLAY_G>!"
 	done
 
 UnknownText_0x1b4e3e:
-	text "<PLAY_G>, good"
-	line "morning!"
+	text "<PLAY_G>, guten"
+	line "Morgen!"
 
-	para "It's me, @"
+	para "Hier ist @"
 	text_ram wStringBuffer3
 	text "."
-	line "How are you doing?"
+	line "Wie geht es dir?"
 	done
 
 UnknownText_0x1b4e72:
 	text "<PLAY_G>, howdy!"
 
-	para "It's me, @"
+	para "Hier ist @"
 	text_ram wStringBuffer3
 	text "."
-	line "Isn't it nice out?"
+	line "Ist es heute nicht"
+	cont "schön draußen?"
 	done
 
 UnknownText_0x1b4e9e:
-	text "<PLAY_G>, good"
-	line "evening!"
+	text "<PLAY_G>, guten"
+	line "Abend!"
 
-	para "It's me, @"
+	para "Hier ist @"
 	text_ram wStringBuffer3
 	text "."
-	line "Got a minute?"
+	line "Hast du eine"
+	cont "Minute?"
 	done
 
 UnknownText_0x1b4ecd:
@@ -71,61 +74,71 @@ UnknownText_0x1b4ecd:
 	done
 
 UnknownText_0x1b4f21:
-	text "Hello, this is"
+	text "Hi. Hier ist"
 	line "@"
 	text_ram wStringBuffer3
 	text "."
 
-	para "Oh! Good morning,"
-	line "<PLAYER>."
+	para "Hi, <PLAYER>!"
+	line "Guten Morgen."
 	done
 
 UnknownText_0x1b4f4d:
-	text "Hello, this is"
+	text "Hi. Hier ist"
 	line "@"
 	text_ram wStringBuffer3
 	text "."
 
-	para "Oh! Good day,"
-	line "<PLAYER>."
+	para "Hi, <PLAYER>!"
+	line "Wie geht es dir?"
 	done
 
 UnknownText_0x1b4f75:
-	text "Hello, this is"
+	text "Hi. Hier ist"
 	line "@"
 	text_ram wStringBuffer3
 	text "."
 
-	para "Oh! Good evening,"
-	line "<PLAYER>."
+	para "Hi, <PLAYER>!"
+	line "Guten Abend."
 	done
 
 UnknownText_0x1b4fa1:
-	text "Hello, <PLAYER>."
-	line "Good morning."
+	text "Guten Morgen,"
+	line "<PLAYER>."
 
-	para "This is @"
+	para "Ich bin's,"
+	line " @"
 	text_ram wStringBuffer3
 	text "."
-	line "Were you asleep?"
+
+	para "Habe ich dich"
+	line "aufgeweckt?"
 	done
 
 UnknownText_0x1b4fda:
-	text "Hi, <PLAYER>."
-	line "This is @"
-	text_ram wStringBuffer3
-	text "."
+	text "Hallo, <PLAYER>."
 
-	para "How are you doing?"
+	para "Ich bin's,"
+    line " @"
+    text_ram wStringBuffer3
+    text "."
+
+	para "Wie stehen die"
+	line "Dinge?"
 	done
 
 UnknownText_0x1b5004:
-	text "Hi, <PLAYER>."
-	line "This is @"
+	text "Guten Abend,"
+	line "<PLAYER>."
+
+    para "Ich bin's,"
+	line " @"
 	text_ram wStringBuffer3
 	text "."
 
-	para "Were you awake?"
+	para "Warst du noch"
+	line "wach?"
 	done
 
 UnknownText_0x1b502b:
