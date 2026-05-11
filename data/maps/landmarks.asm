@@ -94,7 +94,7 @@ Landmarks:
 	; the formula to get these numbers from the X/Y in tilemap studio is: (X or Y) * 8 + 4
 
 AlloyCityName:          db "GENEOS¯CITY@"       ; Genus (lat. Gattung) + neos (griech. neu)
-AmamiTownName:          db "AMAMIA@"            ; NICHT FINAL Amami - Ort in Ryukyu
+AmamiCityName:          db "AMAMIA@"            ; NICHT FINAL Amami - Ort in Ryukyu
 AmpareCavernName:       db "AMPERA¯HÖHLE@"
 AppleOrchardName:       db "APFELGARTEN@"
 BattleTowerName:        db "DUELLTURM@"
