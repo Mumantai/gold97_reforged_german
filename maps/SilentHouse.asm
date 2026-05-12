@@ -20,61 +20,64 @@ SilentHouseBookshelf:
 	jumpstd difficultbookshelf
 
 ElmsWifeText:
-	text "Hi, <PLAY_G>! My"
-	line "son's always so"
-	cont "energetic."
-	para "When he gets his"
-	line "mind set on"
-	para "something, he'll"
-	line "just go at it,"
-	cont "full speed ahead."
+    text "Hi, <PLAY_G>! Mein"
+    line "Sohn ist immer so"
+    cont "energiegeladen."
+
+    para "Wenn er sich etwas"
+    line "in den Kopf setzt,"
+    para "dann geht er es"
+    line "auch mit voller"
+    cont "Energie an."
 	done
 
 ElmsSonText:
-	text "When I grow up,"
-	line "I'm going to be"
-	cont "a #MON breeder!"
+    text "Wenn ich groß bin,"
+    line "werde ich ein"
+    cont "#MON-Züchter!"
 
-	para "I'll raise all"
-	line "the #MON!"
+    para "Ich werde alle"
+    line "#MON aufziehen!"
 	done
 
 SilentHouseLabFoodText:
 ; unused
-	text "There's some food"
-	line "here. It must be"
-	cont "for the LAB."
+	text "Hier ist etwas zu"
+	line "essen. Es muss für"
+	cont "das LABOR sein."
 	done
 
 SilentHousePokemonFoodText:
 ; unused
-	text "There's some food"
-	line "here. This must be"
-	cont "for #MON."
+	text "Hier ist etwas zu"
+	line "essen. Es muss für"
+	cont "die #MON sein."
 	done
 
 SilentHousePCText:
-	text "#MON. Where do"
-	line "they come from? "
+	text "#MON. Woher"
+	line "kommen sie?"
 
-	para "Where are they"
-	line "going?"
+	para "Wohin gehen sie?"
 
-	para "Why has no one"
-	line "ever witnessed a"
-	cont "#MON's birth?"
+	para "Warum war noch nie"
+	line "jemand Zeuge der"
+	cont "Geburt eines"
+	cont "#MON?"
 
-	para "I want to know! I"
-	line "will dedicate my"
+	para "Ich will es wis-"
+	line "sen. Ich werde"
 
-	para "life to the study"
-	line "of #MON!"
+	para "mein Leben in den"
+	line "Dienst der #-"
+	cont "MON-Forschung"
+	cont "stellen!"
 
 	para "…"
 
-	para "It's a part of"
-	line "PROF.OAK's re-"
-	cont "search papers."
+	para "Dies ist ein Teil"
+	line "von PROF. EICH"
+	cont "Aufzeichnungen."
 	done
 
 SilentHouse_MapEvents:

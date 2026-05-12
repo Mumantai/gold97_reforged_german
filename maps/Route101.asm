@@ -233,191 +233,198 @@ DudeMovementData2b:
 	step_end
 	
 DebugSignText:
-	text "Debug sign"
+	text "Debug Schild"
 	done
 
 CatchingTutorialBoxFullText:
-	text "#MON hide in"
-	line "the grass. Who"
+	text "#MON verstecken"
+	line "sich im Gras."
 
-	para "knows when they'll"
-	line "pop out…"
+	para "Niemand weiß, wann"
+	line "sie auftauchen…"
 	done
 
 CatchingTutorialIntroText:
-	text "Well, hey now!"
+	text "Hey, du da!"
 
-	para "You sure look like"
-	line "a rookie trainer!"
-	
-	para "I bet you'll be"
-	line "wanting to catch"
-	cont "some #MON!"
+	para "Du siehst mir aus"
+	line "wie ein Anfänger!"
 
-	para "Would you like me"
-	line "to show you how to"
-	cont "catch #MON?"
+	para "Du willst doch be-"
+	line "stimmt ein paar"
+	cont "#MON fangen!"
+
+	para "Soll ich dir"
+	line "zeigen, wie man"
+	cont "#MON fängt?"
 	done
 
 CatchingTutorialDebriefText:
-	text "That's how you do"
-	line "it."
+	text "So geht das!"
 
-	para "If you weaken them"
-	line "first, #MON are"
-	cont "easier to catch."
+	para "Wenn du sie zuerst"
+	line "schwächst, kannst"
+	cont "du sie leichter"
+	cont "fangen."
 	done
 
 CatchingTutorialDeclinedText:
-	text "Oh. Fine, then."
+	text "Oh. In Ordnung."
 
-	para "Anyway, if you"
-	line "want to catch"
+	para "Egal, wenn du"
+	line "viele #MON"
 
-	para "#MON, you have"
-	line "to walk a lot."
+	para "fangen möchtest,"
+	line "musst du weite"
+	cont "Wege gehen."
 	done
 
 CatchingTutorialRepeatText:
-	text "Huh? You want me"
-	line "to show you how to"
-	cont "catch #MON?"
+	text "Häh? Ich soll dir"
+	line "zeigen, wie man"
+	cont "#MON fängt?"
 	done
 
 Route101YoungsterText:
-	text "Yo. How are your"
-	line "#MON?"
+	text "Yo. Wie geht es"
+	line "deinen #MON?"
 
-	para "If they're weak"
-	line "and not ready for"
-
-	para "battle, keep out"
-	line "of the grass."
+	para "Sind sie schwach"
+	line "und nicht bereit"
+	para "zu kämpfen, halte"
+	line "dich vom Gras"
+	cont "fern."
 	done
 
 Route101TeacherText:
-	text "See those ledges?"
-	line "It's scary to jump"
-	cont "off them."
+	text "Siehst du die"
+	line "Stufen hier?"
 
-	para "But you can jump"
-	line "down them as a"
+	para "Du kannst nicht"
+	line "hinaufklettern,"
+	cont "dafür aber"
+	cont "herunterspringen!"
 
-	para "shortcut in many"
-	line "places."
+	para "Du kannst sie oft"
+	line "als Abkürzung"
+	cont "benutzen."
 	done
 
 Route101FisherText:
-	text "I wanted to take a"
-	line "break, so I saved"
+	text "Ich wollte eine"
+	line "Pause einlegen,"
 
-	para "to record my"
-	line "progress."
+	para "darum habe ich"
+	line "meinen Spielstand"
+	cont "abgespeichert."
 	done
 
 ; unused
 Text_WaitingForDay:
-	text "I'm waiting for"
-	line "#MON that"
+	text "Ich warte auf"
+	line "#MON, die nur"
 
-	para "appear only in the"
-	line "daytime."
+	para "tagsüber"
+	line "auftauchen."
 	done
 
 Route101CooltrainerMText_WaitingForNight:
-	text "I'm waiting for"
-	line "#MON that"
+	text "Ich warte auf"
+	line "#MON, die"
 
-	para "appear only at"
-	line "night."
+	para "nur des NACHTs"
+	line "auftauchen."
 	done
 
 Route101CooltrainerMText_WaitingForMorning:
-	text "I'm waiting for"
-	line "#MON that"
+	text "Ich warte auf"
+	line "#MON, die"
 
-	para "appear only in the"
-	line "morning."
+	para "nur am VORMITTAG"
+	line "auftauchen."
 	done
 
 
 Route101Sign1Text:
 	text "ROUTE 101"
 
-	para "SILENT TOWN -"
-	line "PAGOTA CITY"
-	
-	para "SILENT HILLS"
-	line "in between."
+	para "SILENITIA -"
+	line "PAGETIA CITY"
+
+	para "Über die"
+	line "SILENITIA HÜGEL"
 	done
 
 Route101Sign2Text:
-	text "TRAINER TIPS"
+	text "TIPPS für TRAINER"
 
-	para "No stealing other"
-	line "people's #MON!"
+	para "Du sollst keine"
+	line "#MON stehlen!"
 
-	para "# BALLS are to"
-	line "be thrown only at"
-	cont "wild #MON!"
+	para "#BÄLLE dürfen"
+	line "nur bei wilden"
+	cont "#MON eingesetzt"
+	cont "werden!"
 	done
 
 SilentHillsEntranceSignText:
-	text "SILENT HILLS"
-	
-	para "Entrance to the"
-	line "left."
+	text "SILENITIA HÜGEL"
+
+	para "Eingang links"
 	done
 	
 TeacherColetteSeenText:
-	text "My CHIX is the"
-	line "cutest in the"
-	cont "world."
+	text "Mein DODORST ist"
+	line "das Süßeste auf"
+	cont "der Welt."
 	done
 
 TeacherColetteBeatenText:
-	text "My CHIX!"
+	text "Mein DODORST!"
 	done
 
 TeacherColetteAfterBattleText:
-	text "Look how adorable"
-	line "my CHIX acts!"
+    text "Schau, wie süß"
+    line "mein DODORST ist!"
 
-	para "Isn't it cute"
-	line "enough to make"
-	cont "your heart melt?"
+    para "Es ist so süß,"
+    line "dass einem glatt"
+    cont "das Herz schmilzt!"
 	done
 	
 FledglingHugoSeenText:
-	text "Um…"
-	para "Are you a new"
-	line "trainer too?"
+	text "Ähm…"
+
+	para "Bist du auch ein"
+	line "neuer Trainer?"
 	done
 
 FledglingHugoBeatenText:
-	text "Wow, you don't"
-	line "seem new…"
+	text "Wow, du bist"
+	line "schon so gut…"
 	done
 
 FledglingHugoAfterBattleText:
-	text "How did you get"
-	line "so good?"
+	text "Wie bist du so"
+	line "gut geworden?"
 	done
 	
 SwimmerfHikariSeenText:
-	text "Oops!"
-	para "You found my"
-	line "secret swim-spot!"
+    text "Ups!"
+
+    para "Du hast meinen"
+    line "geheimen Badeplatz"
+    cont "gefunden!"
 	done
 
 SwimmerfHikariBeatenText:
-	text "Aw…"
-	line "…bubble…"
+	text "Oh…"
+	line "…blubber…"
 	done
 
 SwimmerfHikariAfterBattleText:
-	text "Don't tell anyone,"
-	line "'kay?"
+    text "Verrate ihn nicht"
+    line "weiter, ja?"
 	done
 
 Route101_MapEvents:

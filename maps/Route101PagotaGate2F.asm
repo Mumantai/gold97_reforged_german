@@ -12,22 +12,28 @@ Route101PagotaGate2FLassScript:
 	jumptextfaceplayer Route101PagotaGate2FLassText
 
 Route101PagotaGate2FLassText:
-	text "Have you heard of"
-	line "a man named KURT?"
-	para "If KURT takes an"
-	line "interest in you,"
-	cont "that's a big deal."
+    text "Hast du schon von"
+    line "KURT gehört?"
+
+    para "Wenn er sich für"
+    line "dich interessiert,"
+    para "ist das etwas"
+    line "Besonderes."
 	done
 	
 Route101PagotaGate2FTwinScript:
 	jumptextfaceplayer Route101PagotaGate2FTwinText
 
 Route101PagotaGate2FTwinText:
-	text "Are you a tourist?"
-	para "If so, that's too"
-	line "bad… Not just"
-	para "anyone can enter"
-	line "the BRASS TOWER."
+    text "Bist du Tourist?"
+
+    para "Wenn ja, dann"
+    line "hast du leider"
+    cont "Pech gehabt…"
+
+    para "Nicht jeder darf"
+    line "einfach so in den"
+    cont "MESSINGTURM."
 	done
 	
 Route101PagotaGate2FSign:
@@ -45,11 +51,12 @@ Route101PagotaGate2FSign2:
 	jumptext Route101PagotaGate2FSign2Text
 	
 Route101PagotaGate2FSign2Text:
-	text "<PLAY_G> peeked"
-	line "through the"
-	cont "telescope!"
-	para "A river stretches"
-	line "into the distance."
+	text "<PLAY_G> schaut"
+    line "durch das"
+    cont "Fernrohr!"
+
+    para "Wow! Ein hoher"
+    line "Turm ist zu sehen!"
 	done
 	
 Route101PagotaGate2F_MapEvents:

@@ -143,7 +143,7 @@ DaisyStopsScript1:
 	end
 
 .mapcardname
-	db "MAP CARD@"
+	db "KARTEN-MODUL@"
 	
 DaisyStopsScript2:
 	applymovement OAKS_LAB_ENTRANCE_DAISY, DaisyWalksUp2
@@ -170,7 +170,7 @@ DaisyStopsScript2:
 	end
 
 .mapcardname
-	db "MAP CARD@"
+	db "KARTEN-MODUL@"
 	
 OaksLabEntranceDaisyScript:
 	jumptextfaceplayer Text_RootingText
@@ -191,135 +191,140 @@ OaksLabEntranceSign:
 	jumptext OaksLabEntranceSignText
 	
 OaksLabEntranceSignText:
-	text "Remember to SAVE"
-	line "your progress!"
+	text "SICHERE regelmäßig"
+	line "deinen Spielstand!"
 	done	
 	
 OaksLabEntranceComputerText:
-	text "It's a paper on"
-	line "#MON habitats."
+    text "Ein Bericht über"
+    line "#MON Habitate."
 	done
 	
 Text_RootingText:
-	text "I'll be rooting"
-	line "for you!"
+	text "Ich drück dir die"
+	line "Daumen!"
 	done
 	
 DaisySpeechText:
-	text "Oh, are you leav-"
-	line "ing on a journey?"
-	
-	para "BLUE is my little"
-	line "brother."
-	
-	para "If Grandpa gave"
-	line "you a task,"
-	
-	para "I would like to"
-	line "help you."
+    text "Oh, du gehst auf"
+    line "eine Reise?"
 
-	para "He was also"
-	line "supposed to give"
-	cont "you this!"
+    para "BLAU ist mein"
+    line "kleiner Bruder."
+
+    para "Wenn Opa dir eine"
+    line "Aufgabe gegeben"
+    para "hat, würde ich dir"
+    line "gerne helfen."
+
+    para "Er sollte dir"
+    line "eigentlich noch"
+    cont "das hier geben!"
 	done
 
 DaisySpeechText2:
-	text "The MAP CARD"
-	line "lets you view"
-	cont "a map right in"
-	cont "your #GEAR!"
-	
-	para "Now…"
-	line "How can I help?"
-	
-	para "…"
-	
-	para "Oh I know!"	
+    text "Mit dem KARTEN-"
+    line "MODUL kannst du"
+    para "die Karte direkt"
+    line "auf deinem #COM"
+    cont "ansehen!"
+
+    para "So…"
+    line "Wie kann ich dir"
+    cont "sonst noch helfen?"
+
+    para "…"
+
+    para "Oh, ich weiß!"
 	done
 
 DaisySpeechText3:
-	text "A POTION can heal"
-	line "your #MON if"
-	cont "they are hurt,"
+    text "Ein TRANK kann"
+    line "deine #MON"
+    para "heilen, wenn sie"
+    line "verletzt sind und"
+    para "mit #BÄLLEN"
+    line "kannst du wilde"
+    cont "#MON fangen."
+
+    para "Wenn du mehr"
+    line "#BLLE brauchst,"
+    para "kannst du dir im"
+    line "<PKMN>-SUPERMARKT"
+    cont "neue kaufen."
 	
-	para "and #BALLS"
-	line "allow you to catch"
-	cont "wild #MON."
-	
-	para "If you run out of"
-	line "#BALLS you can"
-	cont "buy more at any"
-	cont "town MART."
-	
-	para "Good luck,"
+	para "Viel Glück,"
 	line "<PLAY_G>!"
 	
-	para "I'll be rooting"
-	line "for you!"
+    para "Ich drück dir die"
+    line "Daumen!"
 	done
 
 SilverEntranceWinText:
-	text "Wow! I thought my"
-	line "#MON would have"
-	para "been the best!"
+    text "Wow! Ich dachte,"
+    line "mein #MON wäre"
+    cont "das Beste!"
 	done
 
 EntranceRivalText_YouLost:
-	text "<PLAY_G>! I'm"
-	line "so ready to show"
-	para "the world how"
-	line "great my #MON"
-	cont "is!"
-	para "I'll see you"
-	line "around soon!"
+    text "<PLAY_G>! Ich bin"
+    line "bereit der Welt zu"
+    para "zeigen, wie stark"
+    line "mein #MON ist!"
+
+    para "Wir sehen uns!"
 	done
 
 SilverEntranceLossText:
-	text "Alright! My"
-	line "#MON rules!"
+    text "Alles klar!"
+    line "Mein #MON ist"
+    cont "der Hammer!"
 	done
 
 EntranceRivalText_YouWon:
-	text "<PLAY_G>! I'm"
-	line "so ready to show"
-	para "the world how"
-	line "great my #MON"
-	cont "is!"
-	para "I'll see you"
-	line "around soon!"
+	text "<PLAY_G>! Ich bin"
+    line "bereit der Welt zu"
+    para "zeigen, wie stark"
+    line "mein #MON ist!"
+
+    para "Wir sehen uns!"
 	done
 	
 TimeToBattle:
 	text "<PLAY_G>!"
-	para "You're not getting"
-	line "off that easy!"
-	para "OAK gave us these"
-	line "#MON, so now"
-	para "we gotta battle"
-	line "them!"
-	para "I'm not gonna hold"
-	line "back!"
+
+	para "So einfach kommst"
+	line "du nicht davon!"
+
+	para "PROF. EICH hat uns"
+	line "diese #MON ge-"
+	para "geben, also müssen"
+	line "wir jetzt mit"
+	cont "ihnen kämpfen!"
+
+	para "Ich werde mich"
+	line "nicht zurück-"
+	cont "halten!"
 	done
 
 OaksLabEntranceAideText:
-	text "If you're looking"
-	line "for PROF.OAK, he's"
-	para "usually in his"
-	line "back office."
+    text "Falls du nach"
+    line "PROF. EICH suchst,"
+    para "er ist für gewöhn-"
+    line "lich hinten in"
+    cont "seinem Büro."
 	done
 	
 OaksLabEntranceSilverText:
 	text "Yo, <PLAY_G>!"
 	
-	para "Looks like PROF."
-	line "OAK isn't here!"
-	
-	para "I wonder when"
-	line "he would have"
-	
-	para "expected us to"
-	line "show up!"
-	
+    para "Anscheinend ist"
+    line "PROF. EICH gerade"
+    cont "nicht da!"
+
+    para "Was hat er denn"
+    line "gedacht, wann wir"
+    cont "hier sein würden?"
 	done
 	
 DaisyLeftMovement:

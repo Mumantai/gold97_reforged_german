@@ -334,184 +334,196 @@ FalknerLeaves:
 	step_end
 
 UnknownText_0x18e6c9:
-	text "KURT: I make BALLS"
-	line "from APRICORNS."
+	text "KURT: Ich mache"
+	line "BÄLLE aus APRIKO-"
+	cont "KOS."
 
-	para "Collect them from"
-	line "trees and bring"
-	cont "'em to me."
+	para "Pflücke sie von"
+	line "Bäumen und bring"
+	cont "sie zu mir."
 
-	para "I'll make BALLS"
-	line "out of them."
+	para "Ich fertige daraus"
+	line "BÄLLE an."
 	done
 
 UnknownText_0x18e736:
-	text "KURT: You have an"
-	line "APRICORN for me?"
+	text "KURT: Hast du eine"
+	line "APRIKOKO für mich?"
 
-	para "Fine! I'll turn it"
-	line "into a BALL."
+	para "Schön! Ich werde"
+	line "einen BALL daraus"
+	cont "machen."
 	done
 
 UnknownText_0x18e779:
-	text "KURT: Splendid!"
+	text "KURT: Großartig!"
 
-	para "I'll start working"
-	line "right away."
+	para "Ich fange gleich"
+	line "mit der Arbeit an."
 	done
 
 UnknownText_0x18e7bc:
 	text "KURT: Oh…"
-	line "That's a letdown."
+	line "Du lässt mich im"
+	cont "Stich?"
 	done
 
 UnknownText_0x18e7fb:
 	text "KURT: Ah, <PLAYER>!"
-	line "I just finished"
-	cont "your BALL. Here!"
+	line "Ich bin gerade"
+	cont "fertig geworden."
+	cont "Hier hast du den"
+	cont "BALL!"
 	done
 
 UnknownText_0x18e82a:
-	text "KURT: That turned"
-	line "out great."
+	text "KURT: Er ist groß-"
+	line "artig geworden."
 
-	para "Try catching"
-	line "#MON with it."
+	para "Versuche, ein"
+	line "#MON damit"
+	cont "zu fangen."
 	done
 
 
 KurtsHouseOakPhotoText:
-	text "It's KURT standing"
-	line "in the tower with"
-	para "a SAGE and a man"
-	line "in a CAPTAIN's"
-	cont "hat."
+    text "KURT, wie er mit"
+    line "einem WEISEN und"
+    para "einem Mann mit"
+    line "KAPITÄNSMÜTZE im"
+    cont "TURM steht."
 	done
 
 KurtsHouseLeafeonStatueText:
-	text "It's a statue of"
-	line "the forest's pro-"
-	cont "tector."
+	text "Eine Statue des"
+	line "Waldpatrons."
 	done
 	
 FalknerNotDoneTower:
-	text "Receive the"
-	line "ELDER's blessing"
-	cont "and then I will"
-	cont "accept your"
-	cont "challenge."	
+    text "Erhalte den Segen"
+    line "des ÄLTESTEN, dann"
+    para "werde ich deine"
+    line "Herausforderung"
+    cont "akzeptieren."
 	done
 	
 KurtTalks:
 	text "KURT: Hmm?"
 	para "<PLAY_G>,"
-	line "I presume?"
-	
-	para "PROF.OAK told me"
-	line "you would be"
-	cont "coming."
-		
-	para "That old coot"
-	line "always acts before"
-	cont "he thinks…"
-	
-	para "Anyhow, OAK has"
-	line "said good things"
-	cont "about you…"
-	cont "So that's all I"
-	cont "need to know."
-	
-	para "The best way to"
-	line "complete the"
-	cont "#DEX would be"
-	cont "to take the"
-	cont "#MON LEAGUE"
-	cont "challenge."
-	
-	para "There are many"
-	line "GYMS across NIHON"
+	line "nehme ich an?"
 
-	para "and taking on each"
-	line "one will be a"
-	cont "difficult task."
+	para "PROF. EICH sagte,"
+	line "dass du vorbei-"
+	cont "kommen würdest."
+
+    para "Dieser alte Kauz"
+    line "handelt immer,"
+    cont "bevor er denkt…"
+
+    para "Wie auch immer,"
+    line "EICH hat nur Gutes"
+    cont "über dich erzählt…"
+
+    para "Das ist alles, was"
+    line "ich wissen muss."
+
+    para "Der beste Weg, um"
+    line "deinen #DEX zu"
+    para "vervollständigen,"
+    line "wäre, alle ORDEN"
+    para "der #MON LIGA"
+    line "zu sammeln."
+
+    para "Es gibt viele"
+    line "ARENEN in NIHON"
+    para "und in jeder von"
+    line "ihnen zu gewinnen,"
+    para "wird eine schwere"
+    line "Aufgabe sein."
 	done
 	
 KurttoFalkner:
-	text "FALKNER here"
-	line "happens to own the"
-	cont "GYM in this town."
+    text "FALK hier gehört"
+    line "zufälligerweise"
+    para "die ARENA in"
+    line "dieser Stadt."
 	done
 	
-FalknerTalks:	
-	text "FALKNER: Well who"
-	line "might you be?"
-	
-	para "<PLAY_G>, hm?"
-	line "What brings you"
-	cont "here?"
-	
-	para "…"
-	
-	para "Ah, so you're tak-"
-	line "ing the #MON"
-	cont "League challenge."
-	
-	para "My name is"
-	line "FALKNER."
-	
-	para "I'm the GYM LEADER"
-	line "of this town."
-	
-	para "If you wish to"
-	line "challenge me, you"
-	cont "must first prove"
-	cont "yourself at the"
-	cont "BRASS TOWER."
-	
-	para "If you receive the"
-	line "ELDER's blessing,"
-	cont "I will accept your"
-	cont "challenge."	
+FalknerTalks:
+    text "FALK: Oh, wer bist"
+    line "du denn?"
+
+    para "<PLAY_G>, hm?"
+    line "Was führt dich"
+    cont "hierher?"
+
+    para "…"
+
+    para "Ah, du kämpfst um"
+    line "die ARENA-ORDEN."
+
+    para "Mein Name ist"
+    line "FALK."
+
+    para "Ich bin der ARENA-"
+    line "LEITER dieser"
+    cont "Stadt."
+
+    para "Wenn du mich"
+    line "herausfordern"
+    para "möchtest, musst du"
+    line "dich zuerst im"
+    cont "MESSINGTURM"
+    cont "beweisen."
+
+    para "Wenn du den SEGEN"
+    line "des ÄLTESTEN"
+    cont "erhältst, nehme"
+    cont "ich deine Heraus-"
+    cont "forderung an."
 	done
 	
 FalknerTalks2:
-	text "FALKNER: Oh good,"
-	line "The ELDER has"
-	cont "given you his"
-	cont "blessing."
-	
-	para "Very well, I"
-	line "accept your chal-"
-	cont "lenge."
-	
-	para "I shall return to"
-	line "the GYM and await"
-	cont "for your arrival."
+    text "FALK: Oh gut."
+
+    para "Der ÄLTESTE hat"
+    line "dir seinen Segen"
+    cont "gegeben."
+
+    para "Nun gut, dann"
+    line "akzeptiere ich"
+    cont "deine Heraus-"
+    cont "forderung."
+
+    para "Ich werde zurück"
+    line "in die ARENA gehen"
+    cont "und auf deine"
+    cont "Ankunft warten."
 	done
 	
 KurtHeadToTower:
-	text "Head to the"
-	line "TOWER."
-	
-	para "It is north"
-	line "from here."
+    text "Gehe zum TURM."
+
+    para "Er ist nördlich"
+    line "von hier."
 	done
 
 	
 KurtICanMakeBalls:
-	text "Well done com-"
-	line "pleting the tower."
-	
-	para "OAK was right"
-	line "about you…"
-	
-	para "So I will make"
-	line "special #BALLS"
-	cont "for you if you"
-	cont "bring me APRICORN."
-	
-	para "Here, I'll give"
-	line "one to you now."
+    text "Du hast dich im"
+    line "TURM bewiesen."
+
+    para "EICH hatte Recht,"
+    line "was dich angeht…"
+
+    para "Also werde ich dir"
+    line "spezielle #-"
+    para "BÄLLE anfertigen,"
+    line "wenn du mir"
+    cont "APRIKOKOS bringst."
+
+    para "Hier, ich gebe dir"
+    line "jetzt schon einen."
 	done
 
 KurtsHouse_MapEvents:

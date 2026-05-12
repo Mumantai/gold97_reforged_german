@@ -467,389 +467,425 @@ BlueGivesDex3:
 	step_end
 	
 BlueText_Accepted2:
-	text "How are things"
-	line "now that you've"
-	cont "beat the LEAGUE?"
-	para "I hope they're"
-	line "going well."
-	para "Have you seen"
-	line "<RIVAL> lately?"
-	para "I know he's out"
-	line "training with his"
-	cont "#MON."
-	para "I think he's"
-	line "learned how to"
-	para "work together with"
-	line "them as a team."
+    text "Wie stehen die"
+    line "Dinge jetzt, wo du"
+    cont "der CHAMP bist?"
+
+    para "Ich hoffe, alles"
+    line "läuft bestens."
+
+    para "Hast du <RIVAL> in"
+    line "letzter Zeit mal"
+    cont "gesehen?"
+
+    para "Ich weiß, dass er"
+    line "fleißig mit seinen"
+    cont "#MON trainiert."
+
+    para "Ich glaube, er hat"
+    line "gelernt, mit ihnen"
+    para "zusammen als Team"
+    line "zu arbeiten."
 	done
 	
 Text_SilverTakeThisOne:
-	text "This #MON looks"
-	line "strong!"
-	
-	para "I will take this"
-	line "one."
+    text "Dieses #MON"
+    line "sieht stark aus!"
+
+    para "Ich nehme es."
 	done
 	
 Text_SilverGetCruise:
-	text "<RIVAL> received"
-	line "CRUIZE!"
+	text "<RIVAL> erhält"
+	line "AMISSIO!"
 	done
 	
 Text_SilverGetFlambear:
-	text "<RIVAL> received"
-	line "FLAMBEAR!"
+	text "<RIVAL> erhält"
+	line "PYROXIO!"
 	done
 	
 Text_SilverGetCHIKORITA:
-	text "<RIVAL> received"
-	line "CHIKORITA!"
+	text "<RIVAL> erhält"
+	line "ENDIVIE!"
 	done
 		
 Text_Best:
-	text "My #MON is"
-	line "gonna be the best"
-	cont "one!"
+	text "Mein #MON wird"
+	line "das beste werden!"
 	done
 
 Lab_GetDexText:
-	text "<PLAYER> received"
+	text "<PLAYER> erhält"
 	line "#DEX!"
 	done
 	
 OakText_Intro:
-	text "OAK: <PLAY_G>!"
-	line "There you are!"
+	text "EICH: <PLAY_G>!"
+	line "Da bist du ja!"
 
 	done
 	
 Text_OakIsOld:
-	text "<RIVAL>: I can't"
-	line "believe this old"
-	para "geezer is PROF."
-	line "OAK…"
+    text "<RIVAL>: Ich kann"
+    line "es nicht fassen."
+
+    para "Dieser alte Kauz"
+    line "soll PROF. EICH"
+    cont "sein…"
 	done
 	
 Text_OakSpeech:
-	text "OAK: Haha!"
-	
-	para "Indeed young man,"
-	line "but I'm not that"
-	cont "old yet!"
-	
-	para "I have called you"
-	line "both here for an"
-	cont "important task…"
+    text "EICH: Haha!"
 
-	para "Since I was a "
-	line "young boy, I have"
-	cont "dreamed of having"
-	cont "a complete guide"
-	cont "on every species"
-	cont "of #MON."
-	
-	para "However…"
-	para "More and more are"
-	line "being discovered"
-	cont "every day!"
-	
-	para "…and my age is"
-	line "catching on me…"
-	
-	para "So!"
-	
-	para "I would like you"
-	line "two to carry out"
-	cont "my research."
+    para "In der Tat, junger"
+    line "Mann, aber ich bin"
+    cont "noch nicht so alt!"
+
+    para "Ich habe euch zwei"
+    line "aus einem wichti-"
+    cont "gen Grund hierher"
+    cont "gerufen…"
+
+    para "Seit ich ein Junge"
+    line "war, träumte ich"
+    para "davon, ein voll-"
+    line "ständiges Handbuch"
+    para "über jede Spezies"
+    line "#MON zu haben."
+
+    para "Jedoch…"
+
+    para "Jeden Tag werden"
+    line "mehr und mehr neue"
+    cont "Arten entdeckt!"
+
+    para "…und mein Alter"
+    line "holt mich ein…"
+
+    para "Also!"
+
+    para "Ich bitte euch,"
+    line "meine Forschung"
+    cont "fortzuführen."
 	done
 
 Text_Interesting:
 	text "<RIVAL>: Wow!"
 
-	para "You want us to"
-	line "find and catch a"
-	cont "bunch of #MON"
-	cont "for you!?"
-	
-	para "As many as we"
-	line "want?"
+    para "Du willst, dass"      ; Silber ist frech, deshalb duzt er den Prof.
+    line "wir 'nen Haufen"
+    para "#MON finden und"
+    line "für dich fangen!?"
+
+    para "So viele, wie wir"
+    line "wollen?"
 	done
 	
 BlueText_Pokedex:
-	text "BLUE: That's"
-	line "right!"
-	
-	para "It won't be easy"
-	line "however."
-	
-	para "I tried to com-"
-	line "plete the #DEX"
-	cont "once…"
-	
-	para "But I got too"
-	line "arrogant…"
-	
-	para "I focused too much"
-	line "being the best"
-	cont "trainer, I lost"
-	cont "sight of my goal."
-	
-	para "So I help Gramps"
-	line "with his research"
-	cont "now."
-	
-	para "Here! Take this"
-	line "#DEX!"
+    text "BLAU: Genau!"
 
-	para "It automatically"
-	line "records data on"
-	para "#MON you've"
-	line "seen or caught!"
+    para "Es wird allerdings"
+    line "nicht leicht sein."
+
+    para "Ich habe auch"
+    line "damals versucht,"
+    cont "den #DEX zu"
+    cont "vervollständigen…"
+
+    para "Doch ich wurde zu"
+    line "arrogant…"
+
+    para "Ich habe mich zu"
+    line "sehr darauf fokus-"
+    cont "siert, der beste"
+    cont "Trainer zu sein,"
+    para "dass ich mein Ziel"
+    line "aus den Augen"
+    cont "verloren habe."
+
+    para "Deshalb helfe ich"
+    line "Opa heute mit"
+    cont "seiner Forschung."
+
+    para "Hier! Nehmt diesen"
+    line "#DEX!"
+
+    para "Er speichert auto-"
+    line "matisch Daten über"
+    para "#MON, die ihr"
+    line "fangt oder denen"
+    cont "ihr begegnet."
 	done
 	
 Text_OakDream:
-	text "OAK: Now all you"
-	line "need is a partner"
-	cont "#MON for your"
-	cont "journey."
-	
-	para "There are three"
-	line "#BALLS on the"
-	cont "table."
-	
-	para "Both of you can"
-	line "choose one to be"
-	cont "your companion!"	
+    text "EICH: Alles, was"
+    line "ihr jetzt noch"
+    para "braucht, ist ein"
+    line "#MON-Partner"
+    cont "für eure Reise."
+
+    para "Dort auf dem Tisch"
+    line "liegen drei"
+    cont "#BÄLLE."
+
+    para "Ihr dürft euch"
+    line "beide einen davon"
+    cont "aussuchen."
+
+    para "Das #MON darin"
+    line "wird euer Partner!"
 	done
 	
 Text_RivalGenerous:
-	text "<RIVAL>: You"
-	line "can choose first"
-	cont "<PLAY_G>…"
-	
-	para "I want some time"
-	line "to decide."
+    text "<RIVAL>: Du darfst"
+    line "zuerst aussuchen,"
+    cont "<PLAY_G>…"
+
+    para "Ich möchte noch"
+    line "etwas Zeit zum"
+    cont "Überlegen haben."
 	done
 
 BlueText_Accepted:
-	text "Thanks, <PLAY_G>!"
-
-	para "I appreciate you"
-	line "helping out"
-	cont "gramps."
+    text "Danke, <PLAY_G>,"
+    line "dass du Opa auch"
+    cont "helfen willst!"
 	done
 
 OakText_ChooseAPokemon:
-	text "I want you to"
-	line "raise one of the"
+	text "Ich möchte, dass"
+	line "du eines der"
 
-	para "#MON contained"
-	line "in these BALLS."
+	para "#MON aus"
+	line "einem dieser BÄLLE"
+	cont "trainierst."
 
-	para "You'll be that"
-	line "#MON's first"
-	cont "partner, <PLAY_G>!"
+	para "Du wirst der erste"
+	line "Kamerad dieses"
+	cont "#MON sein,"
+	cont "<PLAY_G>!"
 
-	para "Go on. Pick one!"
+	para "Such dir eins aus!"
 	done
 
 OakText_LetYourMonBattleIt:
-	text "If a wild #MON"
-	line "appears, let your"
-	cont "#MON battle it!"
+	text "Erscheint ein"
+	line "wildes #MON,"
+	cont "lass deine #MON"
+	cont "dagegen kämpfen."
 	done
 
 LabWhereGoingText:
-	text "OAK: Wait! Where"
-	line "are you going?"
+	text "EICH: Warte! Wohin"
+	line "gehst du?"
 	done
 
 TakeFlambearText:
-	text "OAK: You'll take"
-	line "FLAMBEAR, the"
-	cont "fire #MON?"
+	text "EICH: Willst du"
+	line "PYROXIO, das"
+	cont "Feuer-#MON?"
 	done
 
 TakeCruiseText:
-	text "OAK: Do you want"
-	line "CRUIZE, the"
-	cont "water #MON?"
+	text "EICH: Wählst du"
+	line "AMISSIO, das"
+	cont "Wasser-#MON?"
 	done
 
 TakeCHIKORITAText:
-	text "OAK: So, you like"
-	line "CHIKORITA, the"
-	cont "grass #MON?"
+	text "EICH: Entscheidest"
+	line "du dich für"
+	para "ENDIVIE, das"
+	line "Pflanzen-#MON?"
 	done
 
 DidntChooseStarterText:
-	text "OAK: Think it over"
-	line "carefully."
+	text "EICH: Überlege es"
+	line "dir gut!"
 
-	para "Your partner is"
-	line "important."
+	para "Die Wahl deines"
+	line "Partners ist sehr"
+	cont "wichtig."
 	done
 
 ChoseStarterText:
-	text "OAK: I think"
-	line "that's a great"
-	cont "#MON too!"
+	text "EICH: Ich bin auch"
+	line "der Meinung, dass"
+	cont "dieses #MON"
+	cont "sehr gut ist!"
 	done
 
 ReceivedStarterText:
-	text "<PLAYER> received"
+	text "<PLAYER> erhält"
 	line "@"
 	text_ram wStringBuffer3
 	text "!"
 	done
 
 OakDirectionsText1:
-	text "ROUTE 101 and"
-	line "SILENT HILLS would"	
-	cont "be great places to"
-	cont "start looking for"
-	cont "#MON."
-	
-	para "I'm sure you'll do"
-	line "great!"
+    text "ROUTE 101 und die"
+    line "SILENITIA HÜGEL"
+    para "wären ein guter"
+    line "Start, um nach"
+    cont "#MON zu suchen."
 
-	para "But just in case,"
-	line "here's my phone"
-	cont "number."
-	para "Call me if any-"
-	line "thing comes up!"
+    para "Ich bin sicher,"
+    line "ihr macht das"
+    cont "super!"
+
+    para "Aber nur für den"
+    line "Fall, ist hier"
+    cont "meine Nummer."
+
+    para "Ruft an, wenn es"
+    line "etwas gibt!"
 	done
 
 OakDirectionsText3:
-	text "<PLAY_G>."
-	para "<RIVAL>."
-	para "I'm counting on"
-	line "you both!"
+	text "<PLAY_G>,"
+	para <RIVAL>, ich"
+	line "zähle auf euch!"
 	done
 
 GotOaksNumberText:
-	text "<PLAYER> got OAK's"
-	line "phone number."
+	text "<PLAYER> erhält"
+	line "EICHs Nummer."
 	done
 
 OakOpportunityText:
-	text "This is such an"
-	line "exciting"
-	cont "opportunity!"
+    text "Das ist eine"
+    line "aufregende"
+    cont "Gelegenheit!"
 	done
 
 OakPokeBallText:
-	text "It contains a"
-	line "#MON caught by"
-	cont "PROF.OAK."
+	text "Er beinhaltet ein"
+	line "von PROF. EICH ge-"
+	cont "fangenes #MON."
 	done
 
 OakHearAboutLeagueHatchText:
-	text "So, I hear you're"
-	line "taking the NIHON"
-	para "#MON LEAGUE"
-	line "challenge."
-	para "That's great!"
-	line "I'm sure you've"
-	para "got a fighting"
-	line "chance to do"
-	cont "great things!"
+    text "Wie ich höre,"
+    line "stellst du dich"
+    para "der NIHON #MON"
+    line "LIGA."
+
+    para "Das ist großartig!"
+
+    para "Ich bin sicher, du"
+    line "du hast das Zeug,"
+    cont "um Großes zu"
+    cont "erreichen!"
 	done
 
 
 OakGiveMasterBallText1:
-	text "OAK: Hi, <PLAY_G>!"
-	line "Thanks to you, my"
+	text "EICH: Hi, <PLAYER>!"
+	line "Dank dir komme ich"
+	para "mit meinen For-"
+	line "schungen hervor-"
+	cont "ragend voran!"
 
-	para "research is going"
-	line "great!"
-
-	para "Take this as a"
-	line "token of my"
-	cont "appreciation."
+	para "Nimm dies als"
+	line "Zeichen meiner"
+	cont "Dankbarkeit!"
 	done
 
 OakGiveMasterBallText2:
-	text "The MASTER BALL is"
-	line "the best!"
+	text "Der MEISTERBALL"
+	line "ist der Beste von"
+	cont "allen!"
 
-	para "It's the ultimate"
-	line "BALL! It'll catch"
+	para "Er ist der ultima-"
+	line "tive BALL! Ihm"
+	para "kann kein #MON"
+	line "entwischen."
 
-	para "any #MON with-"
-	line "out fail."
+	para "Er wird nur aner-"
+	line "kannten #MON-"
+	cont "Forschern"
+	cont "überreicht."
 
-	para "It's given only to"
-	line "recognized #MON"
-	cont "researchers."
-
-	para "I think you can"
-	line "make much better"
-
-	para "use of it than I"
-	line "can, <PLAY_G>!"
+	para "Aber ich glaube,"
+	line "du hast bessere"
+	para "Verwendung dafür"
+	line "als ich, <PLAY_G>!"
 	done
 
 OakGiveTicketText:
-	text "The docks in"
-	line "WESTPORT CITY take"
-	para "boats down to the"
-	line "SOUTHWEST ISLANDS."
-	para "There are lots of"
-	line "rare #MON there"
-	para "that can't be"
-	line "found on the"
-	cont "mainland."
-	para "You should head on"
-	line "down there when"
-	cont "you get a chance."
+    text "Am Hafen von PORT"
+    line "ABANISHI kannst du"
+    para "mit dem Schiff zu"
+    line "den SÜDWESTINSELN"
+    cont "NIHONs fahren."
+
+    para "Dort gibt es viele"
+    line "seltene #MON,"
+    para "die du auf dem"
+    line "Festland nicht"
+    cont "finden kannst."
+
+    para "Du solltest mal"
+    line "vorbeischauen,"
+    para "wenn du die"
+    line "Gelegenheit dazu"
+    cont "hast."
 	done
 
 AideText_AlwaysBusy:
-	text "We appreciate"
-	line "your assistance!"
+	text "Wir schätzen deine"
+	line "Hilfe sehr!"
 	done
 
 OaksLabTrashcanText:
-	text "The wrapper from"
-	line "the snack PROF.OAK"
-	cont "ate is in there…"
+	text "Die Verpackung"
+	line "des Snacks, den"
+	cont "PROF. EICH geges-"
+	cont "sen hat, befindet"
+	cont "sich hier…"
 	done
 
 OakRocketsReturnedText:
-	text "I worry that TEAM"
-	line "ROCKET is planning"
-	para "something truly"
-	line "terrible…"
+    text "Ich befürchte,"
+    line "dass TEAM ROCKET"
+    para "etwas wirklich"
+    line "Schreckliches"
+    cont "plant…"
 	done
 	
 OakYoureBasicallyAHeroText:
-	text "It's incredible you"
-	line "and <RIVAL>"
-	para "took on TEAM"
-	line "ROCKET!"
-	para "You both are"
-	line "heroes to all"
-	cont "#MON!"
-	para "Keep up the great"
-	line "work, and aim for"
-	cont "MT.FUJI!"
+    text "Unglaublich, dass"
+    line "du und <RIVAL> es"
+    para "mit TEAM ROCKET"
+    line "aufgenommen habt!"
+
+    para "Ihr seid Helden"
+    line "für alle #MON!"
+
+    para "Macht weiter so"
+    line "und kämpft euch"
+    cont "zum KOROKANIABERG!"
 	done
 	
 OakAfterLeagueInPersonText:
-	text "Congratulations on"
-	line "defeating the"
-	cont "LEAGUE!"
-	para "That's a huge"
-	line "accomplishment!"
-	para "And thanks again"
-	line "for helping me"
-	cont "with my research."
-	para "If this is what"
-	line "you've been able"
-	para "to do already,"
-	line "you've got a great"
-	cont "future ahead!"
+    text "Glückwunsch zu"
+    line "deinem Sieg über"
+    cont "die #MON LIGA!"
+
+    para "Das ist eine"
+    line "große Leistung!"
+
+    para "Vielen Dank auch"
+    line "für deine Unter-"
+    para "stützung bei"
+    line "meiner Forschung."
+
+    para "Mit dem, was du"
+    line "schon geschafft"
+    para "hast, liegt eine"
+    line "großartige Zukunft"
+    cont "vor dir!"
 	done
 
 OaksLab_MapEvents:

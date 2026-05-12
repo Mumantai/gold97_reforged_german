@@ -36,42 +36,53 @@ SilentTown_MapScripts:
 	return
 	
 MomHasBeenRenamed:
-	text "Your Mother's name"
-	line "is now <MOM>!"
+    text "Deine Mutter heißt"
+    line "jetzt <MOM>!"
 	done
 	
 NameMomAgainText:
-	text "Hello!"
-	para "This message only"
-	line "appears on older"
-	para "save files that"
-	line "may have your MOM"
-	para "incorrectly named"
-	line "in the #GEAR"
-	cont "phone."
-	para "Check to see if"
-	line "MOM's name appears"
-	para "correct in the"
-	line "phone."
-	para "A common issue is"
-	line "having the name of"
-	para "the Player instead"
-	line "of MOM."
-	para "You can rename her"
-	line "here to fix any"
-	para "issues or if you"
-	line "just want to give"
-	para "her a different"
-	line "name."
-	para "This can only be"
-	line "done one time."
-	para "Rename your MOM?"
+    text "Hallo!"
+
+    para "Diese Nachricht"
+    line "erscheint nur in"
+    para "älteren Spiel-"
+    line "ständen, in denen"
+    para "deine MUTTER even-"
+    line "tuell falsch im"
+    line "Telefonbuch deines"
+    para "#COMs einge-"
+    line "tragen ist."
+
+    para "Überprüfe, ob der"
+    line "Name deiner MUTTER"
+    para "korrekt angezeigt"
+    line "wird."
+
+    para "Häufig steht der"
+    line "Name des Spielers"
+    line "stattdessen dort."
+
+    para "Du kannst sie hier"
+    line "umbenennen, um das"
+    para "Problem zu beheben"
+    line "oder wenn du ihr"
+    para "einfach einen"
+    line "anderen Namen"
+    cont "geben möchtest."
+
+    para "Dies kann nur"
+    line "einmal gemacht"
+    cont "werden."
+
+    para "Möchtest du deine"
+    line "MUTTER umbenennen?"
 	done
 	
 NameMomAgainText2:
-	text "Talk to this sign"
-	line "again to name your"
-	cont "MOM."
+    text "Sprich mit diesem"
+    line "Schild, um deiner"
+    para "MUTTER einen neuen"
+    line "Namen zu geben."
 	done
 
 
@@ -358,144 +369,153 @@ TrophyPackageScript:
 	jump .dummynotrophy
 	
 PackageIsHereText:
-	text "It's a package"
-	line "addressed to…"
-	
-	para "<PLAYER>!"
-	
-	para "What could be"
-	line "inside this?"
+    text "Ein Paket für…"
+
+    para "<PLAYER>!"
+
+    para "Was könnte da nur"
+    line "drin sein?"
 	done
 	
 Text_Study101:
-	text "…And if we spend"
-	line "just a few more"
-	para "days observing the"
-	line "#MON living in"
-	para "ROUTE 101…"
-	
-	para "…"
-	para "He seems to be"
-	line "completely"
-	cont "occupied…"
-	
+    text "…Und wenn wir nur"
+    line "ein paar Tage"
+    para "länger die #MON"
+    line "auf ROUTE 101"
+    cont "beobachten würden…"
+
+    para "…"
+
+    para "Er scheint völlig"
+    line "in seine Arbeit"
+    cont "vertieft zu sein…"
 	done
 
 Text_GearIsImpressive:
-	text "Wow, your #GEAR"
-	line "is impressive!"
+    text "Wow, dein #COM"
+    line "ist beeindruckend!"
 
-	para "Did your mom get"
-	line "it for you?"
+    para "Hast du den von"
+    line "Mama bekommen?"
 	done
 
 Text_WaitPlayer:
-	text "Wait! Stop!"
+	text "Warte! Stopp!"
 	done
 
 Text_ItsDangerousToGoAlone:
-	text "What do you think"
-	line "you're doing?"
+	text "Was denkst du,"
+	line "tust du da?"
 	
-	para "It's dangerous to"
-	line "go out without a"
-	cont "#MON!"
+    text "Es ist gefährlich,"
+    line "ohne #MON das"
+    cont "Haus zu verlassen!"
 
-	para "Wild #MON"
-	line "might attack you!"
-	
-	para "You need your own"
-	line "#MON for"
-	cont "protection!"
-	
-	para "Oh?"
-	
-	para "Are you perhaps…?"
-	
-	para "…Come with me!"
+    para "Auf dem Weg zur"
+    line "nächsten Stadt"
+    para "können jederzeit"
+    line "wilde #MON"
+    cont "auftauchen."
+
+    para "Du brauchst dein"
+    line "eigenes #MON,"
+    para "um dich selbst zu"
+    line "schützen!"
+
+    para "Ah! Warte, bist du"
+    line "vielleicht…?"
+
+    para "…Komm mit mir!"
 	done
 
 Text_YourMonIsAdorable:
-	text "Oh! Your #MON"
-	line "is adorable!"
-	cont "I wish I had one!"
+    text "Oh! Dein #MON"
+   	line "ist bezaubernd!"
+
+   	para "Ich wünschte, ich"
+   	line "hätte auch eines."
 	done
 
 Text_CallMomOnGear:
-	text "Call your mom on"
-	line "your #GEAR to"
+	text "Ruf deine Mama mit"
+	line "dem #COM an,"
 
-	para "let her know how"
-	line "you're doing."
+	para "damit sie weiß,"
+	line "was du machst."
 	done
 
 Text_OakDiscoveredNewMon:
 	text "Yo, <PLAYER>!"
 
-	para "I hear PROF.OAK"
-	line "discovered some"
-	cont "new #MON."
+	para "Ich habe gehört,"
+	line "PROF. EICH hat"
+	cont "neue #MON"
+	cont "entdeckt."
 	done
 
 SilentTownRivalText1:
 	text "<RIVAL>: Hey,"
 	line "<PLAYER>!"
-	para "There's something"
-	line "I gotta brag to"
-	cont "you about!"
-	
-	para "I got an e-mail"
-	line "from PROF.OAK!"
 
-	para "Yeah, the famous"
-	line "one!"
+	para "Du wirst niemals"
+	line "glauben, was mir"
+	cont "passiert ist!"
+
+	para "Ich habe eine Mail"
+	line "von PROF. EICH"
+	cont "bekommen!"
+
+	para "Ja, der berühmte!"
 	done
 
 SilentTownRivalText2:
-	text "…"
-	para "You got one too?!"
-	para "Man, that's no"
-	line "fun!"
-	
-	para "Hmph!"
-	
-	para "Hmm…well…you…uh…"
+    text "Du hast auch eine"
+    line "bekommen?!"
 
-	para "What do you call"
-	line "your mother again?"
+    para "Mann, das ist echt"
+    line "nicht fair!"
+
+    para "Hmpf!"
+
+    para "Hmm… naja… du… äh…"
+
+    para "Wie nennst du"
+    line "deine Mutter"
+    cont "nochmal?"
 	done
 	
 SilentTownRivalText3:
 	text "<MOM>?"
 
-	para "Bahaha!"
-	line "Don't make me"
-	cont "laugh!"
-	para "Calling her"
-	line "something so"
-	cont "childish is"
-	cont "hilarious!"
-	
-	para "Well, I'm off to"
-	line "OAK's!"
-	cont "See you there!"
+    para "Bahaha!"
+
+    para "Du bringst mich"
+    line "zum Lachen!"
+
+    para "Sie so zu nennen,"
+    line "ist so kindisch!"
+
+	para "Naja, ich gehe mal"
+	line "zu PROF. EICH!"
+
+	para "Wir sehen uns dort!"
 	done
 
 SilentTownSignText:
-	text "Forever Peaceful"
-	line "SILENT TOWN"
+	text "Stets friedliches"
+	line "SILENITIA"
 	done
 
 SilentTownPlayersHouseSignText:
-	text "<PLAYER>'s House"
+	text "Haus von <PLAYER>"
 	done
 
 SilentTownOaksLabSignText:
-	text "OAK #MON LAB"
+	text "EICH-#MON-LABOR"
 	done
 
 SilentTownRivalsHouseSignText:
-	text "<RIVAL>'s House"
+	text "Haus von <RIVAL>"
 	done
 
 SilentTown_MapEvents:

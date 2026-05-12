@@ -80,35 +80,45 @@ PlayersHouse2F_Ken:
 
 KenGreeting1:
 	text "KEN: Hey, <PLAYER>!"
-	para "I think I saw that"
-	line "you got a new"
-	cont "e-mail on your PC."
-	para "You might want to"
-	line "check that before"
-	cont "you leave."
+
+    para "Ich glaube, du"
+    line "hast vorhin eine"
+    para "neue E-Mail auf"
+    line "dem PC bekommen."
+
+    para "Lies sie lieber,"
+    line "bevor du das Haus"
+    cont "verlässt."
 	done
 	
 KenGreeting2:
 	text "KEN: Hey, <PLAYER>!"
-	para "PROF.OAK asked you"
-	line "to help him make"
-	cont "a new #DEX?"
-	para "Wow, that's wild!"
-	line "Good luck on your"
-	cont "#MON journey!"
+
+    para "PROF: EICH hat"
+    line "dich gebeten, ihm"
+    para "bei einem neuen"
+    line "#DEX zu helfen?"
+
+    para "Wow, das ist wild!"
+    line "Viel Glück auf"
+    cont "deinem Abenteuer!"
 	done
 	
 KenGreeting3:
-	text "I got an interview"
-	line "for a job as a"
-	para "radio DJ in"
-	line "WESTPORT CITY!"
-	para "I could be on the"
-	line "radio! How crazy!"
-	para "Listen for me in"
-	line "the future!"
-	para "And good luck out"
-	line "there!"
+	text "Ich habe ein Vor-"
+    line "stellungsgespräch"
+    para "für einen Job als"
+    line "Radio-Moderator in"
+    cont "PORT ABANISHI!"
+
+    para "Vielleicht hörst"
+    line "du mich bald im"
+    cont "Radio, Bruder!"
+
+    para "Wünsch mir Glück!"
+
+    para "Und dir auch viel"
+    line "Glück da draußen!"
 	done
 
 
@@ -175,34 +185,35 @@ PlayerToReadEmailMovement:
 	step_end
 
 PlayersDollText:
-	text "It's a doll you"
-	line "got as a Christmas"
-	cont "present from a"
-	cont "relative in KANTO."
+    text "Eine Puppe, die du"
+    line "zu Weihnachten von"
+    para "einem Verwandten"
+    line "aus KANTO bekommen"
+    cont "hast."
 	done
 
 PlayersRadioText2:
-	text "<PLAY_G> turned"
-	line "on the PC."
-	
-	para "What's this?"
-	line "A new e-mail?"
+	text "<PLAY_G> schaltet"
+	line "den PC ein."
+
+	para "Was ist das?"
+	line "Eine neue E-Mail?"
 	
 	para "…"
 	
-	para "I hope you'll"
-	line "excuse the sudden"
-	para "e-mail, but"
-	line "there's something"
-	para "that I would"
-	line "like to entrust"
-	para "you with."
-	
-	para "Won't you come by"
-	line "to collect it?"
-	
-	para "#MON researcher"
-	line "OAK"
+    text "Ich hoffe, du"
+    line "entschuldigst die"
+    para "plötzliche E-Mail,"
+    line "aber es gibt da"
+    para "etwas, was ich dir"
+    line "anvertrauen will."
+
+    para "Kommst du bitte"
+    line "vorbei, um es dir"
+    cont "abzuholen?"
+
+	para "#MON-Professor"
+	line "EICH"
 	
 	done
 

@@ -94,108 +94,113 @@ KurtsDoorLocked_Movement:
 
 	
 KurtsDoorLockedText:
-	text "It's locked…"
+	text "Abgeschlossen…"
 	done
 
 PagotaCityLassText:
-	text "Ghosts are rumored"
-	line "to appear in"
-	cont "BRASS TOWER."
+	text "Man sagt, dass im"
+	line "MESSINGTURM"
+	cont "Geister umgehen."
 
-	para "They said normal-"
-	line "type #MON moves"
-
-	para "had no effect on"
-	line "ghosts."
+	para "#MON-Attacken"
+	line "des Typs Normal"
+	para "haben bei Geistern"
+	line "keine Wirkung."
 	done
 
 PagotaCitySuperNerdText:
-	text "Hey, you're a"
-	line "#MON trainer?"
+	text "Hey, bist du ein"
+	line "#MON-Trainer?"
 
-	para "If you beat the"
-	line "GYM LEADER here,"
-
-	para "you'll be ready"
-	line "for prime time!"
+	para "Schlägst du den"
+	line "hiesigen ARENA-"
+	cont "LEITER, dann"
+	cont "darfst du dich"
+	para "bald zur Elite"
+	line "zählen!"
 	done
 
 PagotaCityGrampsText:
-	text "FALKNER is a fine"
-	line "GYM LEADER."
+	text "FALK ist ein"
+	line "wirklich toller"
+	cont "Arenaleiter."
 
-	para "His FLYING-TYPE"
-	line "bird #MON are"
-	para "trained to perform"
-	line "in parades and"
-	cont "other events."
+	para "Seine Flug-#MON"
+	line "sind trainiert, um"
+	para "in Paraden und"
+	line "anderen Events"
+	cont "aufzutreten."
 	done
 	
 PagotaCityGramps2Text:
-	text "I'm sorry…"
-	para "The TOWER is being"
-	line "cleaned right now."
+    text "Es tut mir Leid…"
 
-	para "Please come back"
-	line "later."
+    para "Der TURM wird"
+    line "gerade gereinigt."
+
+    para "Bitte komm später"
+    line "wieder."
 	done
 	
 PagotaCityGuardText:
-	text "The GYM LEADER"
-	para "is absent right"
-	line "now."
+    text "Der ARENALEITER"
+    line "ist gerade nicht"
+    cont "da."
 
-	para "Please come back"
-	line "later."
+    para "Bitte komm später"
+    line "wieder."
 	done
 
 PagotaCityYoungsterText:
-	text "Behind me is the"
-	line "BRASS TOWER!"
-	
-	para "Many trainers try"
-	line "to climb it to get"
-	cont "the ELDER's bles-"
-	cont "sing."
-	
-	para "Without it, you"
-	line "can't challenge"
-	cont "the GYM."
+    text "Hinter mir ist der"
+    line "MESSINGTURM!"
+
+    para "Viele Trainer"
+    line "versuchen ihn zu"
+    para "erklimmen, um den"
+    line "Segen des ÄLTESTEN"
+    cont "zu erhalten."
+
+    para "Ohne ihn kannst du"
+    line "die ARENA nicht"
+    cont "herausfordern."
 	done
 
 PagotaCitySignText:
-	text "PAGOTA CITY"
+	text "PAGETIA CITY"
 
-	para "Timeless as the"
-	line "stars above."
+	para "Zeitlos wie die"
+	line "Sterne am Himmel"
 	done
 
 PagotaGymSignText:
-	text "PAGOTA CITY"
-	line "#MON GYM"
-	cont "LEADER: FALKNER"
+	text "PKMN-ARENA von"
+	line "PAGETIA CITY"
 
-	para "The Elegant Master"
-	line "of Flying #MON"
+	para "LEITUNG: FALK"
+	line "Der elegante"
+
+	para "Meister der Flug-"
+	line "#MON"
 	done
 
 BrassTowerSignText:
-	text "BRASS TOWER"
+	text "MESSINGTURM"
 
-	para "Experience the"
-	line "Way of #MON"
+	para "Erfahre das Wesen"
+	line "der #MON"
 	done
 
 EarlsPokemonAcademySignText:
-	text "EARL'S ART HOUSE"
+	text "EARLs KUNST-HAUS"
 	done
 	
 KurtsHouseSignText:
-	text "KURT'S HOUSE"
+	text "KURTs HAUS"
 	done
 	
 BillsHouseSign2Text:
-	text "BILL'S HOUSE"
+	text "BILLs HAUS"
 	done
 	
 

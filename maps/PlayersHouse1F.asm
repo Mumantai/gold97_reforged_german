@@ -200,160 +200,177 @@ MomWalksBackMovement:
 	step_end
 
 FinalMomText:
-	text "That's right,"
-	line "<RIVAL> is"
-	cont "his name!"
+    text "Ah, genau!"
+    line "Er hieß <RIVAL>!"
 	
-	para "Well he's probably"
-	line "still close by."
-	
-	para "I'm sure you'll"
-	line "bump into him"
-	cont "soon."
+    para "Er ist bestimmt"
+    line "noch in der Nähe."
+
+    para "Du läufst ihm"
+    line "bestimmt bald über"
+    cont "den Weg."
 	done
 
 OaksLookingForYouText:
 	text "Oh, <PLAYER>…!"
-	line "Your #MON"
 
-	para "GEAR is back from"
-	line "the repair shop."
+	para "Dein #MON-COM"
+	line "ist von der"
+	cont "Reparatur zurück."
 
-	para "Here you go!"
+	para "Da hast du ihn!"
 	done
 
 MomGivesPokegearText:
-	text "#MON GEAR, or"
-	line "just #GEAR."
+	text "#MON-COM oder"
+	line "einfach nur"
+	cont "#COM."
 
-	para "It's essential if"
-	line "you want to be a"
-	cont "good trainer."
+	para "Ein wichtiges Ge-"
+	line "rät auf deinem"
+	cont "Pfad als Trainer."
 
-	para "Oh, the day of the"
-	line "week isn't set."
+	para "Oh, der Wochentag"
+	line "ist noch nicht"
+	cont "eingestellt."
 
-	para "You mustn't forget"
-	line "that!"
+	para "Das darfst du"
+	line "nicht vergessen!"
 	done
 
 IsItDSTText:
-	text "Is it Daylight"
-	line "Saving Time now?"
+	text "Haben wir"
+	line "Sommerzeit?"
 	done
 
 ComeHomeForDSTText:
-	text "Come home to"
-	line "adjust your clock"
+	text "Geh nach Hause, um"
+	line "deine Uhr auf SZ"
+	cont "oder WZ einzu-"
+	cont "stellen."
 
-	para "for Daylight"
-	line "Saving Time."
-
-	para "By the way, do you"
-	line "know how to use"
-	cont "the PHONE?"
+	para "Übrigens, weißt du"
+	line "über den Umgang"
+	cont "mit dem TELEFON"
+	cont "Bescheid?"
 	done
 
 KnowTheInstructionsText:
-	text "Oh, I see."
-	
-	para "Aren't you a"
-	line "clever one?"
+	text "Muss man nicht"
+	line "einfach den #-"
+	cont "COM einschalten"
+
+	para "und das TELEFON-"
+	line "Symbol anwählen?"
 	done
 
 DontKnowTheInstructionsText:
-	text "I'll read the"
-	line "instructions."
+	text "Ich werde die An-"
+	line "leitung lesen."
 
-	para "Turn the #GEAR"
-	line "on and select the"
-	cont "PHONE icon."
+	para "Schalte den #-"
+	line "COM ein und wähle"
+	cont "das TELEFON-Symbol"
+	cont "an!"
 	done
 
 InstructionsNextText:
-	text "Phone numbers are"
-	line "stored in memory."
+	text "Telefonnummern"
+	line "werden gespei-"
+	cont "chert. Wähle ein-"
+	cont "fach den Namen der"
 
-	para "Just choose a name"
-	line "you want to call."
+	para "Person, die du an-"
+	line "rufen möchtest."
 
-	para "Gee, isn't that"
-	line "convenient?"
+	para "Ist das nicht"
+	line "praktisch?"
 	done
 	
 RivalNameText:
-	text "By the way, that"
-	line "friend of yours"
-	
-	para "stopped by looking"
-	line "for you."
-	
-	para "I can't remember"
-	line "his name though…"
+    text "Übrigens, dieser"
+    line "Freund von dir war"
+    para "hier und hat nach"
+    line "dir gefragt."
+
+    para "Ich kann mich nie"
+    line "an seinen Namen"
+    cont "erinnern…"
 	done
 
 HurryUpOakIsWaitingText:
-	text "PROF.OAK told me"
-	line "he wanted to talk"
-	
-	para "to you. You should"
-	line "go see him when"
-	cont "you get a chance."
+    text "PROF. EICH sagte"
+    line "mir, dass er mit"
+    cont "dir sprechen will."
+
+    para "Du solltest ihn"
+    line "bei Gelegenheit"
+    cont "besuchen."
 
 	done
 
 SoWhatWasProfOaksErrandText:
-	text "So, what was PROF."
-	line "OAK's request?"
+	text "Wie lautete der"
+	line "Auftrag von PROF."
+	cont "EICH?"
 
 	para "…"
 
-	para "That does sound"
-	line "challenging."
+	para "Das klingt nach"
+	line "einer wahren He-"
+	cont "rausforderung."
 
-	para "But, you should be"
-	line "proud that people"
-	cont "rely on you."
+	para "Aber du kannst"
+	line "stolz darauf sein,"
+	cont "dass sich die Leu-"
+	cont "te auf dich ver-"
+	cont "lassen!"
 	done
 
 ImBehindYouText:
-	text "<PLAYER>, do it!"
+	text "<PLAYER>, du"
+	line "schaffst es!"
 
-	para "I'm behind you all"
-	line "the way!"
+	para "Ich werde dir"
+	line "immer zur Seite"
+	cont "stehen!"
 	done
 
 
 StoveText:
-	text "Mom's specialty!"
+	text "Mamas Spezialität!"
 
-	para "CINNABAR VOLCANO"
+	para "ZINNOBER-VULKAN-"
 	line "BURGER!"
 	done
 
 SinkText:
-	text "The sink is spot-"
-	line "less. Mom likes it"
-	cont "clean."
+	text "Die Spüle ist"
+	line "fleckenlos rein,"
+	cont "so wie es Mama"
+	cont "mag."
 	done
 
 FridgeText:
-	text "Let's see what's"
-	line "in the fridge…"
+	text "Mal sehen, was da"
+	line "im Kühlschrank zu"
+	cont "finden ist…"
 
-	para "FRESH WATER and"
-	line "tasty LEMONADE!"
+	para "TAFELWASSER"
+	line "und leckere LIMO-"
+	cont "NADE!"
 	done
 
 TVText:
-	text "There's a movie on"
-	line "TV: Stars dot the"
+	text "Es läuft ein Film"
+	line "im TV: Die Sterne"
 
-	para "sky as two boys"
-	line "ride on a train…"
+	para "leuchten und zwei"
+	line "Jungen fahren Zug…"
 
-	para "I'd better get"
-	line "rolling too!"
+	para "Ich sollte mich"
+	line "auch in Bewegung"
+	cont "setzen!"
 	done
 
 PlayersHouse1F_MapEvents:
