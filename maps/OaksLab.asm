@@ -744,7 +744,7 @@ OakDirectionsText1:
 
 OakDirectionsText3:
 	text "<PLAY_G>,"
-	para <RIVAL>, ich"
+	para "<RIVAL>, ich"
 	line "zähle auf euch!"
 	done
 
