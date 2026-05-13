@@ -1,7 +1,7 @@
 DecorationNames:
 ; entries correspond to constants/deco_constants.asm
 	db "ZURÜCK@"
-	db "PWEGLEGEN@"
+	db "WEGLEGEN@"
 	db "BAUMPFLANZE@"
 	db "TROPENPFLANZE@"
 	db "RIESENPFLANZE@"

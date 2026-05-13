@@ -94,7 +94,7 @@ NameRival:
 	ret
 
 .default
-	db "SILVER@"
+	db "SILBER@"
 	
 NameMom:
 	ld b, NAME_MOM
@@ -107,7 +107,7 @@ NameMom:
 	ret
 	
 	.default
-	db "MOMMY@"
+	db "MAMA@"
 
 NameRater:
 	farcall _NameRater

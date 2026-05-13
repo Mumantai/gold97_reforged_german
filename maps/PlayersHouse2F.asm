@@ -54,7 +54,7 @@ PlayersHouse2F_Ken:
 	
 .KenEmailScript
 	
-;	closetext
+	closetext
 	checkcode VAR_FACING
 	ifequal UP, .DontNeedToWalk
 	applymovement PLAYER, PlayerToReadEmailMovement

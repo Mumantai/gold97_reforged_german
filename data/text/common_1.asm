@@ -362,10 +362,8 @@ _ConsoleDecoText::
 	line "@"
 	text_ram wStringBuffer3
 	text "!"
-	para "Mach besser"
-	line "weiter - du hast"
-	cont "keine Zeit zu"
-	cont "verlieren!"
+	para "…OK! Die Reise"
+	line "kann beginnen!"
 	done
 
 UnknownText_0x1bc5ef::
