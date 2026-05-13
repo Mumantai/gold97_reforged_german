@@ -1,4 +1,4 @@
-MAP_NAME_SIGN_START EQU $c0
+MAP_NAME_SIGN_START EQU $ba
 
 ReturnFromMapSetupScript::
 	xor a
