@@ -201,7 +201,7 @@ PlayersRadioText2:
 	
 	para "…"
 	
-    text "Ich hoffe, du"
+    para "Ich hoffe, du"
     line "entschuldigst die"
     para "plötzliche E-Mail,"
     line "aber es gibt da"
