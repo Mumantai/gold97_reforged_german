@@ -407,8 +407,9 @@ DoorLockedScriptWeekends:
 	end
 
 DoorLockedText:
-	text "The door seems to"
-	line "be locked…"
+	text "Die Tür scheint"
+	line "abgeschlossen zu"
+	cont "sein…"
 	done
 
 OaksLabEntrance_MapEvents:

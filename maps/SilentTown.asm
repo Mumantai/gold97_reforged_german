@@ -407,7 +407,7 @@ Text_ItsDangerousToGoAlone:
 	text "Was denkst du,"
 	line "tust du da?"
 	
-    text "Es ist gefährlich,"
+    para "Es ist gefährlich,"
     line "ohne #MON das"
     cont "Haus zu verlassen!"
 
