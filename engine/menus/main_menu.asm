@@ -15,6 +15,14 @@ MainMenu:
 	call MainMenu_PrintCurrentTimeAndDay
 	ld hl, .MenuHeader
 	call LoadMenuHeader
+	; print game version and localization version
+	hlcoord 14, 9
+    ld de, MainMenu_PrintCurrentTimeAndDay.VersionNumberPrint
+    call PlaceString
+    hlcoord 13, 11
+    ld de, MainMenu_PrintCurrentTimeAndDay.LocVersionPrint
+    call PlaceString
+
 	call MainMenuJoypadLoop
 	call CloseWindow
 	jr c, .quit
@@ -256,9 +264,8 @@ MainMenu_PrintCurrentTimeAndDay:
 	ld b, a
 	decoord 1, 15
 	call .PlaceCurrentDay
-	ld de, .VersionNumberPrint
 	call PlaceString
-	decoord 4, 16
+	decoord 1, 16
 	ldh a, [hHours]
 	ld c, a
 	farcall PrintHour
@@ -304,8 +311,10 @@ MainMenu_PrintCurrentTimeAndDay:
 	
 	
 .VersionNumberPrint:
-	db "    v6.1e@"
+	db "v6.1e@"
 
+.LocVersionPrint:
+    db "DE 0.1@"
 
 .Days:
 	db "SONNTAG   @"

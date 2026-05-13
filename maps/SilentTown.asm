@@ -498,7 +498,8 @@ SilentTownRivalText3:
 	para "Naja, ich gehe mal"
 	line "zu PROF. EICH!"
 
-	para "Wir sehen uns dort!"
+	para "Wir sehen uns"
+	line "dann dort!"
 	done
 
 SilentTownSignText:
