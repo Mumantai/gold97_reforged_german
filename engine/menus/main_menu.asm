@@ -15,6 +15,12 @@ MainMenu:
 	call MainMenu_PrintCurrentTimeAndDay
 	ld hl, .MenuHeader
 	call LoadMenuHeader
+    hlcoord 14, 9
+    ld de, MainMenu_PrintCurrentTimeAndDay.VersionNumberPrint
+    call PlaceString
+    hlcoord 13, 11
+    ld de, MainMenu_PrintCurrentTimeAndDay.LocVersionPrint
+    call PlaceString
 	call MainMenuJoypadLoop
 	call CloseWindow
 	jr c, .quit
@@ -256,8 +262,6 @@ MainMenu_PrintCurrentTimeAndDay:
 	ld b, a
 	decoord 1, 15
 	call .PlaceCurrentDay
-	ld de, .VersionNumberPrint
-	call PlaceString
 	decoord 1, 16
 	ldh a, [hHours]
 	ld c, a
@@ -267,8 +271,7 @@ MainMenu_PrintCurrentTimeAndDay:
 	ld de, hMinutes
 	lb bc, PRINTNUM_LEADINGZEROS | 1, 2
 	call PrintNum
-	ld de, .LocVersionPrint
-    call PlaceString
+
 	ret
 
 .min
@@ -306,10 +309,10 @@ MainMenu_PrintCurrentTimeAndDay:
 	
 	
 .VersionNumberPrint:
-	db "   v6.1e@"
+	db "v6.1e@"
 
 .LocVersionPrint:
-    db "   DE 1.3@"
+    db "DE 1.3@"
 
 .Days:
 	db "SONNTAG   @"
