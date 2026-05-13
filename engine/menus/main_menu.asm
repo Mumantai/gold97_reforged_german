@@ -267,7 +267,6 @@ MainMenu_PrintCurrentTimeAndDay:
 	ld de, hMinutes
 	lb bc, PRINTNUM_LEADINGZEROS | 1, 2
 	call PrintNum
-	decoord 13, 15
 	ld de, .LocVersionPrint
     call PlaceString
 	ret
@@ -310,7 +309,7 @@ MainMenu_PrintCurrentTimeAndDay:
 	db "   v6.1e@"
 
 .LocVersionPrint:
-     db "DE 1.3@"
+     db "   DE 1.3@"
 
 .Days:
 	db "SONNTAG   @"
