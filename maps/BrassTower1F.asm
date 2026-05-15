@@ -30,25 +30,25 @@ BrassTower1FSign:
 	jumptext BrassTower1FSignText
 
 SageChowSeenText:
-	text "We stand guard in"
-	line "this tower."
+	text "Wir bewachen"
+	line "diesen Turm."
 
-	para "Here, we express"
-	line "our gratitude to"
-	cont "honor all #MON."
+	para "In tiefster Dank-"
+	line "barkeit ehren wir"
+	cont "hier alle #MON."
 	done
 
 SageChowBeatenText:
-	text "Th-Thank you!"
+	text "Da-Danke!"
 	done
 
 SageChowAfterBattleText:
-	text "All living beings"
-	line "coexist through"
-	cont "cooperation."
+	text "Die Basis jeder"
+	line "Koexistenz ist"
+	cont "Zusammenarbeit."
 
-	para "We must always be"
-	line "thankful for this."
+	para "Lasst uns dies"
+	line "nie vergessen!"
 	done
 
 TrainerSageNico:
@@ -64,26 +64,28 @@ TrainerSageNico:
 
 
 SageNicoSeenText:
-	text "The BRASS TOWER"
-	line "was built many"
-	cont "centuries ago."
-	para "It is our honor"
-	line "to keep sacred"
-	cont "this place."
+    text "Der MESSINGTURM"
+    line "wurde vor vielen"
+    para "Jahrhunderten"
+    line "erbaut."
+
+    para "Es ist uns eine"
+    line "Ehre, diesen ge-"
+    para "weihten Ort zu"
+    line "bewahren."
 	done
 
 
 SageNicoBeatenText:
-	text "Perhaps you"
-	line "understand."
+	text "Vielleicht ver-"
+	line "stehst du es."
 	done
 
 SageNicoAfterBattleText:
-	text "We hope that this"
-	line "tower will"
-	para "continue to stand"
-	line "as long as it has"
-	cont "already stood."
+    text "Wir hoffen, dass"
+    line "dieser Turm uns"
+    para "noch lange erhal-"
+    line "ten bleibt."
 	done
 
 TrainerSageTroy:
@@ -99,47 +101,50 @@ TrainerSageTroy:
 
 
 SageTroySeenText:
-	text "Why was this tower"
-	line "built?"
-	para "No one knows."
-	para "But it once served"
-	line "as a nest for"
-	cont "a bird of legends."
+    text "Warum dieser Turm"
+    line "gebaut wurde?"
+
+    para "Das weiß niemand."
+
+    para "Aber er diente"
+    line "einst als Nest für"
+    para "einen legendären"
+    line "Vogel."
 	done
 
 SageTroyBeatenText:
-	text "Be sure to honor"
-	line "this place."
+    text "Halte diesen Ort"
+    line "in Ehren."
 	done
 
 SageTroyAfterBattleText:
-	text "Be deliberate with"
-	line "each step as you"
-	cont "climb the tower."
+    text "Gehe jeden Schritt"
+    line "mit Bedacht."
 	done
 
 BrassTower1FStatueText:
-	text "A #MON statue…"
+	text "Eine PKMN-Statue…"
 
-	para "It looks very"
-	line "distinguished."
+	para "Sie sieht sehr"
+	line "erhaben aus."
 	done
 	
 BrassTower1FSignText:
-	text "This is the"
-	line "BRASS TOWER."
-	para "An ancient"
-	line "monument that's"
-	para "dedicated to the"
-	line "#MON that"
-	para "enrich the lives"
-	line "of humans."
-	para "Carefully read"
-	line "the information"
-	para "by each statue"
-	line "above to"
-	para "understand what"
-	line "it teaches."
+    text "Dies ist der"
+    line "MESSINGTURM."
+
+    para "Ein uraltes"
+    line "Monument, das den"
+    para "#MON gewidmet"
+    line "ist, die das Leben"
+    para "der Menschen"
+    line "bereichern."
+
+    para "Lies sorgfältig"
+    line "die Informationen"
+    para "an jeder Statue,"
+    line "um zu verstehen,"
+    cont "was es uns lehrt."
 	done
 
 BrassTower1F_MapEvents:

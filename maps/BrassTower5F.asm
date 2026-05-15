@@ -107,80 +107,86 @@ PlayerWalksToHoOhGroup1:
 	step_end
 	
 KurtKnewIt:
-	text "KURT: I knew I was"
-	line "right when I"
-	para "sensed something"
-	line "about you."
+    text "KURT: Ich wusste,"
+    line "ich hatte Recht,"
+    para "als ich etwas an"
+    line "dir gespürt habe."
 	done
 	
 CaptainCantBelieve:
-	text "I can't believe"
-	line "it!"
-	para "The return of the"
-	line "bird!"
-	para "It's happening!"
+    text "Ich kann es nicht"
+    line "fassen!"
+
+    para "Die Rückkehr des"
+    line "Vogels!"
+
+    para "Es geschieht!"
 	done
 	
 SageTellsYouToSeeBird:
-	text "<PLAY_G>."
-	para "HO-OH roosts above"
-	line "our heads."
-	para "The bird has"
-	line "returned, as"
-	para "predicted in"
-	line "legend."
-	para "I sense that it"
-	line "wants to meet"
-	cont "you."
-	para "It has determined"
-	line "that actions you"
-	para "have taken have"
-	line "shown that you are"
-	para "worthy of"
-	line "approaching it."
-	para "Make your way to"
-	line "the roof."
+    text "<PLAY_G>."
+
+    para "HO-OH nistet über"
+    line "unseren Köpfen."
+
+    para "Es ist tatsächlich"
+    line "zurückgekehrt."
+
+    para "Wie es die Legende"
+    line "voraussagt."
+
+    para "Ich spüre, dass es"
+    line "dich treffen will."
+
+    para "Es hat entschie"
+    line "den, dass deine"
+    para "Taten dich als"
+    line "würdig erweisen,"
+    para "ihm jetzt direkt"
+    line "gegenüberzutreten."
+
+    para "Nun begib dich"
+    line "auf das Dach."
 	done
 	
 Text_5FSageDuringHoOh:
-	text "The bird awaits."
+	text "Der Vogel wartet."
 	done
 
 Text_5FSageAfterHoOh:
-	text "Such an encounter"
-	line "with the bird is"
-	cont "a legendary event."
+    text "Eine Begegnung"
+    line "mit dem Vogel gilt"
+    cont "als legendär."
 	done
 	
 Text_5FSage:
-	text "Welcome to the top"
-	line "of the BRASS"
-	cont "TOWER."
-	
-	para "This is a sacred"
-	line "place that should"
-	cont "only be visited by"
-	cont "those willing to"
-	cont "show proper re-"
-	cont "spect."
-	
-	para "I understand that"
-	line "FALKNER has asked"
-	cont "you to scale its"
-	cont "floors."
-	
-	para "I hope you can go"
-	line "forward with the"
-	cont "knowledge and"
-	cont "understanding of"
-	cont "how to properly"
-	cont "treat #MON."
-	
-	para "You may return to"
-	line "FALKNER."
-	
-	para "You have my"
-	line "blessing."
+    text "Willkommen auf"
+    line "der Spitze des"
+    cont "MESSINGTURMs."
+
+    para "Dies ist ein ge-"
+    line "weihter Ort, der"
+    para "nur von denen"
+    line "besucht werden"
+    cont "sollte, die ihm"
+    para "den angemessenen"
+    line "Respekt erweisen."
+
+    para "Ich verstehe, dass"
+    line "FALK dich gebeten"
+    para "hat, seine Ebenen"
+    line "zu erklimmen."
+
+    para "Ich hoffe, du"
+    line "konntest lernen,"
+    para "wie man #MON"
+    line "den richtigen"
+    para "Respekt entgegen-"
+    line "bringt."
+
+    para "Kehre jetzt zu"
+    line "FALK zurück. Du"
+    cont "hast meinen Segen."
 	done
 
 SproutTower5FSign:
@@ -188,26 +194,30 @@ SproutTower5FSign:
 
 	
 SproutTower5FSignText:
-	text "This is a statue"
-	line "of an ABRA."
-	para "ABRA are easily"
-	line "startled and quick"
-	para "to flee when"
-	line "encountered in the"
-	cont "wild."
-	para "Be sure to honor"
-	line "and respect all"
-	para "#MON in their"
-	line "natural habitats."
+    text "Eine Statue von"
+    line "ABRA."
+
+    para "ABRA sind sehr"
+    line "schreckhaft und"
+    para "fliehen schnell,"
+    line "wenn man ihnen in"
+    para "freier Wildbahn"
+    line "begegnet."
+
+    para "Ehre und respek-"
+    line "tiere alle #MON"
+    para "in ihrem natür-"
+    line "lichen Lebensraum."
 	done
 	
 SproutTower5FIncense:
 	jumptext SproutTower5FIncenseText
 
 SproutTower5FIncenseText:
-	text "What is this?"
-	para "Oh, it's an"
-	line "incense burner!"
+	text "Was ist das?"
+
+	para "Oh, das ist ein"
+	line "Räucherstäbchen!"
 	done
 
 BrassTower5F_MapEvents:
