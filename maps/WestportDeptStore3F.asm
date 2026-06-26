@@ -36,28 +36,30 @@ WestportDeptStore3FElevatorButton:
 	jumpstd elevatorbutton
 
 WestportDeptStore3FSuperNerdText:
-	text "I, I, I'm really"
-	line "impatient!"
+    text "Ich, ich, ich bin"
+    line "total ungeduldig!"
 
-	para "I use X SPEED in"
-	line "battle to speed up"
-	cont "my #MON."
+    para "Ich benutze immer"
+    line "X-INITIATIVE,"
+    cont "um meine #MON"
+    cont "noch schneller"
+    cont "zu machen."
 	done
 
 WestportDeptStore3FRockerText:
-	text "X SPECIAL is very"
-	line "useful if you have"
-	para "a #MON with"
-	line "offensive SPECIAL"
-	cont "moves."
+    text "X-SPEZIAL ist sehr"
+    line "nützlich, wenn du"
+    para "ein #MON mit"
+    line "SPEZIALATTACKEN"
+    cont "hast."
 	done
 
 WestportDeptStore3FDirectoryText:
-	text "For Victory"
-	line "Seekers"
+	text "Für Sieges-"
+	line "hungrige"
 
-	para "3F BATTLE"
-	line "   COLLECTION"
+	para "2S KAMPF-"
+	line "   KOLLEKTION"
 	done
 
 WestportDeptStore3F_MapEvents:

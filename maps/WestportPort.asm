@@ -158,8 +158,8 @@ WestportPortLocationMenu:
 .MenuData:
 	db STATICMENU_CURSOR ; flags
 	db 2 ; items
-	db "TEKNOS CITY@"
-	db "CANCEL@"
+	db "TEKNOPIA CITY@"
+	db "ZURÜCK@"
 
 WestportPortLocationMenu2:
 	db MENU_BACKUP_TILES ; flags
@@ -170,9 +170,9 @@ WestportPortLocationMenu2:
 .MenuData2:
 	db STATICMENU_CURSOR ; flags
 	db 3 ; items
-	db "TEKNOS CITY@"
-	db "SOUTHWEST ISLANDS@"
-	db "CANCEL@"
+	db "TEKNOPIA CITY@"
+	db "SÜDWESTINSELN@"
+	db "ZURÜCK@"
 
 
 WestportPortFishingGuru1Script:
@@ -262,110 +262,118 @@ PlayerLeavesShip2:
 	step_end
 
 WestportPortSailorNotGoingToTekuText:
-	text "Please join us"
-	line "another time!"
+    text "Bitte besuche uns"
+    line "ein andermal!"
 	done
 
 WestportPortSailorGoToTekuText:
-	text "Welcome to the"
-	line "WESTPORT CITY"
-	cont "DOCKS."
-	para "Where would you"
-	line "like to go today?"
+    text "Willkommen am"
+    line "HAFEN von PORT"
+    cont "ABANISHI."
+
+    para "Wohin möchtest du"
+    line "heute fahren?"
 	done
 	
 WestportPortSailorFirstTimeIslesText:
-	text "Welcome to the"
-	line "WESTPORT CITY"
-	cont "DOCKS."
-	para "We now also offer"
-	line "trips to NIHON's"
-	cont "SOUTHWEST ISLANDS."
-	para "Where would you"
-	line "like to go today?"
+    text "Willkommen am"
+    line "HAFEN von PORT"
+    cont "ABANISHI."
+
+    para "Wir bieten jetzt"
+    line "auch Fahrten zu"
+    cont "NIHONs SÜDWEST-"
+    cont "INSELN an."
+
+    para "Wohin möchtest du"
+    line "heute fahren?"
 	done
 
 WestportPortSailorGoingToTeknosText:
-	text "Okay! Departing to"
-	line "TEKNOS CITY."
+    text "O.K.! Abfahrt nach"
+    line "TEKNOPIA CITY."
 	done
 
 WestportPortSailorBoardingSoonText:
-	text "We're departing"
-	line "soon. Please get"
-	cont "on board."
+	text "Wir legen bald"
+	line "ab! Geh an"
+	cont "Bord."
 	done
 
 WestportPortSailorGoingToSWIsles:
-	text "Okay! Departing to"
-	line "AMAMI TOWN in the"
-	cont "SOUTHWEST ISLANDS."
+    text "O.K.! Abfahrt nach"
+    line "AMAMIA auf den"
+    cont "SÜDWESTINSELN."
 	done
 
 SailorSeeTicketText:
-	text "May I see your"
-	line "S.S.TICKET?"
+	text "Zeige mir bitte"
+	line "dein"
+
+	para "BOOTSTICKET."
 	done
 
 
 UnknownText_0x74af6:
-	text "We hope to see you"
-	line "again!"
+	text "Komm jederzeit"
+	line "wieder vorbei!"
 	done
 
 FlashedTheTicketText:
-	text "<PLAYER> flashed"
-	line "the S.S.TICKET."
+	text "<PLAYER> zeigt"
+	line "das BOOTSTICKET."
 
-	para "That's it."
-	line "Thank you!"
+	para "In Ordnung."
+	line "Danke schön!"
 	done
 
 SailorNoTicketText:
 	text "…"
-	para "Sorry!"
-	line "Trips to the"
-	para "islands require"
-	line "you to have an"
-	cont "S.S.TICKET."
+	para "Tut mir Leid, aber"
+	line "für Fahrten zu den"
+	cont "INSELN brauchst du"
+	cont "ein BOOTSTICKET."
 	done
 
 WestportPortFishingGuru1Text:
-	text "SHELLDER are easy"
-	line "to catch here."
-
-	para "They're kind of"
-	line "rare elsewhere."
+	text "Hier kannst du"
+	line "MUSCHAS leicht"
+	para "fangen. An anderen"
+	line "Orten sind sie"
+	cont "seltener."
 	done
 
 WestportPortFishingGuru2Text:
-	text "Do you have any"
-	line "fishing RODS?"
+	text "Wie viele ANGELN"
+	line "hast du?"
 
-	para "Different RODS"
-	line "catch different"
+	para "Mit verschiedenen"
+	line "ANGELN, fängst du"
+	cont "verschiedene"
 	cont "#MON."
 	done
 
 WestportPortYoungsterText:
-	text "S.S.AQUA uses jets"
-	line "to skim over the"
-	cont "waves!"
+	text "M.S. AQUA benutzt"
+	line "Spezialdüsen,"
+	cont "um über die Wellen"
+	cont "zu gleiten!"
 	done
 
 WestportPortCooltrainerFText:
-	text "There are lots of"
-	line "#MON on the"
-	cont "ISLANDS."
+	text "Auf den INSELN"
+	line "gibt es viele"
+	cont "#MON."
 
-	para "I wish I could go…"
+	para "Ich wünschte, ich"
+	line "könnte dorthin…"
 	done
 
 WestportPortSailorUnderMaintenanceText:
-	text "We're very sorry,"
-	line "but the DOCKS are"
-	cont "currently closed"
-	cont "for maintenance."
+    text "Es tut uns leid,"
+    line "aber der HAFEN ist"
+    para "wegen Renovierung"
+    line "geschlossen."
 	done
 
 
