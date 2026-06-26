@@ -414,7 +414,7 @@ SetDayOfWeek:
 	call PrintText
 	hlcoord 8, 3
 	ld b, 2
-	ld c, 9
+	ld c, 10
 	call TextBox
 	hlcoord 13, 3
 	ld [hl], TIMESET_UP_ARROW
@@ -490,7 +490,7 @@ SetDayOfWeek:
 	ldh [hBGMapMode], a
 	hlcoord 9, 4
 	ld b, 2
-	ld c, 9
+	ld c, 10
 	call ClearBox
 	hlcoord 9, 5
 	call .PlaceWeekdayString

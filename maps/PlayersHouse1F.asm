@@ -122,7 +122,7 @@ MeetMomTalkedScript:
 	jump MeetMomScript
 
 GearName:
-	db "#GEAR@"
+	db "#COM@"
 
 PlayersHouse1FReceiveItemStd:
 	jumpstd receiveitem
