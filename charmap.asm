@@ -131,6 +131,7 @@
     charmap "ü",         $c5
     charmap "ẞ",         $c6
     charmap "ß",         $c7
+    charmap "+",         $c8
 
 	charmap "′",         $ce
 	charmap "″",         $cf

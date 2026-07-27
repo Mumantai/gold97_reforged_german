@@ -8624,11 +8624,11 @@ ReadAndPrintLinkBattleRecord:
 	db "  ---  <LF>"
 	db "         -    -    -@"
 .Record:
-	db "<PLAYER>'s RECORD@"
+	db "<PLAYER>s STATISTIK@"
 .Result:
-	db "RESULT WIN LOSE DRAW@"
+	db "Erg. Gew. Verl. Patt@"
 .Total:
-	db "TOTAL  WIN LOSE DRAW@"
+	db "Ges. Gew. Verl. Patt@"
 
 BattleEnd_HandleRoamMons:
 	ld a, [wBattleType]
