@@ -55,9 +55,9 @@ PokecomCenterAdminOfficeMobileComputer1:
 .MenuData:
 	db STATICMENU_CURSOR ; flags
 	db 3 ; items
-	db "#　つうしん　クラブ@" ; # COM CLUB
-	db "モバイルセンター@" ; MOBILE CENTER
-	db "やめる@" ; QUIT
+	db "#KOM-CLUB@" ; # COM CLUB
+	db "MOBILES CENTER@" ; MOBILE CENTER
+	db "ZURÜCK@" ; QUIT
 
 PokecomCenterAdminOfficeMobileComputer2:
 	opentext
@@ -97,165 +97,159 @@ PokecomCenterAdminOfficeMobileComputer2:
 .MenuData:
 	db STATICMENU_CURSOR ; flags
 	db 3 ; items
-	db "でんわ<WO>つかうとき@" ; Use phone
-	db "でんわ<GA>つながらないとき@" ; Don't use phone
-	db "やめる@" ; QUIT
+	db "HANDY-NUTZUNG@" ; Use phone
+	db "KEIN NETZEMPFANG@" ; Don't use phone
+	db "ZURÜCK@" ; QUIT
 
 PokecomCenterAdminOfficeMobileComputer3:
 	jumptext PokecomCenterAdminOfficeMobileComputer3Text
 
 PokecomCenterAdminOfficeMobileScientist1Text:
-	text "#COM CENTER and"
-	line "MOBILE CENTER were"
-
-	para "built to satisfy"
-	line "demands for trades"
-
-	para "and battles with"
-	line "trainers far away"
-
-	para "and with total"
-	line "strangers."
+	text "Das #KOM-CENTER"
+	line "und das MOBILE"
+	para "CENTER wurden"
+	line "errichtet, um das"
+	para "Tauschen und"
+	line "Kämpfen mit"
+	para "weit entfernten"
+	line "Freunden und sogar"
+	para "wildfremden"
+	line "Trainern zu"
+	cont "ermöglichen."
 	done
 
 PokecomCenterAdminOfficeMobileScientist2Text:
-	text "When you linked"
-	line "with someone by"
+	text "Warst du nicht"
+	line "auch beeindruckt,"
+	para "als du dich das"
+	line "erste Mal über"
+	para "dein Handy mit"
+	line "jemandem verbunden"
+	cont "hast?"
 
-	para "mobile phone for"
-	line "the first time,"
-
-	para "weren't you"
-	line "impressed?"
-
-	para "When my first try"
-	line "worked, I was so"
-
-	para "impressed that I"
-	line "got the shakes!"
+	para "Bei meinem ersten"
+	line "erfolgreichen"
+	para "Versuch war ich"
+	line "so beeindruckt,"
+	para "dass ich sogar"
+	line "Gänsehaut bekam!"
 	done
 
 PokecomCenterAdminOfficeMobileScientist3Text:
-	text "They were able to"
-	line "build this huge"
-
-	para "facility thanks to"
-	line "advances in wire-"
-	cont "less technology."
+	text "Dank Fortschritten"
+	line "auf dem Gebiet der"
+	para "Funktechnologie,"
+	line "konnten sie diese"
+	cont "Stätte bauen."
 	done
 
 PokecomCenterAdminOfficeMobileComputer1Text:
-	text "It's a notice"
-	line "about where MOBILE"
-
-	para "ADAPTERS are to be"
-	line "used…"
+	text "Eine Notiz über"
+	line "die Einsatzzwecke"
+	para "des MOBILEN"
+	line "ADAPTERs…"
 	done
 
 PokecomCenterAdminOfficeMobileComputer1Text_PokeComClub:
-	text "There's a #COM"
-	line "CLUB upstairs in"
+	text "Es gibt in jedem"
+	line "#MON-CENTER im"
+	para "Obergeschoss den"
+	line "#KOM-CLUB."
+	para "Mit einem MOBILEN"
+	line "ADAPTER kannst du"
+	para "dort mit weit"
+	line "entfernten"
+	para "Freunden kämpfen"
+	line "oder tauschen."
 
-	para "any #MON"
-	line "CENTER."
-
-	para "There, you can"
-	line "battle or trade"
-
-	para "with a friend far"
-	line "away by using a"
-	cont "MOBILE ADAPTER."
-
-	para "To link up, your"
-	line "friend must have"
-
-	para "the same kind of"
-	line "MOBILE ADAPTER as"
-	cont "you."
+	para "Um sich verbinden"
+	line "zu können, benö-"
+	cont "tigen dein Freund"
+	para "und du die gleiche"
+	line "Art eines MOBILEN"
+	cont "ADAPTERs."
 	done
 
 PokecomCenterAdminOfficeMobileComputer1Text_MobileCenter:
-	text "To use the TRADE"
-	line "CORNER or read the"
-
-	para "#MON NEWS, you"
-	line "need to phone the"
-	cont "MOBILE CENTER."
-
-	para "You must register"
-	line "at the MOBILE"
-
-	para "CENTER before"
-	line "connecting there."
+	text "TAUSCHECKE und"
+	line "#MON-NACHRICH-"
+	cont "TEN werden über"
+	para "eine Verbindung"
+	line "zum MOBILEN CENTER"
+	cont "bereitgestellt."
+	para "Hierfür musst du"
+	line "dich zunächst beim"
+	para "MOBILEN CENTER"
+	line "registrieren."
 	done
 
 PokecomCenterAdminOfficeMobileComputer2Text:
-	text "It's a notice"
-	line "about using the"
-	cont "phone…"
+	text "Eine Notiz über"
+	line "die Handy-Nutzung…"
 	done
 
 PokecomCenterAdminOfficeMobileComputer2Text_UsePhone:
-	text "Please ensure that"
-	line "your phone and"
+	text "Verbinde das Handy"
+	line "und den MOBILEN"
+	para "ADAPTER sicher"
+	line "miteinander und"
+	para "achte auf guten"
+	line "Netzempfang."
 
-	para "MOBILE ADAPTER are"
-	line "properly linked."
-
-	para "Please make sure"
-	line "the wireless phone"
-	cont "signal is strong."
-
-	para "Don't touch or"
-	line "hang up the phone"
-	cont "while linking."
+	para "Berühre während"
+	line "der Übertragung"
+	para "nicht dein Handy"
+	line "und trenne nicht"
+	cont "die Verbindung."
 	done
 
 PokecomCenterAdminOfficeMobileComputer2Text_DontUsePhone:
-	text "If the server is"
-	line "busy, it may not"
+	text "Wenn der Server"
+	line "überlastet ist,"
+	para "könnte ein Ver-"
+	line "bindungsversuch"
+	cont "scheitern."
 
-	para "be possible to log"
-	line "on."
+	para "Versuche es dann"
+	line "später erneut."
 
-	para "If so, please call"
-	line "back later."
-
-	para "If you are unable"
-	line "to log on or don't"
-
-	para "understand the"
-	line "error messages,"
-
-	para "call a support"
-	line "center or read the"
-	cont "instructions."
+	para "Wenn du dich"
+	line "weiterhin nicht"
+	para "verbinden kannst"
+	line "oder die Fehler-"
+	cont "meldungen nicht"
+	para "verständlich sind,"
+	line "wende dich an den"
+	para "Kundendienst oder"
+	line "erfahre mehr in"
+	para "der Bedienungs-"
+	line "anleitung."
 	done
 
 PokecomCenterAdminOfficeMobileComputer3Text:
-	text "The ADMINISTRATION"
-	line "OFFICE received an"
-	cont "e-mail. It says…"
+	text "Eine E-Mail an das"
+	line "VERWALTUNGS-BÜRO…"
 
 	para "<……> <……> <……>"
 
-	para "To the #COM"
-	line "CENTER staff…"
+	para "An die #KOM-"
+	line "CENTER-Beleg-"
+	cont "schaft…"
 
-	para "Wireless communi-"
-	line "cation has enabled"
+	para "Dank der Funktech-"
+	line "nologie können"
+	para "Trainer jetzt lan-"
+	line "desweit miteinan-"
+	cont "der interagieren."
 
-	para "#MON trainers"
-	line "to interact across"
-
-	para "the nation. Let's"
-	line "keep working for"
-
-	para "the day when all"
-	line "the trainers in"
-
-	para "the world can link"
-	line "without barriers!"
+	para "Lasst uns auch"
+	line "weiterhin unser"
+	para "Bestes geben,"
+	line "damit sich Trainer"
+	para "eines Tages auch"
+	line "über Ländergrenzen"
+	para "hinweg miteinander"
+	line "verbinden können!"
 
 	para "<……> <……> <……>"
 	done
