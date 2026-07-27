@@ -8455,9 +8455,9 @@ DisplayLinkBattleResult:
 	call ClearTileMap
 	ret
 
-.YouWin:
+.Win:
 	db "   GEWONNEN   @"
-.YouLose:
+.Lose:
 	db "   VERLOREN   @"
 .Draw:
 	db "UNENTSCHIEDEN @"
