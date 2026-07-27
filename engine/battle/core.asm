@@ -1680,9 +1680,9 @@ HandleScreens:
 	jp CopyName2
 
 .Your:
-	db "Your@"
+	db "Dein@"
 .Enemy:
-	db "Enemy@"
+	db "Gegner@"
 
 .LightScreenTick:
 	ld a, [de]
@@ -5713,9 +5713,9 @@ MoveInfoBox:
 	ret
 
 .Disabled:
-	db "Disabled!@"
+	db "Blockiert!@"
 .Type:
-	db "TYPE/@"
+	db "TYP/@"
 
 .PrintPP:
 	hlcoord 5, 11
@@ -8455,12 +8455,12 @@ DisplayLinkBattleResult:
 	call ClearTileMap
 	ret
 
-.Win:
-	db "YOU WIN@"
-.Lose:
-	db "YOU LOSE@"
+.YouWin:
+	db "   GEWONNEN   @"
+.YouLose:
+	db "   VERLOREN   @"
 .Draw:
-	db "  DRAW@"
+	db "UNENTSCHIEDEN @"
 
 .Mobile_InvalidBattle:
 	hlcoord 6, 8
@@ -8472,7 +8472,7 @@ DisplayLinkBattleResult:
 	ret
 
 .Invalid:
-	db "INVALID BATTLE@"
+	db "Ungültiger Kampf@"
 
 IsMobileBattle2:
 	ld a, [wLinkMode]
