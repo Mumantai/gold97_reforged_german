@@ -223,7 +223,7 @@ BirdKeeperBryanAfterBattleText:
 	line "rennen sofort weg."
 
 	para "Versuche, sie mit"
-	line "einem von KURTs
+	line "einem von KURTs"
     cont "TURBOBÄLLEN"
 	cont "einzufangen."
 
