@@ -225,7 +225,7 @@ SavedTheGame:
 	call WaitPlaySFX
 	
 .saving_text
-	text "Saving…"
+	text "Speichern…"
 	done
 
 SaveGameData:

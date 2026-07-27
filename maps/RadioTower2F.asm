@@ -329,65 +329,74 @@ TrainerGruntM26:
 ;	done
 	
 GruntM24SeenText:
-	text "TEAM ROCKET can"
-	line "conduct operations"
-	cont "in secret bases."
-	para "But we also have"
-	line "no problem barging"
-	para "in and taking what"
-	line "we need if it's"
-	cont "necessary!"
+    text "TEAM ROCKET arbei-"
+    line "tet normalerweise"
+    cont "in geheimen"
+    cont "Unterschlupfen."
+
+    para "Wir haben aber"
+    line "auch kein Problem,"
+    cont "reinzustürmen und"
+    cont "uns zu nehmen, was"
+    cont "wir wollen!"
 	done
 	
 GruntM24BeatenText:
-	text "And you had no"
-	line "problem defeating"
-	cont "me!"
+    text "Und du hattest"
+    line "kein Problem, mich"
+    cont "zu besiegen!"
 	done
 	
 GruntM24AfterBattleText:
-	text "Have you met our"
-	line "leader?"
-	para "I have a feeling"
-	line "you two wouldn't"
-	cont "get along."
+    text "Hast du unseren"
+    line "Anführer schon"
+    cont "getroffen?"
+
+    para "Ich glaube, ihr"
+    line "würdet euch gar"
+    cont "nicht verstehen."
 	done
 
 GruntM26SeenText:
-	text "Why are we here?"
-	para "Because you and"
-	line "your friend"
-	para "destroyed our"
-	line "antenna!"
-	para "Why build another"
-	line "when we could just"
-	cont "take this one?"
+    text "Warum wir hier"
+    line "sind?"
+
+    para "Weil du und dein"
+    line "Freund unsere"
+    cont "Antenne zerstört"
+    cont "habt!"
+
+    para "Warum eine neue"
+    line "bauen, wenn wir"
+    cont "uns einfach diese"
+    cont "nehmen können?"
 	done
 	
 GruntM26BeatenText:
-	text "Yeowch!"
+	text "Autsch!"
 	done
 	
 GruntM26AfterBattleText:
-	text "I blame you for"
-	line "all the problems"
-	cont "we've had!"
+    text "Du bist Schuld,"
+    line "an all unseren"
+    cont "Problemen!"
 	done
 
 	
 RadioTower2fRockerTextTakeover:
-	text "Every radio"
-	line "station is talking"
-	cont "about TEAM ROCKET!"
+	text "Jeder Sender be-"
+	line "richtet nur noch"
+	cont "über TEAM ROCKET!"
 	done
 
 RadioTower2fRockerText:
-	text "Have you listened"
-	line "to the #MON"
-	cont "March?"
-	para "It makes wild"
-	line "#MON appear"
-	cont "more frequently."
+	text "Hast du schon den"
+	line "#MON-Marsch"
+	cont "gehört?"
+
+	para "Er lässt wilde"
+	line "#MON häufiger"
+	cont "erscheinen."
 	done
 
 MovementData_0x5d921:
@@ -397,249 +406,255 @@ MovementData_0x5d921:
 
 
 RadioTowerJigglypuffText:
-	text "JIGGLYPUFF:"
-	line "Jiggly…"
+	text "PUMMELUFF:"
+    line "Pummel…"
 	done
 
 UnknownText_0x5dcf4:
-	text "BUENA: Hi! I'm"
+	text "BUENA: Hi! Ich bin"
 	line "BUENA!"
 
-	para "Do you know about"
-	line "a radio program"
-	cont "called PASSWORD?"
+	para "Hast du schon von"
+	line "der Radiosendung"
+	cont "PASSWORT gehört?"
 
-	para "If you can tell me"
-	line "the password from"
+	para "Wenn du mir das"
+	line "Passwort aus der"
 
-	para "the program, you"
-	line "will earn points."
+	para "Sendung nennen"
+	line "kannst, erhältst"
+	cont "du Punkte."
 
-	para "Save up those"
-	line "points and trade"
+	para "Sammle die Punkte"
+	line "und tausche sie"
 
-	para "them to that sweet"
-	line "young lady over"
+	para "bei diesem netten"
+	line "Mädchen da drüben"
 
-	para "there for some"
-	line "choice prizes!"
+	para "gegen einen Preis"
+	line "deiner Wahl ein!"
 
-	para "Here you go!"
+	para "Bitte schön!"
 
-	para "It's your very own"
-	line "point card!"
+	para "Das ist deine ei-"
+	line "gene Punktekarte!"
 	done
 
 UnknownText_0x5de10:
-	text "BUENA: Tune in to"
-	line "my PASSWORD SHOW!"
+	text "BUENA: Höre dir"
+	line "meine PASSWORT-"
+	cont "SENDUNG an!"
 	done
 
 UnknownText_0x5de35:
 	text "BUENA: Hi!"
-	line "Did you tune in to"
-	cont "my radio show?"
+	line "Hast du meine Sen-"
+	cont "dung gehört?"
 
-	para "Do you remember"
-	line "today's password?"
+	para "Kannst du dich an"
+	line "das Passwort von"
+	cont "heute erinnern?"
 	done
 
 UnknownText_0x5de84:
 	text "BUENA: Oh, wow!"
-	line "Thank you!"
+	line "Danke!"
 
-	para "What was your name"
-	line "again?"
+	para "Wie war dein Name"
+	line "doch gleich?"
 
-	para "…<PLAY_G>, OK!"
+	para "…<PLAY_G>, O.K.!"
 
-	para "Come on, <PLAY_G>."
-	line "Join the show."
+	para "Auf, <PLAY_G>."
+	line "Mach bei der"
+	cont "Sendung mit!"
 	done
 
 UnknownText_0x5dedd:
-	text "BUENA: Everyone"
-	line "ready?"
+	text "BUENA: Alle"
+	line "fertig?"
 
-	para "I want to hear you"
-	line "shout out today's"
+	para "Schreit das heuti-"
+	line "ge Passwort für"
 
-	para "password for"
-	line "<PLAY_G>!"
+	para "<PLAY_G>"
+	line "laut heraus!"
 	done
 
 UnknownText_0x5df29:
-	text "BUENA: Come back"
-	line "after you listen"
+	text "BUENA: Hör dir die"
+	line "Sendung an und"
 
-	para "to my show, OK?"
-	line "Catch ya later!"
+	para "komme dann wieder!"
+	line "Bis später!"
 	done
 
 UnknownText_0x5df6c:
 	text "BUENA: Sorry…"
 
-	para "You get just one"
-	line "chance each day."
+	para "Du hast pro Tag"
+	line "nur einen Versuch."
 
-	para "Come back tomorrow"
-	line "for another try!"
+	para "Probiere morgen"
+	line "wieder dein Glück!"
 	done
 
 UnknownText_0x5dfc1:
-	text "BUENA: YIPPEE!"
-	line "That's right!"
+	text "BUENA: Juhuu!"
+	line "Das ist richtig!"
 
-	para "You did tune in!"
-	line "I'm so happy!"
+	para "Du hast zugehört!"
+	line "Ich bin glücklich!"
 
-	para "You earned one"
-	line "point! Congrats!"
+	para "Du hast dir einen"
+	line "Punkt verdient!"
 	done
 
 UnknownText_0x5e01c:
-	text "BUENA: Aww…"
-	line "That's not it…"
+	text "BUENA: Argh…"
+	line "Das ist falsch…"
 
-	para "Did you forget the"
-	line "password?"
+	para "Hast du das Pass-"
+	line "wort vergessen?"
 	done
 
 UnknownText_0x5e054:
-	text "BUENA: Yup! Our"
-	line "contestant was"
+	text "BUENA: Yo!"
+	line "<PLAY_G>"
 
-	para "<PLAY_G>."
-	line "Thanks for coming!"
+	para "hat teilgenommen."
+	line "Danke dafür!"
 
-	para "I hope all you"
-	line "listeners will"
+	para "Ich hoffe, dass"
+	line "alle Zuhörer auch"
 
-	para "come too!"
-	line "I'll be waiting!"
+	para "teilnehmen!"
+	line "Ich warte!"
 	done
 
 UnknownText_0x5e0c2:
-	text "BUENA: Huh?"
-	line "Today's password?"
+	text "BUENA: Huh? Das"
+	line "heutige Passwort?"
 
-	para "HELP, of course!"
+	para "HILFE, natürlich!"
 	done
 
 UnknownText_0x5e0f1:
-	text "BUENA: Your BLUE"
-	line "CARD's full."
+	text "BUENA: Deine BLAUE"
+	line "KARTE ist voll."
 
-	para "Trade it in for a"
-	line "fabulous prize!"
+	para "Hol dir einen fan-"
+	line "tastischen Preis!"
 	done
 
 UnknownText_0x5e131:
-	text "BUENA: Tune in to"
-	line "PASSWORD every"
+	text "BUENA: Hört die"
+	line "PASSWORTSENDUNG"
 
-	para "night from six to"
-	line "midnight!"
+	para "täglich von sechs"
+	line "bis Mitternacht!"
 
-	para "Tune in, then drop"
-	line "in for a visit!"
+	para "Hört zu und"
+	line "besucht mich dann!"
 	done
 
 UnknownText_0x5e192:
-	text "BUENA: Oh? You"
-	line "forgot to bring"
-	cont "your BLUE CARD?"
+	text "BUENA: Oh? Du hast"
+	line "deine BLAUE KARTE"
+	cont "vergessen?"
 
-	para "I can't give you"
-	line "points if you"
-	cont "don't have it."
+	para "Ich kann dir keine"
+	line "Punkte geben, wenn"
+	cont "du sie nicht hast."
 	done
 
 UnknownText_0x5e1ee:
-	text "BUENA: Oh! Your"
-	line "BLUE CARD reached"
+	text "BUENA: Oh! Du hast"
+	line "{d:BLUE_CARD_POINT_CAP} Punkte auf dei-"
+	cont "ner BLAUEN KARTE!"
+	cont "Das ist toll!"
 
-	para "30 points today!"
-	line "That's so wild!"
+	para "Hmm… Es gibt zwar"
+	line "keinen Preis für"
+	cont "das Erreichen von"
+	cont "{d:BLUE_CARD_POINT_CAP} Punkten, aber…"
 
-	para "Hmm… There isn't a"
-	line "prize for hitting"
-	cont "30 points, but…"
+	para "Du hast mich so"
+	line "oft besucht,"
 
-	para "You came by so"
-	line "often, <PLAY_G>."
+	para "<PLAY_G>. Ich"
+	line "mache dir ein spe-"
+	cont "zielles Angebot!"
 
-	para "I'll make you a"
-	line "special deal!"
-
-	para "How would you like"
-	line "my phone number?"
+	para "Möchtest du meine"
+	line "Telefonnummer?"
 	done
 
 UnknownText_0x5e2bf:
 	text "BUENA: <PLAY_G>,"
-	line "do you want to"
+	line "möchtest du meine"
 
-	para "register my phone"
-	line "number?"
+	para "Telefonnummer"
+	line "haben?"
 	done
 
 UnknownText_0x5e2f3:
-	text "<PLAYER> registered"
-	line "BUENA's number."
+	text "<PLAYER> speichert"
+	line "BUENAs Nummer."
 	done
 
 UnknownText_0x5e310:
-	text "BUENA: I look"
-	line "forward to hearing"
-	cont "from you!"
+	text "BUENA: Ich freue"
+	line "mich auf deinen"
+	cont "Anruf!"
 	done
 
 UnknownText_0x5e33c:
-	text "BUENA: Aww… It's a"
-	line "special prize…"
+	text "BUENA: Argh… Ein"
+	line "Spezialpreis…"
 	done
 
 UnknownText_0x5e35e:
 	text "BUENA: <PLAY_G>,"
-	line "your phone list"
-
-	para "has no room left"
-	line "for me…"
+	line "In deinem Nummern-"
+	cont "speicher ist kein"
+	cont "Platz für mich…"
 	done
 
 UnknownText_0x5e392:
-	text "You can cash in"
-	line "your saved points"
+	text "Du kannst deine"
+	line "gesammelten Punkte"
 
-	para "for a lovely prize"
-	line "of your choice!"
+	para "gegen einen Preis"
+	line "deiner Wahl"
+	cont "eintauschen!"
 	done
 
 UnknownText_0x5e3d8:
-	text "You can't trade in"
-	line "points without"
-	cont "your BLUE CARD."
+	text "Ohne deine BLAUE"
+	line "KARTE kannst du"
+	cont "keine Punkte"
+	cont "eintauschen."
 
-	para "Don't forget your"
-	line "BLUE CARD!"
+	para "Vergiss deine"
+	line "BLAUE KARTE nicht!"
 	done
 
 RadioTower2FSalesSignText:
-	text "2F STUDIO 1"
+	text "1S STUDIO 1"
 	done
 
 RadioTower2FOaksPKMNTalkSignText:
-	text "PROF.OAK'S #MON"
-	line "TALK"
+	text "PROF. EICHs #-"
+    line "MON-TALK"
 
-	para "The Hottest Show"
-	line "on the Air!"
+    para "Die beste Show"
+    line "am Äther!"
 	done
 
 RadioTower2FPokemonRadioSignText:
-	text "Anywhere, Anytime"
-	line "#MON Radio"
+	text "Überall, jederzeit"
+    line "#MON Radio"
 	done
 
 RadioTower2F_MapEvents:

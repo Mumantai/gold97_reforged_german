@@ -372,7 +372,7 @@ TMHM_DisplayPocketItems:
 	push af
 	sub NUM_TMS
 	ld [wTempTMHM], a
-	ld [hl], "H"
+	ld [hl], "V"
 	inc hl
 	ld de, wTempTMHM
 	lb bc, PRINTNUM_RIGHTALIGN | 1, 2

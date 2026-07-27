@@ -10,7 +10,7 @@
 
 MonMenuOptionStrings:
 ; entries correspond to MONMENUVALUE_* constants
-	db "STATS@"
+	db "STATUS@"
 	db "TAUSCH@"
 	db "ITEM@"
 	db "ZURÜCK@"
