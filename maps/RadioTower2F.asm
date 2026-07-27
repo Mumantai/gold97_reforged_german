@@ -1,5 +1,3 @@
-DEF BLUE_CARD_POINT_CAP EQU 30
-
 	const_def 2 ; object constants
 	const RADIOTOWER2F_JIGGLYPUFF
 	const RADIOTOWER2F_BUENA
@@ -572,14 +570,14 @@ UnknownText_0x5e192:
 
 UnknownText_0x5e1ee:
 	text "BUENA: Oh! Du hast"
-	line "{d:BLUE_CARD_POINT_CAP} Punkte auf dei-"
+	line "30 Punkte auf dei-"
 	cont "ner BLAUEN KARTE!"
 	cont "Das ist toll!"
 
 	para "Hmm… Es gibt zwar"
 	line "keinen Preis für"
 	cont "das Erreichen von"
-	cont "{d:BLUE_CARD_POINT_CAP} Punkten, aber…"
+	cont "30 Punkten, aber…"
 
 	para "Du hast mich so"
 	line "oft besucht,"
