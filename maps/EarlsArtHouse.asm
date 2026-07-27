@@ -143,138 +143,154 @@ ArtHousePokefanMScript:
 	jumptextfaceplayer ArtHousePokefanMText
 
 ArtHousePokefanMText:
-	text "This guy's work"
-	line "is really impress-"
-	cont "ive!"
+	text "Die Werke von"
+	line "diesem Kerl sind"
+	cont "beeindruckend!"
 	done
 
 ArtHouseLassText:
-	text "You know, I like"
-	line "this EGG one the"
-	cont "best."
+	text "Weißt du, ich mag"
+	line "dieses EI am"
+	cont "liebsten."
 	done
 
 EggStatueText:
-	text "#MON EGG STATUE"
-	line "by EARL"
+	text "#MON-EI-STATUE"
+	line "von EARL"
 	done
 
 ArtSignText:
-	text "EARL'S ART HOUSE"
-	para "Please look, but"
-	line "do not touch."
+	text "EARLs KUNSTGALERIE"
+
+	para "Nur gucken,"
+	line "nicht anfassen."
 	done
 
 EarlIntroText:
-	text "Oh, boo."
-	line "I'm a failure."
+    text "Ach, verdammt."
 
-	para "My name is EARL,"
-	line "and I'm an artist."
+    para "Ich bin eine"
+    line "Enttäuschung."
 
-	para "But inspiration"
-	line "has left me…"
+    para "Mein Name ist EARL"
+    line "und ich bin ein"
+    cont "Künstler."
 
-	para "The only sculpture"
-	line "I've finished so"
-	cont "far is a sculpture"
-	cont "of a #MON EGG."
+	para "Aber mich hat die"
+	line "Inspiration"
+	cont "verlassen…"
 
-	para "I need to do"
-	line "something"
-	cont "impressive!"
+	para "Ich habe bisher"
+    line "nur eine einzige"
+    cont "Skulptur von einem"
+    cont "#MON-EI"
+    cont "fertiggestellt."
 
-	para "I've been working"
-	line "on a statue of the"
-	cont "wild duck #MON"
-	cont "FARFETCH'D…"
+	para "Ich muss etwas"
+    line "Beeindruckendes"
+    cont "erschaffen!"
 
-	para "It's not quite"
-	line "done yet though…"
+    para "Ich arbeite an"
+    line "einer Statue vom"
+    cont "#MON PORENTA."
+
+    para "Aber sie ist noch"
+    line "nicht ganz fertig."
 	done
 
 EarlAskToSeeMonText:
-	text "If you have that"
-	line "#MON, may I see"
-	cont "it, please?"
+    text "Falls du dieses"
+    line "#MON hast,"
+    para "könntest du es mir"
+    line "bitte zeigen?"
 	done
 
 EarlExcitedToSeeText:
-	text "You will show me?"
-	line "How good of you!"
+    text "Du zeigst es mir?"
+    line "Das ist großartig!"
 	done
 
 EarlYouDontHaveItTextText:
-	text "You don't have it?"
-	line "That's too bad…"
+    text "Oh, du hast keins?"
+    line "Das ist schade…"
 	done
 
 EarlShownPokemonText:
-	text "Ah, yes! That is"
-	line "@"
-	text_ram wStringBuffer3
-	text "!"
+    text "Ah, ja! Das ist"
+    line "@"
+    text_ram wStringBuffer3
+    text "!"
 
-	para "Thank you so much!"
-	line "I feel inspired!"
+    para "Ich fühle mich von"
+    line "der Muse geküsst!"
 	done
 
 EarlTokenOfAppreciationText:
-	text "This is a token of"
-	line "my appreciation."
+    text "Hier, nimm dies"
+    line "als Zeichen meiner"
+    cont "Dankbarkeit."
 	done
 
 EarlComeAgainText:
-	text "Come by again"
-	line "sometime."
+    text "Komm doch mal"
+    line "wieder vorbei."
 	done
 
 EarlShownAllThePokemonText:
-	text "Thanks for showing"
-	line "me those #MON."
-	para "With your help,"
-	line "I've made great"
-	para "progress on my"
-	line "dream!"
+    text "Danke, dass du mir"
+    line "diese #MON"
+    cont "gezeigt hast!"
+
+    para "Dank deiner Hilfe,"
+    line "bin ich meinem"
+    para "Traum ein großes"
+    line "Stück näher"
+    cont "gekommen!"
 	done
 
 EarlWrongPokemonText:
 	text "Hm?"
 
-	para "That's not the"
-	line "#MON that I was"
-	cont "thinking about."
+	para "Das ist nicht das"
+	line "#MON, an das"
+	cont "ich gedacht habe."
 	done
 
 EarlFarfetchdText:
-	text "If only I could"
-	line "see a FARFETCH'D"
-	para "in person, I might"
-	line "feel inspired to"
-	cont "finish my statue."
+    text "Ein PORENTA aus"
+    line "der Nähe zu sehen,"
+    para "könnte mich dazu"
+    line "inspirieren, meine"
+    para "Statue endlich zu"
+    line "vollenden."
 	done
 
 EarlDratiniText:
-	text "I've finished my"
-	line "FARFETCH'D statue!"
-	para "Now I'd like to"
-	line "finish my statue"
-	cont "of a DRATINI."
-	para "If I could only"
-	line "see a DRATINI in"
-	para "person, I might"
-	line "feel inspired to"
-	cont "finish my statue."
+    text "Ich habe meine"
+    line "PORENTA-Statue"
+    cont "vollendet!"
+
+    para "Jetzt möchte ich"
+    line "eine Statue von"
+    para "einem DRATINI"
+    line "anfertigen."
+
+    para "Wenn ich nur ein"
+    line "echtes DRATINI"
+    para "sehen könnte, um"
+    line "mich anzuspornen,"
+    para "die Statue fertig-"
+    line "zustellen."
 	done
 
 BirdText:
-	text "FARFETCH'D STATUE"
-	line "by EARL"
+	text "PORENTA-STATUE"
+	line "von EARL"
 	done
 
 DragonText:
-	text "DRATINI STATUE"
-	line "by EARL"
+	text "DRATINI-STATUE"
+	line "von EARL"
 	done
 
 EarlsArtHouse_MapEvents:
