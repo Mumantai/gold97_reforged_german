@@ -5647,7 +5647,7 @@ MoveInfoBox:
 
 	hlcoord 0, 8
 	ld b, 3
-	ld c, 9
+	ld c, 10
 	call TextBox
 	call MobileTextBorder
 
