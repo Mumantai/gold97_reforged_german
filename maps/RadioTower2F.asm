@@ -1,3 +1,5 @@
+DEF BLUE_CARD_POINT_CAP EQU 30
+
 	const_def 2 ; object constants
 	const RADIOTOWER2F_JIGGLYPUFF
 	const RADIOTOWER2F_BUENA
