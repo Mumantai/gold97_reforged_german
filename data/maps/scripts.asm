@@ -107,7 +107,7 @@ INCLUDE "maps/RainbowIsland.asm"
 INCLUDE "maps/RainbowIslandCave.asm"
 INCLUDE "maps/TatsugoPath.asm"
 INCLUDE "maps/KikaiStrait.asm"
-INCLUDE "maps/KikaiMart.asm"
+
 
 
 SECTION "Map Scripts 7", ROMX
@@ -133,6 +133,7 @@ INCLUDE "maps/Route118SunpointGate.asm"
 INCLUDE "maps/IsenStraitSeasidePathGate.asm"
 INCLUDE "maps/PagotaGym.asm"
 INCLUDE "maps/JadeForest.asm"
+INCLUDE "maps/KikaiMart.asm"
 
 
 SECTION "Map Scripts 8", ROMX
