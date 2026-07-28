@@ -90,84 +90,89 @@ TeknosPokecenter1FPlayerMovement1:
 	step_end
 
 TeknosPokecenter1F_BillText1:
-	text "Oh dear, oh dear."
-	
-	para "She's not here"
-	line "either!"
-	
-	para "Oh dear, oh dear."
-	
-	para "Excuse me, son."
-	line "You wouldn't have"
-	cont "happened to see a"
-	cont "young girl come"
-	cont "through here?"
-	
-	para "It's my"
-	line "granddaughter."
-	
-	para "I can't find her"
-	line "anywhere!"
+    text "Oje, oje."
 
-	para "Oh, no. I hope she"
-	line "didn't wander into"
-	cont "in that dreaded"
-	cont "MINE…"
-	
-	para "Could you check?"
+    para "Hier ist sie auch"
+    line "nicht!"
 
-	para "There is an old"
-	line "MINE just outside"
-	cont "the city."
-	
-	para "I pray she didn't"
-	line "go there…"
+    para "Oje, oje."
 
-	para "Oh dear, oh dear."
+    para "Du hast nicht zu-"
+    line "fällig ein junges"
+    cont "Mädchen hier in"
+    cont "der Nähe gesehen?"
+
+    para "Es geht um meine"
+    line "Enkeltochter."
+
+    para "Ich kann sie"
+    line "nirgendwo finden!"
+
+    para "Oh nein."
+    line "Hoffentlich ist"
+    cont "sie nicht in diese"
+    cont "unheilvolle MINE"
+    cont "gegangen…"
+
+    para "Könntest du dort"
+    line "nachsehen?"
+
+    para "Es gibt eine alte"
+    line "MINE gleich außer-"
+    cont "halb der Stadt."
+
+    para "Ich bete, dass sie"
+    line "nicht dorthin"
+    cont "gegangen ist…"
+
+    para "Oje, oje."
 	done
 
 TeknosPokecenter1FPokefanMText:
-	text "Your #MON will"
-	line "become more"
-	para "friendly towards"
-	line "you if you treat"
-	cont "them well."
+	text "Behandelst du"
+	line "deine #MON gut,"
+	cont "werden sie dich"
+	cont "regelrecht lieben."
 	done
 
 TeknosPokecenter1FPokefanMTextMobile:
-	text "You must be hoping"
-	line "to battle more"
+	text "Du hoffst, hier"
+	line "mehr Kämpfe zu er-"
+	cont "leben, nicht wahr?"
 
-	para "people, right?"
-	line "There's apparently"
+	para "Es gibt offen-"
+	line "sichtlich einen"
+	cont "Ort, an dem sich"
+	cont "Trainer treffen."
 
-	para "some place where"
-	line "trainers gather."
+	para "Wo, fragst du?"
 
-	para "Where, you ask?"
-
-	para "It's a little past"
-	line "OLIVINE CITY."
+	para "Etwas hinter"
+	line "GENEOS CITY."
 	done
 
 TeknosPokecenter1FCooltrainerFText:
-	text "Your #MON know"
-	line "HM moves, right?"
-	para "Those moves can"
-	line "be used outside of"
-	para "battle even if the"
-	line "#MON fainted."
+    text "Kennen deine #-"
+    line "MON VM-Attacken?"
+
+    para "Außerhalb von"
+    line "Kämpfen, können"
+    cont "sie auch dann"
+    cont "eingesetzt werden,"
+    cont "wenn das #MON"
+    cont "kampfunfähig ist."
 	done
 
 TeknosPokecenter1FGymGuyText:
-	text "Have you ever been"
-	line "to the SUNPOINT"
-	cont "CITY DOCKS?"
-	para "Forget any other"
-	line "port in NIHON,"
-	para "that's where the"
-	line "most trade"
-	cont "happens."
+    text "Warst du schon"
+    line "am Hafen von"
+    cont "KAZANAMI CITY?"
+
+    para "Vergiss die an-"
+    line "deren Häfen in"
+    cont "NIHON. In KAZANAMI"
+    cont "findet der meiste"
+    cont "Handel statt."
 	done
 
 TeknosPokecenter1F_MapEvents:

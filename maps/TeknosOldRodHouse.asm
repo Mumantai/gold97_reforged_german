@@ -42,43 +42,46 @@ Route32Pokecenter1FFishingGuruScript:
 
 
 Route32Pokecenter1FFishingGuruText_Question:
-	text "The river on"
-	line "ROUTE 119 is a"
-	para "popular fishing"
-	line "spot."
-	
-	para "You want to fish?"
+	text "Der Fluss auf"
+	line "ROUTE 119 ist"
+	para "ein beliebter"
+	line "Ort zum Angeln."
 
-	para "Would you like one"
-	line "of my RODS?"
+	para "Möchtest du auch"
+	line "angeln?"
+
+	para "Hättest du gerne"
+	line "eine ANGEL"
+	cont "von mir?"
 	done
 
 Route32Pokecenter1FFishingGuruText_Yes:
-	text "Heh, that's good"
-	line "to hear."
+	text "He! Das höre ich"
+	line "wirklich gerne!"
 
-	para "Now you're an"
-	line "angler too!"
+	para "Jetzt bist du"
+	line "auch ein Angler!"
 	done
 
 Route32Pokecenter1FFishingGuruText_GiveOldRod:
-	text "Fishing is great!"
+	text "Angeln ist toll!"
 
-	para "If there's water,"
-	line "be it the sea or a"
-
-	para "stream, try out"
-	line "your ROD."
+	para "Probiere überall,"
+	line "wo Wasser ist,"
+	cont "deine ANGEL aus;"
+	cont "sei es am Meer"
+	cont "oder an einem"
+	cont "Fluss."
 	done
 
 Route32Pokecenter1FFishingGuruText_No:
-	text "Oh. That's rather"
-	line "disappointing…"
+	text "Na, das ist aber"
+	line "ziemlich mager…"
 	done
 
 Route32Pokecenter1FFishingGuruText_After:
-	text "Yo, kid. How are"
-	line "they biting?"
+	text "Moin, lüttes Ding."
+	line "Und beißen sie?"
 	done
 
 TeknosOldRodHouse_MapEvents:

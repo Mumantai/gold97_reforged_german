@@ -200,196 +200,212 @@ RocketGruntWhitney3Script:
 	jumptext RocketGruntWhitney3Text
 	
 Aqua1FExhibit1Text:
-	text "KRABBY like to"
-	line "hide under sand."
-	para "Look closely to"
-	line "find the burrowed"
-	cont "#MON."
+	text "KRABBY verstecken"
+	line "sich gerne im"
+	cont "Sand."
+
+	para "Sieh genau hin,"
+	line "um das vergrabene"
+	cont "#MON zu finden."
 	done
 	
 Aqua1FExhibit2Text:
-	text "NEW EXHIBIT COMING"
-	line "SOON"
+	text "NEUE AUSSTELLUNG"
+	line "DEMNÄCHST"
 	done
 
 Aqua1FExhibit3Text:
-	text "CORASUN and"
-	line "MAGIKARP can"
-	para "peacefully share"
-	line "the same living"
-	cont "space."
-	para "These #MON"
-	line "often inhabit"
-	cont "the same waters."
+	text "MOLAMBINO und"
+	line "KARPADOR teilen"
+	cont "sich friedlich"
+	cont "ihren Lebensraum."
+
+	para "Diese #MON"
+	line "wohnen oft in den"
+	cont "gleichen Wässern."
 	done
 	
 GruntM2SeenText:
-	text "We're gonna come"
-	line "in here, take what"
-	para "we want, and sell"
-	line "it off!"
-	para "We need the money,"
-	line "cause we've got"
-	cont "big plans, kid!"
-	done
-	
-Aqua1FExhibit4Text:
-	text "LAPRAS STATUE"
-	para "Occasional reports"
-	line "have claimed that"
-	para "LAPRAS can be"
-	line "found living deep"
-	para "in the MINE west"
-	line "of town."
+	text "Wir kommen hier"
+	line "rein, nehmen uns,"
+	cont "was wir wollen,"
+	cont "und verkaufen es!"
+
+	para "Wir brauchen das"
+	line "Geld für unsere"
+	cont "großen Pläne!"
 	done
 
 GruntM2BeatenText:
-	text "Just…"
-	line "Too strong…"
+	text "Einfach…"
+	line "Zu stark…"
 	done
 
 GruntM2AfterBattleText:
-	text "You'll be seeing"
-	line "more of us!"
+    text "Du wirst noch mehr"
+    line "von uns zu sehen!"
 	done
-	
+
+Aqua1FExhibit4Text:
+	text "LAPRAS-STATUE"
+
+	para "Es gibt Berichte,"
+	line "dass LAPRAS tief"
+	cont "in der MINE im"
+	cont "Westen der Stadt"
+	cont "leben sollen."
+	done
 
 AquaReceptionistRocketsText:
-	text "Be careful! Kids"
-	line "shouldn't be here"
-	cont "right now."
-	para "We're having an"
-	line "issue with"
-	para "dangerous criminal"
-	line "activity here."
+	text "Vorsicht! Kinder"
+	line "sollten jetzt"
+	cont "nicht hier sein."
+
+	para "Wir haben gerade"
+	line "ein Problem mit"
+	cont "gefährlichen"
+	cont "Kriminellen."
 	done
 
 AquaReceptionistNoRocketsText:
-	text "Welcome to the"
-	line "TEKNOS CITY"
-	cont "AQUARIUM!"
-	para "Please feel free"
-	line "to look around."
+	text "Willkommen im"
+	line "AQUARIUM von"
+	cont "TEKNOPIA CITY!"
+
+	para "Sieh dich gerne"
+	line "um."
 	done
 
 GruntF1SeenText:
-	text "This place has"
-	line "rare #MON that"
-	para "we can steal and"
-	line "sell off!"
-	para "Don't get in our"
-	line "way, kid!"
-	done
-	
-WhitneyThisisTerribleText:
-	text "Oh no!"
-	line "This is terrible!"
-	done
-	
-WhitneyIRememberYouText:
-	text "Hey! I remember"
-	line "you from the MINE!"
-	
-	para "Listen…"
-	
-	para "TEAM ROCKET are"
-	line "trying to take"
-	cont "the AQUARIUM!"
-	
-	para "Those meanies!"
-	
-	para "As GYM LEADER,"
-	line "I cannot allow it."
-	
-	para "Can you help me"
-	line "fight them off?"
-	
-	para "Their commander"
-	line "must be on the"
-	cont "2nd Floor…"
-	
-	para "Let's get 'em!"
-	done
-	
-WhitneyWontGoEasyOnYouText:
-	text "…giggle…"
-	
-	para "Don't expect me to"
-	line "go easy on you"
-	cont "just because I'm"
-	cont "a cutie!"
-	done
-	
-WhitneyIwillHandlethisText:
-	text "I'll handle these"
-	line "jerks…"
-	
-	para "You go after the"
-	line "commander!"
+	text "Hier gibt es"
+	line "seltene #MON,"
+	cont "die wir stehlen"
+	cont "und verkaufen"
+	cont "können!"
+
+	para "Steh uns nicht im"
+	line "Weg, Kind!"
 	done
 
 GruntF1BeatenText:
-	text "You rotten brat!"
+	text "Verdammtes Balg!"
 	done
 
 GruntF1AfterBattleText:
-	text "TEAM ROCKET won't"
-	line "forget this!"
+	text "TEAM ROCKET wird"
+	line "das nicht"
+	cont "vergessen!"
 	done
-	
+
+WhitneyThisisTerribleText:
+	text "Oh nein! Das ist"
+	line "schrecklich!"
+	done
+
+WhitneyIRememberYouText:
+    text "Hey! Wir kennen"
+    line "uns doch aus der"
+    cont "MINE!"
+
+    para "Hör zu…"
+
+    para "TEAM ROCKET"
+    line "versucht, das"
+    cont "AQUARIUM zu"
+    cont "übernehmen!"
+
+    para "Diese Fieslinge!"
+
+    para "Als ARENALEITERIN"
+    line "kann ich das nicht"
+    cont "zulassen."
+
+    para "Hilfst du mir, sie"
+    line "zu vertreiben?"
+
+    para "Ihr Anführer ist"
+    line "bestimmt im"
+    cont "Obergeschoss…"
+
+    para "Machen wir sie"
+    line "fertig!"
+	done
+
+WhitneyWontGoEasyOnYouText:
+	text "…kicher…"
+
+	para "Erwartet nicht,"
+	line "dass ich es euch"
+    cont "leicht mache, nur"
+    cont "weil ich süß bin!"
+	done
+
+WhitneyIwillHandlethisText:
+    text "Ich kümmere mich"
+    line "um diese Typen…"
+
+    para "Hol du dir den"
+    line "Anführer!"
+	done
+
 AquaYoungsterRocketsText:
-	text "Hmm… I don't"
-	line "think these guys"
-	para "in black are"
-	line "supposed to be"
-	cont "here…"
+	text "Hmm… Ich glaube"
+	line "nicht, dass diese"
+	cont "Typen in Schwarz"
+	cont "hier sein sollten…"
 	done
 
 AquaYoungsterNoRocketsText:
-	text "I was hoping I'd"
-	line "see an ANCHORAGE"
-	para "in person, but"
-	line "there isn't one"
-	cont "here."
+    text "Ich habe gehofft,"
+    line "hier ein echtes"
+    cont "ANKORASCH sehen zu"
+    cont "können, aber es"
+    cont "gibt hier keins."
 	done
 	
 AquaLassRocketsText:
-	text "Eeek!"
-	para "Oh, you're not"
-	line "with them."
-	para "These people here"
-	line "are scaring me."
-	para "I should probably"
-	line "leave."
+	text "Huch!"
+
+	para "Oh, du gehörst"
+	line "nicht zu denen."
+
+	para "Diese Leute machen"
+	line "mir Angst."
+
+	para "Ich sollte wohl"
+	line "besser gehen."
 	done
 
 AquaLassNoRocketsText:
-	text "This AQUARIUM is"
-	line "pretty new."
-	para "They don't have"
-	line "too many exhibits"
-	cont "yet."
+	text "Dieses AQUARIUM"
+	line "ist noch relativ"
+	cont "neu, deshalb gibt"
+	cont "es hier auch noch"
+	cont "nicht so viele"
+	cont "Exponate."
 	done
 	
 RocketGruntWhitney1Text:
-	text "Get lost, brat!"
+	text "Verzieh dich,"
+	line "du Göre!"
 	done
 	
 RocketGruntWhitney2Text:
-	text "Who do you think"
-	line "you are?"
-	
-	para "Find your own"
-	line "place to rob!"
+    text "Für wen hälst du"
+    line "dich eigentlich?"
+
+    para "Such dir 'nen"
+    line "anderen Ort zum"
+    cont "Ausrauben!"
 	done
 	
 RocketGruntWhitney3Text:
-	text "Gah!"
-	
-	para "She's cute but she"
-	line "is tough!"
-	
-	para "Especially that"
+	text "Aah!"
+
+	para "Sie ist süß, aber"
+	line "auch knallhart!"
+
+	para "Vor allem dieses"
 	line "MILTANK."
 	done
 
