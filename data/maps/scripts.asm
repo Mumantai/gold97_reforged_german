@@ -16,7 +16,6 @@ INCLUDE "maps/WestportDeptStore6F.asm"
 INCLUDE "maps/WestportDeptStoreElevator.asm"
 INCLUDE "maps/WestportDeptStoreRoof.asm"
 INCLUDE "maps/BoardwalkGameCorner.asm"
-INCLUDE "maps/KikaiMart.asm"
 
 
 
@@ -73,6 +72,7 @@ INCLUDE "maps/Route101PagotaGate.asm"
 INCLUDE "maps/KikaiCaldera1F.asm"
 INCLUDE "maps/KikaiCaldera2F.asm"
 INCLUDE "maps/KikaiCaldera3F.asm"
+INCLUDE "maps/KikaiMart.asm"
 
 
 
