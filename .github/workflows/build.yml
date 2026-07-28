@@ -152,7 +152,7 @@ jobs:
                           print(f"- `maps/{inc_name}` — {inc_size} bytes (${inc_size:04X})")
                       
                       print()
-                      print(f"[📝 View in scripts.asm](https://github.com/${{GITHUB_REPOSITORY}}/blob/${{GITHUB_SHA}}/data/maps/scripts.asm#L?)")
+                      print(f"[📝 View in scripts.asm](https://github.com/{os.getenv('GITHUB_REPOSITORY', 'repo')}/blob/{os.getenv('GITHUB_SHA', 'main')}/data/maps/scripts.asm)")
                       print(f"</details>")
                       print()
                   else:
