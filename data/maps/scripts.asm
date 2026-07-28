@@ -133,7 +133,7 @@ INCLUDE "maps/Route118SunpointGate.asm"
 INCLUDE "maps/IsenStraitSeasidePathGate.asm"
 INCLUDE "maps/PagotaGym.asm"
 INCLUDE "maps/JadeForest.asm"
-INCLUDE "maps/KikaiMart.asm"
+
 
 
 SECTION "Map Scripts 8", ROMX
@@ -152,6 +152,7 @@ INCLUDE "maps/FastShipCabins_SW_SSW_NW.asm"
 INCLUDE "maps/FastShipCabins_SE_SSE_CaptainsCabin.asm"
 INCLUDE "maps/FastShipB1F.asm"
 INCLUDE "maps/WestportPortPassage.asm"
+INCLUDE "maps/KikaiMart.asm"
 
 
 SECTION "Map Scripts 9", ROMX
