@@ -16,6 +16,7 @@ INCLUDE "maps/WestportDeptStore6F.asm"
 INCLUDE "maps/WestportDeptStoreElevator.asm"
 INCLUDE "maps/WestportDeptStoreRoof.asm"
 INCLUDE "maps/BoardwalkGameCorner.asm"
+INCLUDE "maps/RadioTower6F.asm"
 
 
 
@@ -35,9 +36,10 @@ INCLUDE "maps/SlowpokeWellB1F.asm"
 INCLUDE "maps/SlowpokeWellB2F.asm"
 INCLUDE "maps/TeknosAquarium2F.asm"
 INCLUDE "maps/EndonCaveB1F.asm"
-INCLUDE "maps/RadioTower6F.asm"
+
 INCLUDE "maps/KantoBattleClub1F.asm"
 INCLUDE "maps/KikaiPokecenter1F.asm"
+INCLUDE "maps/KikaiMart.asm"
 
 
 
@@ -266,7 +268,6 @@ INCLUDE "maps/BrassTower5F.asm"
 INCLUDE "maps/DaitoGardenerGeoffHouse.asm"
 INCLUDE "maps/RyukyuRestaurant.asm"
 INCLUDE "maps/RyukyuHotelRooms.asm"
-INCLUDE "maps/KikaiMart.asm"
 
 
 SECTION "Map Scripts 15", ROMX
