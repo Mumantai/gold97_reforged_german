@@ -72,7 +72,6 @@ INCLUDE "maps/Route101PagotaGate.asm"
 INCLUDE "maps/KikaiCaldera1F.asm"
 INCLUDE "maps/KikaiCaldera2F.asm"
 INCLUDE "maps/KikaiCaldera3F.asm"
-INCLUDE "maps/KikaiMart.asm"
 
 
 
@@ -93,6 +92,7 @@ INCLUDE "maps/ForkedStraitEastExit.asm"
 INCLUDE "maps/TropicalIsland.asm"
 INCLUDE "maps/TropicalIslandJungle.asm"
 INCLUDE "maps/KantoDock.asm"
+INCLUDE "maps/KikaiMart.asm"
 
 
 SECTION "Map Scripts 6", ROMX
