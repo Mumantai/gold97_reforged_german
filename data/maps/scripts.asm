@@ -56,7 +56,6 @@ INCLUDE "maps/KikaiVillage.asm"
 INCLUDE "maps/KikaiHouse1.asm"
 INCLUDE "maps/KikaiHouse2.asm"
 INCLUDE "maps/AmamiBattleTowerGate.asm"
-INCLUDE "maps/KantoDock.asm"
 
 
 SECTION "Map Scripts 4", ROMX; removed 0
@@ -74,6 +73,8 @@ INCLUDE "maps/KikaiCaldera1F.asm"
 INCLUDE "maps/KikaiCaldera2F.asm"
 INCLUDE "maps/KikaiCaldera3F.asm"
 
+
+
 SECTION "Map Scripts 5", ROMX
 
 INCLUDE "maps/PagotaMart.asm"
@@ -90,6 +91,7 @@ INCLUDE "maps/ForkedStraitGate.asm"
 INCLUDE "maps/ForkedStraitEastExit.asm"
 INCLUDE "maps/TropicalIsland.asm"
 INCLUDE "maps/TropicalIslandJungle.asm"
+INCLUDE "maps/KantoDock.asm"
 
 
 SECTION "Map Scripts 6", ROMX
