@@ -16,7 +16,7 @@ INCLUDE "maps/WestportDeptStore6F.asm"
 INCLUDE "maps/WestportDeptStoreElevator.asm"
 INCLUDE "maps/WestportDeptStoreRoof.asm"
 INCLUDE "maps/BoardwalkGameCorner.asm"
-
+INCLUDE "maps/KikaiMart.asm"
 
 
 
@@ -56,7 +56,7 @@ INCLUDE "maps/KikaiVillage.asm"
 INCLUDE "maps/KikaiHouse1.asm"
 INCLUDE "maps/KikaiHouse2.asm"
 INCLUDE "maps/AmamiBattleTowerGate.asm"
-INCLUDE "maps/KikaiMart.asm"
+
 
 
 SECTION "Map Scripts 4", ROMX; removed 0
