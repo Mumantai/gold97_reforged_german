@@ -47,6 +47,7 @@ jobs:
           python3 - <<'PY' >> "$GITHUB_STEP_SUMMARY"
           import re
           from collections import defaultdict
+          import os
 
           MAPFILE = "pokegold97.map"
           SCRIPTSFILE = "data/maps/scripts.asm"
@@ -92,6 +93,7 @@ jobs:
                       sh = section_header_re.search(line)
                       if sh:
                           current_section = sh.group(1)
+                          section_includes[current_section] = []
                           continue
                       if current_section:
                           inc = include_re.search(line)
@@ -99,20 +101,6 @@ jobs:
                               section_includes[current_section].append(inc.group(1))
           except FileNotFoundError:
               pass
-
-          # Größen-Mapping: Section -> Liste von (Adresse, Größe, Include-Name)
-          section_details = defaultdict(list)
-          for bank, secs in sections.items():
-              for beg, end, sec_name, size in secs:
-                  if sec_name in section_includes:
-                      includes = section_includes[sec_name]
-                      # Divide size equally among includes (approximation)
-                      if includes:
-                          size_per_include = size // len(includes)
-                          remainder = size % len(includes)
-                          for i, inc_name in enumerate(includes):
-                              inc_size = size_per_include + (1 if i < remainder else 0)
-                              section_details[sec_name].append((beg + i * size_per_include, inc_size, inc_name))
 
           # Ausgabe
           print("## 📊 Bank- und Section-Report")
@@ -128,18 +116,18 @@ jobs:
               pct = (used / BANK_SIZE) * 100 if BANK_SIZE else 0
               
               # Status-Icon
-              status = "🔴" if free < 0 else "🟠" if free < 256 else "🟢"
+              status = "🔴" if free < 0 else "🟠" if free < 512 else "🟢"
               
-              print(f"{status} ### Bank `${b:02X}`")
-              print(f"- **used:** {used:5d} (${used:04X}) — {pct:.1f}%")
-              print(f"- **free:** {free:5d} (${free:04X})")
-              print(f"- **sections:** {len(sec)}")
+              # Ausklappbar nach Bank
+              print(f"<details>")
+              print(f"<summary>{status} <strong>Bank ${b:02X}</strong> — {pct:.1f}% ({used:5d}/${BANK_SIZE} bytes) | free: {free:5d}</summary>")
               print()
               
               for beg, end, sec_name, sec_size in sec:
                   includes = section_includes.get(sec_name, [])
+                  
                   if includes:
-                      # Ausklappbar mit Details
+                      # Ausklappbar nach Section
                       print(f"<details>")
                       print(f"<summary><code>${beg:04X}-${end:04X}</code> — <strong>{sec_name}</strong> ({sec_size} bytes)</summary>")
                       print()
@@ -149,16 +137,17 @@ jobs:
                       rem = sec_size % len(includes) if includes else 0
                       for i, inc_name in enumerate(includes):
                           inc_size = size_per + (1 if i < rem else 0)
-                          print(f"- `maps/{inc_name}` — {inc_size} bytes (${inc_size:04X})")
+                          print(f"  - `{inc_name}` — {inc_size} bytes (${inc_size:04X})")
                       
                       print()
-                      print(f"[📝 View in scripts.asm](../blob/master/data/maps/scripts.asm)")
                       print(f"</details>")
                       print()
                   else:
-                      # Normale Section ohne Includes
-                      print(f"- `${beg:04X}-${end:04X}` — {sec_name} ({sec_size} bytes)")
+                      # Section ohne Includes (z.B. ROM0 Sections)
+                      print(f"- <code>${beg:04X}-${end:04X}</code> — **{sec_name}** ({sec_size} bytes)")
+                      print()
               
+              print(f"</details>")
               print()
           PY
 
