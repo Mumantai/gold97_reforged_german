@@ -102,8 +102,29 @@ jobs:
           except FileNotFoundError:
               pass
 
+          # Finde Bänke mit Map Scripts
+          map_scripts_banks = set()
+          for sec_name in section_includes:
+              if "Map Scripts" in sec_name:
+                  for bank, bank_secs in sections.items():
+                      for _, _, name, _ in bank_secs:
+                          if name == sec_name:
+                              map_scripts_banks.add(bank)
+
           # Ausgabe
           print("## 📊 Bank- und Section-Report")
+          print()
+          
+          # Gesamt-Statistik
+          total_used = sum(sum(size for _, _, _, size in secs) for secs in sections.values())
+          total_available = BANK_SIZE * NUM_BANKS
+          total_pct = (total_used / total_available) * 100
+          print(f"**Gesamtnutzung:** {total_used} / {total_available} bytes ({total_pct:.1f}%)")
+          print()
+
+          # Hauptreport ausklappbar
+          print(f"<details>")
+          print(f"<summary><strong>🏦 ROM Bank Übersicht</strong></summary>")
           print()
 
           for b in range(NUM_BANKS):
@@ -118,9 +139,12 @@ jobs:
               # Status-Icon
               status = "🔴" if free < 0 else "🟠" if free < 512 else "🟢"
               
+              # Markierung für Map Scripts
+              map_scripts_marker = "📜" if b in map_scripts_banks else ""
+              
               # Ausklappbar nach Bank
               print(f"<details>")
-              print(f"<summary>{status} <strong>Bank ${b:02X}</strong> — {pct:.1f}% ({used:5d}/${BANK_SIZE} bytes) | free: {free:5d}</summary>")
+              print(f"<summary>{status} {map_scripts_marker} <strong>Bank ${b:02X}</strong> — {pct:.1f}% ({used:5d}/${BANK_SIZE} bytes) | free: {free:5d}</summary>")
               print()
               
               for beg, end, sec_name, sec_size in sec:
@@ -149,6 +173,8 @@ jobs:
               
               print(f"</details>")
               print()
+          
+          print(f"</details>")
           PY
 
       - name: Dateien hochladen
