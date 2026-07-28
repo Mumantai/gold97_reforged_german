@@ -42,7 +42,6 @@ jobs:
           sudo awk -f tools/free_space.awk pokegold97.map
 
       - name: Bank- und Section-Report erzeugen
-        if: always()
         run: |
           python3 - <<'PY' >> "$GITHUB_STEP_SUMMARY"
           import re
