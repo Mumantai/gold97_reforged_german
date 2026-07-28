@@ -31,7 +31,6 @@ INCLUDE "maps/RuinsOfAlphInnerChamber.asm"
 INCLUDE "maps/RuinsOfAlphResearchCenter.asm"
 INCLUDE "maps/BoulderMines1F.asm"
 INCLUDE "maps/BoulderMinesB1F.asm"
-
 INCLUDE "maps/SlowpokeWellB1F.asm"
 INCLUDE "maps/SlowpokeWellB2F.asm"
 INCLUDE "maps/TeknosAquarium2F.asm"
@@ -40,6 +39,7 @@ INCLUDE "maps/RadioTower6F.asm"
 INCLUDE "maps/KantoBattleClub1F.asm"
 INCLUDE "maps/KikaiPokecenter1F.asm"
 INCLUDE "maps/KikaiMart.asm"
+INCLUDE "maps/KikaiStrait.asm"
 
 
 
@@ -109,7 +109,7 @@ INCLUDE "maps/ForkedStraitWestExit.asm"
 INCLUDE "maps/RainbowIsland.asm"
 INCLUDE "maps/RainbowIslandCave.asm"
 INCLUDE "maps/TatsugoPath.asm"
-INCLUDE "maps/KikaiStrait.asm"
+
 
 
 
