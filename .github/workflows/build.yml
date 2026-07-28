@@ -41,6 +41,54 @@ jobs:
         run: |
           sudo awk -f tools/free_space.awk pokegold97.map
 
+      - name: Bank- und Section-Report erzeugen
+        if: always()
+        run: |
+          python3 - <<'PY' >> "$GITHUB_STEP_SUMMARY"
+          import re
+          from collections import defaultdict
+
+          MAPFILE = "pokegold97.map"
+          NUM_BANKS = 0x80
+          BANK_SIZE = 0x4000
+
+          bank_re = re.compile(r'^(ROM0 bank|ROMX bank) #(\d+):')
+          sec_re = re.compile(r'^\s*SECTION:\s+\$([0-9A-Fa-f]{4})(?:-\$([0-9A-Fa-f]{4}))?.*\["(.*)"\]')
+
+          sections = defaultdict(list)
+          cur_bank = None
+
+          with open(MAPFILE, "r", encoding="utf-8") as f:
+              for line in f:
+                  m = bank_re.match(line)
+                  if m:
+                      cur_bank = int(m.group(2))
+                      continue
+                  if cur_bank is None:
+                      continue
+                  s = sec_re.match(line)
+                  if s:
+                      beg = int(s.group(1), 16)
+                      end = int(s.group(2), 16) if s.group(2) else beg
+                      name = s.group(3)
+                      sections[cur_bank].append((beg, end, name))
+
+          print("## Bank- und Section-Report")
+          print()
+          for b in range(NUM_BANKS):
+              sec = sorted(sections.get(b, []), key=lambda x: x[0])
+              used = sum(e - a + 1 for a, e, _ in sec)
+              free = BANK_SIZE - used
+              print(f"### Bank ${b:02X}")
+              print(f"- used: {used:5d} (${used:04X})")
+              print(f"- free: {free:5d} (${free:04X})")
+              print(f"- sections: {len(sec)}")
+              print()
+              for a, e, name in sec:
+                  print(f"- ${a:04X}-${e:04X} — {name}")
+              print()
+          PY
+
       - name: Dateien hochladen
         if: success()
         uses: actions/upload-artifact@v4
