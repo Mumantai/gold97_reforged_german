@@ -16,6 +16,7 @@ INCLUDE "maps/WestportDeptStore6F.asm"
 INCLUDE "maps/WestportDeptStoreElevator.asm"
 INCLUDE "maps/WestportDeptStoreRoof.asm"
 INCLUDE "maps/BoardwalkGameCorner.asm"
+INCLUDE "maps/BoulderMinesB5F.asm"
 
 
 
@@ -30,12 +31,12 @@ INCLUDE "maps/RuinsOfAlphInnerChamber.asm"
 INCLUDE "maps/RuinsOfAlphResearchCenter.asm"
 INCLUDE "maps/BoulderMines1F.asm"
 INCLUDE "maps/BoulderMinesB1F.asm"
-INCLUDE "maps/BoulderMinesB5F.asm"
+
 INCLUDE "maps/SlowpokeWellB1F.asm"
 INCLUDE "maps/SlowpokeWellB2F.asm"
 INCLUDE "maps/TeknosAquarium2F.asm"
 INCLUDE "maps/EndonCaveB1F.asm"
-
+INCLUDE "maps/RadioTower6F.asm"
 INCLUDE "maps/KantoBattleClub1F.asm"
 INCLUDE "maps/KikaiPokecenter1F.asm"
 INCLUDE "maps/KikaiMart.asm"
@@ -56,7 +57,7 @@ INCLUDE "maps/KikaiVillage.asm"
 INCLUDE "maps/KikaiHouse1.asm"
 INCLUDE "maps/KikaiHouse2.asm"
 INCLUDE "maps/AmamiBattleTowerGate.asm"
-INCLUDE "maps/RadioTower6F.asm"
+
 
 
 
