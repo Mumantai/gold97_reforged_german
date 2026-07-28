@@ -111,15 +111,16 @@ TeknosPokecenter1F_BillText1:
     para "Oh nein."
     line "Hoffentlich ist"
     cont "sie nicht in diese"
-    cont "unheilvolle MINE"
+    cont "unheilvollen MINEN"
     cont "gegangen…"
 
     para "Könntest du dort"
     line "nachsehen?"
 
-    para "Es gibt eine alte"
-    line "MINE gleich außer-"
-    cont "halb der Stadt."
+    para "Es gibt ein paar"
+    line "alte MINEN gleich"
+    cont "außerhalb der"
+    cont "Stadt."
 
     para "Ich bete, dass sie"
     line "nicht dorthin"

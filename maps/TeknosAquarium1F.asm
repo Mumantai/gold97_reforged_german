@@ -251,7 +251,7 @@ Aqua1FExhibit4Text:
 
 	para "Es gibt Berichte,"
 	line "dass LAPRAS tief"
-	cont "in der MINE im"
+	cont "in den MINEN im"
 	cont "Westen der Stadt"
 	cont "leben sollen."
 	done
@@ -304,8 +304,8 @@ WhitneyThisisTerribleText:
 
 WhitneyIRememberYouText:
     text "Hey! Wir kennen"
-    line "uns doch aus der"
-    cont "MINE!"
+    line "uns doch aus den"
+    cont "MINEN!"
 
     para "Hör zu…"
 

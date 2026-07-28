@@ -101,7 +101,7 @@ BattleTowerName:        db "DUELLTURM@"
 BirdonTownName:         db "TOTOMONIA@"         ; Tottori + Flegmon
 BlueForestName:         db "KITAOMORIA¯CITY@"   ; Kita (jap. Norden) + ao (jap. Blau) + mori (jap. Wald)
 BoardwalkName:          db "PROMENADE@"
-BoulderMinesName:        db "GERÖLLMINE@"        ;
+BoulderMinesName:       db "GERÖLLMINEN@"        ;
 BrassTowerName:         db "MESSINGTURM@"
 CastleMountainName:     db "SCHLOSS-BERG@"      ; NICHT FINAL
 CharredSummitName:      db "RUẞGIPFEL@"         ;

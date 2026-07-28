@@ -132,165 +132,179 @@ Route120ParlyzHeal:
 	itemball PARLYZ_HEAL
 	
 Route120GrampsText:
-	text "Oh, good! You're"
-	line "here!"
-	para "Please help me"
-	line "out."
-	para "My granddaughter"
-	line "could be trapped"
-	cont "in there!"
+	text "Oh, gut! Du"
+	line "bist hier!"
+
+	para "Bitte hilf mir"
+	line "doch."
+
+	para "Meine Enkelin"
+	line "könnte da drin"
+	cont "gefangen sein!"
 	done
 	
 
 LassConnie1SeenText:
-	text "I don't know why"
-	line "I hang out with"
-	cont "DUDLEY or JOEY."
+	text "Ich weiß nicht,"
+	line "warum ich mit"
+	cont "FLAVIO oder JULIAN"
+	cont "abhänge."
 
-	para "You're probably"
-	line "cooler than either"
-	cont "of them!"
+	para "Du bist sicher"
+	line "viel cooler als"
+	cont "die beiden!"
 	done
 
 LassConnie1BeatenText:
-	text "Aaack! My #MON!"
+	text "Aaah! Meine"
+	line "#MON!"
 	done
 
 LassConnie1AfterBattleText:
-	text "Well, I lost, but"
-	line "that battle was"
-	para "more fun than"
-	line "anything those"
-	para "two could be up"
-	line "to."
+	text "Na ja, verloren,"
+	line "aber der Kampf"
+	cont "war lustiger als"
+	cont "alles, was die"
+	cont "zwei so anstellen."
 	done
 
 	
 SchoolboyDudleySeenText:
-	text "This route is"
-	line "where all of my"
-	para "friends meet after"
-	line "school!"
+	text "Auf dieser Route"
+	line "treffen sich alle"
+	cont "meine Freunde nach"
+	cont "der Schule!"
 	done
 
 SchoolboyDudleyBeatenText:
-	text "Whoo! Good stuff."
+	text "Wooh! Das war gut."
 	done
 
 SchoolboyDudleyAfterBattleText:
-	text "I did my best."
-	line "I have no regrets."
+	text "Ich hab mein"
+	line "Bestes gegeben."
+
+	para "Ich bereue nichts."
 	done
 	
 YoungsterJoey1SeenText:
-	text "It's fun to play"
-	line "in the mines."
-	para "But don't tell"
-	line "our parents!"
+	text "Es macht Spaß,"
+	line "in der MINE zu"
+	cont "spielen."
+
+	para "Aber verrate es"
+	line "bitte nicht"
+	cont "unseren Eltern!"
 	done
 
 YoungsterJoey1BeatenText:
-	text "Ack! I lost!"
-	line "Doggone it!"
+	text "Mist! Verloren!"
+	line "Verdammich!"
 	done
 
 YoungsterJoey1AfterText:
-	text "Do I have to have"
-	line "more #MON in"
+	text "Brauche ich mehr"
+	line "#MON, um besser"
+	cont "zu kämpfen?"
 
-	para "order to battle"
-	line "better?"
-
-	para "No! I'm sticking"
-	line "with this one no"
-	cont "matter what!"
+	para "Nein! Ich bleibe"
+	line "bei diesem hier,"
+	cont "komme was wolle!"
 	done
 
 Route120UndergroundPathSignText:
-	text "BOULDER MINES"
-	para "Dangerous mining"
-	line "area!"
-	para "Please do not"
-	line "enter without"
-	para "#MON for"
-	line "protection."
+	text "GERÖLLMINEN"
+
+	para "Gefährliches"
+	line "Abbaugebiet!"
+
+	para "Betreten ohne"
+	line "#MON zum Schutz"
+	cont "verboten."
 	done
 	
 FisherTullySeenText:
-	text "Let me demonstrate"
-	line "the power of the"
-	cont "#MON I caught!"
+	text "Jetzt demonstriere"
+	line "ich dir die Kraft"
+	cont "des #MON,"
+	cont "das ich gefangen"
+	cont "habe!"
 	done
 
 FisherTullyBeatenText:
-	text "What? That's not"
-	line "right."
+	text "Was? Das kann"
+	line "nicht sein."
 	done
 
 FisherTullyAfterBattleText:
-	text "I want to become"
-	line "the CHAMPION"
+	text "Mit dem #MON,"
+	line "das ich gefangen"
 
-	para "using the #MON"
-	line "I caught."
+	para "habe, möchte ich"
+	line "der CHAMP der"
+	cont "Trainer werden."
 
-	para "That's the best"
-	line "part of fishing!"
+	para "Das ist das Beste"
+	line "am Angeln!"
 	done
 	
 HikerParry3SeenText:
-	text "My #MON are"
-	line "power packed!"
+	text "Meine #MON"
+	line "sind voller"
+	cont "Energie!"
 	done
 
 HikerParry3BeatenText:
-	text "Wahahah! I'm the"
-	line "big loser!"
+	text "Ojemine! Ich bin"
+	line "der große"
+	cont "Verlierer!"
 	done
 
 HikerParryAfterBattleText:
-	text "I'm not much good"
-	line "at thinking, see?"
+	text "Ich bin eher"
+	line "langsam, was das"
+	cont "Denken betrifft,"
+	cont "weißt du?"
 
-	para "So, I just plow"
-	line "ahead with power!"
+	para "Deswegen setze ich"
+	line "alles auf Kraft."
 	done
 	
 GrampsRelievedText:
-	text "Oh thank heavens!"
-	
-	para "You're safe!"
+    text "Himmel sei Dank!"
 
-	para "How many times do"
-	line "I have to tell"
-	cont "you…"
-	
-	para "Don't wander off"
-	line "where I can't find"
-	cont "you!"
+    para "Dir geht es gut!"
+
+    para "Wie oft habe ich"
+    line "dir schon gesagt…"
+
+    para "Lauf nicht weg,"
+    line "wo ich dich nicht"
+    cont "finden kann!"
 	done
 	
 GirlText:
-	text "Oh Grandpa…"
-	
-	para "I was only playing"
-	line "hide-and-seek!"
-	
-	para "I had lots of fun!"
+    text "Oh Opa…"
+
+    para "Ich habe nur Ver-"
+    line "stecken gespielt!"
+
+    para "Ich hatte richtig"
+    line "viel Spaß!"
 	done
 	
 GrampsAnnoyedText:
-	text "Honestly,"
-	line "this lass…"
-	
-	para "But she is safe"
-	line "thankfully…"
-	
-	para "Thank you Trainer,"
-	
-	para "Let's head back to"
-	line "to my house for"
-	cont "now…"
+    text "Ernsthaft, dieses"
+    line "Mädchen…"
+
+    para "Aber sie ist zum"
+    line "Glück wohlauf…"
+
+    para "Dank dir, Trainer."
+
+    para "Lass uns erst mal"
+    line "zurück nach Hause"
+    cont "gehen…"
 	done
 
 WalkDown:

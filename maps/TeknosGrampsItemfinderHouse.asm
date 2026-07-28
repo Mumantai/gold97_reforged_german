@@ -56,9 +56,9 @@ EcruteakItemfinderAdventureText:
     cont "froh, dass es ihr"
     cont "gut geht!"
 
-    para "Du hast dich in"
-    line "der MINE sehr gut"
-    cont "geschlagen."
+    para "Du hast dich in "
+    line "den MINEN sehr"
+    cont "gut geschlagen."
 
     para "Wenn man weiß,"
     line "wo man suchen"
@@ -106,8 +106,8 @@ EcruteakItemfinderToEachHisOwnText:
 
 EcruteakHistoryBookText:
 	text "Opa will nicht,"
-	line "dass ich in der"
-	cont "MINE spiele."
+	line "dass ich in den"
+	cont "MINEN spiele."
 
 	para "Ich schätze, das"
 	line "ergibt Sinn."
