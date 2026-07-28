@@ -168,7 +168,7 @@ INCLUDE "maps/AmamiPortPassage.asm"
 INCLUDE "maps/GreatEastStrait.asm"
 INCLUDE "maps/DaitoRanch.asm"
 INCLUDE "maps/DaitoAppleOrchard.asm"
-INCLUDE "maps/KikaiMart.asm"
+
 
 
 SECTION "Map Scripts 10", ROMX
@@ -266,6 +266,7 @@ INCLUDE "maps/BrassTower5F.asm"
 INCLUDE "maps/DaitoGardenerGeoffHouse.asm"
 INCLUDE "maps/RyukyuRestaurant.asm"
 INCLUDE "maps/RyukyuHotelRooms.asm"
+INCLUDE "maps/KikaiMart.asm"
 
 
 SECTION "Map Scripts 15", ROMX
