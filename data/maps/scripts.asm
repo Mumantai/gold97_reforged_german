@@ -92,7 +92,7 @@ INCLUDE "maps/ForkedStraitEastExit.asm"
 INCLUDE "maps/TropicalIsland.asm"
 INCLUDE "maps/TropicalIslandJungle.asm"
 INCLUDE "maps/KantoDock.asm"
-INCLUDE "maps/KikaiMart.asm"
+
 
 
 SECTION "Map Scripts 6", ROMX
@@ -107,6 +107,7 @@ INCLUDE "maps/RainbowIsland.asm"
 INCLUDE "maps/RainbowIslandCave.asm"
 INCLUDE "maps/TatsugoPath.asm"
 INCLUDE "maps/KikaiStrait.asm"
+INCLUDE "maps/KikaiMart.asm"
 
 
 SECTION "Map Scripts 7", ROMX
