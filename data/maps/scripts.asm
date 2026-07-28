@@ -40,7 +40,7 @@ INCLUDE "maps/RadioTower6F.asm"
 INCLUDE "maps/KantoBattleClub1F.asm"
 INCLUDE "maps/KikaiPokecenter1F.asm"
 INCLUDE "maps/KikaiMart.asm"
-INCLUDE "maps/KantoDock.asm"
+
 
 SECTION "Map Scripts 3", ROMX
 
@@ -56,6 +56,7 @@ INCLUDE "maps/KikaiVillage.asm"
 INCLUDE "maps/KikaiHouse1.asm"
 INCLUDE "maps/KikaiHouse2.asm"
 INCLUDE "maps/AmamiBattleTowerGate.asm"
+INCLUDE "maps/KantoDock.asm"
 
 
 SECTION "Map Scripts 4", ROMX; removed 0
