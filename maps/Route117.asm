@@ -83,73 +83,80 @@ Route2HiddenRevive:
 
 
 FirebreatherOtisSeenText:
-	text "Ah! The weather's"
-	line "as fine as ever."
+	text "Ah! Das Wetter"
+	line "ist so schön"
+	cont "wie immer."
 	done
 
 FirebreatherOtisBeatenText:
-	text "It's sunny, but"
-	line "I'm all wet…"
+	text "Die Sonne scheint,"
+	line "dennoch bin ich"
+	cont "nass…"
 	done
 
 FirebreatherOtisAfterBattleText:
-	text "When it rains,"
-	line "it's hard to get"
-	cont "ignition…"
+	text "Bei Regen ist"
+	line "eine Zündung sehr"
+	cont "schwierig…"
 	done
 
 YoungsterWarrenSeenText:
-	text "Hmmm… This tree is"
-	line "kinda interesting…"
+	text "Hmmm… Dieser Baum"
+	line "ist merkwürdig…"
 	done
 
 YoungsterWarrenBeatenText:
-	text "I knew I'd lose…"
+	text "Ich wusste es…"
 	done
 
 YoungsterWarrenAfterBattleText:
-	text "You looked strong."
+	text "Du hast gleich"
+	line "einen starken"
+	cont "Eindruck gemacht."
 
-	para "I was afraid to"
-	line "take you on…"
+	para "Ich hatte Angst,"
+	line "gegen dich zu"
+	cont "kämpfen…"
 	done
 
 YoungsterJimmySeenText:
-	text "I can run like the"
-	line "wind!"
+	text "Ich bin schnell"
+	line "wie der Wind!"
 	done
 
 YoungsterJimmyBeatenText:
-	text "Blown away!"
+	text "Hinfortgeweht!"
 	done
 
 YoungsterJimmyAfterBattleText:
-	text "I wear shorts the"
-	line "whole year round."
+	text "Ich trage das"
+	line "ganze Jahr Shorts."
 
-	para "That's my fashion"
-	line "policy."
+	para "Das ist meine"
+	line "Auffassung von"
+	cont "Mode."
 	done
 
 EngineerHarrisSeenText:
-	text "Hey!"
-	
-	para "You seen my"
-	line "wrench anywhere?"
+    text "Hey!"
+
+    para "Hast du meinen"
+    line "Schraubenschlüssel"
+    cont "gesehen?"
 	done
 	
 EngineerHarrisBeatenText:
-	text "I just can't find"
-	line "it…"
-	
-	para "Wait…"
-	
-	para "It's in my hand!"
+    text "Ich kann ihn ein-"
+    line "fach nicht finden…"
+
+    para "Moment…"
+
+    para "Er ist in meiner"
+    line "Hand!"
 	done
 
 EngineerHarrisAfterBattleText:
-	text "Well, that was"
-	line "embarrassing…"
+	text "Das war peinlich…"
 	done
 
 

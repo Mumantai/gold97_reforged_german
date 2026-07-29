@@ -66,74 +66,84 @@ Route116GateAideScript:
 	end
 
 AideGivesEverstoneText1:
-	text "Hi there,"
-	line "<PLAY_G>!"
-	
-	para "Remember me?"
-	
-	para "I'm one of PROF."
-	line "OAK's AIDES."
-	
-	para "OAK forgot to give"
-	line "you this before he"
-	cont "left."
+	text "Hallo, <PLAY_G>!"
+
+	para "Erinnerst du dich"
+	line "an mich? Ich bin"
+	cont "einer von PROF."
+	cont "EICHs ASSISTENTEN."
+
+	para "Er hat vergessen,"
+	line "dir das hier zu"
+    cont "geben, bevor er"
+    cont "gegangen ist."
 	done
 
 AideGivesEverstoneText2:
-	text "That EVERSTONE can"
-	line "prevent it's hold"
-	cont "-er from evolving!"
-	
-	para "It's a handy stone"
-	line "when you don't a"
-	cont "certain #MON"
-	cont "to evolve."
+    text "Dieser EWIGSTEIN"
+    line "kann die Entwick-"
+    cont "lung seines Trä-"
+    cont "gers verhindern!"
+
+    para "Es ist ein echt"
+    line "praktischer Item,"
+    cont "wenn du nicht"
+    cont "willst, dass ein"
+    cont "bestimmtes #MON"
+    cont "sich entwickelt."
 	done
 
 AideGivesEverstoneText3:
-	text "Oh dear…"
+	text "Oje…"
 
-	para "You have no room"
-	cont "for this!"
+	para "Du hast keinen"
+	line "Platz dafür!"
 	done
 	
 Route116GateRocket1Text:
 	text "Fufufufu…"
-	para "Our SLOWPOKE team"
-	line "should be back"
-	para "with the next"
-	line "batch of TAILS"
-	cont "soon…"
+
+	para "Unser FLEGMON-Team"
+	line "sollte bald mit"
+	cont "einer neuen Ladung"
+	cont "RUTEN zurück sein…"
 	done
 	
 Route116GateRocket2Text:
 	text "Hehehehe…"
-	para "No one will even"
-	line "notice the TAILS"
-	para "missing from those"
-	line "SLOWPOKE until"
-	cont "it's too late…"
+
+	para "Niemand wird be-"
+	line "merken, dass den"
+	cont "FLEGMON die RUTEN"
+	cont "fehlen, bis es zu"
+	cont "spät ist…"
 	done
 
 Route116GateScientistText:
-	text "These men look"
-	line "like members of"
-	cont "TEAM ROCKET."
-	para "Could they really"
-	line "be?"
-	para "I wish they'd stop"
-	line "blocking the gate,"
-	para "but they kind of"
-	line "scare me…"
+    text "Diese Männer sehen"
+    line "aus wie Mitglieder"
+    cont "von TEAM ROCKET."
+
+    para "Könnten sie das"
+    line "wirklich sein?"
+
+    para "Ich wünschte nur,"
+    line "sie würden den"
+    cont "Ausgang nicht mehr"
+    cont "blockieren, aber"
+    cont "ich habe zu viel"
+    cont "Angst vor ihnen…"
 	done
 	
 Route116GateScientistTextNoRockets:
-	text "Past here is a"
-	line "winding maze of"
-	para "trees and a tough"
-	line "cave to traverse."
-	para "Make sure you're"
-	line "prepared!"
+    text "Hinter diesem Tor,"
+    line "liegt ein wirres"
+    cont "Labyrinth aus"
+    cont "Bäumen und eine"
+    cont "verzwickte Höhle."
+
+    para "Bereite dich also"
+    line "gut darauf vor!"
 	done
 
 Route116Gate_MapEvents:

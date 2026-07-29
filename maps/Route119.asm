@@ -127,136 +127,146 @@ Route119FruitTree:
 	fruittree FRUITTREE_ROUTE_119
 
 SportsmanBrysonSeenText:
-	text "Whew!"
+	text "Puh!"
 
-	para "Nothing like a"
-	line "good jog along the"
-	cont "beach!"
+	para "Es geht doch"
+	line "nichts über Joggen"
+	cont "am Strand!"
 	done
 
 SportsmanBrysonBeatenText:
-	text "Sand in my shoe!"
+	text "Sand im Schuh!"
 	done
 
 SportsmanBrysonAfterText:
-	text "Sand isn't really"
-	line "the best surface"
-	cont "to run on."
+    text "Sand ist nicht"
+    line "gerade die beste"
+    cont "Oberfläche zum"
+    cont "Laufen."
 	done
 
 FisherJustinSeenText:
-	text "Whoa!"
+	text "Woah!"
 
-	para "You made me lose"
-	line "that fish!"
+	para "Wegen dir ist"
+	line "mir der Fisch"
+	cont "entkommen!"
 	done
 
 FisherJustinBeatenText:
-	text "Sploosh!"
+	text "Platsch!"
 	done
 
 FisherJustinAfterText:
-	text "Calm, collected…"
-	line "The essence of"
-
-	para "fishing and #-"
-	line "MON is the same."
+    text "Ruhe, Geduld…"
+    line "Die Essenz vom"
+    cont "Angeln und #MON"
+    cont "ist die gleiche."
 	done
 
 FisherRalph1SeenText:
-	text "I'm really good at"
-	line "both fishing and"
-	cont "#MON."
+    text "Ich bin sowohl im"
+    line "Angeln als auch in"
+    cont "#MON-Kämpfen"
+    cont "richtig gut."
 
-	para "I'm not about to"
-	line "lose to any kid!"
+    para "Ich verliere nicht"
+    line "gegen ein Kind!"
 	done
 
 FisherRalph1BeatenText:
-	text "Tch! I tried to"
-	line "rush things…"
+	text "Tse! Ich war"
+	line "zu hastig…"
 	done
 
 FisherRalphAfterText:
-	text "Fishing is a life-"
-	line "long passion."
+	text "Angeln ist eine"
+	line "Leidenschaft fürs"
+	cont "Leben."
 
-	para "#MON are life-"
-	line "long friends!"
+	para "Und #MON sind"
+	line "Freunde fürs"
+	cont "Leben!"
 	done
 
 FisherRalphSwarmText:
-	text "One, two, three…"
-	line "Muahahaha, what a"
+	text "Eins, zwei, drei…"
+	line "Muhahaha, was für"
+	cont "ein toller Fang!"
 
-	para "great haul!"
-	line "I'm done! Go ahead"
+	para "Ich bin fertig!"
 
-	para "and catch as many"
-	line "as you can, kid!"
+	para "Fang so viele,"
+	line "wie du kannst!"
 	done
 
 Route119UndergroundPathSignText:
 	text "ROUTE 119"
-	para "East to TEKNOS"
+	para "TEKNOPIA CITY -"
+	line "KAZANAMI CITY"
 	done
 
 Route119LockedDoorText:
-	text "Go through gate"
-	line "to SUNPOINT CITY."
+	text "Durch das TOR"
+	line "nach KAZANAMI CITY"
 	done
 	
 Route119Rocket1Text:
 	text "Fufufufu…"
-	para "Why are we even"
-	line "stationed here?"
+
+	para "Warum sind wir"
+	line "überhaupt hier?"
 	done
 	
 Route119Rocket2Text:
 	text "Hehehehe…"
-	para "I don't think the"
-	line "boss likes us"
-	cont "very much…"
+
+	para "Ich glaub, der"
+	line "Boss mag uns"
+	cont "nicht besonders…"
 	done
 	
 MeetWesleyText:
-	text "WESLEY: Well, how"
-	line "do you do?"
+	text "MITKO: Na, wie"
+	line "geht es dir?"
 
-	para "Seeing as how it's"
-	line "Wednesday today,"
-
-	para "I'm WESLEY of"
-	line "Wednesday."
+	para "Ich bin MITKO von"
+	line "Mittwoch. Soll"
+	cont "heißen, heute ist"
+	cont "Mittwoch."
 	done
 
 WesleyGivesGiftText:
-	text "Pleased to meet"
-	line "you. Please take a"
-	cont "souvenir."
+	text "Freut mich, dich"
+	line "kennen zu lernen."
+	cont "Nimm dir bitte ein"
+	cont "Souvenir."
 	done
 
 WesleyGaveGiftText:
-	text "WESLEY: BLACKBELT"
-	line "beefs up the power"
-	cont "of fighting moves."
+	text "MITKO: SCHWARZGURT"
+	line "verstärkt die"
+	cont "Kraft von Kampf-"
+	cont "Attacken."
 	done
 
 WesleyWednesdayText:
-	text "WESLEY: Since you"
-	line "found me, you must"
+	text "MITKO: Da du mich"
+	line "gefunden hast,"
+	cont "musst du meine"
+	cont "Brüder und Schwes-"
+	cont "tern getroffen"
+	cont "haben."
 
-	para "have met my broth-"
-	line "ers and sisters."
-
-	para "Or did you just"
-	line "get lucky?"
+	para "Oder hattest du"
+	line "einfach nur Glück?"
 	done
 
 WesleyNotWednesdayText:
-	text "WESLEY: Today's"
-	line "not Wednesday."
-	cont "That's too bad."
+	text "MITKO: Heute ist"
+	line "nicht Mittwoch."
+
+	para "Wie schade."
 	done
 
 
