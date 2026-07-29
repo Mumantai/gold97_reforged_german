@@ -1268,228 +1268,228 @@ GruntMGroup:
 	db -1 ; end
 
 	; GRUNTM (2)
-	db "RÜPEL", TRAINERTYPE_NORMAL; used, aquarium/lighthouse
+	db "RÜPEL@", TRAINERTYPE_NORMAL; used, aquarium/lighthouse
 	db  17, SPINARAK
 	db  18, RATTATA
 	db -1 ; end
 
 	; GRUNTM (3)
-	db "RÜPEL", TRAINERTYPE_NORMAL; used, aquarium/lighthouse
+	db "RÜPEL@", TRAINERTYPE_NORMAL; used, aquarium/lighthouse
 	db 18, ZUBAT
 	db 18, KOFFING
 	db -1 ; end
 
 	; GRUNTM (4)
-	db "RÜPEL", TRAINERTYPE_NORMAL ; used, slowpoke well battle
+	db "RÜPEL@", TRAINERTYPE_NORMAL ; used, slowpoke well battle
 	db 20, GRIMBY
 	db 21, GRIMER
 	db 21, MEOWTH
 	db -1 ; end
 
 	; GRUNTM (5)
-	db "RÜPEL", TRAINERTYPE_NORMAL; used, shocked rocket in safarizonewardenshome
+	db "RÜPEL@", TRAINERTYPE_NORMAL; used, shocked rocket in safarizonewardenshome
 	db 35, BELLRUN
 	db 36, RATICATE
 	db -1 ; end
 
 	; GRUNTM (6)
-	db "RÜPEL", TRAINERTYPE_NORMAL; used, wardens home 2nd floor
+	db "RÜPEL@", TRAINERTYPE_NORMAL; used, wardens home 2nd floor
 	db 37, GOLBAT
 	db 40, RHYHORN
 	db -1 ; end
 
 	; GRUNTM (7)
-	db "RÜPEL", TRAINERTYPE_NORMAL;used, wardens home 2nd floor
+	db "RÜPEL@", TRAINERTYPE_NORMAL;used, wardens home 2nd floor
 	db 38, WEEZING
 	db -1 ; end
 
 	; GRUNTM (8)
-	db "RÜPEL", TRAINERTYPE_NORMAL; used, base b2f
+	db "RÜPEL@", TRAINERTYPE_NORMAL; used, base b2f
 	db 38, WEEZING
 	db 39, GOLBAT
 	db -1 ; end
 
 	; GRUNTM (9)
-	db "RÜPEL", TRAINERTYPE_NORMAL; used, base b2f
+	db "RÜPEL@", TRAINERTYPE_NORMAL; used, base b2f
 	db 39, GRIMER
 	db 42, MUK
 	db -1 ; end
 
 	; GRUNTM (10)
-	db "RÜPEL", TRAINERTYPE_NORMAL; used, base b2f
+	db "RÜPEL@", TRAINERTYPE_NORMAL; used, base b2f
 	db 38, NIDORINO
 	db 40, NIDOKING
 	db 40, GOLEM
 	db -1 ; end
 
 	; GRUNTM (11)
-	db "RÜPEL", TRAINERTYPE_NORMAL ;used, rocket boat
+	db "RÜPEL@", TRAINERTYPE_NORMAL ;used, rocket boat
 	db 23, GRIMER
 	db 23, KOFFING
 	db 25, RATICATE
 	db -1 ; end
 
 	; GRUNTM (12)
-	db "RÜPEL", TRAINERTYPE_NORMAL ;used, radio tower 1f
+	db "RÜPEL@", TRAINERTYPE_NORMAL ;used, radio tower 1f
 	db 40, KOTORA
 	db 40, PERSIAN
 	db -1 ; end
 
 	; GRUNTM (13)
-	db "RÜPEL", TRAINERTYPE_NORMAL ;used, rocket boat
+	db "RÜPEL@", TRAINERTYPE_NORMAL ;used, rocket boat
 	db 24, KURSTRAW
 	db 26, KURSTRAW
 	db -1 ; end
 
 	; GRUNTM (15)
-	db "RÜPEL", TRAINERTYPE_NORMAL; used, base b2f
+	db "RÜPEL@", TRAINERTYPE_NORMAL; used, base b2f
 	db 39, PRIMEAPE
 	db 41, GOLBAT
 	db -1 ; end
 
 	; GRUNTM (16)
-	db "RÜPEL", TRAINERTYPE_NORMAL; used, base b2f
+	db "RÜPEL@", TRAINERTYPE_NORMAL; used, base b2f
 	db 37, RATICATE
 	db 37, BOMSHEAL
 	db 38, TUHEAD
 	db -1 ; end
 
 	; GRUNTM (17)
-	db "RÜPEL", TRAINERTYPE_NORMAL; used, base b3f
+	db "RÜPEL@", TRAINERTYPE_NORMAL; used, base b3f
 	db 42, BELLRUN
 	db -1 ; end
 
 	; GRUNTM (18)
-	db "RÜPEL", TRAINERTYPE_NORMAL; used, base b3f
+	db "RÜPEL@", TRAINERTYPE_NORMAL; used, base b3f
 	db 38, NOCTOWL
 	db 39, DROWZEE
 	db 40, HYPNO
 	db -1 ; end
 
 	; GRUNTM (20)
-	db "RÜPEL", TRAINERTYPE_NORMAL; used, base b3f
+	db "RÜPEL@", TRAINERTYPE_NORMAL; used, base b3f
 	db 38, MAROWAK
 	db 39, UMBREON
 	db 36, RHYHORN
 	db -1 ; end
 
 	; GRUNTM (21)
-	db "RÜPEL", TRAINERTYPE_NORMAL; used, base b3f
+	db "RÜPEL@", TRAINERTYPE_NORMAL; used, base b3f
 	db 40, TURBAN
 	db 39, GOLBAT
 	db -1 ; end
 
 	; GRUNTM (22)
-	db "RÜPEL", TRAINERTYPE_NORMAL ;used, rocket ship
+	db "RÜPEL@", TRAINERTYPE_NORMAL ;used, rocket ship
 	db 28, GOLBAT
 	db -1 ; end
 
 	; GRUNTM (23)
-	db "RÜPEL", TRAINERTYPE_NORMAL ;used, key giver in honto base
+	db "RÜPEL@", TRAINERTYPE_NORMAL ;used, key giver in honto base
 	db 25, GOLBAT
 	db 26, WOLFAN
 	db -1 ; end
 
 	; GRUNTM (25)
-	db "RÜPEL", TRAINERTYPE_NORMAL ;used, rocket ship
+	db "RÜPEL@", TRAINERTYPE_NORMAL ;used, rocket ship
 	db 25, KOFFING
 	db 26, KOTORA
 	db -1 ; end
 
 	; GRUNTM (26)
-	db "RÜPEL", TRAINERTYPE_NORMAL; used, radio tower 2f
+	db "RÜPEL@", TRAINERTYPE_NORMAL; used, radio tower 2f
 	db 39, NIDORINO
 	db 41, SKARMORY
 	db -1 ; end
 
 	; GRUNTM (27)
-	db "RÜPEL", TRAINERTYPE_NORMAL; used, radio tower 4f
+	db "RÜPEL@", TRAINERTYPE_NORMAL; used, radio tower 4f
 	db 42, WARWOLF
 	db -1 ; end
 
 	; GRUNTM (28)
-	db "RÜPEL", TRAINERTYPE_NORMAL; used, radio tower 4f
+	db "RÜPEL@", TRAINERTYPE_NORMAL; used, radio tower 4f
 	db 42, TUHEAD
 	db 42, TAUROS
 	db -1 ; end
 
 	; GRUNTM (29) ;used rocket guarding the ship at the docks
-	db "RÜPEL", TRAINERTYPE_NORMAL
+	db "RÜPEL@", TRAINERTYPE_NORMAL
 	db  23, KOTORA
 	db  25, RATICATE
 	db -1 ; end
 
 	; GRUNTM (30)
-	db "RÜPEL", TRAINERTYPE_NORMAL; used, radio tower 5f
+	db "RÜPEL@", TRAINERTYPE_NORMAL; used, radio tower 5f
 	db 40, ARBOK
 	db 40, ANCHORAGE
 	db -1 ; end
 
 	; GRUNTM (31)
-	db "RÜPEL", TRAINERTYPE_NORMAL ;used, castle mountain
+	db "RÜPEL@", TRAINERTYPE_NORMAL ;used, castle mountain
 	db 60, GOLBAT
 	db -1 ; end
 	
 	; GRUNTM (32)
-	db "RÜPEL", TRAINERTYPE_NORMAL ; used teknos city
+	db "RÜPEL@", TRAINERTYPE_NORMAL ; used teknos city
 	db 17, RATTATA
 	db 17, GRIMBY
 	db -1 ; end
 	
 	; GRUNTM (33)
-	db "RÜPEL", TRAINERTYPE_NORMAL ; used teknos city
+	db "RÜPEL@", TRAINERTYPE_NORMAL ; used teknos city
 	db 16, ZUBAT
 	db 16, RATTATA
 	db 18, DROWZEE
 	db -1 ; end
 	
 	;34 new
-	db "RÜPEL", TRAINERTYPE_NORMAL
+	db "RÜPEL@", TRAINERTYPE_NORMAL
 	db 52, RATICATE
 	db 54, HYPNO
 	db -1
 	
 	; 35 new
-	db "RÜPEL", TRAINERTYPE_NORMAL
+	db "RÜPEL@", TRAINERTYPE_NORMAL
 	db 53, MACHOKE
 	db 53, TUHEAD
 	db 55, MAROWAK
 	db -1 
 
 	; 36 new
-	db "RÜPEL", TRAINERTYPE_NORMAL
+	db "RÜPEL@", TRAINERTYPE_NORMAL
 	db 54, MUK
 	db 53, CROBAT
 	db 55, TAUROS
 	db -1 
 	
 	; 37 new
-	db "RÜPEL", TRAINERTYPE_NORMAL
+	db "RÜPEL@", TRAINERTYPE_NORMAL
 	db 54, RATICATE
 	db 55, GROTESS
 	db -1 
 
 	; 38 new 
-	db "RÜPEL", TRAINERTYPE_NORMAL
+	db "RÜPEL@", TRAINERTYPE_NORMAL
 	db 52, RHYDON
 	db 54, WEEZING
 	db 55, NIDOKING
 	db -1
 
 	; 39 new
-	db "RÜPEL", TRAINERTYPE_NORMAL
+	db "RÜPEL@", TRAINERTYPE_NORMAL
 	db 53, MAGNETON
 	db 54, ELECTRODE
 	db -1
 	
 	; 40 new
-	db "RÜPEL", TRAINERTYPE_NORMAL
+	db "RÜPEL@", TRAINERTYPE_NORMAL
 	db 56, TURBAN
 	db 55, SLOWBRO
 	db -1
 	
 	; 41 new 
-	db "RÜPEL", TRAINERTYPE_MOVES
+	db "RÜPEL@", TRAINERTYPE_MOVES
 	db 54, SMEARGLE, SPIKES, TOXIC, LEECH_SEED, GLARE
 	db 55, SMEARGLE, HYPER_BEAM, FIRE_BLAST, BLIZZARD, THUNDER
 	db 56, SMEARGLE, MEGAPHONE, CROSS_CUTTER, ROCK_HEAD, COIN_HURL
@@ -3221,25 +3221,25 @@ OfficerGroup:
 
 GruntFGroup:
 	; GRUNTF (1)
-	db "RÜPEL", TRAINERTYPE_NORMAL; used,  aquarium/lighthouse
+	db "RÜPEL@", TRAINERTYPE_NORMAL; used,  aquarium/lighthouse
 	db 16, GRIMBY
 	db 18, GRIMER
 	db -1 ; end
 
 	; GRUNTF (2)
-	db "RÜPEL", TRAINERTYPE_NORMAL ;used, ship entrance ambush
+	db "RÜPEL@", TRAINERTYPE_NORMAL ;used, ship entrance ambush
 	db 24, EKANS
 	db 25, KOFFING
 	db -1 ; end
 
 	; GRUNTF (3)
-	db "RÜPEL", TRAINERTYPE_NORMAL ;used, ship
+	db "RÜPEL@", TRAINERTYPE_NORMAL ;used, ship
 	db 26, GLOOM
 	db 26, WEEPINBELL
 	db -1 ; end
 
 	; GRUNTF (4)
-	db "RÜPEL", TRAINERTYPE_NORMAL; used, wardens home 2f
+	db "RÜPEL@", TRAINERTYPE_NORMAL; used, wardens home 2f
 	db 34, EKANS
 	db 35, ODDISH
 	db 36, ARBOK
@@ -3247,79 +3247,79 @@ GruntFGroup:
 	db -1 ; end
 
 	; GRUNTF (5)
-	db "RÜPEL", TRAINERTYPE_NORMAL; used, radio tower 3f
+	db "RÜPEL@", TRAINERTYPE_NORMAL; used, radio tower 3f
 	db 41, TANGELA
 	db 41, CLOYSTER
 	db -1 ; end
 	
 	; GRUNTF (6)
-	db "RÜPEL", TRAINERTYPE_NORMAL; used, base b3f
+	db "RÜPEL@", TRAINERTYPE_NORMAL; used, base b3f
 	db 38, CUBONE
 	db 38, UMBREON
 	db 40, MAROWAK
 	db -1 ; end
 	
 	; GRUNTF (7)
-	db "RÜPEL", TRAINERTYPE_NORMAL; used, base b2f
+	db "RÜPEL@", TRAINERTYPE_NORMAL; used, base b2f
 	db 38, WEEPINBELL
 	db 42, PRIMEAPE
 	db -1 ; end
 	
 	; GRUNTF (8)
-	db "RÜPEL", TRAINERTYPE_NORMAL; used, radio tower 2f
+	db "RÜPEL@", TRAINERTYPE_NORMAL; used, radio tower 2f
 	db 39, NIDORINA
 	db 41, DONPHAN
 	db -1 ; end
 	
 	; 9, new
-	db "RÜPEL", TRAINERTYPE_NORMAL
+	db "RÜPEL@", TRAINERTYPE_NORMAL
 	db 54, KADABRA
 	db 53, ARBOK
 	db 54, GELANIA
 	db -1
 
 	; 10, new
-	db "RÜPEL", TRAINERTYPE_NORMAL
+	db "RÜPEL@", TRAINERTYPE_NORMAL
 	db 53, HAUNTER
 	db 54, BELMITT
 	db 55, BELLRUN
 	db -1
 	
 	;11 new
-	db "RÜPEL", TRAINERTYPE_NORMAL
+	db "RÜPEL@", TRAINERTYPE_NORMAL
 	db 54, WEEZING
 	db 56, MURKROW
 	db -1
 	
 	;12 new
-	db "RÜPEL", TRAINERTYPE_NORMAL
+	db "RÜPEL@", TRAINERTYPE_NORMAL
 	db 54, MILTANK
 	db 53, NIDOQUEEN
 	db 53, VILEPLUME
 	db -1
 	
 	; 13 new
-	db "RÜPEL", TRAINERTYPE_NORMAL
+	db "RÜPEL@", TRAINERTYPE_NORMAL
 	db 53, PANGSHI
 	db 55, HOUNDOOM
 	db -1
 	
 	; 14 new
-	db "RÜPEL", TRAINERTYPE_NORMAL
+	db "RÜPEL@", TRAINERTYPE_NORMAL
 	db 55, SKARMORY
 	db 54, MUK
 	db 55, JYNX
 	db -1
 	
 	; 15 new
-	db "RÜPEL", TRAINERTYPE_NORMAL
+	db "RÜPEL@", TRAINERTYPE_NORMAL
 	db 54, GLOOM
 	db 53, HITMONTOP
 	db 56, SNEASEL
 	db -1
 	
 	; 16 new
-	db "RÜPEL", TRAINERTYPE_NORMAL
+	db "RÜPEL@", TRAINERTYPE_NORMAL
 	db 53, MADAME
 	db 56, UMBREON
 	db -1
