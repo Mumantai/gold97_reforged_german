@@ -173,7 +173,6 @@ INCLUDE "maps/AmamiPortPassage.asm"
 INCLUDE "maps/GreatEastStrait.asm"
 INCLUDE "maps/DaitoRanch.asm"
 INCLUDE "maps/DaitoAppleOrchard.asm"
-INCLUDE "maps/RadioTower6F.asm"
 
 
 
@@ -201,6 +200,9 @@ INCLUDE "maps/AmamiSuperRodHouse.asm"
 INCLUDE "maps/Route102.asm"
 INCLUDE "maps/KantoHouse1.asm"
 INCLUDE "maps/KantoHouse2.asm"
+INCLUDE "maps/RadioTower6F.asm"
+
+
 
 SECTION "Map Scripts 11", ROMX
 
