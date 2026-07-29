@@ -32,21 +32,25 @@ OfficerScript_GuardWithSleepTalk:
 
 
 OfficerText_FoundTM:
-	text "Zzzz…."
+	text "Zzzz…"
+
 	para "Hm?"
-	para "Oh, yeah, I can"
-	line "still keep watch"
-	para "when I'm asleep,"
-	line "trust me."
-	para "Your #MON can"
-	line "also attack while"
-	cont "asleep, with this."
+
+	para "Oh, ja, ich kann"
+	line "auch im Schlaf"
+	cont "Wache halten."
+
+	para "Deine #MON"
+	line "können mit dieser"
+    cont "Attacke auch im"
+    cont "Schlaf angreifen."
 	done
 
 OfficerText_BeCareful:
 	text "Zzz…"
-	para "Be careful out"
-	line "there…"
+
+	para "Pass da draußen"
+	line "auf dich auf…"
 	done
 
 BoardwalkSanskritGate_MapEvents:

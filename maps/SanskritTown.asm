@@ -61,25 +61,28 @@ SanskritTownPokecenterSign:
 	jumpstd pokecentersign
 	
 HontoTownLassText:
-	text "I love the"
-	line "atmosphere of this"
-	cont "town."
-	para "It almost makes me"
-	line "feel as though"
-	para "I've traveled back"
-	line "in time."
+    text "Ich liebe die"
+    line "Atmosphäre dieser"
+    cont "Stadt."
+
+    para "Ich fühle mich"
+    line "fast schon, in"
+    cont "der Zeit zurück-"
+    cont "versetzt."
 	done
 	
 HontoTownYoungsterText:
-	text "This fountain is"
-	line "so mysterious."
-	para "No one knows who"
-	line "built it."
-	para "But it's clear"
-	line "that it's from the"
-	para "same era as the"
-	line "RUINS just north"
-	cont "of town."
+    text "Dieser Brunnen ist"
+    line "so geheimnisvoll."
+
+    para "Niemand weiß, wer"
+    line "ihn gebaut hat."
+
+    para "Aber er stammt"
+    line "eindeutig aus der"
+    cont "gleichen Zeit wie"
+    cont "die RUINEN nörd-"
+    cont "lich der Stadt."
 	done
 
 HontoTownMonsterText:
@@ -87,32 +90,37 @@ HontoTownMonsterText:
 	done
 
 HontoTownCooltrainermText:
-	text "My DONPHAN doesn't"
-	line "listen to me."
-	para "I got him in a"
-	line "trade from a pal,"
-	para "but I don't have"
-	line "enough BADGES for"
-	cont "him to obey me."
+    text "Mein DONPHAN hört"
+    line "nicht auf mich."
+
+    para "Ich habe es in"
+    line "einem Tausch von"
+    cont "einem Kumpel be-"
+    cont "kommen, aber ich"
+    cont "habe nicht genug"
+    cont "ORDEN, damit es"
+    cont "mir gehorcht."
 	done
 
 SanskritTownSignText:
-	text "SANSKRIT TOWN"
+	text "GLYPHONTIA"
 
-	para "A link to NIHON's"
-	line "past."
+	para "Eine Verbindung"
+	line "zu NIHONs"
+	cont "Vergangenheit"
 	done
 
 SanskritTownRagecandybarSignText:
-	text "While visiting"
-	line "MAHOGANY TOWN, try"
-	cont "a RAGECANDYBAR!"
+    text "Versuchen Sie"
+    line "einen WUTKEKS,"
+    cont "während Sie in"
+    cont "GLYPHONTIA sind!"
 	done
 
 MahoganyGymSignText:
-	text "SANSKRIT TOWN"
-	line "RUINS RESEARCH"
-	cont "CENTER"
+	text "GLYPHTONTIA"
+	line "RUINENFORSCHUNGS-"
+	cont "ZENTRUM"
 	done
 	
 SanskritWaterfall:
