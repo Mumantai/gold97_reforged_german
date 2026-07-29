@@ -38,8 +38,7 @@ INCLUDE "maps/TeknosAquarium2F.asm"
 INCLUDE "maps/EndonCaveB1F.asm"
 INCLUDE "maps/RadioTower6F.asm"
 INCLUDE "maps/KantoBattleClub1F.asm"
-INCLUDE "maps/KikaiPokecenter1F.asm"
-INCLUDE "maps/KikaiMart.asm"
+
 
 
 
@@ -75,6 +74,8 @@ INCLUDE "maps/Route101PagotaGate.asm"
 INCLUDE "maps/KikaiCaldera1F.asm"
 INCLUDE "maps/KikaiCaldera2F.asm"
 INCLUDE "maps/KikaiCaldera3F.asm"
+INCLUDE "maps/KikaiPokecenter1F.asm"
+INCLUDE "maps/KikaiMart.asm"
 
 
 
