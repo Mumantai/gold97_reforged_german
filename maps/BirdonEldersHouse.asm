@@ -32,9 +32,9 @@ BirdonEldersHouseBookshelf:
 	jumpstd picturebookshelf
 	
 ElderStandardText:
-	text "The SLOWPOKE of"
-	line "the WELL deserve"
-	cont "to be protected."
+	text "Die FLEGMON im"
+	line "BRUNNEN verdienen"
+	cont "unseren Schutz."
 	done
 
 

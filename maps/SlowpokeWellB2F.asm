@@ -244,217 +244,234 @@ SlowpokeWellB2FGymGuyScript:
 	end
 
 SlowpokeWellB2FGymGuyText:
-	text "I'm waiting to see"
-	line "SLOWPOKE's moment"
-	cont "of evolution."
+	text "Ich warte darauf,"
+	line "dass sich FLEGMON"
+	cont "entwickelt."
 
-	para "Through observa-"
-	line "tion, I made a new"
-	cont "discovery."
+	para "Aufgrund meiner"
+	line "Beobachtungen"
+	cont "habe ich eine"
+	cont "neue Entdeckung"
+	cont "gemacht."
 
-	para "A SLOWPOKE with a"
-	line "KING'S ROCK often"
+	para "Trägt FLEGMON"
+	line "einen KING-STEIN"
+	cont "wird es oft von"
+	cont "einem BISTURBAN"
+	cont "gebissen."
 
-	para "gets bitten by a"
-	line "TURBAN."
-
-	para "Here, I'll share a"
-	line "KING'S ROCK with"
-	cont "you."
+	para "Hier, ich gebe"
+	line "dir einen von"
+	cont "meinen."
 	done
 
 SlowpokeWellB2FGymGuyText_GotKingsRock:
-	text "I'm going to be"
-	line "like SLOWPOKE."
+	text "Ich werde mich wie"
+	line "FLEGMON verhalten."
 
-	para "I'll wait patient-"
-	line "ly, so I can see"
-	cont "one evolve."
+	para "Ich werde geduldig"
+	line "abwarten, bis es"
+	cont "sich entwickelt."
 	done
 	
 OakSpeechText:
-	text "OAK: Well…"
-	
-	para "This research trip"
-	line "didn't go as"
-	cont "planned…"
-	
-	para "Regardless…"
-	
-	para "We have rescued"
-	line "the SLOWPOKE."
-	
-	para "Now they can live"
-	line "without losing"
-	cont "their TAILS to"
-	cont "TEAM ROCKET."
-	
-	para "But TEAM ROCKET"
-	line "returning…"
-	
-	para "What could they"
-	line "be up to?"
-	
-	para "BLUE, we best re-"
-	line "turn to the lab"
-	cont "and investigate."
+    text "EICH: Tja…"
+
+    para "Dieser Forschungs-"
+    line "ausflug lief nicht"
+    cont "wie geplant…"
+
+    para "Wie dem auch sei…"
+
+    para "Wir haben die"
+    line "FLEGMON gerettet."
+
+    para "Jetzt können sie"
+    line "leben, ohne dass"
+    cont "TEAM ROCKET ihnen"
+    cont "an die RUTEN will."
+
+    para "Aber dass TEAM"
+    line "ROCKET wieder"
+    cont "zurück ist…"
+
+    para "Was können sie nur"
+    line "im Schilde führen?"
+
+    para "BLAU, wir sollten"
+    line "am besten zurück"
+    cont "ins Labor um mehr"
+    cont "darüber herauszu-"
+    cont "finden."
 	
 	para "<PLAY_G>, <RIVAL>!"
-	line "You two should go"	
-	cont "ahead and continue"
-	cont "your journey."
-	
-	para "If you need me,"
-	line "you know where"
-	cont "I'll be."
+    line "Ihr beiden solltet"
+    cont "weitermachen und"
+    cont "eure Reise fort-"
+    cont "setzen."
+
+    para "Wenn ihr mich"
+    line "braucht, wisst ihr"
+    cont "ja, wo ihr mich"
+    cont "finden könnt."
 	done
 	
 BlueOutText:
-	text "BLUE: Thanks for"
-	line "your help today,"
-	cont "guys."
-	
-	para "Hopefully me and"
-	line "Gramps can find"
-	cont "out what these"
-	cont "guys are up to."	
+    text "BLAU: Danke für"
+    line "eure Hilfe heute,"
+    cont "Leute."
+
+    para "Hoffentlich können"
+    line "Opa und ich zusam-"
+    cont "men herausfinden,"
+    cont "was diese Leute"
+    cont "Übles planen."
 	done
 	
 SilverOutText:
-	text "<RIVAL>: See ya"
-	line "around, <PLAY_G>!"
+    text "<RIVAL>: Bis dann,"
+	line "<PLAY_G>!"
 	
-	para "Don't fall too far"
-	line "behind!"
+    para "Lass dich nicht"
+    line "abhängen!"
 	done
 
 RocketsPlan:
-	text "Hmph!"
+	text "Hmpf!"
 	
-	para "This doesn't"
-	line "really matter."
-	
-	para "TEAM ROCKET is"
-	line "already so far"
-	cont "along with its"
-	cont "plan!"
-	
-	para "A small setback"
-	line "like this means"
-	cont "nothing!"
-	
-	para "You'll soon see"
-	line "the fruits of our"
-	cont "labor when all"
-	cont "#MON are under"
-	cont "our control!"
-	
-	para "Team, retreat!"
+	para "Das ist nicht"
+    line "weiter schlimm."
+
+    para "Wir sind mit unse-"
+    line "rem Plan schon so"
+    cont "weit, da macht ein"
+    cont "kleiner Rückschlag"
+    cont "nichts mehr aus!"
+
+    para "Schon bald werden"
+    line "alle die Früchte"
+    cont "unserer Arbeit"
+    cont "sehen, wenn alle"
+    cont "#MON unter der"
+    cont "Kontrolle von TEAM"
+    cont "ROCKET stehen!"
+
+    para "Team, Rückzug!"
 	done
 
 GruntM4SeenText:
-	text "ARGH! Beaten by"
-	line "children?"
+    text "ARGH! Besiegt von"
+    line "ein paar Kindern?!"
 	done
 
 GruntM4BeatenText:
-	text "Ha! Told ya!"
+    text "Ha! Hab's dir"
+    line "doch gesagt!"
 	done
 
 WeDoWhatWeWantText:
-	text "TEAM ROCKET will"
-	line "do what it wants!"
-	para "You can't stop us!"
+    text "TEAM ROCKET wird"
+    line "tun, was es will!"
+
+    para "Ihr könnt uns"
+    line "nicht aufhalten!"
 	done
 	
 WeAreAllTrainersText:
-	text "<RIVAL>: BLUE,"
-	line "<PLAY_G>, and I"
-	cont "are all trainers!"
-	
-	para "We can beat you"
-	line "easily!"
-	
-	para "My #MON are"
-	line "stronger than"
-	cont "anyone elses!"
+    text "<RIVAL>: BLAU,"
+    line "<PLAY_G> und ich"
+    cont "sind Trainer!"
+
+    para "Wie könnten euch"
+    line "auf jeden Fall"
+    cont "aufhalten!"
+
+    para "Mein #MON sind"
+    line "stärker als alle"
+    cont "anderen!"
 	done
 	
 WellSeeText:
-	text "Ha!"
-	para "We'll see about"
-	line "that!"
+    text "Ha!"
+
+    para "Das werden wir ja"
+    line "sehen!"
 	done
 
 BlueProblemText:
-	text "BLUE: <PLAY_G>!"
-	
-	para "It's a good thing"
-	line "you and <RIVAL>"
-	cont "showed up!"
-	
-	para "We've got a"
-	line "problem!"
+    text "BLAU: <PLAY_G>!"
+    line "Zum Glück sind du"
+    cont "und <RIVAL> noch"
+    cont "aufgetaucht!"
+
+    para "Wir haben hier"
+    line "ein Problem!"
 	done
 
 OakStopThisText:
-	text "OAK: You people"
-	line "are hurting these"
-	cont "innocent SLOWPOKE!"
-	
-	para "It's not right to"
-	line "cut their TAILS"
-	cont "off to sell them"
-	cont "for profit!"
+    text "EICH: Ihr tut"
+    line "diesen unschuldi-"
+    cont "gen FLEGMON weh!"
+
+    para "Es ist nicht in"
+    line "Ordnung, ihnen die"
+    cont "RUTEN abzuschnei-"
+    cont "den, um sie dann"
+    cont "zu verkaufen!"
 	done
 	
 ElderThisSurfText:
 	text "Ah!"
 	
-	para "Thank you for"
-	line "saving the"
-	cont "SLOWPOKE!"
-	
-	para "I am the village"
-	line "elder."
-	
-	para "I was paying"
-	line "a visit to the"
-	cont "SLOWPOKE when"
-	cont "those three thugs"
-	cont "appeared."
-	
-	para "They began cutting"
-	line "off the poor "
-	cont "SLOWPOKE's TAILS!"
-	
-	para "I was about to"
-	line "chase them off but"
-	cont "you saved me the"
-	cont "trouble."
-	
-	para "I must thank you"
-	line "somehow…"
-	
-	para "Please take this,"
-	line "don't be shy, now."
+	para "Danke, dass du die"
+	line "FLEGMON gerettet"
+	cont "hast!"
+
+	para "Ich bin der Dorf-"
+	line "vorsteher."
+
+	para "Ich war gerade"
+	line "dabei, den FLEGMON"
+	cont "einen Besuch abzu-"
+    cont "statten, als diese"
+    cont "drei Schläger auf-"
+    cont "getaucht sind."
+
+    para "Sie haben damit"
+    line "begonnen, den armen"
+    cont "FLEGMON die RUTEN"
+    cont "abzuschneiden!"
+
+    para "Ich wollte sie"
+    line "gerade verjagen,"
+    cont "aber dann kamst du"
+    cont "und hast mir die"
+    cont "Arbeit abgenommen."
+
+    para "Ich muss mich bei"
+    line "dir bedanken…"
+
+    para "Bitte nimm dies,"
+    line "keine Widerrede."
 	done
 	
 ElderThisSurfText2:
-	text "That HM contains"
-	line "SURF."
-	
-	para "It will allow your"
-	line "you #MON to"
-	cont "sail across water."
-	
-	para "May it serve you"
-	line "well."
-	
-	para "I shall return to"
-	line "my house now."
-	
-	para "Goodbye."
+    text "Diese VM enthält"
+    line "SURFER."
+
+	para "Sie erlaubt deinen"
+	line "#MON, jedes"
+	cont "Gewässer zu"
+	cont "überqueren."
+
+	para "Möge sie dir gute"
+	line "Dienste leisten."
+
+	para "Ich werde jetzt"
+    line "zurück nach Hause"
+    cont "gehen."
+
+    para "Auf Wiedersehen."
 	done
 
 SlowpokeWellB2F_MapEvents:
