@@ -438,7 +438,7 @@ ElderThisSurfText:
     cont "getaucht sind."
 
     para "Sie haben damit"
-    line "begonnen, den armen"
+    line "begonnen, den"
     cont "FLEGMON die RUTEN"
     cont "abzuschneiden!"
 
