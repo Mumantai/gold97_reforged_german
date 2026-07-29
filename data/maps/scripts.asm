@@ -77,7 +77,6 @@ INCLUDE "maps/KikaiCaldera3F.asm"
 INCLUDE "maps/KikaiPokecenter1F.asm"
 INCLUDE "maps/KikaiMart.asm"
 INCLUDE "maps/KantoBattleClub1F.asm"
-INCLUDE "maps/RadioTower6F.asm"
 
 
 
@@ -174,6 +173,7 @@ INCLUDE "maps/AmamiPortPassage.asm"
 INCLUDE "maps/GreatEastStrait.asm"
 INCLUDE "maps/DaitoRanch.asm"
 INCLUDE "maps/DaitoAppleOrchard.asm"
+INCLUDE "maps/RadioTower6F.asm"
 
 
 
