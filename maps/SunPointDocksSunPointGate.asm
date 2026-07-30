@@ -24,29 +24,32 @@ SunPointDocksSunPointGateOfficerScript:
 	end
 
 SunPointDocksSunPointGateOfficerRocketsText:
-	text "There's something"
-	line "strange going on"
-	cont "out at the DOCKS."
-	para "Mysterious figures"
-	line "have been bringing"
-	para "lots of covered"
-	line "shipments through"
-	cont "this gate."
-	para "They don't seem to"
-	line "be breaking any"
-	para "laws, so I guess"
-	line "it's none of my"
-	cont "business…"
-	para "But they make me"
-	line "uneasy…"
+    text "An den DOCKS geht"
+    line "etwas Merkwürdiges"
+    cont "vor sich."
+
+    para "Seltsame Gestalten"
+    line "bringen andauernd"
+    cont "verdeckte Ladungen"
+    cont "durch dieses Tor."
+
+    para "Eigentlich brechen"
+    line "sie kein Gesetz,"
+    cont "also geht mich das"
+    cont "auch nichts an…"
+
+    para "Aber ich finde sie"
+    line "schon unheimlich…"
 	done
 
 SunPointDocksSunPointGateOfficerGoodText:
-	text "SUNPOINT DOCKS"
-	line "are always busy"
-	cont "and lively."
-	para "It's a great place"
-	line "to people-watch."
+    text "An den KAZANAMI"
+    line "DOCKS ist immer"
+    cont "viel los."
+
+    para "Ein toller Ort,"
+    line "um Leute zu"
+    cont "beobachten."
 	done
 
 SunPointDocksSunPointGate_MapEvents:

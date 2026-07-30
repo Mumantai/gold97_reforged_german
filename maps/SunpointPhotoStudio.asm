@@ -29,35 +29,36 @@ SunpointPhotoStudioFishingGuruScriptbackup:
 	end
 
 SunpointPhotoStudioFishingGuruText_Question:
-	text "You have magnifi-"
-	line "cent #MON with"
-	cont "you."
+	text "Deine #MON sind"
+	line "großartig!"
 
-	para "How about a photo"
-	line "for a souvenir?"
+	para "Wie wär's mit ei-"
+	line "nem Foto als Sou-"
+	cont "venir?"
 	done
 
 SunpointPhotoStudioFishingGuruText_Yes:
-	text "OK! Big smile now!"
+	text "O.K.! Und jetzt"
+	line "sag: CHEESE!"
 	done
 
 SunpointPhotoStudioFishingGuruText_No:
-	text "Oh, that's too"
-	line "bad. I thought it"
+	text "Oh, schade. Ich"
+	line "dachte, das wäre"
 
-	para "would be a great"
-	line "memento…"
+	para "ein schönes Anden-"
+	line "ken…"
 	done
 
 CianwoodFishGuruText:
-	text "The MAGMA SHAFT"
-	line "on the west side"
-	para "of town is"
-	line "dangerously hot"
-	cont "inside."
-	para "FIRE #MON are"
-	line "said to be"
-	cont "attracted to it."
+    text "Im MAGMA-SCHACHT"
+    line "im Westen der"
+    cont "Stadt ist es echt"
+    cont "brütend heiß."
+
+    para "Feuer-#MON"
+    line "sollen sich davon"
+    cont "angezogen fühlen."
 	done
 
 SunpointPhotoStudio_MapEvents:

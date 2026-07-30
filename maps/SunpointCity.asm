@@ -68,21 +68,23 @@ SunpointFruitTree2:
 	fruittree FRUITTREE_SUNPOINT_CITY_2
 
 ChucksWifeFlySpeechText:
-	text "The climate on"
-	line "this side of NIHON"
-	para "is considerably"
-	line "warmer than the"
-	cont "rest of it."
+    text "Auf dieser Seite"
+    line "von NIHON ist das"
+    cont "Klima deutlich"
+    cont "wärmer als in der"
+    cont "restlichen Region."
 	done
 
 ChucksWifeChubbyText:
-	text "My husband lost to"
-	line "you, so he needs"
-	cont "to train harder."
+	text "Mein Mann hat ge-"
+	line "gen dich verloren."
+	cont "Also muss er här-"
+	cont "ter trainieren."
 
-	para "That's good, since"
-	line "he was getting a"
-	cont "little chubby."
+	para "Das ist auch gut"
+	line "so. Er hat in"
+	cont "letzter Zeit etwas"
+	cont "Speck angesetzt."
 	done
 
 SunpointCityYoungsterText:
@@ -97,58 +99,67 @@ SunpointCityYoungsterText:
 	done
 
 SunpointCityPokefanMText:
-	text "Rare #MON are"
-	line "said to live in"
-	cont "the MAGMA SHAFT."
-	para "It's hard to get"
-	line "into the cave"
-	para "because rocks from"
-	line "it often fall down"
-	para "and block the"
-	line "entrance."
+    text "Seltene #MON"
+    line "sollen im MAGMA-"
+    cont "SCHACHT leben."
+
+    para "Es ist schwer, in"
+    line "die Höhle zu"
+    cont "gelangen, weil"
+    para "heruntergefallene"
+    line "Felsen den Eingang"
+    cont "oft blockieren."
 	done
 
 SunpointCityLassText:
-	text "This city doesn't"
-	line "have a GYM."
-	para "I don't think it"
-	line "needs one, though."
+    text "Diese Stadt hat"
+    line "keine ARENA."
+
+    para "Das braucht sie"
+    line "aber auch nicht."
 	done
 
 SunpointCitySignText:
-	text "SUNPOINT CITY"
-	para "NIHON's link to"
-	line "international"
-	cont "trade."
+    text "KAZANAMI CITY"
+
+    para "NIHONs Zentrum für"
+    line "Internationalen"
+    cont "Handel"
 	done
 
 SunpointPharmacySignText:
-	text "SUNPOINT CITY"
-	line "PHARMACY"
+	text "APOTHEKE von"
+    line "KAZANAMI CITY"
 
-	para "We Await Your"
-	line "Medicinal Queries"
+    para "Gerne erwarten wir"
+    line "Ihre medizinischen"
+    cont "Fragen"
 	done
 
 SunpointPhotoStudioSignText:
-	text "TRAINER TIPS"
-	para "Certain HM moves"
-	line "require BADGES to"
-	para "use outside of"
-	line "battle!"
-	para "The moves can"
-	line "still be used in"
-	cont "battle, though."
+	text "TIPPS FÜR TRAINER"
+
+	para "Manche VM-Attacken"
+	line "benötigen ORDEN,"
+	cont "um außerhalb von"
+	cont "Kämpfen benutzt"
+	cont "zu werden."
+
+	para "In Kämpfen können"
+	line "sie jederzeit"
+	cont "verwendet werden."
 	done
 
 SunpointPokeSeerSignText:
-	text "NOTICE:"
-	para "Dangerous rocks"
-	line "frequently fall"
-	para "from the MAGMA"
-	line "SHAFT."
-	para "Use proper caution"
-	line "if approaching."
+    text "ACHTUNG:"
+
+    para "Gefährliche Felsen"
+    line "fallen regelmäßig"
+    para "aus dem MAGMA-"
+    line "SCHACHT."
+
+    para "Betreten auf"
+    line "eigene Gefahr."
 	done
 
 SunpointCity_MapEvents:

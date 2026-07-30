@@ -150,16 +150,17 @@ CimbWaterfallMove:
 	step_end
 	
 ItsAWaterfallText:
-	text "It's a mysterious"
-	line "waterfall…"
+	text "Ein mysteriöser"
+	line "Wasserfall…"
 	done
 	
 AttemptToClimbText:
-	text "A strange power is"
-	line "emanating from it."
-	
-	para "Will you try to"
-	line "climb it?"
+    text "Eine seltsame"
+    line "Kraft geht von"
+    cont "ihm aus."
+
+    para "Willst du ihn"
+    line "erklimmen?"
 	done
 
 SanskritTown_MapEvents:

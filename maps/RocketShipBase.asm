@@ -320,179 +320,197 @@ ImposterLeavesRoom:
 	step_end
 	
 TrashCanBoatText:
-	text "There's nothing in"
-	line "here…"
+	text "Hier gibt es"
+	line "nichts…"
 	done
 
 GruntM22SeenText:
-	text "You're pretty far"
-	line "into the ship."
-	para "But you'll go no"
-	line "further!"
+	text "Du bist weit ins"
+	line "Schiff gekommen."
+
+	para "Aber weiter"
+	line "kommst du nicht!"
 	done
 
 GruntM22BeatenText:
-	text "The CAPTAIN won't"
-	line "like this…"
+	text "Das wird dem"
+	line "KÄPT'N nicht"
+	cont "gefallen…"
 	done
 
 GruntM22AfterBattleText:
-	text "You may have won."
-	
-	para "But you can't get"
-	line "into the CAPTAIN's"
-	cont "cabin without the"
-	cont "SHIP KEY!"
+    text "Du hast zwar"
+    line "gewonnen, aber"
+    cont "ohne SCHIFFÖFFNER"
+    cont "kommst du nicht in"
+    line "die KABINE des"
+    cont "KÄPT'N!"
 
-	para "Some other grunt"
-	line "probably has it."
-	
-	para "Maybe here on the"
-	line "on the SHIP…"
-	cont "or not…"
-	cont "…who knows?"
-	
-	para "Once the rest of"
-	line "the crew return"
-	cont "from the SANSKRIT"
-	cont "post, we are outta"
-	cont "here!"
+    para "Irgend ein anderes"
+    line "Mitglied hat noch"
+    cont "eventuell einen."
+
+    para "Vielleicht hier"
+    line "auf dem SCHIFF…"
+    cont "oder auch nicht…"
+    cont "…wer weiß?"
+
+    para "Sobald der Rest"
+    line "der Crew aus"
+    cont "GLYPHONTIA zurück"
+    cont "ist, sind wir weg!"
 	done
 
 GruntM11SeenText:
-	text "What are you doing"
-	line "here?"
-	para "Don't get in my"
-	line "way!"
+	text "Was machst du"
+	line "hier?"
+
+	para "Geh mir aus"
+	line "dem Weg!"
 	done
 
 GruntM11BeatenText:
-	text "You're getting in"
-	line "my way!"
+	text "Du stehst mir"
+	line "im Weg!"
 	done
 
 GruntM11AfterBattleText:
-	text "Really, I'm not up"
-	line "to anything"
-	cont "important."
-	
-	para "I just like to"
-	line "ride on a ship!"
+    text "Ich mache hier"
+    line "eigentlich nichts"
+    cont "Wichtiges."
+
+    para "Ich fahre einfach"
+    line "nur gerne mit dem"
+    cont "Schiff!"
 	done
 
 GruntM25SeenText:
-	text "Ha! I bet you"
-	line "weren't expecting"
-	cont "me here!"
-	para "Too bad, cause"
-	line "here I am!"
+    text "Ha! Ich wette, du"
+    line "hast nicht mit mir"
+    cont "hier gerechnet!"
+
+    para "Pech gehabt, denn"
+    line "hier bin ich!"
 	done
 
 GruntM25BeatenText:
-	text "I think I'll stay"
-	line "in this closet…"
+    text "Ich bleibe wohl"
+    line "lieber hier in"
+    cont "diesem Schrank…"
 	done
 
 GruntM25AfterBattleText:
-	text "No one bothers"
-	line "me back here."
+	text "Hier hinten nervt"
+	line "mich niemand."
 	done
 
 GruntM13SeenText:
-	text "I don't care if"
-	line "you're lost."
+	text "Es ist mir egal,"
+	line "wenn du dich"
+	cont "verläufst."
 
-	para "You show up here,"
-	line "you're nothing but"
-	cont "a victim!"
+	para "Du tauchst hier"
+	line "auf, also bist du"
+	cont "nur ein Opfer!"
 	done
 
 GruntM13BeatenText:
-	text "Urk! Yeah, think"
-	line "you're cool, huh?"
+	text "Urk! Du glaubst,"
+	line "du bist cool, häh?"
 	done
 
 GruntM13AfterBattleText:
-	text "You must have ice"
-	line "in your veins to"
-	cont "diss TEAM ROCKET."
+    text "Du bist echt"
+    line "eiskalt, TEAM"
+    cont "ROCKET einfach zu"
+    cont "beleidigen."
 	done
 
 UnknownText_0x7c5b0:
-	text "The door's locked…"
+    text "Die Tür ist"
+    line "verschlossen…"
 	done
 
 UnknownText_0x7c5c3:
-	text "The door is open."
+	text "Die Tür ist offen."
 	done
 
 UnknownText_0x7c5d6:
-	text "The SHIP KEY"
-	line "opened the door."
+	text "Der SCHIFFÖFFNER"
+	line "öffnet die Tür."
 	done
 
 CaptainRBeforeText:
-	text "I'm impressed that"
-	line "you've reached me."
-	
-	para "It seems my crew"
-	line "couldn't stop you."
-	
-	para "Useless grunts…"
-	
-	para "But our operations"
-	line "here are finished."
+    text "Ich bin beein-"
+    line "druckt, dass du es"
+    cont "bis zu mir ge-"
+    cont "schafft hast."
 
-	para "Our plan will"
-	line "continue as"
-	cont "scheduled."
+    para "Anscheinend konnte"
+    line "meine Crew dich"
+    cont "nicht aufhalten."
+
+    para "Nutzlosr Haufen…"
+
+    para "Unser Vorhaben"
+    line "hier ist jedoch"
+    cont "abgeschlossen."
+
+    para "Unsere Operation"
+    line "wird wie geplant"
+    cont "weitergehen."
 	done
 	
 CaptainRTellsImposterOff:
-	text "PROF. OAK!"
+	text "PROF. EICH!"
 	done
 	
 ImposterOakIsShocked:
-	text "IMPOSTER OAK: Yes,"
-	line "sir!"
+	text "BETRÜGER EICH:"
+	line "Jawohl, Sir!"
 	done
 	
 CaptainRTellsImposterOff2:
-	text "CAPTAIN: You have"
-	line "your orders."
-	para "Leave us."
+    text "KÄPT'N: Du hast"
+    line "deine Befehle."
+
+    para "Lass uns allein."
 	done
 	
 ImposterOakIsShocked2:
-	text "IMPOSTER OAK: Yes,"
-	line "sir!"
+	text "BETRÜGER EICH:"
+	line "Aye aye KÄPT'N!"
 	done
 	
 CaptainRFinishesSpeech:
 	text "…"
-	para "I see you've"
-	line "met our IMPOSTER"
-	cont "OAK."
 
-	para "I wouldn't expect"
-	line "you to be fooled."
-	
-	para "But it's not you"
-	line "we need to"
-	cont "convince."
-	
-	para "Our plans are none"
-	line "of your business."
-	
-	para "Nosey children"
-	line "need to be"
-	cont "punished!"
+	para "Ich sehe, du hast"
+	line "unseren BETRÜGER"
+	para "EICH bereits"
+	line "kennengelernt."
+
+	para "Mir war klar, dass"
+	line "du dich nicht"
+	cont "von ihm täuschen"
+	cont "lassen würdest."
+
+	para "Aber dich brauchen"
+	line "wir auch nicht zu"
+	cont "überzeugen."
+
+	para "Unsere Pläne gehen"
+	line "dich nichts an."
+
+	para "Vorlaute Kinder"
+	line "müssen bestraft"
+    cont "werden!"
 	done
 
 CaptainRWinText:
 	text "Hmm…"
-	para "Impressive for a"
-	line "child."
+	para "Beeindruckend, für"
+	line "ein Kind."
 	done
 	
 CaptainRLossText:
@@ -500,45 +518,51 @@ CaptainRLossText:
 	done
 	
 CaptainRAfterText:
-	text "Your #MON are"
-	line "quite strong…"
+	text "Deine #MON sind"
+	line "ziemlich stark…"
 
-	para "But our shipments"
-	line "are complete."
+    para "Doch unsere"
+    line "Lieferungen sind"
+    cont "abgeschlossen."
 	
-	para "We have the"
-	line "materials we need"
-	cont "for our ultimate"
-	cont "weapon!"
+	para "Wir haben alle"
+	line "Materialien für"
+	para "unsere ultimative"
+	line "Waffe!"
 
-	para "Soon, we will have"
-	line "total control of"
-	cont "all #MON"
-	cont "globally!"
+	para "Bald werden wir"
+	lien "die Kontrolle über"
+	cont "alle #MON auf"
+	cont "der Welt haben!"
 
-	para "Farewell child."
-	
-	para "I'm sure our paths"
-	line "will cross again."
+	para "Lebwohl, Kind."
+
+	para "Unsere Wege werden"
+	line "sich sicher wieder"
+	cont "kreuzen."
 	done
 
 
 NotGonnaStandByText:
-	text "I see you scared"
-	line "off our guard."
-	para "But you're dumber"
-	line "than you look if"
-	para "you think I'm"
-	line "just gonna let you"
-	para "walk right on in"
-	line "here!"
-	para "Just try to get"
-	line "past me!"
+	text "Ich sehe, du hast"
+	line "unseren Türsteher"
+	cont "vertrieben."
+
+
+	para "Aber du bist"
+	line "dümmer, als du"
+	para "aussiehst, wenn du"
+	line "denkst, ich lasse"
+	para "dich einfach an"
+	line "mir vorbei!"
+
+	para "Versuch doch,"
+	line "durchzuzukommen!"
 	done
 	
 RocketEntranceShip_WinText:
-	text "You're tougher"
-	line "than you look!"
+	text "Du bist zäher, als"
+	line "du aussiehst!"
 	done
 	
 RocketEntranceShip_LossText:
@@ -547,116 +571,126 @@ RocketEntranceShip_LossText:
 	
 RocketEntranceShip_AfterText:
 	text "Argh!"
-	para "I better go warn"
-	line "the CAPTAIN about"
-	cont "you."
-	para "He'll take care"
-	line "of your meddling"
-	cont "ways!"
+
+	para "Ich sollte den"
+	line "KÄPT'N vor dir"
+	cont "warnen."
+
+	para "Er wird dafür"
+	line "sorgen, dass du"
+	para "dich nicht mehr in"
+	line "unseren Angelegen-"
+	cont "heiten einmischst!"
 	done
 
 GruntF3SeenText:
-	text "What do you have"
-	line "against TEAM"
-	cont "ROCKET?"
+    text "Was hast du gegen"
+    line "TEAM ROCKET?"
 	done
 
 GruntF3BeatenText:
-	text "Our plans are"
-	line "still bigger than"
-	cont "you know!"
+    text "Unsere Pläne sind"
+    line "immer noch größer,"
+    cont "als du denkst!"
 	done
 
 GruntF3AfterBattleText:
-	text "We're getting"
-	line "ready to head out"
-	cont "of here anyways."
+    text "Wir sind eh gerade"
+    line "dabei, von hier zu"
+    cont "verschwinden."
 	done
 
 
 BurglarEddieSeenText:
-	text "Shh! I'm not a"
-	line "part of TEAM"
-	cont "ROCKET!"
+    text "Psst! Ich gehöre"
+    line "nicht zu TEAM"
+    cont "ROCKET!"
 
-	para "I'm searching for"
-	line "loot."
+    para "Ich suche nur"
+    line "nach Beute."
 	done
 
 BurglarEddieBeatenText:
-	text "Over the top!"
+	text "Völlig drüber!"
 	done
 
 BurglarEddieAfterBattleText:
-	text "Does stealing from"
-	line "bad guys make me"
-	cont "a good guy?"
+    text "Wenn ich von Bösen"
+    line "klaue, macht mich"
+    para "das dann zu einem"
+    line "der Guten?"
 	done
 	
-Text_EndDemo:
-	text "Also, thanks a ton"
-	line "for playing!"
-	para "This point is"
-	line "where the demo"
-	cont "ends."
-	para "You've completed"
-	line "what's available"
-	cont "of the story."
-	para "But feel free to"
-	line "spend time"
-	para "exploring and"
-	line "catching #MON!"
-	para "I've got a few"
-	line "things for you"
-	para "that will make"
-	line "exploring easier."
-	para "HM02 FLY and the"
-	line "badge you need to"
-	cont "use it!"
-	done
+;Text_EndDemo:
+;	text "Also, thanks a ton"
+;	line "for playing!"
+;	para "This point is"
+;	line "where the demo"
+;	cont "ends."
+;	para "You've completed"
+;	line "what's available"
+;	cont "of the story."
+;	para "But feel free to"
+;	line "spend time"
+;	para "exploring and"
+;	line "catching #MON!"
+;	para "I've got a few"
+;	line "things for you"
+;	para "that will make"
+;	line "exploring easier."
+;	para "HM02 FLY and the"
+;	line "badge you need to"
+;	cont "use it!"
+;	done
 	
-Text_ReceivedMineralBadgeDemo:
-	text "<PLAYER> received"
-	line "MINERALBADGE."
-	done
+;Text_ReceivedMineralBadgeDemo:
+;	text "<PLAYER> received"
+;	line "MINERALBADGE."
+;	done
 	
-Text_EndDemo2:
-	text "Alright, see ya!"
-	done
+;Text_EndDemo2:
+;	text "Alright, see ya!"
+;	done
 	
 GruntM22HowdGetKey:
-	text "How'd you get that"
-	line "key!?"
+	text "Wie bist du an"
+	line "den Schlüssel"
+	line "gekommen?!"
 	done
 	
 ImposterGreetingText:
-	text "Well, who do we"
-	line "have here?"
+	text "Na, wen haben wir"
+	line "denn da?"
 	done
 	
 ImposterGreetingText2:
-	text "Don't you"
-	line "recognize me?"
-	para "It's me, PROF.OAK!"
-	para "I'm working with"
-	line "TEAM ROCKET now!"
-	para "…Nah, I know"
-	line "you're not buying"
-	cont "it."
+    text "Erkennst du mich"
+    line "denn nicht?"
+
+    para "Ich bin es,"
+    line "PROF. EICH!"
+
+    para "Ich arbeite jetzt"
+    line "mit TEAM ROCKET!"
+
+    para "… Jaa, ich weiß,"
+    line "du kaufst es mir"
+    cont "nicht ab."
 	done
 	
 ImposterTellsCaptainText:
-	text "Hey, CAPTAIN!"
-	line "We got some kid"
-	cont "here!"
-	para "I bet it's the one"
-	line "we've been hearing"
-	cont "about!"
+    text "Hey, KÄPT'N!"
+    line "Wir haben hier"
+    cont "so 'nen Knirps!"
+
+    para "Ich wette das ist"
+    line "der, von dem wir"
+    cont "ständig hören!"
 	done
 	
 CaptainBeckons:
-	text "CAPTAIN: Come"
-	line "here, kid!"
+    text "KÄPT'N: Komm"
+    line "her, du Wicht!"
 	done
 
 RocketShipBase_MapEvents:
