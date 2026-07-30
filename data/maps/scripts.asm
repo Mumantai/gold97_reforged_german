@@ -17,7 +17,7 @@ INCLUDE "maps/WestportDeptStoreElevator.asm"
 INCLUDE "maps/WestportDeptStoreRoof.asm"
 INCLUDE "maps/BoardwalkGameCorner.asm"
 INCLUDE "maps/BoulderMinesB5F.asm"
-INCLUDE "maps/KikaiStrait.asm"
+
 
 
 
@@ -36,7 +36,7 @@ INCLUDE "maps/SlowpokeWellB1F.asm"
 INCLUDE "maps/SlowpokeWellB2F.asm"
 INCLUDE "maps/TeknosAquarium2F.asm"
 INCLUDE "maps/EndonCaveB1F.asm"
-
+INCLUDE "maps/KikaiStrait.asm"
 
 
 
