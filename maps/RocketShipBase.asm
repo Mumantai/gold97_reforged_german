@@ -531,7 +531,7 @@ CaptainRAfterText:
 	line "Waffe!"
 
 	para "Bald werden wir"
-	lien "die Kontrolle über"
+	line "die Kontrolle über"
 	cont "alle #MON auf"
 	cont "der Welt haben!"
 
