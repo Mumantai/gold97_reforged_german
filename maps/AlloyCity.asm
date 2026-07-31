@@ -171,7 +171,7 @@ AlloyCityRivalText:
 	para "Ach übrigens!"
 	
 	para "In der ARENA hier"
-	line "benutzt man den"
+	line "setzt man den"
 	cont "Typ STAHL ein."
 	
 	para "Mach dich also auf"
