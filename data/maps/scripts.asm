@@ -224,6 +224,9 @@ INCLUDE "maps/IeTMShop.asm"
 INCLUDE "maps/IePokecenter1F.asm"
 INCLUDE "maps/IeHouse1.asm"
 INCLUDE "maps/IeHouse2.asm"
+INCLUDE "maps/BattleTowerOutside.asm"
+
+
 
 SECTION "Map Scripts 12", ROMX
 
@@ -246,7 +249,7 @@ INCLUDE "maps/BattleTower1F.asm"
 INCLUDE "maps/BattleTowerBattleRoom.asm"
 INCLUDE "maps/BattleTowerElevator.asm"
 INCLUDE "maps/BattleTowerHallway.asm"
-INCLUDE "maps/BattleTowerOutside.asm"
+
 
 
 SECTION "Map Scripts 13", ROMX
