@@ -10,16 +10,20 @@ KobanFisherHouseGuruScript:
 	jumptextfaceplayer KobanFisherHouseGuruText
 	
 KobanFisherHouseGuruText:
-	text "It's said that"
-	line "DRAGON #MON"
-	para "still inhabit the"
-	line "cave just north"
-	cont "of here."
-	para "I've never found"
-	line "any by fishing."
-	para "Maybe you have to"
-	line "have a special"
-	cont "ROD…"
+    text "Man sagt, dass"
+    line "Drachen-#MON"
+    para "noch immer in der"
+    line "Höhle nördlich von"
+    cont "hier leben."
+
+    para "Beim Angeln konnte"
+    line "ich noch nie eines"
+    cont "finden."
+
+    para "Vielleicht braucht"
+    line "man estwas"
+    para "Besseres als eine"
+    line "einfache ANGEL."
 	done
 
 KobanFisherHouse_MapEvents:

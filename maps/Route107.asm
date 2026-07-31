@@ -78,64 +78,65 @@ TrainerFisherArnold:
 	end
 
 SwimmermSethSeenText:
-	text "Land ho! Gotta"
-	line "keep going!"
+	text "Land in Sicht!"
+	line "Mach weiter so!"
 	done
 
 SwimmermSethBeatenText:
-	text "Glug…"
+	text "Gluck…"
 	done
 
 SwimmermSethAfterBattleText:
-	text "One day I'd like"
-	line "to train with the"
-	para "DRAGON MASTER at"
-	line "KOBAN ISLAND."
+	text "Eines Tages möchte"
+	line "ich mit der"
+	para "Drachenmeisterin"
+	line "auf der SATORIA-"
+	cont "INSEL trainieren."
 	done
 
 SwimmerfNikkiSeenText:
-	text "If I win, you have"
-	line "to help me with my"
-	cont "suntan lotion!"
+	text "Falls ich gewinne,"
+	line "musst du mich mit"
+	cont "der Sonnencreme"
+	cont "einreiben!"
 	done
 
 SwimmerfNikkiBeatenText:
-	text "I'm worried about"
-	line "sunburn…"
+	text "Ich habe Angst vor"
+	line "einem Sonnenbrand…"
 	done
 
 SwimmerfNikkiAfterBattleText:
-	text "I have to watch"
-	line "out for blemishes"
-	cont "caused by the sun."
+	text "Ich muss mich"
+	line "vor Hautreizungen"
+	cont "in Acht nehmen."
 	done
 
 FisherArnoldSeenText:
-	text "I'm bored of"
-	line "fishing."
-	
-	para "Let's battle!"
+	text "Angeln langweilt"
+	line "mich. Lass uns"
+	cont "kämpfen!"
 	done
 
 FisherArnoldBeatenText:
-	text "Utter failure…"
+	text "Total versagt…"
 	done
 
 FisherArnoldAfterBattleText:
-	text "I'll just go back"
-	line "to fishing…"
+	text "Ich gehe zurück"
+	line "zum Angeln…"
 	done
 	
 SwimmermBerkeSeenText:
-	text "C-cold?…"
-	line "M-me?"
+    text "K-kalt…?"
+    line "M-mir?"
 
-	para "N-not a chance!"
+    para "K-keine Chance!"
 	done
 
 SwimmermBerkeBeatenText:
-	text "N-nope…"
-	line "N-not c-cold!"
+	text "N-nein…"
+	line "N-nicht k-kalt!"
 	done
 
 SwimmermBerkeAfterBattleText:
@@ -145,41 +146,46 @@ SwimmermBerkeAfterBattleText:
 
 	para "…"
 	
-	para "O-ok, s-so I'm a"
-	line "bit ch-chilly…"
+	para "N-na gut, m-mir"
+	line "ist etwas k-kühl…"
 	done
 	
 FisherHenrySeenText:
-	text "My #MON?"
-	line "Freshly caught!"
+	text "Meine #MON?"
+	line "Frisch gefangen!"
 	done
 
 FisherHenryBeatenText:
-	text "SPLASH?"
+	text "PLATSCHER?"
 	done
 
 FisherHenryAfterText:
-	text "Freshly caught"
-	line "#MON are no"
+	text "Frisch gefangene"
+	line "#MON können"
 
-	para "match for properly"
-	line "raised ones."
+	para "gut trainierten"
+	line "nicht Paroli"
+	cont "bieten."
 	done
 	
 SwimmerfSusieSeenText:
-	text "You look so ele-"
-	line "gant, riding your"
-	cont "#MON."
+	text "Du gleitest so"
+	line "elegant auf deinem"
+	cont "#MON dahin."
 	done
 
 SwimmerfSusieBeatenText:
-	text "I'm crushed…"
+	text "Ich bin"
+	line "geschlagen…"
 	done
 
 SwimmerfSusieAfterBattleText:
-	text "Wasn't there a hit"
-	line "song about a boy"
-	cont "riding a LAPRAS?"
+	text "Gab es da nicht"
+	line "einmal einen Hit,"
+	cont "der von einem"
+	cont "Jungen handelte,"
+	cont "der auf einem"
+	cont "LAPRAS ritt?"
 	done
 
 Route107_MapEvents:

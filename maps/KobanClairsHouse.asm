@@ -77,112 +77,128 @@ postrematchscriptClair:
 	end
 
 ClairRematchText:
-	text "So you've met my"
-	line "cousin, LANCE."
+    text "Du hast also"
+    line "meinen Cousin,"
+    cont "SIEGFRIED, kennen-"
+    cont "gelernt."
 
-	para "And that means"
-	line "you've beaten"
-	cont "the #MON"
-	cont "LEAGUE!"
+    para "Und das bedeutet,"
+    line "dass du die"
+    cont "#MON LIGA"
+    cont "geschlagen hast!"
 
-	para "Both LANCE and I"
-	line "come from a long"
-	cont "line of powerful"
-	cont "DRAGON trainers."
+    para "Sowohl SIEGFRIED"
+    line "als auch ich"
+    cont "stammen aus einer"
+    cont "langen Reihe von"
+    cont "mächtigen DRACHEN-"
+    cont "Trainern."
 
-	para "Oblige me the"
-	line "honor of showing"
-	cont "you my own skill!"
+    para "Erwiese mir die"
+    line "Ehre, dir meine"
+    cont "Fähigkeiten zeigen"
+    cont "zu dürfen!"
 	done
 
 ClairRematchWinText:
-	text "I lost?"
+    text "Ich habe verloren?"
 
-	para "Well, I cannot"
-	line "say it surprises"
-	cont "me much!"
+    para "Nun, ich kann"
+    line "nicht behaupten,"
+    cont "ich sei sonderlich"
+    cont "überrascht!"
 
-	para "You wear your"
-	line "CHAMPION's title"
-	cont "with honor!"
+    para "Du trägst den"
+    line "Titel des CHAMPs"
+    cont "mit Ehre!"
 	done
 
 ClairAfterRematchText:
-	text "If it weren't"
-	line "for my duties"
-	cont "here at KOBAN"
-	cont "ISLAND, I could"
-	cont "be a GYM LEADER."
+    text "Wären meine Ver-"
+    line "pflichtungen hier"
+    cont "auf der SATORIA-"
+    cont "INSEL nicht, hätte"
+    cont "ich ebenfalls eine"
+    cont "ARENALEITERIN sein"
+    cont "können."
 
-	para "Perhaps I'll"
-	line "consider it if"
-	cont "the LEAGUE ever"
-	cont "chooses to build"
-	cont "one here."
+    para "Vielleicht denke"
+    line "ich darüber nach,"
+    cont "wenn die LIGA"
+    cont "beschließt, hier"
+    cont "eine ARENA zu"
+    cont "errichten."
 
-	para "Next time you"
-	line "see LANCE, give"
-	cont "him a reckoning"
-	cont "for my sake!"
+    para "Das nächste Mal,"
+    line "wenn du SIEGFRIED"
+    cont "triffst, verpass"
+    cont "ihm eine Abreibung"
+    cont "für mich!"
 	done
 
 ClairPlayerReceivedDratiniText:
-	text "<PLAYER> received"
+	text "<PLAYER> erhält"
 	line "DRATINI!"
 	done
 
 ClairSymbolicDragonText:
-	text "DRAGON #MON are"
-	line "difficult to"
-	para "raise, but their"
-	line "majesty and"
-	para "strength make it"
-	line "worth it."
-	para "I trust you can"
-	line "raise that DRATINI"
-	cont "properly."
+    text "Drachen-#MON"
+    line "sind schwer zu"
+    para "erziehen, aber"
+    line "ihre Anmut und"
+    para "Stärke sind die"
+    line "Anstrengung wert."
+
+    para "Ich glaube, du"
+    line "kannst dieses"
+    para "DRATINI richtig"
+    line "aufziehen."
 	done
 
 DragonShrinePartyFullTextClair:
-	text "You have no room"
-	line "in your party for"
-	cont "this!"
+	text "Hm? Dein #MON-"
+	line "Team ist voll."
 	done
 
 ClairTakeThisDratiniText:
-	text "Ah, the DRAGON"
-	line "ORB!"
-	para "I see you have"
-	line "learned of the"
-	para "power of DRAGON"
-	line "#MON!"
-	para "I would like to"
-	line "reward you with"
-	para "a special #MON"
-	line "that deserves to"
-	para "be raised by a"
-	line "worthy TRAINER!"
+    text "Ah, der"
+    line "DRACHEN ORB!"
+
+    para "Du hast also die"
+    line "Macht von Drachen-"
+    cont "#MON erfahren!"
+
+    para "Ich möchte dich"
+    line "mit einem spezi-"
+    cont "#MON belohnen,"
+    para "das es verdient,"
+    line "von einem würdigen"
+    para "Trainer aufgezogen"
+    line "zu werden!"
 	done
 
 GoGetTheOrbText:
-	text "Retreive the"
-	line "DRAGON ORB from"
-	para "a TRAINER in the"
-	line "cave, and bring it"
-	cont "to me."
+    text "Beschaffe den"
+    line "DRACHEN ORB von"
+    para "einem Trainer in"
+    line "der Höhle und"
+    cont "bring ihn zu mir."
 	done
 
 DragonsAreGreatText:
-	text "Being a DRAGON"
-	line "TRAINER requires"
-	para "more dedication"
-	line "than most types."
-	para "It is very much a"
-	line "way of life."
+    text "Ein Drachen-"
+    line "Trainer zu sein,"
+    para "erfordert mehr"
+    line "Hingabe als bei"
+    para "den meisten"
+    line "anderen Typen."
+
+    para "Es ist viel mehr"
+    line "eine Lebensweise."
 	done
 
 KobanClairsHouseClairText:
-	text "yo sup"
+	text "Was geht?"
 	done
 
 KobanClairsHouse_MapEvents:
