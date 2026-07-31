@@ -170,221 +170,247 @@ CaptainWalksOutMovement:
 	step_end
 	
 SometimesYouLiveLongEnoughGold:
-	text "Sometimes you live"
-	line "long enough to"
-	para "witness things you"
-	line "never thought you"
-	cont "would see."
-	para "I had an encounter"
-	line "with the bird of"
-	cont "legend."
-	para "Truly a magical"
-	line "event."
-	para "You know, you"
-	line "should search"
-	para "NIHON for the"
-	line "legendary beasts."
-	para "If HO-OH returned,"
-	line "anything is"
-	cont "possible."
+    text "Manchmal lebt man"
+    line "lang genug, um"
+    para "Dinge zu erleben,"
+    line "die man immer für"
+    cont "unmöglich hielt."
+
+    para "Ich hatte eine"
+    line "Begegnung mit dem"
+    cont "legendären Vogel."
+
+    para "Ein wahrhaft magi-"
+    line "sches Erlebnis."
+
+    para "…"
+
+    para "Weißt du was? Du"
+    line "solltest NIHON"
+    para "nach den legen-"
+    line "dären Bestien"
+    cont "absuchen."
+
+    para "Wenn HO-OH zurück-"
+    line "gekehrt ist, ist"
+    cont "alles möglich."
 	done
 
 SometimesYouLiveLongEnoughSilver:
-	text "Sometimes you live"
-	line "long enough to"
-	para "witness things you"
-	line "never thought you"
-	cont "would see."
-	para "I had an encounter"
-	line "with the bird of"
-	cont "legend."
-	para "Truly a magical"
-	line "event."
-	para "You know, you"
-	line "should search"
-	para "NIHON for the"
-	line "legendary beasts."
-	para "If LUGIA returned,"
-	line "anything is"
-	cont "possible."
+    text "Manchmal lebt man"
+    line "lang genug, um"
+    para "Dinge zu erleben,"
+    line "die man immer für"
+    cont "unmöglich hielt."
+
+    para "Ich hatte eine"
+    line "Begegnung mit dem"
+    cont "legendären Vogel."
+
+    para "Ein wahrhaft magi-"
+    line "sches Erlebnis."
+
+    para "…"
+
+    para "Weißt du was? Du"
+    line "solltest NIHON"
+    para "nach den legen-"
+    line "dären Bestien"
+    cont "absuchen."
+
+    para "Wenn LUGIA zurück-"
+    line "gekehrt ist, ist"
+    cont "alles möglich."
 	done
 
 AlloyOldCaptainHoOhStoryText:
-	text "Listen closely…"
+    text "Hör gut zu…"
 	
-	para "Many years ago,"
-	line "NIHON was guarded"
-	cont "by a noble bird,"
-	cont "whose wings were"
-	cont "donned a rainbow"
-	cont "of color."
+	para "Vor vielen Jahren"
+	line "wurde NIHON von"
+	para "einem edlen Vogel"
+	line "bewacht, dessen"
+	para "Schwingen die"
+	line "Farben des Regen-"
+	cont "bogens trugen."
+
+	para "Der Legende nach,"
+	line "soll sein Nest an"
+	para "dem Ort gewesen"
+    line "sein, der heute"
+    para "als MEESINGTURM"
+    cont "bekannt ist."
+
+    para "Doch der wachsende"
+    line "Bosheit in der"
+    para "Region machte den"
+    line "Vogel unruhig."
+
+    para "Da er sich nicht"
+    line "länger verbunden"
+    para "fühlte, flog der"
+    line "Vogel davon…"
 	
-	para "Legend tells it"
-	line "nested at what is"
-	cont "now known as the"
-	cont "BRASS TOWER."
+	para "Als er flog, fiel"
+	line "Asche aus seinem"
+	cont "Gefieder."
 	
-	para "However, the ever-"
-	line "growing malice,"
-	cont "within the region"
-	cont "made the bird grow"
-	cont "restless."
+	para "Aus dieser Asche"
+	line "erhoben sich drei"
+	para "Bestien, die NIHON"
+	line "bewachen sollten,"
+	para "solange der Vogel"
+	line "fort war."
 	
-	para "No longer com"
-	line "-pelled to stay,"
-	cont "the bird left…"
+	para "Die Bestien"
+	line "verstreuten sich"
+	para "und seither hat"
+	line "niemand sie je"
+	cont "wieder gesehen."
 	
-	para "As it flew, ashes"
-	line "fell from its"
-	cont "wings."
-	
-	para "From these ashes"
-	line "rose three beasts,"
-	cont "tasked to keep"
-	cont "watch over NIHON"
-	cont "in the bird's"
-	cont "absence."
-	
-	para "The beasts then"
-	line "scattered, and"
-	cont "none have seen"
-	cont "them since."
-	
-	para "But legend says"
-	line "that they have"
-	cont "remained in NIHON,"
-	cont "watching over it"
-	cont "in secret,"
-	
-	para "and that a being"
-	line "of pure heart will"
-	cont "return the bird."
-	
-	para "I feel we may be"
-	line "upon that day"
-	cont "soon…"
+	para "Doch man weiß,"
+	line "dass sie noch"
+	para "immer in NIHON"
+	line "verweilen und es"
+	para "im Verborgenen"
+	line "bewachen und,"
+	para "dass jemand reinen"
+	line "Herzens den Vogel"
+    cont "zurückbringen"
+    cont "wird."
+
+    para "Ich spüre, dass"
+    line "der Tag schon bald"
+    cont "kommen wird…"
 	done
 	
 AlloyOldCaptainLugiaStoryText:
-	text "Listen closely…"
+    text "Hör gut zu…"
+
+	para "Vor vielen Jahren"
+	line "wurde NIHON von"
+	para "einem edlen Vogel"
+	line "bewacht, dessen"
+	para "Schwingen silbrig"
+	line "glänzten."
+
+	para "Der Legende nach,"
+	line "nistet es am Ort,"
+	para "der als STRUDEL-"
+    line "INSEL bekannt ist."
+
+    para "Doch der mangelnde"
+    line "Respekt für die"
+    para "Meere machte den"
+    line "Vogel unruhig."
 	
-	para "Many years ago,"
-	line "NIHON was guarded"
-	cont "by a noble bird,"
-	cont "whose wings"
-	cont "shimmerred with"
-	cont "a color of silver."
+    para "Da er sich nicht"
+    line "länger verbunden"
+    para "fühlte, flog der"
+    line "Vogel davon…"
+
+    para "Als es abtauchte,"
+    line "erzeugte sein"
+    para "Gesang zahlreiche"
+    line "Strudel."
+
+    para "Diese Strudel"
+    line "hielten die See"
+    para "sauber und sicher"
+    line "vor den Menschen."
+
+    para "Drei Bestien"
+    line "wurden beauftragt,"
+    para "NIHON in der"
+    line "Abwesenheit des"
+    cont "Vogels zu bewachen."
+
+	para "Die Bestien"
+	line "verstreuten sich"
+	para "und seither hat"
+	line "niemand sie je"
+	cont "wieder gesehen."
+
+	para "Doch man weiß,"
+	line "dass sie noch"
+	para "immer in NIHON"
+	line "verweilen und es"
+	para "im Verborgenen"
+	line "bewachen und,"
+	para "dass jemand reiner"
+	line "Seele den Vogel"
+    cont "zurückbringen"
+    cont "wird."
 	
-	para "Legend tells it"
-	line "nested at what is"
-	cont "known as the"
-	cont "WHIRL ISLAND."
-	
-	para "However, the lack"
-	line "of respect for the"
-	cont "ocean environment"
-	cont "made the bird grow"
-	cont "restless."
-	
-	para "No longer com-"
-	line "pelled to stay,"
-	cont "the bird left…"
-	
-	para "As it dived, its"
-	line "song created many"
-	cont "whirlpools."
-	
-	para "These whirlpools"
-	line "kept the sea safe"
-	cont "and clean from"
-	cont "human actions."
-	
-	para "Three beasts were"
-	line "tasked to keep"
-	cont "watch over NIHON"
-	cont "in the bird's"
-	cont "absence."
-	
-	para "The beasts then"
-	line "scattered, and"
-	cont "none have seen"
-	cont "them since."
-	
-	para "But legend says"
-	line "that they have"
-	cont "remained in NIHON,"
-	cont "watching over it"
-	cont "in secret,"
-	
-	para "and that a being"
-	line "with a kind soul"
-	cont "will return the"
-	cont "bird."
-	
-	para "I feel we may be"
-	line "upon that day"
-	cont "soon…"
+    para "Ich spüre, dass"
+    line "der Tag schon bald"
+    cont "kommen wird…"
 	done
 	
 HoOhAppearsText:
-	text "C-could it be!?"
+	text "Könnte es sein!?"
 	
-	para "The bird!"
-	
-	para "Come child, we"
-	line "must make haste to"
-	cont "the BRASS TOWER."
-	
-	para "The legend is"
-	line "being realised!"
+	para "Der Vogel!"
+
+	para "Komm, mein Kind,"
+	line "wir müssen und auf"
+	cont "zum MESSINGTURM"
+	cont "begeben."
+
+	para "Die Legende wird"
+    line "wahr!"
 	done
 	
 LugiaAppearsText:
-	text "C-could it be!?"
-	
-	para "The bird!"
-	
-	para "Come child, we"
-	line "must make haste to"
-	cont "the WHIRL ISLAND."
-	
-	para "The legend is"
-	line "being realised!"
+	text "Könnte es sein!?"
+
+	para "Der Vogel!"
+
+	para "Komm, mein Kind,"
+	line "wir müssen und auf"
+	cont "zur STRUDELINSEL"
+	cont "begeben."
+
+	para "Die Legende wird"
+    line "wahr!"
 	done
 	
 AlloyOldCaptainsHouseCaptainAnotherTime:
-	text "Another time,"
-	line "then."
+	text "Dann ein andermal."
 	done
 
 AlloyOldCaptainsHouseCaptainText2:
-	text "Do you want to"
-	line "hear the story of"
-	cont "the bird?"
+	text "Möchtest du die"
+	line "Geschichte des"
+	cont "Vogels hören?"
 	done
 	
 AlloyOldCaptainsHouseCaptainIntroText:
-	text "One day I hope I"
-	line "can experience the"
-	para "conclusion of the"
-	line "legend."
+    text "Ich hoffe, eines"
+    line "Tages das Ende der"
+    para "Legende persönlich"
+    line "erleben zu können."
 	done
 
 AlloyOldCaptainsHouseCaptainEvilText:
-	text "I sense an evil"
-	line "presence looming"
-	cont "over NIHON."
-	para "Surely the bird"
-	line "shall not return"
-	cont "until it is gone."
+    text "Ich spüre eine"
+    line "böse Präsenz über"
+    cont "NIHON schweben."
+
+    para "Der Vogel kehrt"
+    line "sicher nicht"
+    para "zurück, bis sie"
+    line "vertrieben wurde."
 	done
 	
 AlloyOldCaptainsHouseCaptainNoWaterfallText:
-	text "The time could be"
-	line "any day now, yet"
-	para "I do not beleive"
-	line "you are quite"
-	para "ready yet."
+    text "Die Zeit ist schon"
+    line "bald gekommen,"
+    para "doch ich spüre"
+    line "nicht, dass du die"
+    para "Art Trainer bist,"
+    line "dem sich der Vogel"
+    cont "zeigen würde."
 	done
 
 AlloyOldCaptainsHouse_MapEvents:

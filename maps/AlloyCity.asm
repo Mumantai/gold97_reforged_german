@@ -152,82 +152,84 @@ MovementData_0x1a88f7:
 
 AlloyCityRivalText:
 	text "<PLAY_G>!"
-	para "It's been a while!"
-	
-	para "You just got"
-	line "through JADE"
-	cont "FOREST, right?"
 
-	para "I'm actually not"
-	line "in the mood to"
-	cont "battle right now."
+	para "Ist 'ne Weile her!"
+
+	para "Du kommst gerade"
+	line "aus dem JADEWALD,"
+	cont "was?"
+
+	para "Ich habe gerade"
+	line "keine Lust auf"
+	cont "einen Kampf."
 	
-	para "I'm headed back"
-	line "out to the FOREST"
-	para "to look for more"
-	line "#MON!"
+	para "Ich gehe zurück in"
+	line "den WALD, um noch"
+	para "mehr #MON zu"
+	line "suchen!"
 	
-	para "By the way,"
+	para "Ach übrigens!"
 	
-	para "This city's GYM"
-	line "uses the"
-	cont "STEEL-TYPE."
+	para "In der ARENA hier"
+	line "benutzt man den"
+	cont "Typ STAHL ein."
 	
-	para "So you better be"
-	line "strong enough!"
+	para "Mach dich also auf"
+	line "was gefasst!"
 	
-	para "Anyways, I'm off!"
-	line "See you around!"
+    para "Naja, ich bin dann"
+    line "mal weg!"
+
+    para "Wir sehen uns!"
 	done
 
 AlloyCityBetaGirlText:
-	text "I've always had"
-	line "a dream to move"
-	para "farther north"
-	line "where it snows."
+    text "Ich träume schon"
+    line "immer davon, hoch"
+    para "in den Norden zu"
+    line "ziehen, wo es"
+    cont "schneit."
 	done
 
 AlloyCityYoungsterPokegearText:
-	text "That thing you"
-	line "have--it's a #-"
-	cont "GEAR, right? Wow,"
-	cont "that's cool."
+	text "Dieses Ding da ist"
+	line "doch ein #COM."
+	cont "Wow, das ist cool!"
 	done
 
 AlloyCityYoungsterPokedexText:
-	text "Wow, you have a"
+	text "Wow, du hast einen"
 	line "#DEX!"
 
-	para "That is just so"
-	line "awesome."
+	para "Das ist so toll!"
 	done
 
 AlloyCityFisherText:
-	text "The canal that"
-	line "runs through this"
-	para "city is a sight"
-	line "to behold at"
-	cont "sunset."
+    text "Der Kanal sieht"
+    line "bei Sonnenunter-"
+    cont "gang wundervoll"
+    cont "aus!"
 	done
 
 AlloyCitySignText:
-	text "ALLOY CITY"
+	text "GENEOS CITY"
 
-	para "A bustling city"
-	line "by rough waters"
+	para "Die pulsierende"
+	line "Stadt an der"
+	cont "rauen See"
 	done
 
 AlloyGymSignText:
-	text "ALLOY CITY"
-	line "#MON GYM"
-	cont "LEADER: JASMINE"
+	text "PKMN-ARENA von"
+	line "GENEOS CITY"
+	cont "LEITUNG: JASMIN"
 
-	para "The Steel-Clad"
-	line "Defense Girl"
+	para "Die stahlharte"
+	line "Eisenmauer!"
 	done
 
 AlloyFightingDojoSignText:
-	text "FIGHTING DOJO"
+	text "KARATE DOJO"
 	done
 
 AlloyCity_MapEvents:
