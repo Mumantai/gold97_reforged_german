@@ -60,76 +60,79 @@ Route105HiddenHyperPotion:
 
 
 YoungsterMikeySeenText:
-	text "You're a #MON"
-	line "trainer, right?"
+	text "Du bist ein #-"
+	line "MON-Trainer, oder?"
 
-	para "Then you have to"
-	line "battle!"
+	para "Dann musst du"
+	line "kämpfen!"
 	done
 
 YoungsterMikeyBeatenText:
-	text "That's strange."
-	line "I won before."
+	text "Das ist seltsam."
+	line "Davor habe ich"
+	cont "gewonnen."
 	done
 
 YoungsterMikeyAfterText:
-	text "Becoming a good"
-	line "trainer is really"
-	cont "tough."
+	text "Ein guter Trainer"
+	line "zu werden ist"
+	cont "nicht einfach."
 
-	para "I'm going to bat-"
-	line "tle other people"
-	cont "to get better."
+	para "Ich kämpfe gegen"
+	line "andere Trainer, um"
+	cont "besser zu werden."
 	done
 
-
-
-
-
 Route105YoungsterText_DirectionsToMrPokemonsHouse:
-	text "I'm tired."
-	para "I don't want to"
-	line "walk anymore."
-	para "I wish my #MON"
-	line "could FLY me to"
-	cont "another town."
+    text "Ich bin müde."
+
+    para "Ich will nicht"
+    line "mehr laufen."
+
+    para "Ich wünschte, mein"
+    line "#MON könnte"
+    para "mich einfach an"
+    line "einen anderen Ort"
+    cont "FLIEGEN."
 	done
 
 Route105CooltrainerFText:
-	text "I'm looking for"
-	line "ELECTRIC-TYPE"
-	cont "#MON."
-	para "I know there's a"
-	line "few different"
-	para "species that live"
-	line "in this grass."
+    text "Ich suche nach"
+    line "Elektro-#MON."
+
+    para "Ich weiß, dass ei-"
+    line "nige Arten hier im"
+    cont "hohen Gras leben."
 	done
 
 Route105SignText:
 	text "ROUTE 105"
 
-	para "JADE FOREST"
-	line "just up ahead!"
+	para "JADEWALD"
+	line "Immer geradeaus."
 	done
 
 MrPokemonsHouseDirectionsSignText:
-	text "MR.#MON'S HOUSE"
-	line "STRAIGHT AHEAD!"
+	text "Das Haus von"
+	line "MR. #MON?"
+	cont "Immer geradeaus."
 	done
 
 MrPokemonsHouseSignText:
-	text "MR.#MON'S HOUSE"
+	text "Das HAUS von"
+	line "MR. #MON"
 	done
 
 Route105TrainerTipsText:
-	text "TRAINER TIPS"
+	text "TIPPS für TRAINER"
 
-	para "No stealing other"
-	line "people's #MON!"
+	para "Du sollst keine"
+	line "#MON stehlen!"
 
-	para "# BALLS are to"
-	line "be thrown only at"
-	cont "wild #MON!"
+	para "#BÄLLE dürfen"
+	line "nur bei wilden"
+	cont "#MON eingesetzt"
+	cont "werden!"
 	done
 
 

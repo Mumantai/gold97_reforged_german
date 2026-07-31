@@ -655,7 +655,7 @@ BurglarEddieAfterBattleText:
 GruntM22HowdGetKey:
 	text "Wie bist du an"
 	line "den Schlüssel"
-	line "gekommen?!"
+	cont "gekommen?!"
 	done
 	
 ImposterGreetingText:
