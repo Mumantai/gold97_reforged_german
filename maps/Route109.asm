@@ -303,7 +303,7 @@ SchoolboyChad1BeatenText:
 	cont "genug gelernt."
 	done
 
-SchoolboyChadAfterBattleText:
+SchoolboyChad1AfterBattleText:
 	text "Ich habe so viele"
 	line "Prüfungen, dass"
 
