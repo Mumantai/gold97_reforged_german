@@ -62,91 +62,101 @@ Route111HiddenMaxEther:
 	hiddenitem MAX_ETHER, EVENT_ROUTE_41_HIDDEN_MAX_ETHER
 
 Route111WhirlIslandSignText:
-	text "WHIRL ISLAND"
-	line "ENTRANCE"
+	text "STRUDELINSEL"
+	line "EINGANG"
 	done
 
 SwimmerfKayleeSeenText:
-	text "I bet you're only"
-	line "riding on a"
-	para "#MON because"
-	line "you can't handle"
-	cont "the cold water!"
+	text "Ich wette, du"
+	line "reitest nur auf"
+	para "deinem #MON,"
+	line "weil du das kalte"
+	para "Wasser nicht"
+	line "aushältst!"
 	done
 
 SwimmerfKayleeBeatenText:
-	text "Is that how you do"
-	line "it?"
+	text "So machst du das?"
 	done
 
 SwimmerfKayleeAfterBattleText:
-	text "It honestly might"
-	line "be dangerous to"
-	para "stay in this water"
-	line "for too long."
+    text "Ehrlich gesagt,"
+    line "könnte es gefäh-"
+    para "lich sein, zu"
+    line "lange im kalten"
+    cont "Wasser zu bleiben."
 	done
 	
 SwimmermMathewSeenText:
 	text "Brr!"
-	para "The cold water"
-	line "builds character!"
+
+	para "Das kalte Wasser"
+	line "stählt den"
+	cont "Charakter!"
 	done
 
 SwimmermMathewBeatenText:
-	text "Ooh, you've got"
-	line "great endurance!"
+	text "Ooh, du hast eine"
+	line "super Ausdauer!"
 	done
 
 SwimmermMathewAfterBattleText:
-	text "I can't swim any"
-	line "farther north."
-	para "The waters get too"
-	line "dangerous."
+	text "Weiter nach Norden"
+	line "kann ich nicht"
+	cont "schwimmen."
+
+	para "Da wird das Wasser"
+	line "zu gefährlich!"
 	done
 	
 SwimmermGeorgeSeenText:
-	text "I'm a bit tired."
-	line "If I win, lend me"
-	cont "your #MON."
+	text "Ich bin etwas"
+	line "müde. Wenn ich"
+	cont "gewinne, leihst du"
+	cont "mir dein #MON."
 	done
 
 SwimmermGeorgeBeatenText:
-	text "Pant, pant…"
+	text "Keuch, japs…"
 	done
 
 SwimmermGeorgeAfterBattleText:
-	text "It's so far to"
-	line "FROSTPOINT TOWN."
+	text "SPIZZARDIA ist"
+	line "noch so weit weg."
 
-	para "But it's no easy"
-	line "return trip to"
-	cont "BLUE FOREST"
-	cont "either."
+	para "Aber der Rückweg"
+	line "nach KITAOMORIA"
+	cont "CITY ist auch"
+	cont "nicht viel kürzer."
 
-	para "What should I do?"
+	para "Was soll ich tun?"
 	done
 
 SwimmerfKaraSeenText:
-	text "If you need to"
-	line "rest, just tread"
-	cont "water."
+	text "Wenn du eine Pause"
+	line "brauchst, dann"
+	cont "halte deinen Kopf"
+	cont "über Wasser und"
+	cont "paddle mit den"
+	cont "Füßen."
 
-	para "You'll get your"
-	line "wind back, so you"
+	para "Auf diese Weise"
+	line "legst du eine"
 
-	para "can keep on going"
-	line "strong."
+	para "Ruhepause ein und"
+	line "sammelst Energie."
 	done
 
 SwimmerfKaraBeatenText:
-	text "Oh! You have more"
-	line "energy than I do."
+	text "Oh! Du bist aus-"
+	line "geruhter als ich."
 	done
 
 SwimmerfKaraAfterBattleText:
-	text "I heard roars from"
-	line "deep inside the"
-	cont "ISLANDS."
+	text "Ich habe tief aus"
+	line "dem Inneren der"
+	cont "STRUDELINSEL ein"
+	cont "Brüllen gehört."
 	done
 
 Route111_MapEvents:
