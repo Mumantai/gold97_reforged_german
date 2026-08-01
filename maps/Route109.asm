@@ -297,13 +297,13 @@ SchoolboyChad1SeenText:
 	cont "habe."
 	done
 
-SchoolboyChad1AfterBattleText:
+SchoolboyChad1BeatenText:
 	text "Ich fürchte, ich"
 	line "habe noch nicht"
 	cont "genug gelernt."
 	done
 
-SchoolboyChadSoManyTestsText:
+SchoolboyChadAfterBattleText:
 	text "Ich habe so viele"
 	line "Prüfungen, dass"
 
