@@ -297,7 +297,7 @@ SchoolboyChad1SeenText:
 	cont "habe."
 	done
 
-SchoolboyChad1BeatenText:
+SchoolboyChad1AfterBattleText:
 	text "Ich fürchte, ich"
 	line "habe noch nicht"
 	cont "genug gelernt."
