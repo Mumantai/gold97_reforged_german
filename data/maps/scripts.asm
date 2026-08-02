@@ -17,7 +17,7 @@ INCLUDE "maps/WestportDeptStoreElevator.asm"
 INCLUDE "maps/WestportDeptStoreRoof.asm"
 INCLUDE "maps/BoardwalkGameCorner.asm"
 INCLUDE "maps/BoulderMinesB5F.asm"
-INCLUDE "maps/FrostpointSpeechHouse.asm"
+
 
 
 
@@ -57,6 +57,7 @@ INCLUDE "maps/KikaiVillage.asm"
 INCLUDE "maps/KikaiHouse1.asm"
 INCLUDE "maps/KikaiHouse2.asm"
 INCLUDE "maps/AmamiBattleTowerGate.asm"
+INCLUDE "maps/FrostpointSpeechHouse.asm"
 
 
 
