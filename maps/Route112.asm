@@ -153,170 +153,189 @@ Route112Worker2Script:
 	jumptextfaceplayer Route112Worker2Text
 
 Route112OfficerText:
-	text "A recent storm has"
-	line "damaged this GATE."
+    text "Der letzte Sturm"
+    line "hat dieses TOR"
+    cont "beschädigt."
 
-	para "We are working on"
-	line "getting it fixed."
-	
-	para "I kindly ask that"
-	line "please come back"
-	cont "later."
+    para "Wir arbeiten"
+    line "daran, es zu"
+    cont "reparieren."
+
+    para "Ich bitte dich"
+    line "höflich später"
+    cont "wiederzukommen."
 	done
 	
 Route112Worker1Text:
-	text "Whew!"
-	para "That storm was too"
-	line "much for this gate"
-	cont "to handle!"
+    text "Puh!"
+
+    para "Dieser Surm war zu"
+    line "heftig für dieses"
+    cont "Tor!"
 	done
 	
 Route112Worker2Text:
-	text "Be careful, kid!"
-	
-	para "There might be"
-	line "broken glass"
-	cont "around here."
-	
-	para "You should stay"
-	line "back until we're"
-	cont "done with repairs."
+    text "Pass auf, Kind!"
+
+    para "Hier könnten über-"
+    line "all Glasscherben"
+    cont "herumliegen."
+
+    para "Du solltest besser"
+    line "wegbleiben, bis"
+    para "wir mit den"
+    line "Reparaturen fertig"
+    cont "geworden sind."
 	done
 
 YoungsterGordonSeenText:
-	text "I found some good"
-	line "#MON in the"
-	cont "grass!"
+	text "Ich habe gute"
+	line "#MON im"
+	cont "Gras gefunden!"
 
-	para "I think they'll do"
-	line "it for me!"
+	para "Ich denke, sie"
+	line "passen ganz gut"
+	cont "zu mir!"
 	done
 
 YoungsterGordonBeatenText:
-	text "Darn. I thought I"
-	line "could win."
+	text "Mist. Ich dachte,"
+	line "ich könnte"
+	cont "gewinnen."
 	done
 
 YoungsterGordonAfterText:
-	text "The grass is full"
-	line "of clingy things."
+	text "Im Gras findest"
+	line "du viele Dinge."
 	done
 
 CamperRolandSeenText:
-	text "I'm spending my"
-	line "day camping at"
-	para "the base of this"
-	line "snowy hill."
+	text "Ich zelte heute"
+	line "am Fuß dieses"
+	para "verschneiten"
+	line "Hügels."
 	done
 
 CamperRolandBeatenText:
-	text "Hmmm. This is"
-	line "disappointing."
+	text "Hm. Das ist"
+	line "enttäuschend."
 	done
 
 CamperRolandAfterText:
-	text "The farther up"
-	line "this route you go,"
-	para "the more snow"
-	line "there is."
+    text "Je weiter du diese"
+    line "Route hinaufgehst,"
+    cont "desto höher liegt"
+    cont "der Schnee."
 	done
 
 PicnickerLiz1SeenText:
-	text "Uh-huh. Yeah, and"
-	line "you know…"
+	text "A-ha. Ja,"
+	line "du weißt…"
 
-	para "Pardon? Battle?"
-	line "I'm on the phone."
+	para "Wie bitte? Kampf?"
+	line "Ich telefoniere."
 
-	para "Oh, all right. But"
-	line "make it fast."
+	para "Oh, O.K. Aber"
+	line "mach schnell."
 	done
 
 PicnickerLiz1BeatenText:
-	text "Oh! I've got to"
-	line "relieve my anger!"
+	text "Ich muss meinem"
+	line "Ärger Luft machen!"
 	done
 
 PicnickerLiz1AfterText:
-	text "I was having a"
-	line "nice chat too."
+	text "Ich hatte einen"
+	line "netten Plausch."
 	done
 
 FisherWilton1SeenText:
-	text "Aack! You made me"
-	line "lose a POLIWAG!"
+	text "Aah! Wegen dir"
+	line "habe ich ein"
+	cont "QUAPSEL verloren!"
 
-	para "What are you going"
-	line "to do about it?"
+	para "Was wirst du"
+	line "deswegen unter-"
+	cont "nehmen?"
 	done
 
 FisherWilton1BeatenText:
-	text "Just forget about"
-	line "it."
+	text "Vergiss es"
+	line "einfach."
 	done
 
 FisherWiltonHugePoliwagText:
-	text "That POLIWAG that"
-	line "got away…"
-	cont "It was huge."
+	text "Dieses QUAPSEL,"
+	line "das geflohen ist…"
+	cont "Das war riesig."
 
-	para "I swear it must've"
-	line "been 16 feet long!"
+	para "Ich könnte"
+	line "schwören, dass es"
+	cont "5 Meter lang war!"
 	done
 
 MeetFriedaText:
-	text "FRIEDA: Yahoo!"
-	line "It's Friday!"
+	text "FRIEDA: Juhu!"
+	line "Es ist Freitag!"
 
-	para "I'm FRIEDA of"
-	line "Friday!"
+	para "Ich bin FRIEDA"
+	line "von Freitag!"
 
-	para "Nice to meet you!"
+	para "Schön dich"
+	line "kennen zu lernen!"
 	done
 
 FriedaGivesGiftText:
-	text "Here's a POISON"
-	line "BARB for you!"
+	text "Hier, GIFTSTICH"
+	line "ist für dich!"
 	done
 
 FriedaGaveGiftText:
-	text "FRIEDA: Give it to"
-	line "a #MON that has"
-	cont "poison-type moves."
+	text "FRIEDA: Gib es"
+	line "einem #MON, das"
+	cont "über Gift-Attacken"
+	cont "verfügt."
 
 	para "Oh!"
 
-	para "It's wicked!"
+	para "Es ist gemein!"
 
-	para "You'll be shocked"
-	line "how good it makes"
-	cont "poison moves!"
+	para "Du wirst dich"
+	line "wundern, wie"
+	cont "effektiv deine"
+	cont "Gift-Attacken"
+	cont "werden!"
 	done
 
 FriedaFridayText:
-	text "FRIEDA: Hiya! What"
-	line "day do you like?"
+	text "FRIEDA: Hossa!"
+	line "Welchen Wochentag"
+	cont "hast du am"
+	cont "liebsten?"
 
-	para "I love Friday. No"
-	line "doubt about it!"
+	para "Ich liebe Freitag."
+	line "Daran gibt es"
+	cont "keinen Zweifel!"
 
-	para "Don't you think"
-	line "it's great too?"
+	para "Denkst du nicht"
+	line "auch, dass Freitag"
+	cont "großartig ist?"
 	done
 
 FriedaNotFridayText:
-	text "FRIEDA: Isn't it"
-	line "Friday today?"
+	text "FRIEDA: Ist heute"
+	line "nicht Freitag?"
 
-	para "It's so boring"
-	line "when it's not!"
+	para "Es wäre langwei-"
+	line "lig, wenn nicht!"
 	done
 
 Route112SignText:
 	text "ROUTE 112"
 
-	para "BLUE FOREST -"
-	line "STAND CITY"
+	para "KITAOMORIA CITY -"
+	line "SENDESTIA CITY"
+	done
 	done
 
 

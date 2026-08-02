@@ -44,51 +44,51 @@ DeepwaterPassageB3FPryceScript:
 	end
 
 PryceGreetingText:
-	text "Ah, hello."
-	
-	para "It's not often"
-	line "that I get any"
-	cont "visitors here."
-	
-	para "My name is PRYCE."
-	
-	para "I am the GYM"
-	line "LEADER in BLUE"
-	cont "FOREST."
-	
-	para "This CAVE is where"
-	line "I come to train"
-	cont "and discipline"
-	cont "myself."
+    text "Ah, hallo."
+
+    para "Ich bekomme hier"
+    line "nur selten Besuch."
+
+    para "Mein Name ist"
+    line "NORBERT."
+
+    para "Ich bin der"
+    line "ARENALEITER von"
+    cont "KITAOMORIA CITY."
+
+    para "Ich komme gerne in"
+    line "diese HÖHLE, um"
+    cont "zu trainieren und"
+    cont "mich selbst zu"
+    cont "disziplinieren."
 	
 	para "…"
-	
-	para "A challenge?"
-	
-	para "It will have to"
-	line "wait."
-	
-	para "I have family that"
-	line "live in FROSTPOINT"
-	cont "TOWN."
-	
-	para "I have already"
-	line "informed them that"
-	cont "I would be coming"
-	cont "to visit."
 
-	para "Family is very"
-	line "important."
+	para "Du willst kämpfen?"
 
-	para "If you insist on a"
-	line "battle, come visit"
-	cont "my family home in"
-	cont "FROSTPOINT TOWN."
+	para "Das muss warten."
 
-	para "I will then return"
-	line "to the GYM once I"
-	cont "have completed my"
-	cont "visit."
+	para "Ich habe Familie"
+	line "in SPIZARDIA."
+
+	para "Ich habe ihnen"
+	line "versprochen, dass"
+	cont "ich sie besuche."
+
+	para "Familie ist sehr"
+    line "wichtig."
+
+    para "Wenn du auf einen"
+    line "Kampf bestehst,"
+    cont "statte uns doch"
+    cont "einen Besuch in"
+    cont "SPIZARDIA ab."
+
+	para "Ich kehre in die"
+	line "PKMN-ARENA zurück,"
+	para "sobald ich meinen"
+	line "Besuch beendet"
+	cont "habe."
 	done
 
 PryceLeavesMovement:
