@@ -37,6 +37,7 @@ INCLUDE "maps/SlowpokeWellB2F.asm"
 INCLUDE "maps/TeknosAquarium2F.asm"
 INCLUDE "maps/EndonCaveB1F.asm"
 INCLUDE "maps/KikaiStrait.asm"
+INCLUDE "maps/KantoDock.asm"
 
 
 
@@ -157,7 +158,6 @@ INCLUDE "maps/FastShipCabins_SW_SSW_NW.asm"
 INCLUDE "maps/FastShipCabins_SE_SSE_CaptainsCabin.asm"
 INCLUDE "maps/FastShipB1F.asm"
 INCLUDE "maps/WestportPortPassage.asm"
-INCLUDE "maps/KantoDock.asm"
 
 
 
