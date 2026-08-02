@@ -15,13 +15,17 @@ FrostpointSpeechHouseGentleman:
 	end
 	
 FrostpointSpeechHouseGentlemanText:
-	text "FROSTPOINT is"
-	line "cold and remote."
-	para "We don't get many"
-	line "visitors."
-	para "But those who live"
-	line "here are a close"
-	cont "community."
+    text "SPIZARDIA ist kalt"
+    line "und abgelegen."
+
+    para "Wir kriegen hier"
+    line "nicht viele"
+    cont "Besucher."
+
+    para "Aber die Leute,"
+    line "die hier leben,"
+    para "sind eine enge"
+    line "Gemeinschaft."
 	done
 
 
