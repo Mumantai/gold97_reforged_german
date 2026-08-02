@@ -96,7 +96,7 @@ INCLUDE "maps/ForkedStraitGate.asm"
 INCLUDE "maps/ForkedStraitEastExit.asm"
 INCLUDE "maps/TropicalIsland.asm"
 INCLUDE "maps/TropicalIslandJungle.asm"
-INCLUDE "maps/KantoDock.asm"
+
 
 
 
@@ -157,6 +157,7 @@ INCLUDE "maps/FastShipCabins_SW_SSW_NW.asm"
 INCLUDE "maps/FastShipCabins_SE_SSE_CaptainsCabin.asm"
 INCLUDE "maps/FastShipB1F.asm"
 INCLUDE "maps/WestportPortPassage.asm"
+INCLUDE "maps/KantoDock.asm"
 
 
 
