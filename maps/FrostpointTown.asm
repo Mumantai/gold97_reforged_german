@@ -81,7 +81,7 @@ FrostpointTownTeacherText:
     cont "überqueren können."
 	done
 
-FrostpointTownDeepwaterSignText:
+FrostpointTownGymSignText:
 	text "TIEFWASSERPFAD"
 	line "Nordeingang"
 	done
