@@ -230,6 +230,8 @@ ENDM
 	dict "<POKE>",    PlacePOKE
 	dict "%",         NextChar
 	dict "¯",         " "
+	dict "<¯>",       NextChar
+	dict "<->",       PlaceHyphenSplit
 	dict "<DEXEND>",  PlaceDexEnd
 	dict "<TARGET>",  PlaceMoveTargetsName
 	dict "<USER>",    PlaceMoveUsersName
@@ -270,6 +272,10 @@ PlacePOKE:    print_name PlacePOKEText
 PlaceJPRoute: print_name PlaceJPRouteText
 PlaceWatashi: print_name PlaceWatashiText
 PlaceKokoWa:  print_name PlaceKokoWaText
+
+PlaceHyphenSplit:
+	ld [hl], "-"
+	jp LineFeedChar
 
 PlaceMoveTargetsName::
 	ldh a, [hBattleTurn]
