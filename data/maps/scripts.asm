@@ -17,6 +17,7 @@ INCLUDE "maps/WestportDeptStoreElevator.asm"
 INCLUDE "maps/WestportDeptStoreRoof.asm"
 INCLUDE "maps/BoardwalkGameCorner.asm"
 INCLUDE "maps/BoulderMinesB5F.asm"
+INCLUDE "maps/DeepwaterPassageB2F.asm"
 
 
 
@@ -185,7 +186,6 @@ INCLUDE "maps/JouleCave.asm"
 INCLUDE "maps/JouleCaveZapdosRoom.asm"
 INCLUDE "maps/IcedCavern1F.asm"
 INCLUDE "maps/IcedCavernB1F.asm"
-INCLUDE "maps/DeepwaterPassageB2F.asm"
 INCLUDE "maps/MagmaShaftB1F.asm"
 INCLUDE "maps/MagmaShaftB2F.asm"
 INCLUDE "maps/MagmaShaft1F.asm"
