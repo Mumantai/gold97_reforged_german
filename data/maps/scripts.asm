@@ -57,7 +57,6 @@ INCLUDE "maps/KikaiVillage.asm"
 INCLUDE "maps/KikaiHouse1.asm"
 INCLUDE "maps/KikaiHouse2.asm"
 INCLUDE "maps/AmamiBattleTowerGate.asm"
-INCLUDE "maps/FrostpointSpeechHouse.asm"
 
 
 
@@ -250,6 +249,7 @@ INCLUDE "maps/BattleTower1F.asm"
 INCLUDE "maps/BattleTowerBattleRoom.asm"
 INCLUDE "maps/BattleTowerElevator.asm"
 INCLUDE "maps/BattleTowerHallway.asm"
+INCLUDE "maps/FrostpointSpeechHouse.asm"
 
 
 
