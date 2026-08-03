@@ -1091,14 +1091,14 @@ _RocketRadioText7::
 
 _RocketRadioText8::
 	text_start
-	line "uns hören?@"
+	line "uns hören? @"
     text_pause
-    text "Schon"
+    text "Bald"
 	done
 
 _RocketRadioText9::
 	text_start
-	line "bald @"
+	line "@"
 	text_pause
 	text "steht ihr unter"
 	done
