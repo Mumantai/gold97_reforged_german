@@ -1079,26 +1079,26 @@ _RocketRadioText5::
 
 _RocketRadioText6::
 	text_start
-	line "wiederauferstanden!"
+	line "auferstanden!"
 	done
 
 _RocketRadioText7::
 	text_start
 	line "#MON! @"
 	text_pause
-	text "Könnt ihr uns"
+	text "Könnt ihr"
 	done
 
 _RocketRadioText8::
 	text_start
-	line "Hören? Schon bald@"
+	line "uns hören?@"
     text_pause
-    text " "
+    text "Schon"
 	done
 
 _RocketRadioText9::
 	text_start
-	line "@"
+	line "bald @"
 	text_pause
 	text "steht ihr unter"
 	done
