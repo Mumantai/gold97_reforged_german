@@ -559,8 +559,8 @@ ImposterText3:
     cont "wie ihr sehen"
     cont "könnt…"
 
-    para "bin ich"
-    cont "PROF. EICH!"
+    para "Bin ich"
+    line "PROF. EICH!"
 
     para "Das war alles!"
 	done

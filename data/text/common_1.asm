@@ -1064,7 +1064,7 @@ _RocketRadioText2::
 
 _RocketRadioText3::
 	text_start
-	line "Nach drei Jahren"
+	line "Nach einem Jahr"
 	done
 
 _RocketRadioText4::
@@ -1074,38 +1074,40 @@ _RocketRadioText4::
 
 _RocketRadioText5::
 	text_start
-	line "wir bereit für"
+	line "wir aus der Asche"
 	done
 
 _RocketRadioText6::
 	text_start
-	line "unser Comeback!"
+	line "wiederauferstanden!"
 	done
 
 _RocketRadioText7::
 	text_start
-	line "GIOVANNI! @"
+	line "#MON! @"
 	text_pause
-	text "Hörst"
+	text "Könnt ihr uns"
 	done
 
 _RocketRadioText8::
 	text_start
-	line "du uns? Geschafft!"
+	line "Hören? Schon bald@"
+    text_pause
+    text " "
 	done
 
 _RocketRadioText9::
 	text_start
 	line "@"
 	text_pause
-	text "Wo ist unser Boss?"
+	text "steht ihr unter"
 	done
 
 _RocketRadioText10::
 	text_start
 	line "@"
 	text_pause
-	text "Hört er zu?"
+	text "unserer Kontrolle!"
 	done
 
 _BuenaRadioText1::

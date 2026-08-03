@@ -299,9 +299,9 @@ SilverTellsYouAboutHiddenStairs:
     line "wie ein paar TEAM"
     para "ROCKET Mitglieder"
     line "sich über einen"
-    line "versteckten Keller"
-    para "in diesem Gebäude"
-    line "unterhalten haben."
+    para "versteckten Keller"
+    line "in diesem Gebäude"
+    cont "unterhalten haben."
 	done
 	
 ShockedRocketWinText:

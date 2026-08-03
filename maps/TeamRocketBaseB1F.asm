@@ -611,9 +611,9 @@ HowDidYouKidsGetDownHereText:
     para "Das hier ist eine"
     line "sehr mächtige"
     para "Antenne, die sehr"
-    line "braucht, bis sie"
-    para "volle Leistung"
-    line "erreicht!"
+    line "lange braucht, bis"
+    para "sie bei voller"
+    line "Leistung ist"
 	
     para "Aber ist ja auch"
     line "egal. Ihr könnt"
