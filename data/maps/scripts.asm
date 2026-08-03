@@ -98,6 +98,7 @@ INCLUDE "maps/ForkedStraitGate.asm"
 INCLUDE "maps/ForkedStraitEastExit.asm"
 INCLUDE "maps/TropicalIsland.asm"
 INCLUDE "maps/TropicalIslandJungle.asm"
+INCLUDE "maps/FrostpointSpeechHouse.asm"
 
 
 
@@ -112,7 +113,6 @@ INCLUDE "maps/VictoryRoad2F.asm"
 INCLUDE "maps/ForkedStraitWestExit.asm"
 INCLUDE "maps/RainbowIsland.asm"
 INCLUDE "maps/RainbowIslandCave.asm"
-INCLUDE "maps/FrostpointSpeechHouse.asm"
 
 
 
