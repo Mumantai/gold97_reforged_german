@@ -867,26 +867,6 @@ UnusedBipetalText:
 	cont "erkennen."
 	done
 
-UnusedBugCatchingContestExplanationText:
-; duplicate of BugCatchingContestExplanationText in Route103NationalParkGate.asm
-	text "Das Käferturnier"
-	line "findet jeden"
-
-	para "Dienstag,"
-	line "Donnerstag und"
-	cont "Samstag statt."
-
-	para "Du erhältst nicht"
-	line "nur einen Preis"
-
-	para "allein für die"
-	line "Teilnahme, sondern"
-
-	para "auch ein Käfer-"
-	line "#MON, das du"
-	cont "dort fängst."
-	done
-
 UnknownText_0x6b910:
 	text "Oh, oh… Dein"
 	line "BEUTEL ist voll."
@@ -907,6 +887,25 @@ UnknownText_0x6b97f:
 	line "Preis, den wir für"
 	cont "dich aufbewahrt"
 	cont "haben."
+	done
+
+BugCatchingContestExplanationText:
+	text "Das Käferturnier"
+	line "findet jeden"
+
+	para "Dienstag,"
+	line "Donnerstag und"
+	cont "Samstag statt."
+
+	para "Du erhältst nicht"
+	line "nur einen Preis"
+
+	para "allein für die"
+	line "Teilnahme, sondern"
+
+	para "auch ein Käfer-"
+	line "#MON, das du"
+	cont "dort fängst."
 	done
 
 
