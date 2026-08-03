@@ -112,6 +112,7 @@ INCLUDE "maps/VictoryRoad2F.asm"
 INCLUDE "maps/ForkedStraitWestExit.asm"
 INCLUDE "maps/RainbowIsland.asm"
 INCLUDE "maps/RainbowIslandCave.asm"
+INCLUDE "maps/FrostpointSpeechHouse.asm"
 
 
 
@@ -250,7 +251,7 @@ INCLUDE "maps/BattleTower1F.asm"
 INCLUDE "maps/BattleTowerBattleRoom.asm"
 INCLUDE "maps/BattleTowerElevator.asm"
 INCLUDE "maps/BattleTowerHallway.asm"
-INCLUDE "maps/FrostpointSpeechHouse.asm"
+
 
 
 
