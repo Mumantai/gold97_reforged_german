@@ -395,286 +395,335 @@ OkenaWalksAway:
 	step_end
 	
 StandCityNationalBlockRocketAfterBaseText:
-	text "I always feel left"
-	line "out…"
-	para "No one tells me"
-	line "what's going on"
-	cont "over here…"
+    text "Ich fühle mich"
+    line "immer von allen"
+    cont "ausgeschlossen…"
+
+    para "Niemand sagt mir,"
+    line "was hier vor sich"
+    cont "geht…"
 	done
 	
 BlockRocket4AfterBaseText:
-	text "Everyone else is"
-	line "gone?"
-	para "You didn't have"
-	line "anything to do"
-	para "with this, did"
-	line "you?"
+    text "Alle anderen"
+    line "sind weg?"
+
+    para "Du hast nichts"
+    line "damit zu tun,"
+    cont "oder?"
 	done
 
 BlockRocket3AfterBaseText:
-	text "Rumor is that the"
-	line "gang is over in"
-	cont "WESTPORT CITY."
-	para "What does that"
-	line "mean, though?"
-	para "What happened to"
-	line "our base?"
+    text "Angeblich sind"
+    line "jetzt alle drüben"
+    cont "in PORT ABANISHI."
+
+    para "Aber was hat das"
+    line "zu bedeuten?"
+
+    para "Was ist denn mit"
+    line "unserer Basis"
+    cont "passiert?"
 	done
 	
 BlockRocket2AfterBaseText:
-	text "Is that right?"
-	para "I'm hearing the"
-	line "base is empty."
-	para "Why are we still"
-	line "here, then?"
+    text "Ist das wahr?"
+
+    para "Ich hörte, die"
+    line "Basis sei leer."
+
+    para "Warum sind wir"
+    line "dann noch hier?"
 	done
 	
 BlockRocket1AfterBaseText:
-	text "Is the base empty?"
-	para "Where did everyone"
-	line "go?"
+    text "Ist die Basis"
+    line "wirklich leer?"
+
+    para "Wo sind denn"
+    line "dann alle hin?"
 	done
 	
 StandCityHQBlockRocketText:
-	text "All of us hate"
-	line "guarding the"
-	para "entrance to this"
-	line "building."
-	para "My shift is almost"
-	line "over, though."
-	para "I hope my"
-	line "replacement"
-	para "actually shows up"
-	line "this time…"
+    text "Wir alle hassen"
+    line "es, den Eingang"
+    para "zu diesem Gebäude"
+    line "zu bewachen."
+
+    para "Meine Schicht ist"
+    line "aber fast vorbei."
+
+    para "Ich hoffe, meine"
+    line "Ablösung taucht"
+    cont "dieses Mal auch"
+    cont "wirklich auf…"
 	done
 	
 StandCityNationalBlockRocketText:
-	text "No one needs to"
-	line "enter the NATIONAL"
-	cont "PARK right now!"
-	para "Not while #MON"
-	line "are getting sick."
-	para "I care about their"
-	line "health, see?"
+    text "Niemand darf jetzt"
+    line "den NATIONALPARK"
+    cont "betreten!"
+
+    para "Nicht solange"
+    line "die #MON krank"
+    cont "werden."
+
+    para "Mir liegt ihre"
+    line "Gesundheit am"
+    cont "Herzen, verstehst"
+    cont "du?"
 	done
 	
 BlockRocket1BeforeText:
-	text "Oh boy!"
-	para "I can't believe"
-	line "how well this plan"
-	cont "is going!"
+    text "Oh Junge!"
+
+    para "Ich kann nicht"
+    line "glauben, wie gut"
+    cont "dieser Plan läuft!"
 	done
 	
 BlockRocket1AfterText:
-	text "Hey, kid!"
-	para "Wasn't that a"
-	line "great speech by"
-	para "the real, actual"
-	line "PROF.OAK?"
+    text "Hey, Knirps!"
+
+    para "War das nicht eine"
+    line "tolle Rede vom"
+    cont "allerechten"
+    cont "PROF. EICH?"
 	done
 	
 BlockRocket3BeforeText:
-	text "There's nothing"
-	line "south of here!"
-	para "You should just"
-	line "stay in town!"
+	text "Südlich von hier"
+	line "ist nichts!"
+
+	para "Du solltest besser"
+	line "in der Stadt"
+	cont "bleiben!"
 	done
-	
+
 BlockRocket3AfterText:
-	text "The people love"
-	line "PROF.OAK!"
+	text "Die Leute lieben"
+	line "PROF.EICH!"
 	done
 	
 	
 ImposterText1:
-	text "Citizens of STAND"
-	line "CITY!"
+	text "Bürger von"
+	line "SENDESTIA CITY!"
+	done
 	done
 	
 ImposterText2:
-	text "It is I, the"
-	line "world-renowned"
-	cont "PROF.OAK!"
-	
-	para "I have some"
-	line "exciting news!"
-	
-	para "I have partnered"
-	line "with TEAM ROCKET"
-	cont "to bring to you a"
-	cont "wonderful piece of"
-	cont "technology!"
+	text "Ich bin es, der"
+	line "weltberühmte"
+	cont "PROF. EICH!"
+
+	para "Ich habe tolle"
+	line "Neuigkeiten!"
+
+	para "Ich habe mich mit"
+	line "TEAM ROCKET"
+	cont "zusammengetan, um"
+    cont "euch eine wunder-"
+    cont "bare neue Techno-"
+    cont "logie zu bringen!"
 	done
 	
 ImposterText3:
-	text "Do not be alarmed!"
+    text "Macht euch"
+    line "keine Sorgen!"
 	
-	para "We are developing"
-	line "a radio signal"
-	cont "that is capable of"
-	cont "reading the minds"
-	cont "of #MON!"
+    para "Wir entwickeln ein"
+    line "Hochleistungs-"
+    cont "Radiosignal, mit"
+    cont "dessen Hilfe man"
+    cont "die Gedanken von"
+    cont "#MON lesen"
+    cont "können wird!"
 	
-	para "And this signal is"
-	line "being developed"
-	cont "right here in"
-	cont "STAND CITY!"
-	
-	para "Rumors of this"
-	line "signal making"
-	cont"#MON unwell are"
-	cont "pure nonsense."
+    para "Und dieses Signal"
+    line "wird genau hier in"
+    cont "SENDESTIA CITY"
+    cont "entwickelt!"
 
-	para "They will be fine!"
-	
-	para "And you can trust"
-	line "me, because as you"
-	cont "can see…"
-	
-	para "I am PROF.OAK!"
-	
-	para "That is all!"
+    para "Gerüchte darüber,"
+    line "dass dieses Signal"
+    cont "die #MON krank"
+    cont "macht, sind reiner"
+    cont "Unsinn."
+
+    para "Es passiert ihnen"
+    line "nichts!"
+
+    para "Da könnt ihr mir"
+    line "vertrauen, denn,"
+    cont "wie ihr sehen"
+    cont "könnt…"
+
+    para "bin ich"
+    cont "PROF. EICH!"
+
+    para "Das war alles!"
 	done
 	
 OkenaText:
-	text "Tch…"
-	
-	para "What a bother…"
-	
-	para "First that storm"
-	line "and now some old"
-	cont "guy wants to make"
-	cont "a signal in my"
-	cont "town?"
+    text "RABAN: Tss…"
+
+    para "Was für ein Ärger…"
+
+    para "Zuerst dieser"
+    line "Sturm und jetzt"
+    cont "will so ein alter"
+    cont "Typ ein Signal in"
+    cont "meiner Stadt"
+    cont "entwickeln?"
 	done
 	
 OkenaText2:
-	text "Well I ain't"
-	line "having it!"
-	cont "I need my peace"
-	cont "and quiet!"
+    text "Das lasse ich mir"
+    line "nicht gefallen!"
+
+    para "Ich brauche meine"
+    line "Ruhe!"
 	done
 
 StandCityRockerText:
-	text "The #MON that"
-	line "usually are in the"
-	para "ZOO over there"
-	line "aren't feeling"
-	cont "well."
-	para "STAND CITY park"
-	line "officials are"
-	para "keeping them at"
-	line "their park #MON"
-	cont "CENTER."
+	text "Die #MON, die"
+	line "normalerweise im"
+	cont "ZOO dort drüben"
+	cont "sind, fühlen sich"
+	cont "nicht wohl."
+
+    para "Die Verantwort-"
+    line "lichen vom ZOO"
+    cont "kümmern sich um"
+    line "sie, in ihrer"
+    cont "#MON-Klink."
 	done
 	
 StandCityRockerAllGoodText:
-	text "That wasn't the"
-	line "real PROF.OAK?"
-	para "That's crazy!"
-	para "I'm so glad the"
-	line "#MON are doing"
-	cont "better now."
+	text "Das war gar nicht"
+	line "der echte"
+	cont "PROF. EICH?"
+
+	para "Total verrückt!"
+
+	para "Ich bin froh, dass"
+	line "es den #MON"
+	cont "jetzt besser geht."
 	done
 	
 StandCityRockerImposterText:
-	text "TEAM ROCKET is"
-	line "behind the #MON"
-	cont "not feeling well?"
-	para "But PROF.OAK tells"
-	line "me that they'll be"
-	para "okay and it's a"
-	line "part of important"
-	cont "research…"
-	para "And I trust him."
+	text "TEAM ROCKET ist"
+	line "schuld daran, dass"
+	cont "es den #MON"
+	cont "schlecht geht?"
+
+	para "Aber PROF. EICH"
+	line "sagt, ihnen pa-"
+	cont "ssiere nichts und"
+	cont "das alles sei Teil"
+	cont "seiner wichtigen"
+	cont "Forschung…"
+
+	para "Ich vertraue ihm."
 	done
 
 StandCityPokefanMText:
-	text "I'm disappointed"
-	line "the #MON aren't"
-	cont "outside."
-	para "But it's more"
-	line "important that"
-	cont "they get well."
+	text "Ich bin enttäuscht"
+	line "darüber, dass die
+	cont "#MON nicht"
+	cont "draußen sind."
+
+	para "Aber es ist wich-"
+	line "tiger, dass sie"
+	cont "gesund werden."
 	done
 	
 StandCityPokefanImposterText:
-	text "PROF.OAK is"
-	line "responsible for"
-	para "the #MON not"
-	line "feeling well?"
-	para "He must have a"
-	line "good reason…"
+	text "PROF. EICH ist"
+	line "schuld daran,"
+	cont "dass es den"
+	cont "#MON so"
+	cont "schlecht geht?"
+
+	para "Er muss einen"
+	line "guten Grund haben…"
 	done
 	
 StandCityPokefanAllGoodText:
-	text "I'm so glad all of"
-	line "the #MON are"
-	cont "well again!"
+    text "Ich bin so froh,"
+    line "dass es allen"
+    cont "#MON wieder gut"
+    cont "geht!"
 	done
 
 StandCityTwinText:
-	text "The STAND CITY ZOO"
-	line "is closed…"
-	
-	para "It's sad,"
-	line "considering it's"
-	para "STAND CITY's main"
-	line "attraction."
-	
-	para "I hope the #MON"
-	line "are okay."
+	text "Der ZOO von"
+	line "SENDESTIA CITY"
+	cont "hat geschlossen…"
+
+	para "Das ist schade,"
+	line "denn er ist"
+	cont "die größte"
+	cont "Attraktion hier."
+
+	para "Ich hoffe, den"
+	line "#MON geht es"
+	cont "gut."
 	done
 	
 StandCityTwinImposterText:
-	text "TEAM ROCKET is"
-	line "back?"
-	para "And with PROF.OAK?"
-	para "This can't be"
-	line "right…"
+	text "TEAM ROCKET ist"
+	line "zurück?"
+
+	para "Und das zusammen"
+	line "mit PROF. EICH?"
+
+	para "Da simmt doch"
+	line "etwas nicht…"
 	done
 	
 StandCityTwinAllGoodText:
-	text "Yay! The ZOO is"
-	line "open again!"
+	text "Juhu! Der ZOO hat"
+	line "wieder geöffnet!"
 	done
 
 StandCityTeacherText:
-	text "What are all of"
-	line "these TEAM ROCKET"
-	para "members doing"
-	line "here?"
-	para "This can't be"
-	line "good!"
+	text "Was machen all die"
+	line "Leute von TEAM"
+	cont "ROCKET hier?"
+
+	para "Das kann nichts"
+	line "Gutes heißen!"
 	done
 	
 StandCityTeacherImposterText:
-	text "Something didn't"
-	line "seem right about"
-	cont "PROF.OAK…"
+    text "Irgendwas kam mir"
+    line "komisch vor, an"
+    cont "PROF. EICH…"
 	done
 
 StandCityTeacherAllGoodText:
-	text "I'm so glad things"
-	line "are normal again."
+	text "Zum Glück ist"
+	line "alles wieder"
+	cont "normal."
 	done
 
 StandCitySignText:
-	text "STAND CITY"
+	text "SENDESTIA CITY"
 
-	para "A utopia for"
-	line "people and #MON"
-	cont "alike"
+	para "Eine Utopie für"
+	line "Mensch und #MON"
 	done
 
 FuchsiaGymSignText:
-	text "STAND CITY"
-	line "#MON GYM"
-	cont "LEADER: OKERA"
+	text "#MON-ARENA von"
+	line "SENDESTIA CITY"
+	cont "LEITUNG: RABAN"
 
-	para "The Kid who"
-	line "thrives in the"
-	cont "dark"
+	para "Der Junge, der"
+	line "im Dunkeln"
+	cont "aufblüht"
 	done
 
 SafariZoneOfficeSignText:
@@ -687,68 +736,76 @@ SafariZoneOfficeSignText:
 	done
 
 WardensHomeSignText:
-	text "STAND CITY ZOO"
-	line "Medical Center"
+	text "SENDESTIA CITY ZOO"
+	line "#MON-Klinikum"
 	done
 
 SafariZoneClosedSignText:
 	text "#MON:"
-	line "KANGASKHAN"
-	para "To avoid"
-	line "crushing the"
-	para "baby it carries in"
-	line "its pouch, it"
-	para "always sleeps"
-	line "standing up."
+	line "KANGAMA"
+
+	para "Um das Junge, das"
+	line "es in seinem Beu-"
+	para "tel trägt, nicht"
+	line "zu zerquetschen,"
+	para "schläft es immer"
+	line "nur im Stehen."
 	done
 
 SafariZoneClefairySignText:
 	text "#MON:"
-	line "CLEFAIRY"
-	para "Though rarely"
-	line "seen, it becomes"
-	para "easier to spot,"
-	line "for some reason,"
-	para "on the night of a "
-	line "full moon."
+	line "PIEPI"
+
+	para "Es wird nur selten"
+	line "gesehen, doch in"
+	para "Vollmondnächten"
+	line "kann man es aus"
+	para "irgendeinem Grund"
+	line "öfter finden."
 	done
 	
 SafariZoneAmpharosSignText:
 	text "#MON:"
 	line "AMPHAROS"
-	para "When it gets dark,"
-	line "the light from its"
-	para "bright, shiny tail"
-	line "can be seen from"
-	para "far away on the"
-	line "ocean's surface."
+
+	para "Wenn es dunkel"
+	line "wird, kann man das"
+	para "Licht an seinem"
+	line "Schwanz bis weit"
+	para "draußen auf dem"
+	line "Meer sehen."
 	done
 	
 SafariZoneSkarmorySignText:
 	text "#MON:"
-	line "SKARMORY"
-	para "The feathers that"
-	line "it sheds are very"
-	para "sharp. It is said"
-	line "that people once"
-	para "used the feathers"
-	line "as swords."
+	line "PANZAERON"
+
+	para "Die Federn, die"
+	line "es verliert, sind"
+	cont "extrem scharf."
+
+	para "Angeblich wurden"
+	line "sie früher sogar"
+	para "als Schwerter"
+	line "verwendet."
 	done
 	
 SafariZoneGolduckSignText:
 	text "#MON:"
-	line "GOLDUCK"
-	para "It swims grace-"
-	line "fully along on the"
-	para "quiet, slow-moving"
-	line "rivers and lakes"
-	para "of which it is so"
-	line "fond."
+	line "ENTORON"
+
+	para "Es schwimmt"
+	line "anmutig durch"
+	para "ruhige, langsam"
+	line "fließende Flüsse"
+	para "und Seen, in denen"
+	line "es sich besonders"
+	cont "wohlfühlt."
 	done
 
 NoLitteringSignText:
-	text "STAND CITY ZOO"
-	line "Main Office"
+	text "SENDESTIA CITY ZOO"
+	line "Hauptbüro"
 	done
 
 StandCity_MapEvents:

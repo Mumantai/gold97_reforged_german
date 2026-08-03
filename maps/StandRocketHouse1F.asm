@@ -261,42 +261,47 @@ ShockedRocket1Step:
 	step_end
 	
 StandRocketHouse1F1FTVText:
-	text "It's not turned"
-	line "on…"
+	text "Er ist nicht"
+	line "eingeschaltet…"
 	done
 	
 StandRocketHouse1F1FPosterText:
-	text "All #MON are"
-	line "for the profit of"
-	cont "TEAM ROCKET!"
+	text "Alle #MON sind"
+	line "für TEAM ROCKETs"
+	cont "Profit da!"
 	done
 	
 SilverLetsGoDownThere:
-	text "We have to go"
-	line "check it out!"
+	text "Wir müssen uns das"
+	line "ansehen!"
 	done
 	
 SilverTellsYouAboutHiddenStairs2:
-	text "Right here!"
-	para "TEAM ROCKET isn't"
-	line "leaving, they're"
-	cont "hiding down here!"
+    text "Genau hier!"
+
+    para "TEAM ROCKET ver-"
+    line "steckt sich dort"
+    cont "unten!"
 	done
 	
 SilverShowsUpInBase:
-	text "<RIVAL>: <PLAY_G>!"
-	para "Wait, don't leave!"
+    text "<RIVAL>: <PLAY_G>!"
+
+    para "Warte, geh nicht!"
 	done
 	
 SilverTellsYouAboutHiddenStairs:
-	text "I think there's"
-	line "more happening"
-	cont "here!"
-	para "I heard some TEAM"
-	line "ROCKET members"
-	para "outside talking"
-	line "about a basement"
-	cont "in this building!"
+	text "Ich denke, hier"
+	line "geht noch mehr"
+	cont "vor sich!"
+
+    para "Ich habe gehört,"
+    line "wie ein paar TEAM"
+    para "ROCKET Mitglieder"
+    line "sich über einen"
+    line "versteckten Keller"
+    para "in diesem Gebäude"
+    line "unterhalten haben."
 	done
 	
 ShockedRocketWinText:
@@ -308,23 +313,26 @@ ShockedRocketLossText:
 	done
 
 RocketShockedText:
-	text "And who are you?"
-	para "I hope you didn't"
-	line "think you could"
-	cont "sneak past me!"
-	para "No one sneaks past"
-	line "me!"
+    text "Und wer bist du?"
+
+    para "Ich hoffe, du hast"
+    line "nicht gedacht, du"
+    para "könntest an mir"
+    line "vorbeischleichen!"
+
+    para "Niemand schleicht"
+    line "sich einfach an"
+    cont "mir vorbei!"
 	done
 	
 WardensGranddaughterText1:
-	text "You might not be"
-	line "able to sneak"
-	cont "past me,"
-	para "but you sure can"
-	line "just walk on by"
-	para "if you've got"
-	line "#MON that"
-	cont "strong…"
+    text "Du kannst viel-"
+    line "leicht nicht an"
+    para "mir vorbeischlei-"
+    line "chen, aber mit so"
+    para "starken #MON,"
+    line "kannst du einfach"
+    cont "durchlaufen…"
 	done
 
 

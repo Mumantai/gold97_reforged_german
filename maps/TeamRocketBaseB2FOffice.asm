@@ -252,99 +252,107 @@ ComputerIsOn:
 	done
 	
 RocketBossRoomGrunt1Text:
-	text "This is the final"
-	line "preparation"
-	para "meeting before our"
-	line "machine becomes"
-	cont "fully functional."
-	para "I'm sure there"
-	line "isn't anything"
-	para "that can get in"
-	line "the way of our"
-	cont "plan now!"
+    text "Das ist die letzte"
+    line "Besprechung, bevor"
+    para "unsere Maschine"
+    line "voll funktions-"
+    cont "fähig ist."
+
+    para "Ich bin sicher,"
+    line "dass es nichts"
+    para "gibt, was unserem"
+    line "Plan jetzt noch"
+    para "in die Quere"
+    line "kommen könnte!"
 	done
 	
 RocketBossRoomGrunt2Text:
-	text "IMPOSTER OAK did a"
-	line "great job"
-	para "convincing the"
-	line "people of STAND"
-	para "CITY to not worry"
-	line "about our"
-	cont "operations here."
+    text "Der BETRÜGER EICH"
+    line "hat gute Arbeit"
+    para "geleistet, die"
+    line "Bewohner von"
+    para "SENDESTIA CITY"
+    line "davon zu über-"
+    cont "zeugen, sich keine"
+    para "Sorgen wegen uns"
+    line "zu machen."
 	done
 	
 RocketBossRoomGrunt3Text:
-	text "The EXECUTIVE is"
-	line "the only person"
-	para "who knows the"
-	line "password to shut"
-	para "down the mind"
-	line "control antenna."
-	para "He can also be"
-	line "very forgetful…"
+    text "Der VORSTAND ist"
+    line "der einzige, der"
+    para "das Passwort zum"
+    line "Abschalten der"
+    para "Gedankenkontrolle"
+    line "kennt."
+
+    para "Er ist aber auch"
+    line "sehr vergesslich…"
 	done
 	
 RocketBossRoomGrunt4Text:
-	text "The world won't"
-	line "know what hit them"
-	para "when our machine"
-	line "is at full power"
-	para "and we summon all"
-	line "of their #MON"
-	cont "to do our work!"
+    text "Die Welt wird"
+    line "nicht wissen, wie"
+    para "ihr geschieht,"
+    line "wenn die Maschine"
+    para "auf Hochtouren"
+    line "läuft und wir"
+    para "all ihre #MON"
+    line "für unsere Zwecke"
+    cont "einsetzen!"
 	done
 	
 RocketBossRoomGrunt5Text:
-	text "According to my"
-	line "calculations, the"
-	para "mind control"
-	line "signal should be"
-	para "at full strength"
-	line "within the next"
-	cont "week!"
+    text "Meinen Berechnung-"
+    line "en zufolge, sollte"
+    para "das Signal zur"
+    line "Gedankenkontrolle"
+    para "in der nächsten"
+    line "Woche seine volle"
+    cont "Stärke erreichen!"
 	done
 	
 BadSecurityPractices:
-	text "What's this?"
+    text "Was ist das?"
 	
-	para "It's the password"
-	line "to the console!"
+    para "Es ist das Pass-"
+    line "wort für die"
+    cont "Konsole!"
 	
 	para "…"
 	
 	para "<PLAY_G>"
-	line "remembered the"
-	cont "password!"
+    line "merkt sich das"
+    cont "Passwort!"
 	done
 	
 ExecutiveSceneAfterBattleText:
-	text "Argh!"
-	para "You may have"
-	line "defeated me in"
-	cont "battle, but that"
-	cont "means little now."
-	
-	para "Our machine is"
-	line "inching ever"
-	cont "closer to full"
-	cont "power!"
-	
-	para "Soon, even your"
-	line "#MON will be"
-	cont "under our control!"
+    text "Argh!"
 
-	para "Now if you'll"
-	line "excuse me,"
-	
-	para "I've got some very"
-	line "urgent business to"
-	cont "attend to!"
+    para "Du hast mich zwar"
+    line "im Kampf besiegt,"
+    para "aber das ändert"
+    line "gar nichts!"
+
+    para "Unsere Maschine"
+    line "ist schon fast bei"
+    cont "voller Leistung!"
+
+    para "Bald stehen selbst"
+    line "deine #MON"
+    cont "unter unserer"
+    cont "Kontrolle!"
+
+    para "Wenn du mich jetzt"
+    line "entschuldigen wür-"
+    cont "dest, ich habe"
+    para "wichtige Dinge zu"
+    line "erledigen!"
 	done
 	
 ExecutiveWinText:
-	text "I can't believe"
-	line "this!"
+	text "Das kann ich nicht"
+	line "glauben!"
 	done
 	
 ExecutiveLossText:
@@ -352,8 +360,8 @@ ExecutiveLossText:
 	done
 	
 Imposter2WinText:
-	text "W-what!?"
-	line "H-how!?"
+	text "W-was!?"
+	line "W-wie!?"
 	done
 	
 Imposter2LossText:
@@ -361,129 +369,148 @@ Imposter2LossText:
 	done
 	
 TheExecutiveGreeting:
-	text "Do you understand"
-	line "what you've gotten"
-	cont "yourself into?"
-	
-	para "…"
-	
-	para "You remember me,"
-	line "right?"
-	
-	para "I was the CAPTAIN"
-	line "of our cargo ship."
-	
-	para "But primarily, I'm"
-	line "the lead EXECUTIVE"
-	cont "of TEAM ROCKET."
-	
-	para "Second only to our"
-	line "leader, GIOVANNI."
-	
-	para "So you've figured"
-	line "out what we are"
-	cont "up to?"
-	
-	para "We've built a"
-	line "radio device that"
-	cont "can be used to"
-	cont "control the minds"
-	cont "of #MON!"
-	
-	para "In other words,"
-	line "to control them"
-	cont "for TEAM ROCKET!"
+    text "Ist dir eigentlich"
+    line "klar, worauf du"
+    para "dich hier einge-"
+    line "lassen hast?"
 
-	para "We'll make better"
-	line "use of them than"
-	cont "anyone else!"
-	
-	para "I refuse to let"
-	line "you get in the way"
-	cont "of TEAM ROCKET any"
-	cont "longer!"
+    para "Offensichtlich"
+    line "nicht, sonst wärst"
+    cont "du nicht hier."
+
+    para "…"
+
+    para "Du erinnerst dich"
+    line "an mich, oder?"
+
+    para "Ich war der KÄPT'N"
+    line "unseres Frachters."
+
+    para "Doch vor allem bin"
+    line "ich der leitende"
+    para "VORSTAND von TEAM"
+    line "ROCKET."
+
+    para "Nur GIOVANNI,"
+    line "unser Anführer,"
+    cont "steht über mir."
+
+    para "Du hast also"
+    line "herausgefunden,"
+    cont "was wir vorhaben?"
+
+    para "Wir haben ein"
+    line "Funkgerät gebaut,"
+    cont "mit dem man die"
+    cont "Gedanken von"
+    cont "#MON kontrol-"
+    cont "lieren kann!"
+
+    para "Anders gesagt, wir"
+    line "können sie für"
+    cont "TEAM ROCKETs"
+    cont "Zwecke kontrol-"
+    cont "lieren!"
+
+    para "Wir werden sie"
+    line "besser zu nutzen"
+    cont "wissen, als sonst"
+    cont "irgendjemand!"
+
+    para "Ich werde es nicht"
+    line "zulassen, dass du"
+    para "dich weiter in den"
+    line "Weg von TEAM"
+    cont "ROCKET stellst!"
 	done
 	
 	
 ImposterConfront:
-	text "You little skunk!"
+    text "Du kleines Wiesel!"
 
-	para "I knew you were"
-	line "strong,…"
-	
-	para "But to defeat all"
-	line "of our guards?"
-	
-	para "Unacceptable!"
-	
-	para "I will end your"
-	line "little crusade"
-	cont "here!"
-	
-	para "This time I wont"
-	line "hold back!"
+    para "Ich wusste, dass"
+    line "du stark bist,…"
+
+    para "Aber dass du alle"
+    line "unsere Wachen"
+    cont "besiegen würdest?"
+
+    para "Inakzeptabel!"
+
+    para "Ich werde deinen"
+    line "kleinen Kreuzzug"
+    cont "hier beenden!"
+
+    para "Diesmal werde ich"
+    line "mich nicht zurück-"
+    cont "halten!"
 	done
 	
 ImposterConfront2:
-	text "No!"
+    text "Nein!"
 
-	para "I will not accept"
-	line "this!"
-	
-	para "You may still not"
-	line "have the password,"
-	
-	para "But I'm done taking"
-	line "any chances."
-	
-	para "The EXECUTIVE wont"
-	line "be disturbed."
-	
-	para "I will remove you"
-	line "by any means…"
+    para "Ich werde das"
+    line "nicht akzeptieren!"
+
+    para "Selbst wenn du das"
+    line "Passwort nicht"
+    cont "haben solltest,…"
+
+    para "Ich werde keine"
+    line "Risiken mehr"
+    cont "eingehen!"
+
+    para "Der VORSTAND wird"
+    line "nicht gestört!"
+
+    para "Ich werde dich mit"
+    line "allen Mitteln"
+    cont "entfernen…"
 	done
 	
 OkeraWatchIt:	
-	text "OKERA: Hey!"
-	line "Watch it!"
+	text "RABAN: Hey!"
+	line "Pass auf!"
 	done
 	
 OkeraConfront:
-	text "You!"
+	text "Du!"
 
-	para "I been lookin'"
-	line "for you gramps!"
-	
-	para "Make'n a signal"
-	line "in my town,"
-	
-	para "Disruptin' my"
-	line "peaceful, quiet"
-	cont "life…"
-	
-	para "You've got a lotta"
-	line "nerve!"
+	para "Hab überall nach"
+	line "dir gesucht, Opa!"
+
+	para "Einfach ein Signal"
+	line "in meiner Stadt"
+    cont "bauen,"
+
+    para "mein friedliches,"
+    line "ruhiges Leben"
+    cont "stören…"
+
+    para "Du hast ganz schön"
+    line "Nerven!"
 	done
 	
 OkeraConfront2:
-	text "Hey kid!"
-	
-	para "I'll take care of"
-	line "gramps here."
-	
-	para "You go on ahead."
+	text "Hey Kniprs!"
+
+	para "Ich kümmere mich"
+	line "um den Knacker."
+
+	para "Geh du weiter."
 	done
 	
 ImposterFighting:
-	text "…ugh."
-	
-	para "Our plans will"
-	line "proceed…"
+	text "…uff."
+
+	para "Unsere Pläne"
+	line "werden voran-"
+	cont "schreiten…"
 	done
 	
 OkeraFighting:
-	text "You think you're"
-	line "tough, gramps?"
+    text "Denkst du bist 'n"
+    line "ganz harter, Opa?"
 	done
 
 TeamRocketBaseB2FOffice_MapEvents:
