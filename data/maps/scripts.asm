@@ -38,6 +38,7 @@ INCLUDE "maps/TeknosAquarium2F.asm"
 INCLUDE "maps/EndonCaveB1F.asm"
 INCLUDE "maps/KikaiStrait.asm"
 INCLUDE "maps/KantoDock.asm"
+INCLUDE "maps/TatsugoPath.asm"
 
 
 
@@ -111,7 +112,7 @@ INCLUDE "maps/VictoryRoad2F.asm"
 INCLUDE "maps/ForkedStraitWestExit.asm"
 INCLUDE "maps/RainbowIsland.asm"
 INCLUDE "maps/RainbowIslandCave.asm"
-INCLUDE "maps/TatsugoPath.asm"
+
 
 
 
