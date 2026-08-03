@@ -630,7 +630,7 @@ StandCityRockerImposterText:
 
 StandCityPokefanMText:
 	text "Ich bin enttäuscht"
-	line "darüber, dass die
+	line "darüber, dass die"
 	cont "#MON nicht"
 	cont "draußen sind."
 

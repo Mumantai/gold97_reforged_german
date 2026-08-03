@@ -509,8 +509,9 @@ ImposterFighting:
 	done
 	
 OkeraFighting:
-    text "Denkst du bist 'n"
-    line "ganz harter, Opa?"
+    text "Hälst dich ja für"
+    line "'nen ganz harten,"
+    cont "was Opa?"
 	done
 
 TeamRocketBaseB2FOffice_MapEvents:
