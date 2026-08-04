@@ -228,7 +228,7 @@ INCLUDE "maps/IeTMShop.asm"
 INCLUDE "maps/IePokecenter1F.asm"
 INCLUDE "maps/IeHouse1.asm"
 INCLUDE "maps/IeHouse2.asm"
-INCLUDE "maps/BattleTowerOutside.asm"
+
 
 
 
@@ -282,6 +282,7 @@ INCLUDE "maps/BrassTower5F.asm"
 INCLUDE "maps/DaitoGardenerGeoffHouse.asm"
 INCLUDE "maps/RyukyuRestaurant.asm"
 INCLUDE "maps/RyukyuHotelRooms.asm"
+INCLUDE "maps/BattleTowerOutside.asm"
 
 
 SECTION "Map Scripts 15", ROMX
