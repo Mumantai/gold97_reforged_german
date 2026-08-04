@@ -100,7 +100,6 @@ INCLUDE "maps/ForkedStraitEastExit.asm"
 INCLUDE "maps/TropicalIsland.asm"
 INCLUDE "maps/TropicalIslandJungle.asm"
 INCLUDE "maps/FrostpointSpeechHouse.asm"
-INCLUDE "maps/RyukyuElevator.asm"
 
 
 
@@ -284,6 +283,7 @@ INCLUDE "maps/DaitoGardenerGeoffHouse.asm"
 INCLUDE "maps/RyukyuRestaurant.asm"
 INCLUDE "maps/RyukyuHotelRooms.asm"
 INCLUDE "maps/BattleTowerOutside.asm"
+INCLUDE "maps/BirdonCafe.asm"
 
 
 SECTION "Map Scripts 15", ROMX
@@ -319,7 +319,6 @@ INCLUDE "maps/DeepwaterPassage1F.asm"
 INCLUDE "maps/DragonsMaw.asm"
 INCLUDE "maps/KantoCafe.asm"
 INCLUDE "maps/BirdonPokecenter1F.asm"
-INCLUDE "maps/BirdonCafe.asm"
 INCLUDE "maps/BirdonMart.asm"
 INCLUDE "maps/KurtsHouse.asm"
 INCLUDE "maps/WestportGym.asm"
@@ -329,7 +328,7 @@ INCLUDE "maps/RyukyuHotel2F.asm"
 INCLUDE "maps/RyukyuHotel3F.asm"
 INCLUDE "maps/RyukyuHotel4F.asm"
 INCLUDE "maps/RyukyuHotel5F.asm"
-
+INCLUDE "maps/RyukyuElevator.asm"
 
 
 SECTION "Map Scripts 17", ROMX
