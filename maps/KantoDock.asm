@@ -47,90 +47,97 @@ TrainerKDOCK3:
 	end
 
 SailorKentSeenText:
-	text "It'll be a while"
-	line "before the next"
-	cont "ship sails, so"
-	cont "let's kill some"
-	cont "time together!"
+    text "Es dauert noch 'ne"
+    line "Weile, bis das"
+    cont "nächste Schiff"
+    cont "ablegt."
+
+    para "Lass uns etwas"
+    line "Zeit totschlagen!"
 	done
 
 SailorKentBeatenText:
-	text "I left my POTION"
-	line "on the ship!"
+    text "Ich habe meinen"
+    line "TRANK auf dem"
+    cont "Schiff vergessen!"
 	done
 
 SailorKentAfterBattleText:
-	text "It's no biggie,"
-	line "I've got plenty"
-	cont "of time to run to"
-	cont "the #MON"
-	cont "CENTER."
+    text "Ich habe ja  noch"
+    line "genug Zeit, um zum"
+    cont "#MON-CENTER zu"
+    cont "laufen."
 	done
 
 SailorErnestSeenText:
-	text "I'm the toughest"
-	line "mudder on these"
-	cont "docks!"
+    text "Ich bin der"
+    line "härteste Knochen"
+    cont "hier am Hafen!"
 	done
 
 SailorErnestBeatenText:
-	text "Yarr! Outmuscled!"
+	text "Argh, du hast mich"
+	line "überwältigt!"
 	done
 
 SailorErnestAfterBattleText:
-	text "You ought to get"
-	line "a job down here!"
-	
-	para "It takes toughness"
-	line "to work at the"
-	cont "docks!"
+    text "Du solltest hier"
+    line "anheuern!"
+
+    para "Man braucht schon"
+    line "ein dickes Fell,"
+    cont "um am Hafen zu"
+    cont "arbeiten!"
 	done
 
 SailorSvenSeenText:
-	text "I just sailed in"
-	line "from FROSTPOINT"
-	cont "TOWN, it's far"
-	cont "too hot here!"
+    text "Ich komme gerade"
+    line "aus SPIZZARDIA."
+
+    para "Hier ist es viel"
+    line "zu heiß!"
 	done
 
 SailorSvenBeatenText:
-	text "Oh I'm sweatin'!"
+	text "Oh, ich schwitze!"
 	done
 
 SailorSvenAfterBattleText:
-	text "I think I need to"
-	line "find some shade,"
-	cont "some water too…"
+    text "Ich glaube, ich"
+    line "brauche etwas"
+    cont "Schatten und auch"
+    cont "etwas Wasser…"
 	done
 
 KantoDockTruckMan:
 	jumptextfaceplayer KantoDockTruckManText
 	
 KantoDockTruckManText:
-	text "Kids are always"
-	line "snooping around"
-	cont "near my work"
-	cont "vehicle."
-	
-	para "They must be"
-	line "impressed with"
-	cont "the impeccable"
-	cont "condition I keep"
-	cont "it in."
-	
-	para "Look, not a spot"
-	line "of rust!"
+    text "Andauernd sind die"
+    line "Kinder in der Nähe"
+    cont "meines Wagens am"
+    cont "Rumschnüffeln."
+
+    para "Sie sind wohl vom"
+    line "tadellosen Zustand"
+    cont "des Transporters"
+    cont "beeindruckt."
+
+    para "Guck, nicht ein"
+    line "Fleckchen Rost!"
 	done
 
 TruckBGEvent:
 	jumptext TruckText
 	
 TruckText:
-	text "A late 80's model"
-	line "pickup, polished"
-	cont "fender to bumper."
-	
-	para "Very nice…"
+    text "Ein Transporter"
+    line "aus den 80ern."
+
+    para "Er glänzt von"
+    line "vorn bis hinten."
+
+    para "Sehr schön…"
 	done
 
 

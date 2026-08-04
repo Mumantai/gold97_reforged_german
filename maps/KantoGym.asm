@@ -270,109 +270,128 @@ RedDummyWalksToSpotLeft:
 	step_end
 	
 KantoGymGuyWinText2:
-	text "What an incredible"
-	line "battle!"
-	para "How many badges do"
-	line "you have now?"
-	para "You might be ready"
-	line "for the LEAGUE."
+    text "Was für ein un-"
+    line "glaublicher Kampf!"
+
+    para "Wie viele ORDEN"
+    line "hast du jetzt?"
+
+    para "Du könntest schon"
+    line "bereit für die"
+    cont "#MON LIGA sein."
 	done
 	
 KantoGymGuyText2:
-	text "Go get him, champ-"
-	line "in-the-making!"
+    text "Los, schnapp ihn"
+    line "dir, CHAMP in spe!"
 	done
 	
 KantoGymGuyRedNotHereText2:
-	text "Hey, champ-in-the-"
-	line "making!"
-	para "You know who RED"
-	line "is, right?"
-	para "He's not only a"
-	line "GYM LEADER, but"
-	para "he's also beaten"
-	line "the LEAGUE."
-	para "He's one tough"
-	line "guy, but he's not"
-	cont "much for words."
-	para "He's also not here"
-	line "right now."
-	para "I'm sure he'll be"
-	line "back soon. Why"
-	para "don't you battle"
-	line "the TRAINERS here"
-	para "while we wait for"
-	line "his return?"
+    text "Hey, CHAMP in spe!"
+
+    para "Weißt du wer unser"
+    line "ARENALEITER ist?"
+
+    para "Er ist nicht nur"
+    line "ARENALEITER, er"
+    para "hat auch die LIGA"
+    line "besiegt."
+
+    para "Er ist ein harter"
+    line "Kerl, aber er ist"
+    para "nicht gerade ein"
+    line "gesprächiger Typ."
+
+    para "Er ist gerade auch"
+    line "nicht hier."
+
+    para "Ich bin sicher, er"
+    line "kommt bald zurück."
+
+    para "Warum kämpfst du"
+    line "nicht gegen die"
+    para "Trainer hier, bis"
+    line "er zurück ist?"
 	done
 	
 CooltrainerfFranSeenText:
-	text "I can't allow a"
-	line "nameless trainer"
-	cont "to defeat me!"
+	text "Ich kann es nicht"
+	line "zulassen, dass ein"
+	para "unwichtiger Trai-"
+	line "ner mich besiegt!"
 	done
 
 CooltrainerfFranBeatenText:
-	text "Awww… I lost…"
+	text "Awww… verloren…"
 	done
 
 CooltrainerfFranAfterBattleText:
-	text "Huh. You might"
-	line "have what it takes"
-	cont "to beat RED."
+    text "Hm. Du könntest"
+    line "das Zeug haben, um"
+    cont "ROT zu besiegen."
 	done
 
 CooltrainerfLolaSeenText:
-	text "What type of"
-	line "#MON do we use?"
-	para "Why, all of them,"
-	line "like any good"
-	cont "trainer should."
+	text "Welchen Typen wir"
+	line "hier einsetzen?"
+
+	para "Alle natürlich!"
+
+	para "Wie es sich für"
+	line "einen guten"
+	cont "Trainer gehört."
 	done
 
 CooltrainerfLolaBeatenText:
-	text "Way to go!"
+	text "Großartig!"
 	done
 
 CooltrainerfLolaAfterBattleText:
-	text "A balanced party"
-	line "is key to victory."
+    text "Ein ausgewogenes"
+    line "Team ist der"
+    para "Schlüssel zum"
+    line "Erfolg."
 	done
 
 
 CooltrainermMikeSeenText:
-	text "My chance of"
-	line "losing? Not even"
-	cont "one percent!"
+	text "Die Chancen, gegen"
+	line "dich zu verlieren?"
+	cont "Nicht mal ein Pro-"
+	cont "zent!"
 	done
 
 CooltrainermMikeBeatenText:
-	text "That's odd."
+	text "Hm, eigenartig."
 	done
 
 CooltrainermMikeAfterBattleText:
-	text "I know my short-"
-	line "comings now."
-
-	para "Thanks for showing"
-	line "me!"
+	text "Ich kenne jetzt"
+	line "meine Schwachstel-"
+	cont "len. Danke für den"
+	cont "Hinweis!"
 	done
 
 CooltrainermPaulSeenText:
-	text "Facing RED will"
-	line "surely be your"
-	cont "toughest battle."
-	para "But I can be a"
-	line "close second!"
+    text "Der Kampf gegen"
+    line "ROT wird dein"
+    para "bisher schwerster"
+    line "werden."
+
+    para "Aber ich könnte"
+    line "kann auf Platz"
+    cont "zwei liegen!"
 	done
 
 CooltrainermPaulBeatenText:
-	text "My #MON lost?"
+	text "Meine #MON"
+	line "haben verloren?"
 	done
 
 CooltrainermPaulAfterBattleText:
-	text "You almost ready"
-	line "to take on the"
-	cont "LEAGUE?"
+	text "Bist du schon"
+	line "bereit für die"
+	cont "LIGA?"
 	done
 
 ErikaBeforeBattleText:
@@ -384,8 +403,8 @@ ErikaBeatenText:
 	done
 
 PlayerReceivedRainbowBadgeText:
-	text "<PLAYER> received"
-	line "INDIGOBADGE."
+	text "<PLAYER> erhält"
+	line "INDIGO-ORDEN."
 	done
 
 ErikaExplainTMText:

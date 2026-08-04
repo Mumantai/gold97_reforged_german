@@ -114,7 +114,7 @@ CeladonPrizeRoom_TMMenuHeader:
 	db "TM32    1500@"
 	db "TM29    3500@"
 	db "TM15    7500@"
-	db "CANCEL@"
+	db "ZURÜCK@"
 
 CeladonPrizeRoomPokemonVendor:
 	opentext
@@ -198,8 +198,8 @@ CeladonPrizeRoomPokemonVendor:
 	db 4 ; items
 	db "PIKACHU    2222@"
 	db "DRATINI    5555@"
-	db "WOLFAN     8888@"
-	db "CANCEL@"
+	db "LUPONCHO   8888@"
+	db "ZURÜCK@"
 	
 DummyVendorScript:
 	end
@@ -378,9 +378,9 @@ KantoGameCornerBigDollVendorMenuHeader:
 .MenuData:
 	db STATICMENU_CURSOR ; flags
 	db 3 ; items
-	db "BIG ONIX     2500@"
-	db "BIG LAPRAS   2500@"
-	db "CANCEL@"	
+	db "ONIX        2500@"
+	db "LAPRAS      2500@"
+	db "ZURÜCK@"
 
 KantoGameCornerConsoleVendorMenuHeader:
 	db MENU_BACKUP_TILES ; flags
@@ -394,7 +394,7 @@ KantoGameCornerConsoleVendorMenuHeader:
 	db "NES          1800@"
 	db "SUPER NES    1800@"
 	db "VIRTUAL BOY  1800@"
-	db "CANCEL@"	
+	db "ZURÜCK@"
 
 KantoGameCornerPostersVendorMenuHeader:
 	db MENU_BACKUP_TILES ; flags
@@ -406,9 +406,9 @@ KantoGameCornerPostersVendorMenuHeader:
 	db STATICMENU_CURSOR ; flags
 	db 4 ; items
 	db "PIKACHU      1800@"
-	db "CLEFAIRY     1800@"
-	db "JIGGLYPUFF   1800@"
-	db "CANCEL@"	
+	db "PIEPI        1800@"
+	db "PUMMELUFF    1800@"
+	db "ZURÜCK@"
 	
 KantoGameCornerDecorVendorMenuHeader:
 	db MENU_BACKUP_TILES ; flags
@@ -419,82 +419,85 @@ KantoGameCornerDecorVendorMenuHeader:
 .MenuData:
 	db STATICMENU_CURSOR ; flags
 	db 4 ; items
-	db "POSTERS@"
-	db "CONSOLES@"
-	db "BIG DOLLS@"
-	db "CANCEL@"
+	db "POSTER@"
+	db "KONSOLEN@"
+	db "RIESIGE PUPPEN@"
+	db "ZURÜCK@"
 
 ;----------------------------------
 
 AlreadyHaveDecorItemTextKanto:
-	text "You already have"
-	line "this item."
+	text "Du besitzt dieses"
+	line "Item bereits."
 	done
 
 SendItemToHomePCTextKanto:
-	text "Send this item to"
-	line "your bedroom PC?"
+	text "Dieses Item an"
+	line "den PC in deinem"
+	cont "Zimmer senden?"
 	done
 
 CeladonPrizeRoomGentlemanText:
-	text "I wanted DRATINI,"
-	line "but I was short by"
-	cont "100 coins…"
+	text "Ich wollte ein"
+	line "DRATINI, aber mir"
+	cont "fehlten 100"
+	cont "Münzen…"
 	done
 
 CeladonPrizeRoomPharmacistText:
-	text "Whew…"
+	text "Puh…"
 
-	para "I've got to stay"
-	line "calm and cool…"
+	para "Ich muss ruhig"
+	line "Blut bewahren…"
 
-	para "I can't lose my"
-	line "cool, or I'll lose"
-	cont "all my money…"
+	para "Wenn ich nervös"
+	line "werde, könnte ich"
+	cont "mein ganzes Geld"
+	cont "verlieren…"
 	done
 
 CeladonPrizeRoom_PrizeVendorIntroText:
-	text "Welcome!"
+	text "Willkommen!"
 
-	para "We exchange your"
-	line "coins for fabulous"
-	cont "prizes!"
+	para "Wir tauschen deine"
+	line "Münzen ein gegen"
+	cont "fabelhafte Preise!"
 	done
 
 CeladonPrizeRoom_AskWhichPrizeText:
-	text "Which prize would"
-	line "you like?"
+	text "Welchen Preis"
+	line "hättest du gerne?"
 	done
 
 CeladonPrizeRoom_ConfirmPurchaseText:
-	text "OK, so you wanted"
-	line "a @"
+	text "Du willst also"
+	line "@"
 	text_ram wStringBuffer3
 	text "?"
 	done
 
 CeladonPrizeRoom_HereYouGoText:
-	text "Here you go!"
+	text "Hier, bitte sehr!"
 	done
 
 CeladonPrizeRoom_NotEnoughCoinsText:
-	text "You don't have"
-	line "enough coins."
+	text "Du hast nicht"
+	line "genug Münzen."
 	done
 
 CeladonPrizeRoom_NotEnoughRoomText:
-	text "You have no room"
-	line "for it."
+	text "Du hast dafür"
+	line "keinen Platz."
 	done
 
 CeladonPrizeRoom_ComeAgainText:
-	text "Oh. Please come"
-	line "back with coins!"
+	text "Oh. Komm bitte"
+	line "mit Münzen wieder!"
 	done
 
 CeladonPrizeRoom_NoCoinCaseText:
-	text "Oh? You don't have"
-	line "a COIN CASE."
+	text "Ach, du hast"
+	line "keinen MÜNZKORB?"
 	done
 
 KantoGameCornerPrizeRoom_MapEvents:

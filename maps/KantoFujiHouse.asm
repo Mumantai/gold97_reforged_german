@@ -139,54 +139,56 @@ MrFujiEventText:
 	done
 	
 MrFujiAfterText:
-	text "Ah! So the source"
-	line "of the haunting"
-	cont "was an ornery"
-	cont "GENGAR?"
-	
-	para "It may not seem"
-	line "so, but that is"
-	cont "a relief to hear."
-	
-	para "Last time #MON"
-	line "TOWER saw such a"
-	cont "disturbance was"
-	cont "when it was"
-	cont "attacked by TEAM"
-	cont "ROCKET."
-	
-	para "The damage they"
-	line "caused was"
-	cont "irreparable…"
-	
-	para "So, I'm glad to"
-	line "hear it was just"
-	cont "the misgivings"
-	cont "of a GHOST"
-	cont "#MON and not"
-	cont "anything more."
-	
-	para "As promised, a"
-	line "token of my"
-	cont "thanks."
+    text "Ah! Die Ursache"
+    line "des Spuks war also"
+    cont "ein störrisches"  ;alt. mürrisch, widerspenstig
+    cont "GENGAR?"
+
+    para "Es mag nicht so"
+    line "erscheinen, aber"
+    cont "das erleichtert"
+    cont "mich zu hören."
+
+    para "Das letzte Mal,"
+    line "als es im TURM zu"
+    cont "einem solch großen"
+    cont "Tumult kam, wurde"
+    cont "er von TEAM ROCKET"
+    line "angegriffen."
+
+    para "Der Schaden, den"
+    line "sie anrichteten,"
+    cont "war irreparabel…"
+
+    para "Deshalb bin ich"
+    line "froh zu hören,"
+    cont "dass es nur die"
+    cont "Launen eines"
+    cont "Geist-#MON"
+    cont "waren und nicht"
+    cont "etwas Schlimmeres."
+
+    para "Wie versprochen,"
+    line "ein Zeichen meines"
+    cont "Dankes."
 	done
 
 FujiCleanseTagText:
-	text "This is a CLEANSE"
-	line "TAG, it will"
-	cont "keep away wild"
-	cont "#MON when"
-	cont "held by one of"
-	cont "yours."
+    text "Das ist ein"
+    line "SCHUTZBAND."
+
+    para "Es hält dir wilde"
+    line "#MON vom Leib,"
+    cont "wenn du es einem"
+    cont "deiner #MON zu"
+    cont "tragen gibst."
 	done
 
 FujiFinalText:
-	text "MR.FUJI: Please"
-	line "continue treating"
-	cont "your #MON"
-	cont "with kindness."
-	
-	para "Always…"
+    text "MR. FUJI: Behandle"
+    line "dein #MON bitte"
+    cont "weiterhin mit"
+    cont "Freundlichkeit."
 	done
 
 KantoFujiHouse_MapEvents:
