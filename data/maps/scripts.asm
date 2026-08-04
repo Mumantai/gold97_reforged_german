@@ -57,6 +57,7 @@ INCLUDE "maps/TeknosAquarium1F.asm"
 INCLUDE "maps/KikaiVillage.asm"
 INCLUDE "maps/KikaiHouse1.asm"
 INCLUDE "maps/KikaiHouse2.asm"
+INCLUDE "maps/FrostpointMart.asm"
 
 
 
@@ -197,7 +198,6 @@ INCLUDE "maps/DeepwaterPassageB1F.asm"
 INCLUDE "maps/DeepwaterPassageB3F.asm"
 INCLUDE "maps/KobanPokecenter1F.asm"
 INCLUDE "maps/PrycesFamilyHouse.asm"
-INCLUDE "maps/FrostpointMart.asm"
 INCLUDE "maps/SanskritRocketHouse.asm"
 INCLUDE "maps/UrasoeParkUrasoeTrailGate.asm"
 INCLUDE "maps/AmamiSuperRodHouse.asm"
