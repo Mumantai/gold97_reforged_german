@@ -46,30 +46,31 @@ KantoCeladonMansion1FBookshelf:
 	jumpstd picturebookshelf
 
 KantoCeladonMansionManagerText:
-	text "My dear #MON"
-	line "keep me company,"
+	text "Meine süßen #-"
+	line "MON sind meine"
 
-	para "so I don't ever"
-	line "feel lonely."
+	para "Begleiter. Mit"
+	line "ihnen fühle ich"
+	cont "mich nie allein."
 	done
 
 KantoCeladonMansion1FMeowthText:
-	text "PIDGEY: Pii!"
+	text "TAUBSI: Pii!"
 	done
 
 KantoCeladonMansion1FClefairyText:
-	text "CLEFAIRY: Clef"
-	line "cleff!"
+	text "PIEPI: Piep piep"
+	line "piep!"
 	done
 
 KantoCeladonMansion1FNidoranFText:
-	text "NIDORAN: Kya"
-	line "kyaoo!"
+	text "NIDORAN: Nido"
+	line "nido!"
 	done
 
 KantoCeladonMansionManagersSuiteSignText:
-	text "CELADON MANSION"
-	line "MANAGER'S SUITE"
+	text "PRISMANIA-VILLA"
+	line "SUITE des MANAGERs"
 	done
 
 KantoCeladonMansion1F_MapEvents:

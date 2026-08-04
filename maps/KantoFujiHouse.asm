@@ -44,38 +44,41 @@ MrFujisPidgey:
 
 
 MrFujisHouseSuperNerdText:
-	text "This is really"
-	line "MR.FUJI's house."
+    text "Das ist wirklich"
+    line "das Haus von"
+    cont "MR. FUJI."
 
-	para "He's really kind!"
+    para "Er ist wirklich"
+    line "freundlich!"
 
-	para "He looks after"
-	line "abandoned and"
-	cont "orphaned #MON!"
+    para "Er kümmert sich um"
+    line "verlassene und"
+    cont "verwaiste #MON!"
 	done
 
 MrFujisHouseLassText:
-	text "Some cold-hearted"
-	line "people stop caring"
-	cont "for their #MON."
+	text "Es gibt kalt-"
+	line "herzige Menschen,"
+	cont "die einfach ihre"
+	cont "#MON im Stich"
+	cont "lassen."
 
-	para "Grandpa takes in"
-	line "the poor homeless"
-
-	para "#MON and takes"
-	line "care of them."
+	para "Großvater nimmt"
+	line "die armen, heimat-"
+	cont "losen #MON auf"
+	cont "und sorgt für sie."
 	done
 
 MrFujisPsyduckText:
-	text "PSYDUCK: Gu-guwa?"
+	text "ENTON: Qua-qua?"
 	done
 
 MrFujisNidorinoText:
-	text "NIDORINO: Gyun!"
+	text "NIDORINO: Nido!"
 	done
 
 MrFujisPidgeyText:
-	text "PIDGEY: Pijji!"
+	text "TAUBSI: Gru gru!"
 	done
 
 MrFuji:
@@ -103,32 +106,36 @@ MrFujiFinal:
 	jumptextfaceplayer FujiFinalText
 	
 MrFujiEventText:
-	text "MR.FUJI: Welcome."
+    text "MR. FUJI:"
+    line "Willkommen."
 
-	para "Hmm… You appear to"
-	line "be raising your"
+    para "Hmm… Du scheinst"
+    line "dein #MON auf"
+    cont "eine freundliche"
+    cont "und liebevolle"
+    cont "Art und Weise"
+    cont "aufzuziehen."
 
-	para "#MON in a kind"
-	line "and loving manner."
-	
-	para "The strongest of"
-	line "#MON trainers"
-	cont "are those that are"
-	cont "kind of heart and"
-	cont "warm of soul."
-	
-	para "I have a favor"
-	line "to ask of you…"
-	
-	para "There's something"
-	line "going on inside"
-	cont "#MON TOWER."
-	
-	para "I can trust you"
-	line "to investigate."
-	
-	para "Come see me when"
-	line "it's resolved."
+    para "Die stärksten"
+    line "Trainer sind die,"
+    cont "die ein gutes"
+    cont "Herz und eine"
+    cont "reine Seele haben."
+
+    para "Ich habe eine"
+    line "Bitte an dich…"
+
+    para "Im Inneren des"
+    line "#MON-TURMs geht"
+    cont "etwas vor sich."
+
+    para "Ich setze darauf,"
+    line "dass du es heraus-"
+    cont "findest."
+
+    para "Komm zu mir, wenn"
+    line "die Sache geregelt"
+    cont "ist."
 	done
 	
 MrFujiAfterText:

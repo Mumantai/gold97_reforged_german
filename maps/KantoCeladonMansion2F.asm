@@ -19,38 +19,44 @@ KantoCeladonMansionClerk:
 	jumptextfaceplayer KantoCeladonMansionClerkText
 	
 KantoCeladonMansionClerkText:
-	text "Hiya! I'm the"
-	line "developer!"
-	para "The other one."
-	para "The one that the"
-	line "guys upstairs"
-	para "wouldn't want to"
-	line "know about."
-	para "Thank you so much"
-	line "for playing"
-	cont "through this!"
-	para "I worked very hard"
-	line "on it."
-	para "Tried to make it"
-	line "feel as authentic"
-	cont "as possible."
-	para "Apart from this"
-	line "4th wall break,"
-	cont "that is."
+	text "Hey! Ich bin der"
+	line "Entwickler!"
+
+	para "Also der andere."
+
+	para "Der, von dem die"
+	line "da oben nichts"
+	cont "wissen wollen."
+
+	para "Vielen Dank fürs"
+	line "Spielen!"
+
+	para "Ich habe sehr hart"
+	line "hieran gearbeitet."
+
+	para "Ich wollte, dass"
+	line "es sich so auten-"
+	para "tisch wie möglich"
+	line "anfühlt."
+
+	para "Abgesehen von"
+	line "diesem Bruch der"
+	cont "4. Wand."
 	done
 
 KantoCeladonMansion2FComputerText:
-	text "It's a computer"
-	line "with lots of"
+	text "Ein Computer mit"
+	line "vielen offenen"
+	cont "Fenstern:"
+
 	para "Paint, Explorer,"
-	line "Notepad Plus Plus,"
-	para "Polished Map, and"
-	line "BGB windows open."
+	line "Notepad++, Polished"
+	cont "Map und BGB."
 	done
 
 KantoCeladonMansion2FMeetingRoomSignText:
-	text "ROM HACK"
-	line "DEVELOPMENT ROOM"
+	text "ROM-HACK"
+	line "ENTWICKLUNGSRAUM"
 	done
 
 KantoCeladonMansion2F_MapEvents:
