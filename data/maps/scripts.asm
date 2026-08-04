@@ -57,7 +57,7 @@ INCLUDE "maps/TeknosAquarium1F.asm"
 INCLUDE "maps/KikaiVillage.asm"
 INCLUDE "maps/KikaiHouse1.asm"
 INCLUDE "maps/KikaiHouse2.asm"
-INCLUDE "maps/AmamiBattleTowerGate.asm"
+
 
 
 
@@ -79,6 +79,7 @@ INCLUDE "maps/KikaiCaldera3F.asm"
 INCLUDE "maps/KikaiPokecenter1F.asm"
 INCLUDE "maps/KikaiMart.asm"
 INCLUDE "maps/KantoBattleClub1F.asm"
+INCLUDE "maps/AmamiBattleTowerGate.asm"
 
 
 
