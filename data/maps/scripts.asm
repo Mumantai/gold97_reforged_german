@@ -100,6 +100,7 @@ INCLUDE "maps/ForkedStraitEastExit.asm"
 INCLUDE "maps/TropicalIsland.asm"
 INCLUDE "maps/TropicalIslandJungle.asm"
 INCLUDE "maps/FrostpointSpeechHouse.asm"
+INCLUDE "maps/RyukyuElevator.asm"
 
 
 
@@ -328,7 +329,7 @@ INCLUDE "maps/RyukyuHotel2F.asm"
 INCLUDE "maps/RyukyuHotel3F.asm"
 INCLUDE "maps/RyukyuHotel4F.asm"
 INCLUDE "maps/RyukyuHotel5F.asm"
-INCLUDE "maps/RyukyuElevator.asm"
+
 
 
 SECTION "Map Scripts 17", ROMX

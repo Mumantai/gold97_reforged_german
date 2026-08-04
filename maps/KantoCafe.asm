@@ -203,7 +203,7 @@ EatathonContestPosterText:
 	line "alles umsonst!"
 	done
 
-FoundLeftoversText:
+FoundLeftoversText2:
 	text "<PLAYER> hat"
 	line "@"
 	text_ram wStringBuffer3
@@ -211,7 +211,7 @@ FoundLeftoversText:
 	cont "gefunden."
 	done
 
-NoRoomForLeftoversText:
+NoRoomForLeftoversText2:
 	text "Aber <PLAYER> kann"
 	line "kein weiteres Item"
 	cont "aufnehmen…"
