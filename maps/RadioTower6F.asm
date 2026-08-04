@@ -236,7 +236,7 @@ GiovanniGreeting:
 	text "Ah."
 
 	para "Ich nehme an, du"
-	line "bist eins der"
+	line "bist eines der"
 	cont "beiden Kinder, von"
 	cont "denen ich ständig"
 	cont "hören muss."
@@ -246,8 +246,7 @@ GiovanniSpeech:
 	text "Du musst sehr"
 	line "tapfer sein…"
 	
-	para "…oder sehr"
-	line "dumm."
+	para "…oder sehr dumm."
 	
 	para "Ich bin der Boss"
 	line "von TEAM ROCKET."

@@ -29,27 +29,31 @@ Route113Route114GateLassScript:
 	jumptextfaceplayer Route113Route114GateLassText
 
 Route113Route114GateTeacherText:
-	text "Isn't the air so"
-	line "fresh around here?"
-	para "#MON love sweet"
-	line "air."
-	para "Certain #MON"
-	line "can make the air"
-	cont "sweet."
-	para "Did you know?"
+    text "Ist die Luft hier"
+    line "nicht erfrischend?"
+
+    para "#MON lieben"
+    line "süße Gerüche."
+
+    para "Bestimmte #MON"
+    line "können diese auch"
+    cont "selber verströmen."
+
+    para "Wusstest du das?"
 	done
 
 Route113Route114GateButterfreeText:
-	text "BUTTERFREE: Freeh!"
+	text "SMETTBO: Boh!"
 	done
 
 Route113Route114GateLassText:
-	text "Where are you"
-	line "from?"
-	para "SILENT TOWN?"
-	para "That's actually"
-	line "not too far from"
-	cont "here."
+	text "Wo sagtest du,"
+	line "kommst du her?"
+
+	para "SILENITIA?"
+
+	para "Das ist gar nicht"
+	line "mal so weit weg."
 	done
 
 Route113Route114Gate_MapEvents:
