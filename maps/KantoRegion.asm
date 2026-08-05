@@ -136,248 +136,271 @@ TrainerKFisher:
 ;----------------------------------------------------------
 
 BikerZekeSeenText:
-	text "Hey! This is the"
-	line "world famous"
-	cont "CYCLING ROAD!"
+    text "Hey! Das ist der"
+    line "weltberühmte"
+    cont "RADWEG!"
 
-	para "Get off your feet"
-	line "and respect the"
-	cont "road rules!"
+    para "Respektiere die"
+    line "Regeln und steig"
+    cont "auf dein Rad!"
 	done
 
 BikerZekeBeatenText:
-	text "Hey come on!"
+	text "Hey komm schon!"
 	done
 
 BikerZekeAfterBattleText:
-	text "It's way better"
-	line "getting around"
-	cont "KANTO on a bike!"
+    text "Durch KANTO kommt"
+    line "man am besten mit"
+    cont "dem Fahrrad!"
 	done
 
 BikerCharlesSeenText:
-	text "You should learn"
-	line "to pick your"
-	cont "battles wisely"
-	cont "before stepping"
-	cont "onto our turf!"
+    text "Du solltest dir"
+    line "gut überlegen,"
+    cont "mit wem du dich"
+    cont "anlegst, bevor"
+    cont "du dich in unser"
+    cont "Revier wagst!"
 	done
 
 BikerCharlesBeatenText:
-	text "Wise guy eh?"
+	text "Hälst dich wohl"
+	line "für ganz schlau?"
 	done
 
 BikerCharlesAfterBattleText:
-	text "My battles?"
+    text "Mit wem ich mich"
+    cont "anlege?"
 
-	para "Well right now"
-	line "I'm fighting to"
-	cont "get a row of"
-	cont "windmills put"
-	cont "along this road."
+    para "Naja, ich kämpfe"
+    line "dafür, dass man"
+    cont "Windräer entlang"
+    cont "dieser Straße"
+    cont "aufstellt!"
 
-	para "Think of the"
-	line "clean energy!"
+    para "Denk an all die"
+    line "saubere Energie!"
 	done
 
 PsychicPhilSeenText:
-	text "My former mentor"
-	line "foresaw your"
-	cont "arrival, and so"
-	cont "I've waited here!"
+    text "Mein alter Mentor"
+    line "hat deine Ankunft"
+    cont "vorausgesehen,"
+    cont "deshalb habe ich"
+    cont "hier auf dich"
+    cont "gewartet!"
 	done
 
 PsychicPhilBeatenText:
-	text "As the fates"
-	line "suggested!"
+    text "Wie das Schicksal"
+    line "es wollte!"
 	done
 
 PsychicPhilAfterBattleText:
-	text "My mentor left to"
-	line "train elsewhere"
-	cont "so I've dedicated"
-	cont "myself to keeping"
-	cont "the PSYCHIC arts"
-	cont "alive in KANTO."
+    text "Mein Mentor ist"
+    line "auf Trainingsreise"
+    cont "gegangen, also"
+    cont "versuche ich so"
+    cont "gut wie möglich,"
+    cont "die psychischen"
+    cont "Künste in KANTO am"
+    cont "Leben zu erhalten."
 	done
 
 FisherAndreSeenText:
-	text "What's with this"
-	line "spot lately!"
+    text "Was ist bloß los"
+    line "mit dieser Stelle?"
 
-	para "I'm having just"
-	line "no luck!"
+    para "Ich habe in letz-"
+    line "ter Zeit einfach"
+    cont "kein Glück!"
 	done
 
 FisherAndreBeatenText:
-	text "Gah, no luck!"
+	text "Gah! Kein Glück!"
 	done
 
 FisherAndreAfterBattleText:
-	text "I heard that fish"
-	line "might start to"
-	cont "act strangely"
-	cont "when a volcanic"
-	cont "eruption is going"
-	cont "to happen soon."
+    text "Angeblich sollen"
+    line "Fische sich kurz"
+    cont "vor einem Vulkan-"
+    cont "ausbruch seltsam"
+    cont "verhalten."
 
-	para "Maybe I should"
-	line "avoid CINNABAR"
-	cont "ISLAND for a"
-	cont "while, h-heheh."
+    para "Vielleicht sollte"
+    line "ich die ZINNOBER-"
+    cont "INSEL für eine"
+    cont "Weile meiden…"
 	done
 
 ;----------------------------------------------------------
 KantoLass2Text:
-	text "The SCIENTISTs in"
-	line "this lab are"
-	cont "amazing!"
-	para "They were able to"
-	line "turn my fossil"
-	para "into a living"
+	text "Die FORSCHER in"
+	line "diesem Labor sind"
+	cont "unglaublich!"
+
+	para "Sie machten aus"
+	line "meinem Fossil"
+	para "ein lebendes"
 	line "#MON!"
 	done
 
 KantoFisher2Text:
-	text "Boy, I sure do"
-	line "love fishing!"
-	para "And this is such"
-	line "a peaceful spot"
-	cont "to do it!"
+    text "Oh Junge, ich"
+    line "angle wirklich"
+    cont "gerne!"
+
+    para "Und das ist auch"
+    line "so ein ruhiger Ort"
+    cont "um das zu tun!"
 	done
 
 KantoYoungsterText:
-	text "One day, I want"
-	line "to be just as"
-	cont "strong as RED."
-	para "I'm not sure that"
-	line "will happen,"
-	cont "though."
-	para "Very few people"
-	line "are as good as"
-	cont "him."
+	text "Eines Tages will"
+	line "ich so stark wie"
+	cont "ROT sein."
+
+	para "Ich weiß nur"
+	line "nicht, ob das"
+	cont "klappt."
+
+	para "Nur wenige sind"
+	line "so gut wie er."
 	done
 
 KantoSuperNerdText:
-	text "The owner of this"
-	line "GAME CORNER"
-	para "recently bought"
-	line "ownership of the"
-	para "newer one over on"
-	line "TEKNOS BOARDWALK."
+	text "Der Besitzer der"
+	line "SPIELHALLE hat vor"
+	para "kurzem auch die"
+	line "neue bei TEKNOPIAs"
+	cont "PROMENADE gekauft."
 	done
 
 KantoLassText:
-	text "Do you know about"
-	line "SILPH CO.?"
-	para "If not, you"
-	line "probably should."
-	para "There's a good"
-	line "chance they made"
-	para "the #BALLS your"
-	line "#MON are in!"
+    text "Kennst du die"
+    line "SILPH CO.?"
+
+    para "Das solltest du."
+
+    para "Die Chancen sind"
+    line "groß, dass sie die"
+    para "#BÄLLE gemacht"
+    line "haben, in denen"
+    para "deine #MON"
+    line "sind!"
 	done
 
 KantoPokefanMText:
-	text "I've never been a"
-	line "serious trainer."
-	para "I mean, I train"
-	line "#MON, and I"
-	cont "battle."
-	para "But it's been more"
-	line "of a hobby."
-	para "The guy inside of"
-	line "the KANTO BATTLE"
-	para "CLUB wouldn't let"
-	line "me inside…"
+    text "Ich war nie ein"
+    line "ernsthafter Trainer."
+
+    para "Ich meine, ich"
+    line "trainiere #MON"
+    cont "und kämpfe auch."
+
+    para "Aber es war immer"
+    line "eher ein Hobby."
+
+    para "Der Typ im KANTO"
+    line "KAMPFCLUB wollte"
+    para "mich nicht herein-"
+    line "lassen…"
 	done
 
 KantoFisherText:
-	text "Technology is"
-	line "incredible!"
-	para "You can now trade"
-	line "#MON across"
-	cont "time!"
+	text "Die Technik ist"
+	line "unglaublich!"
+
+	para "Du kannst jetzt"
+	line "#MON durch die"
+	cont "Zeit senden!"
 	done
 
 KantoSignText:
-	text "WELCOME TO THE"
-	line "KANTO REGION-"
-	para "NIHON's centre of"
-	line "urban prosperity."
+    text "WILLKOMMEN IN DER"
+    line "KANTO REGION -"
+    cont "NIHONs Zentrum des"
+    cont "urbanen Wohlstands."
 	done
 
 KantoGymSignText:
 	text "INDIGO PLATEAU"
-	line "#MON GYM"
-	cont "LEADER: RED"
+	line "PKMN-ARENA"
+	cont "LEITUNG: ROT"
 
-	para "The Experienced"
-	line "Veteran Trainer"
+	para "Der erfahrene"
+	line "Trainer-Veteran"
 	done
 
 PalletTownSignText2:
-	text "PALLET TOWN"
+	text "ALABASTIA"
 
-	para "A tranquil setting"
-	line "of peace and"
-	cont "purity."
+	para "Eine Stätte des"
+	line "Friedens und der"
+	cont "Reinheit"
 	done
 
 RedsHouseSignText2:
-	text "RED's House"
+	text "HAUS von ROT"
 	done
 
 BluesHouseSignText2:
-	text "BLUE's House"
+	text "HAUS von BLAU"
 	done
 
 OaksLabSign2Text:
-	text "OAK #MON LAB"
-	para "NOTICE: PROF.OAK"
-	line "is currently"
-	para "researching in"
-	line "SILENT TOWN."
+	text "PROF. EICHs"
+	line "#MON LABOR"
+
+	para "HINWEIS:"
+	line "PROF. EICH ist"
+	para "zur Forschung in"
+	line "SILENITIA."
 	done
 
 KantoDeptSignText:
-	text "Full Selection of"
-	line "#MON Goods!"
+	text "Riesige Auswahl"
+	line "an #MON-Waren!"
 
-	para "CELADON DEPT.STORE"
+	para "EINKAUFSZENTRUM"
+	line "von PRISMANIA CITY"
 	done
 
 KantoMansionSignText:
-	text "CELADON MANSION"
+	text "PRISMANIA-VILLA"
 	done
 
 KantoBattleClubSignText:
-	text "KANTO BATTLE CLUB"
-	para "A members-only"
-	line "club for serious"
-	cont "trainers."
+	text "KANTO KAMPFCLUB"
+
+	para "Ein Club für"
+	line "ernsthafte Trainer"
+
+	para "Nur für Mitglieder"
 	done
 
 PokemonTowerSignText:
-	text "#MON TOWER"
-	para "A monument to"
-	line "#MON who have"
-	cont "passed."
+	text "#MON TURM"
+
+	para "Ein Monument für"
+	line "alle gefallenen"
+	cont "#MON.
 	done
 
 FossilLabSign:
 	jumptext FossilLabSignText
 
 FossilLabSignText:
-	text "CINNABAR ISLAND"
-	line "RESEARCH LAB"
+	text "ZINNOBERINSEL"
+	line "#MON LABOR"
 	done
 
 SeafoamSign:
 	jumptext SeafoamSignText
 
 SeafoamSignText:
-	text "SEAFOAM ISLANDS"
+	text "SEESCHAUMINSELN"
 	done
 
 SafariZoneSign:
@@ -385,55 +408,58 @@ SafariZoneSign:
 
 SafariZoneSignText:
 	text "SAFARI ZONE"
-	para "Now free for"
-	line "public access!"
+
+	para "Für die Öffent-"
+	line "lichkeit geöffnet."
 	done
 
 FujiHouseSign:
 	jumptext FujiHouseSignText
 
 FujiHouseSignText:
-	text "MR.FUJI's HOUSE"
+	text "HAUS von MR. FUJI"
 	done
 
 DocksSign:
 	jumptext DocksSignText
 
 DocksSignText:
-	text "VERMILLION DOCKS"
+	text "HAFEN von"
+	line "ORANIA CITY"
 	done
 
 PowerPlantSign:
 	jumptext PowerPlantSignText
 
 PowerPlantSignText:
-	text "POWER PLANT"
+	text "KRAFTWERK"
 	done
 
 SilphCoSign:
 	jumptext SilphCoSignText
 
 SilphCoSignText:
-	text "SILPH COMPANY"
+	text "SILPH CO."
 	done
 
 GameCornerSign:
 	jumptext GameCornerSignText
 
 GameCornerSignText:
-	text "GAME CORNER"
-	para "Redeem your coins"
-	line "next door."
-	done
+	text "SPIELHALLE"
+
+	para "Löse deine Münzen"
+	line "nebenan ein!"
 
 TrainerHouseSign:
 	jumptext TrainerHouseSignText
 
 TrainerHouseSignText:
-	text "TRAINER HOUSE"
+	text "TRAINER-HAUS"
 
-	para "The Club for Top"
-	line "Trainer Battles"
+	para "Der Club, in dem"
+	line "Top-Trainer"
+	cont "kämpfen"
 	done
 
 VictoryRoadKSign:
@@ -441,78 +467,85 @@ VictoryRoadKSign:
 
 VictoryRoadKSignText:
 	text "INDIGO PLATEAU"
-	line "AHEAD THRU CAVE"
-	para "Former site of"
-	line "VICTORY ROAD."
+	line "durch die Höhle"
+
+	para "Ehemaliger Ort der"
+	line "SIEGESSTRAẞE."
 	done
 
 PewterMuseumSign:
 	jumptext PewterMuseumSignText
 
 PewterMuseumSignText:
-	text "PEWTER MUSEUM"
-	line "OF SCIENCE"
+	text "MARMORIA CITY"
+	line "WISSENSCHAFTS-"
+	cont "MUSEUM"
 	done
 
 PewterGardenSign:
 	jumptext PewterGardenSignText
 
 PewterGardenSignText:
-	text "Please do not"
-	line "trample the"
-	cont "flowers."
-	para "PEWTER GARDENING"
-	line "SOCIETY"
+    text "Bitte nicht auf"
+    line "die Blumen treten."
+
+    para "MARMORIA CITY"
+    line "GÄRTNERVEREIN"
 	done
 
 MtMoonSign:
 	jumptext MtMoonSignText
 
 MtMoonSignText:
-	text "MT.MOON"
-	para "Please visit our"
-	line "gift shop on your"
-	cont "way up!"
+	text "MONDBERG"
+
+	para "Besuch unseren"
+	line "Souvenirladen auf"
+	cont "dem Weg nach oben!"
 	done
 
 SeaCottageSign:
 	jumptext SeaCottageSignText
 
 SeaCottageSignText:
-	text "SEA COTTAGE"
-	para "Now open for"
-	line "vacation rental!"
-	cont "Contact BILL for"
-	cont "booking & info."
+	text "KÜSTENHAUS"
+
+	para "Ferienhaus zu"
+	line "vermieten!"
+
+	para "Bei Interesse BILL"
+	line "kontaktieren."
 	done
 
 DiglettsCaveSign:
 	jumptext DiglettsCaveSignText
 
 DiglettsCaveSignText:
-	text "DIGLETTs CAVE"
+	text "DIGDAs Höhle"
 	done
 
 KantoCooltrainerMText:
-	text "They're holding an"
-	line "eating contest in"
-	cont "the restaurant."
-	para "Just watching them"
-	line "go at it makes me"
-	cont "feel bloated…"
+	text "Im Restaurant"
+	line "läuft gerade ein"
+	cont "Wettessen."
+
+	para "Schon vom Zusehen"
+	line "wird mir übel…"
 	done
 
 KantoTeacherText:
-	text "The CELADON DEPT."
-	line "STORE has the best"
-	cont "selection."
-	para "If you can't get"
-	line "it there, you"
-	para "can't get it any-"
-	line "where!"
-	para "…Gee, I sound"
-	line "like a sales"
-	cont "clerk."
+	text "Das KANTO KAUFHAUS"
+	line "hat die beste"
+	cont "Auswahl."
+
+	para "Wenn es etwas dort"
+	line "nicht gibt, dann"
+	para "gibt es das"
+	line "nirgendwo!"
+
+	para "…Mensch, ich"
+	line "klinge ja wie"
+	cont "eine Verkäuferin."
 	done
 
 KantoRegion_MapEvents:

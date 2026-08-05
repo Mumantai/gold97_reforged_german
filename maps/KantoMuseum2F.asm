@@ -14,45 +14,49 @@ MuseumYoungster:
 	jumptextfaceplayer MuseumYoungsterText
 	
 MuseumYoungsterText:
-	text "If MOON STONES"
-	line "come from MT.MOON"
-	cont "does that mean"
-	cont "there's a MT.SUN"
-	cont "somewhere full of"
-	cont "SUN STONES?"
+    text "Wenn MONDSTEINE"
+    line "vom MONDBERG"
+    cont "kommen, heißt das,"
+    cont "es gibt irgendwo"
+    cont "einen SONNENBERG"
+    cont "der voll von"
+    cont "SONNENSTEINEN ist?"
 	done
 	
 MuseumUpstairGramps:
 	jumptextfaceplayer MuseumUpstairGrampsText
 	
 MuseumUpstairGrampsText:
-	text "Never take your"
-	line "life for granted."
-	
-	para "One day they could"
-	line "dig up your bones"
-	cont "and put YOU in a"
-	cont "museum!"
+    text "Nimm dein Leben"
+    line "nie für selbstver-"
+    cont "ständlich."
+
+    para "Was, wenn sie DICH"
+    line "eines Tages aus-"
+    cont "graben und in ein"
+    cont "MUSEUM stellen?"
 	done
 
 MuseumUpstairScientist:
 	jumptextfaceplayer MuseumUpstairScientistText
 	
 MuseumUpstairScientistText:
-	text "Welcome to our"
-	line "space exhibit!"
+    text "Willkommen in"
+    line "unserer Raumfahrt-"
+    cont "ausstellung!"
 	done
 	
 MuseumKid:
 	jumptextfaceplayer MuseumKidText
 	
 MuseumKidText:
-	text "Aw, come on big"
-	line "sis! If dad got"
-	cont "you a PIKACHU"
-	cont "then I can at"
-	cont "least have a"
-	cont "PICHU!"
+    text "Ach komm schon,"
+    line "Schwester!"
+
+    para "Wenn Papa dir ein"
+    line "PIKACHU holt, kann"
+    cont "ich doch zumindest"
+    cont "ein PICHU haben!"
 	done
 
 
@@ -60,8 +64,8 @@ MuseumLass:
 	jumptextfaceplayer MuseumLassText
 	
 MuseumLassText:
-	text "Kids grow up"
-	line "so fast…"
+    text "Kinder werden so"
+    line "schnell erwachsen…"
 	done
 
 Columbia:
@@ -76,9 +80,10 @@ MoonStones:
 	jumptext _Museum2FText7
 
 _Museum2FText7:
-	text "Meteorite that"
-	line "fell on MT.MOON."
-	cont "(MOON STONE?)"
+	text "Auf dem MONDBERG"
+	line "gefundenes"
+	cont "Meteoritengestein"
+	cont "(MONDSTEIN?)"
 	done
 
 KantoMuseum2F_MapEvents:

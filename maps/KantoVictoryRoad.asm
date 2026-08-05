@@ -109,74 +109,67 @@ TrainerKVR6:
 ;----------------------------------------------------------
 
 CTGavenSeenText:
-	text "If you're gunning"
-	line "for the top, then"
-	cont "you'll have to"
-	cont "make it through"
-	cont "me first!"
+    text "Wenn du bis an die"
+    line "die Spitze willst,"
+    cont "musst du erst an"
+    cont "mir vorbei!"
 	done
 
 CTGavenBeatenText:
-	text "Incredible!"
+    text "Unglaublich!"
 	done
 
 CTGavenAfterBattleText:
-	text "Even if this"
-	line "cave isn't desig-"
-	cont "nated as the real"
-	cont "VICTORY ROAD any-"
-	cont "more, you'll"
-	cont "still need to"
-	cont "make it through"
-	cont "here if you want"
-	cont "to see the"
-	cont "#MON LEAGUE!"
+    text "Auch wenn diese"
+    line "Höhle nicht mehr"
+    cont "die eigentliche"
+    cont "SIEGESSTRASSE ist,"
+    cont "musst du hier"
+    cont "durch, wenn du die"
+    cont "#MON LIGA sehen"
+    cont "willst!"
 	done
 
 CTEverittSeenText:
-	text "Hiyah!"
+    text "Hiyah!"
 
-	para "I've trained in"
-	line "this cavern for"
-	cont "a year now!"
+    para "Ich trainiere"
+    line "in dieser Höhle"
+    cont "seit einem Jahr!"
 
-	para "I'll make you"
-	line "my last foe"
-	cont "before I take"
-	cont "it all to the"
-	cont "INDIGO PLATEAU!"
-	done
+    para "Du wirst mein"
+    line "letzter Gegner,"
+    cont "bevor ich zum"
+    cont "INDIGO PLATEAU"
+    cont "aufbreche!"
 
 CTEverittBeatenText:
-	text "Huh? What did"
-	line "you say?"
+    text "Hä? Was sagst du?"
 	done
 
 CTEverittAfterBattleText:
-	text "You mean to tell"
-	line "me the #MON"
-	cont "LEAGUE up and"
-	cont "moved?"
+    text "Wie bitte?"
+    line "Die #MON LIGA"
+    cont "ist umgezogen?"
 
-	para "And I'll have to"
-	line "go get 8 new"
-	cont "BADGES!?"
+    para "Und ich muss"
+    line "mir jetzt 8 neue"
+    cont "ORDEN holen?!"
 
-	para "Haha! Hahahahah!"
+    para "Haha! Hahahaha!"
 	done
 
 
 CTChesterSeenText:
-	text "Hmph! If some kid"
-	line "from the boonies"
-	cont "of PALLET TOWN"
-	cont "can become the"
-	cont "LEAGUE CHAMPION"
-	cont "and a GYM LEADER"
-	cont "then a superior"
-	cont "urbanite such as"
-	cont "myself should"
-	cont "have no issue!"
+    text "Hmpf! Wenn so"
+    line "ein Landei aus"
+    cont "ALABASTIA es zum"
+    cont "ARENALEITER und"
+    cont "CHAMP schafft,"
+    cont "sollte ich als"
+    cont "überlegener Stadt-"
+    cont "mensch keinerlei"
+    cont "Probleme haben!"
 	done
 
 CTChesterBeatenText:
@@ -184,90 +177,88 @@ CTChesterBeatenText:
 	done
 
 CTChesterAfterBattleText:
-	text "Oh? And where are"
-	line "YOU from exactly?"
+    text "Oh? Und wo genau"
+    line "kommst DU her?"
 
-	para "…"
+    para "…"
 
-	para "SILENT TOWN?"
-	line "Never even heard"
-	cont "of it!"
+    para "SILENITIA?"
+    line "Nie davon gehört!"
 	done
 
 CTBethSeenText:
-	text "INDIGO PLATEAU…"
+    text "INDIGO PLATEAU…"
 
-	para "This place used to"
-	line "be the pinnacle"
-	cont "of achievement"
-	cont "for all #MON"
-	cont "trainers…"
+    para "Dieser Ort war"
+    line "mal der Höhepunkt"
+    cont "für alle Trainer…"
 
-	para "Prove to me that"
-	line "you deserve to"
-	cont "be here!"
+    para "Beweise mir, dass"
+    line "du es verdienst,"
+    cont "hier zu sein!"
 	done
 
 CTBethBeatenText:
-	text "Point taken…"
+	text "Verstanden…"
 	done
 
 CTBethAfterBattleText:
-	text "This used to be"
-	line "the site of the"
-	cont "#MON LEAGUE,"
-	cont "full stop."
+    text "Das hier war einst"
+    line "der Standort der"
+    cont "#MON LIGA."
 
-	para "Now it's just a"
-	line "stepping stone"
-	cont "on a larger"
-	cont "journey since"
-	cont "they've taken it"
-	cont "nationwide!"
+    para "Jetzt ist es nur"
+    line "noch ein weiterer"
+    cont "Schritt auf einer"
+    cont "größeren Reise,"
+    cont "seit die LIGA"
+    cont "die ganze Nation"
+    cont "umfasst!"
 	done
 
 CTKenzieSeenText:
-	text "RED? To be honest,"
-	line "I'm more of a"
-	cont "fan of BLUE!"
+    text "ROT? Ehrlich"
+    line "gesagt bin ich"
+    cont "eher Fan von"
+    cont "BLAU!"
 	done
 
 CTKenzieBeatenText:
-	text "Smell ya later!"
+	text "Ciao!"
 	done
 
 CTKenzieAfterBattleText:
-	text "I mean come on!"
-	line "RED dosen't have"
-	cont "half the charisma"
-	cont "BLUE did as a"
-	cont "CHAMPION!"
+    text "Also wirklich!"
+    line "ROT hat nicht halb"
+    cont "so viel Charisma"
+    cont "wie BLAU es als"
+    cont "CHAMP hatte!"
 
-	para "He never even"
-	line "says anything!"
-	cont "What's up with"
-	cont "that!"
+    para "Er sagt ja auch"
+    line "nicht mal was!"
+    cont "Was soll das?"
 	done
 
 CTAllySeenText:
-	text "I've got 7 of"
-	line "NIHON's BADGES"
-	cont "so far! You look"
-	cont "like a tough"
-	cont "opponent to"
-	cont "cut my teeth on!"
+    text "Ich habe schon"
+    line "7 ORDEN aus NIHON!"
+    cont "Du siehst mir nach"
+    cont "einem Gegner aus,"
+    cont "an dem ich mir die"
+    cont "Zähne ausbeißen"
+    cont "kann!"
 	done
 
 CTAllyBeatenText:
-	text "You do too?"
+	text "Was, du auch?"
 	done
 
 CTAllyAfterBattleText:
-	text "Well of course you"
-	line "would have 7"
-	cont "BADGES, why else"
-	cont "would you be here"
-	cont "braving the caves!"
+    text "Natürlich hast du"
+    line "auch 7 ORDEN,"
+    cont "warum solltest du"
+    cont "dich sonst hier"
+    cont "durchkämpfen?"
 	done
 
 KantoVictoryRoad_MapEvents:

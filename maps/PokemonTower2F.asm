@@ -25,18 +25,18 @@ TrainerMediumEthel:
 	end
 
 MediumEthelSeenText:
-	text "GAAH! COME TO ME!"
+    text "GAAH! KOMM ZU MIR!"
 	done
 
 MediumEthelBeatenText:
-	text "Hmm?! Wha?!"
+    text "Hmm?! Was?!"
 	done
 
 MediumEthelAfterBattleText:
-	text "Oh dearie me, it"
-	line "seems I was taken"
-	cont "control of by an"
-	cont "evil spirit!"
+    text "Oh je, anscheinend"
+    line "hat ein böser"
+    cont "Geist besitz von"
+    cont "mir ergriffen!"
 	done
 
 
@@ -56,15 +56,16 @@ MediumMurielSeenText:
 	done
 
 MediumMurielBeatenText:
-	text "Kyah! Freedom!"
+	text "Kyah! Freiheit!"
 	done
 
 MediumMurielAfterBattleText:
-	text "Run while you can!"
-	
-	para "This place is"
-	line "beleaguered with"
-	cont "cursed souls!"
+    text "Flieh, solange"
+    line "du noch kannst!"
+
+    para "Dieser Ort ist"
+    line "von verfluchten"
+    cont "Seelen belagert!"
 	done
 
 
@@ -88,13 +89,13 @@ MediumEstherBeatenText:
 	done
 
 MediumEstherAfterBattleText:
-	text "ALAKA…"
+	text "SIMSA…"
 	
-	para "ACHOO!"
+	para "HATSCHI!"
 	
-	para "It's too dusty"
-	line "in here to chant"
-	cont "incantations!"
+    para "Es ist zu staubig"
+    line "hier drin für"
+    cont "Zaubersprüche!"
 	done
 
 

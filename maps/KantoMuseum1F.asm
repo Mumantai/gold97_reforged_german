@@ -19,33 +19,35 @@ MuseumCounterScientistBottom:
 	jumptext MuseumCounterScientistText
 	
 MuseumCounterScientistText:
-	text "Welcome to the"
-	line "PEWTER MUSEUM OF"
-	cont "SCIENCE! Enjoy"
-	cont "your visit!"
+    text "Willkommen im"
+    line "MARMORIA CITY"
+    cont "WISSENSCHAFTS-"
+    cont "MUSEUM! Genieße"
+    cont "deinen Besuch!"
 	done
 	
 MuseumCounterScientistBehind:
 	jumptextfaceplayer MuseumCounterScientistBehindText
 	
 MuseumCounterScientistBehindText:
-	text "Erm… I would much"
-	line "prefer if you"
-	cont "would come in the"
-	cont "front entrance."
+    text "Ähm… ich fände es"
+    line "besser, wenn du"
+    cont "den Haupteingang"
+    cont "benutzen würdest."
 	done
 	
 MuseumGramps:
 	jumptextfaceplayer MuseumGrampsText
 	
 MuseumGrampsText:
-	text "I'm just the"
-	line "janitor here, but"
-	cont "I spend so much"
-	cont "time around bones"
-	cont "that I might as"
-	cont "well be a"
-	cont "paleontologist!"
+    text "Ich bin hier bloß"
+    line "der Hausmeister,"
+    cont "aber ich verbringe"
+    cont "so viel Zeit mit"
+    cont "Knochen, dass ich"
+    cont "ebenso gut ein"
+    cont "Paläontologe sein"
+    cont "könnte!"
 	done
 
 MuseumScientistAmber:
@@ -56,53 +58,58 @@ MuseumScientistAmber:
 	jumptextfaceplayer ScientistAfterAmberTakenText
 	
 MuseumScientistAmberText:
-	text "Hey! A #MON"
-	line "trainer!"
-	
-	para "You're in luck"
-	line "today kid!"
-	
-	para "I just got done"
-	line "researching this"
-	cont "OLD AMBER chunk"
-	cont "and it most"
-	cont "certainly holds"
-	cont "ancient #MON"
-	cont "DNA!"
-	
-	para "If you take this"
-	line "down to the boys"
-	cont "at CINNABAR LAB,"
-	cont "you'll get an"
-	cont "AERODACTYL!"
-	
-	para "How do I know?"
-	line "I discovered it!"
+    text "Hey! Ein #MON-"
+    line "Trainer!"
+
+    para "Heute ist dein"
+    line "Glückstag!"
+
+    para "Ich bin gerade"
+    line "fertig mit der"
+    cont "Forschung an"
+    cont "diesem Stück"
+    cont "ALTBERNSTEIN und"
+    cont "es enthält mit"
+    cont "Sicherheit uralte"
+    cont "#MON-DNS!"
+
+    para "Wenn du das zu"
+    line "den Jungs im"
+    cont "#MON LABOR"
+    cont "bringst, bekommst"
+    cont "du ein AERODACTYL!"
+
+    para "Woher ich das"
+    line "weiß? Ich hab's"
+    cont "entdeckt!"
 	done
 
 ScientistAfterAmberTakenText:
-	text "Taking it huh?"
-	
-	para "Well good luck,"
-	line "I hear raising"
-	cont "an AERODACTYL is"
-	cont "a handful!"
-	
-	para "They're quite"
-	line "ferocious!"
+	text "Du nimmst es also?"
+
+	para "Dann viel Glück."
+	line "Ich hörte, die"
+    cont "die Aufzucht von"
+    cont "AERODACTYL sei"
+    cont "kein Kinderspiel!"
+
+    para "Sie sollen sehr"
+    line "wild sein!"
 	done
 
 MuseumOtherScientist:
 	jumptextfaceplayer MuseumOtherScientistText
 	
 MuseumOtherScientistText:
-	text "What is it with"
-	line "kids sneaking in"
-	cont "around here?"
-	
-	para "Fine! Just don't"
-	line "break or steal"
-	cont "anything, got it?"
+    text "Was ist mit den"
+    line "Kindern los, dass"
+    cont "sie hier immer"
+    cont "herumschleichen?"
+
+    para "Na gut! Aber mach"
+    line "nichts kaputt und"
+    cont "lass die Finger"
+    cont "von den Exponaten."   ; alt. "und klau nichts, klar?"
 	done
 
 OldAmberItemSprite:
@@ -112,18 +119,19 @@ KabutopsFossil:
 	jumptext KabutopsFossilText
 	
 KabutopsFossilText:
-	text "Woah! It's a full"
-	line "skeleton of a"
-	cont "KABUTOPS!"
+    text "Woah!"
+
+    para "Ein vollständiges"
+    line "KABUTOPS-Skelett!"
 	done
 	
 AerodactylFossil:
 	jumptext AerodactylFossilText
 	
 AerodactylFossilText:
-	text "Wow! It's a full"
-	line "skeleton of an"
-	cont "AERODACTYL!"
+    text "Wow! Ein voll-"
+    line "ständiges Skelett"
+    cont "eines AERODACTYL!"
 	done
 
 

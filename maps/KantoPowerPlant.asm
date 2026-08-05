@@ -66,99 +66,103 @@ Surge_afterpichu:
 	end
 
 Surge_beforebattletext:
-	text "SURGE: Hey, you"
-	line "little tyke!"
+    text "MAJOR BOB: Hey, du"
+    line "kleiner Wicht!"
 
-	para "What would make"
-	line "a kid like you"
-	cont "want to come out"
-	cont "to this abandoned"
-	cont "dump?"
+    para "Was bringt ein"
+    line "Kind wie dich zu"
+    cont "diesem verlassenen"
+    cont "Schrottplatz?"
 
-	para "This area is where"
-	line "I come to train"
-	cont "my powerful"
-	cont "ELECTRIC #MON!"
+    para "Hier trainiere"
+    line "ich meine starken"
+    cont "ELEKTRO-#MON!"
 
-	para "If you came here"
-	line "looking for a"
-	cont "challenge, then"
-	cont "you've got one!"
+    para "Wenn du auf der"
+    line "Suche nach einer"
+    cont "Herausforderung"
+    cont "bist, hast du"
+    cont "eine gefunden!"
 
-	para "I'll zap you just"
-	line "like I did my"
-	cont "enemies in war!"
+    para "Ich knips dir"
+    line "die Lichter aus,"
+    cont "wie einst meinen"
+    cont "Feinden im Krieg!"
 	done
 
 Surge_beatentext:
-	text "SURGE: Arrrgh!"
-	line "You are strong!"
+    text "MAJOR BOB: Arrrgh!"
+    line "Du bist stark!"
 
-	para "You're no normal"
-	line "kid, that's for"
-	cont "sure!"
+    para "Du bist kein"
+    line "gewöhnliches Kind,"
+    cont "so viel steht"
+    cont "fest!"
 	done
 
 SurgeTakeThisPichuText:
-	text "So what gives?"
+    text "Also, was ist los?"
 
-	para "There's nothing"
-	line "to be found in"
-	cont "this old place"
-	cont "besides the"
-	cont "VOLTORB!"
+    para "An diesem alten"
+    line "Ort gibt es außer"
+    cont "VLOTOBAL nichts zu"
+    cont "finden!"
 
-	para "…"
+    para "…"
 
-	para "The gym challenge"
-	line "is what you're"
-	cont "here for?"
+    para "Du bist wegen der"
+    line "ARENAORDEN hier?"
 
-	para "Hah! Sorry kid"
-	line "but I'm off duty"
-	cont "since the LEAGUE"
-	cont "expanded to the"
-	cont "whole nation!"
+    para "Hah! Tut mir leid,"
+    line "Knirps, aber ich"
+    cont "bin außer Dienst,"
+    cont "seit die LIGA sich"
+    cont "auf das ganze Land"
+    cont "ausgedehnt hat!"
 
-	para "I might not have"
-	line "a THUNDERBADGE to"
-	cont "give, but maybe"
-	cont "you'd be a good"
-	cont "trainer for"
-	cont "this PICHU that"
-	cont "I hatched!"
+    para "Ich habe zwar"
+    line "keinen DONNERORDEN"
+    cont "zu vergeben, aber"
+    cont "vielleicht wärst"
+    cont "du ein passender"
+    cont "Trainer für dieses"
+    cont "PICHU, das ich"
+    cont "ausgebrütet habe!"
 
-	para "I'm no good with"
-	line "kids! So take"
-	cont "good care of it!"
+    para "Ich kann nicht"
+    line "gut mit Kindern,"
+    cont "also pass du gut"
+    cont "darauf auf!"
 	done
 
 SurgeExplainPichuMetronomeText:
-	text "That PICHU knows"
-	line "a special move!"
+    text "Dieses PICHU kennt"
+    line "eine besondere"
+    cont "Attacke!"
 
-	para "EGG hatched"
-	line "#MON often do!"
+    para "#MON aus dem Ei"
+    line "können das oft!"
 	done
 
 
 SurgePlayerReceivedPichuText:
-	text "<PLAYER> received"
+	text "<PLAYER> erhält"
 	line "PICHU!"
 	done
 
 SurgePartyFullText:
-	text "Might want to go"
-	line "make room in your"
-	cont "party first!"
+    text "Vielleicht"
+    line "solltest du erst"
+    cont "Platz in deinem"
+    cont "Team machen!"
 	done
 
 SurgeFinalText:
-	text "Good luck with"
-	line "the INDIGO GYM!"
+    text "Viel Glück in"
+    line "der INDIGO-ARENA!"
 
-	para "You're gonna need"
-	line "it!"
+    para "Du wirst es"
+    line "brauchen!"
 	done
 
 ;----------------------------------------------------------------------------------------

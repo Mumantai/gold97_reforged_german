@@ -40,17 +40,16 @@ defeatedGengar:
 	end
 
 GengarAttackingText:
-	text "Something is"
-	line "emanating from"
-	cont "inside the old"
-	cont "mausoleum…"
+    text "Etwas Unheimliches"
+    line "strömt aus dem"
+    cont "alten Mausoleum…"
 	
 	para "GARAH!"
 	done
 
 GengarTombAfterText:
-	text "The mausoleum"
-	line "has gone quiet…"
+    text "Das Mausoleum ist"
+    line "still geworden…"
 	done
 
 ;----------------------------------------------------------------------------------------------------
@@ -64,13 +63,13 @@ Tower3Medium1After:
 	jumptextfaceplayer Tower3Medium1AfterText
 	
 Tower3Medium1WearyText:
-	text "The spirit…"
-	line "It's too strong…"
+	text "Der Geist…"
+	line "Er ist zu stark…"
 	done
 	
 Tower3Medium1AfterText:
-	text "Thank you for"
-	line "freeing us!"
+    text "Danke, dass du uns"
+    line "befreit hast!"
 	done
 
 Tower3Medium2:
@@ -82,14 +81,15 @@ Tower3Medium2After:
 	jumptextfaceplayer Tower3Medium2AfterText
 	
 Tower3Medium2WearyText:
-	text "We can't contain"
-	line "this force for"
-	cont "much longer…"
+    text "Wir können diese"
+    line "Kraft nicht länger"
+    cont "eindämmen…"
 	done
 	
 Tower3Medium2AfterText:
-	text "The spirits are"
-	line "at rest again…"
+    text "Die Geister haben"
+    line "sich wieder zur"
+    cont "Ruhe gesetzt…"
 	done
 
 Tower3Medium3:
@@ -101,15 +101,17 @@ Tower3Medium3After:
 	jumptextfaceplayer Tower3Medium3AfterText
 	
 Tower3Medium3WearyText:
-	text "If we stop, the"
-	line "spirit could"
-	cont "get loose and"
-	cont "attack the town!"
+    text "Wenn wir aufhören,"
+    line "könnte der Geist"
+    cont "sich befreien und"
+    cont "die ganze Stadt"
+    cont "angreifen!"
 	done
 	
 Tower3Medium3AfterText:
-	text "We owe you much"
-	line "gratitude, child!"
+    text "Wir stehen tief"
+    line "in deiner Schuld,"
+    cont "Kind!"
 	done
 
 Tower3Medium4:
@@ -121,17 +123,16 @@ Tower3Medium4After:
 	jumptextfaceplayer Tower3Medium4AfterText
 	
 Tower3Medium4WearyText:
-	text "Hurrgh… I'm being"
-	line "overwhelmed with"
-	cont "supernatural"
-	cont "energy!"
+    text "Aaargh… Die über-"
+    line "natürliche Energie"
+    cont "überwältigt mich!"
 	done
 	
 Tower3Medium4AfterText:
-	text "The spirits of"
-	line "#MON TOWER"
-	cont "rest easy thanks"
-	cont "to your help…"
+    text "Die Geister des"
+    line "#MON TURMs"
+    cont "ruhen wieder, dank"
+    cont "deiner Hilfe…"
 	done
 
 
@@ -157,17 +158,17 @@ Tower3PangshiAfter:
 	end
 	
 Tower3PangshiWearyText:
-	text "PANGSHI: Shii…"
-	
-	para "It's looking"
-	line "weary…"
+	text "PANG-SHI: Shii…"
+
+	para "Es sieht müde aus…"
 	done
 	
 Tower3PangshiAfterText:
-	text "PANGSHI: Shii!"
-	
-	para "It's looking"
-	line "stiff but happy!"
+	text "PANG-SHI: Shii!"
+
+	para "Es sieht starr,"
+	line "aber auch glück-"
+	cont "lich aus!"
 	done
 
 
@@ -192,31 +193,32 @@ SageWangAfterGengar:
 	end
 	
 SageWangAfterGengarText:
-	text "I am sorry for"
-	line "doubting your"
-	cont "prowess before!"
+    text "Tut mir leid, dass"
+    line "ich dein Können"
+    cont "vorhin in Frage"
+    cont "gestellt habe!"
 	done
 
 
 SageWangSeenText:
-	text "There's paranormal"
-	line "activity in here!"
-	
-	para "Please leave at"
-	line "once!"
+    text "Hier geht etwas"
+    line "Übernatürliches"
+    cont "vor sich!"
+
+    para "Bitte geh sofort!"
 	done
 
 SageWangBeatenText:
-	text "Strong…"
+	text "Stark…"
 	done
 
 SageWangAfterBattleText:
-	text "Perhaps you are"
-	line "strong enough to"
-	cont "help us contain"
-	cont "the spirit!"
-	
-	para "Please! Go help!"
+    text "Vielleicht bist du"
+    line "stark genug, um"
+    cont "uns zu helfen, den"
+    cont "Geist einzudämmen!"
+
+    para "Bitte hilf uns!"
 	done
 
 

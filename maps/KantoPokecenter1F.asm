@@ -22,27 +22,29 @@ KantoPokecenterYoungsterScript:
 	jumptextfaceplayer KantoPokecenterYoungsterText
 	
 KantoPokecenterCooltrainerMText:
-	text "There's a lot to"
-	line "see and do around"
-	cont "here."
-	para "Have you gone to"
-	line "the GYM to battle"
-	cont "RED?"
+    text "Hier gibt es eine"
+    line "Menge zu sehen und"
+    cont "zu erleben."
+
+    para "Warst du schon in"
+    line "der PKMN-ARENA,"
+    cont "um gegen ROT zu"
+    cont "kämpfen?"
 	done
 	
 KantoPokecenterGrannyText:
-	text "There are a lot of"
-	line "tough trainers"
-	para "that come through"
-	line "the region looking"
-	cont "to battle RED."
+	text "Viele starke"
+	line "Trainer kommen"
+	para "nach KANTO, um"
+	line "gegen unseren ROT"
+	cont "zu kämpfen."
 	done
 	
 KantoPokecenterYoungsterText:
-	text "I heard there's a"
-	line "#MON daycare"
-	para "over near ALLOY"
-	line "CITY."
+    text "Ich hörte, in der"
+    line "Nähe von GENEOS"
+    para "CITY gibt es eine"
+    line "#MON-PENSION."
 	done
 
 KantoPokecenter1F_MapEvents:

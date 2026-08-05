@@ -19,18 +19,18 @@ Tower1ReceptionistAfter:
 	jumptextfaceplayer Tower1ReceptionistAfterText
 	
 Tower1ReceptionistScaredText:
-	text "There's currently"
-	line "a disturbance in"
-	cont "the TOWER, please"
-	cont "avoid the upper"
-	cont "floors."
+    text "Momentan gibt es"
+    line "Störungen im TURM."
+
+    para "Bitte meide die"
+    cont "oberen Stockwerke."
 	done
 	
 Tower1ReceptionistAfterText:
-	text "#MON TOWER was"
-	line "erected in the"
-	cont "memory of #MON"
-	cont "that had died."
+    text "Der #MON TURM"
+    line "wurde zum Gedenken"
+    cont "an verstorbene"
+    cont "#MON errichtet."
 	done
 
 Tower1Teacher:
@@ -42,20 +42,21 @@ Tower1TeacherAfter:
 	jumptextfaceplayer Tower1TeacherAfterText
 	
 Tower1TeacherScaredText:
-	text "I came to pray"
-	line "for my departed"
-	cont "#MON, but the"
-	cont "upper floors"
-	cont "are under attack."
-	
-	para "Please do"
-	line "something!"
+    text "Ich kam, um für"
+    line "mein verstorbenes"
+    cont "#MON zu beten,"
+    cont "aber die oberen"
+    cont "Etagen werden"
+    cont "angegriffen."
+
+    para "Bitte tu doch"
+    line "etwas!"
 	done
 	
 Tower1TeacherAfterText:
-	text "Now I can pray"
-	line "in peace, thank"
-	cont "you."
+    text "Jetzt kann ich"
+    line "in Ruhe beten,"
+    cont "vielen Dank."
 	done
 
 
@@ -68,17 +69,19 @@ Tower1PokefanAfter:
 	jumptextfaceplayer Tower1PokefanAfterText
 	
 Tower1PokefanScaredText:
-	text "W-what's going"
-	line "on here? Is it"
-	cont "really safe to"
-	cont "come in?"
+    text "W-was geht hier"
+    line "vor? Ist es hier"
+    cont "wirklich sicher"
+    cont "hier drinnen?"
 	done
 	
 Tower1PokefanAfterText:
-	text "Whew! What a"
-	line "relief, now"
-	cont "I can pay my"
-	cont "proper respects."
+    text "Puh! Was für eine"
+    line "Erleichterung!"
+
+    para "Jetzt kann ich"
+    cont "endlich in Würde"
+    cont "Abschied nehmen."
 	done
 
 
@@ -91,18 +94,18 @@ Tower1LassAfter:
 	jumptextfaceplayer Tower1LassAfterText
 	
 Tower1LassScaredText:
-	text "Aiyee! I want"
-	line "to leave but"
-	cont "I'm so frozen"
-	cont "stiff that I"
-	cont "can't!"
+    text "Iiih! Ich will"
+    line "raus, doch ich"
+    cont "bin so starr vor"
+    cont "Angst, dass ich"
+    cont "nicht kann!"
 	done
 	
 Tower1LassAfterText:
-	text "Thank you so"
-	line "much for getting"
-	cont "rid of that"
-	cont "poltergeist!"
+    text "Vielen Dank,"
+    line "dass du diesen"
+    cont "Poltergeist"
+    cont "vertrieben hast!"
 	done
 
 
@@ -115,15 +118,15 @@ Tower1MediumAfter:
 	jumptextfaceplayer Tower1MediumAfterText
 	
 Tower1MediumScaredText:
-	text "I am a MEDIUM!"
-	line "There are spirits"
-	cont "up to mischief"
-	cont "once again!"
+    text "Ich bin ein"
+    line "MEDIUM! Geister"
+    cont "treiben wieder"
+    cont "ihr Unwesen!"
 	done
 	
 Tower1MediumAfterText:
-	text "The spirits have"
-	line "calmed down!"
+    text "Die Geister haben"
+    line "sich beruhigt!"
 	done
 
 PokemonTower1F_MapEvents:
