@@ -385,7 +385,7 @@ PokemonTowerSignText:
 
 	para "Ein Monument für"
 	line "alle gefallenen"
-	cont "#MON.
+	cont "#MON."
 	done
 
 FossilLabSign:
