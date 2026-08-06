@@ -17,10 +17,10 @@ jobs:
           sudo pip install pypng
 
       - name: Repository auschecken
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: RGBDS auschecken
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           repository: gbdev/rgbds
           path: rgbds
@@ -47,7 +47,7 @@ jobs:
 
       - name: Dateien hochladen
         if: success()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: pokemon_g97r
           path: |
