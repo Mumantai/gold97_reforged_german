@@ -69,39 +69,42 @@ CaptainScriptSilver:
 	jumptext CaptainCantBelieveSilver
 
 KurtKnewItSilver:
-	text "KURT: I knew I was"
-	line "right when I"
-	para "sensed something"
-	line "about you."
+    text "KURT: Ich wusste,"
+    line "ich hatte Recht,"
+    para "als ich etwas in"
+    line "dir gespürt habe."
 	done
 	
 CaptainCantBelieveSilver:
-	text "I can't believe"
-	line "it!"
-	para "The return of the"
-	line "bird!"
-	para "It's happening!"
+    text "Ich kann es nicht"
+    line "fassen!"
+
+    para "Die Rückkehr des"
+    line "Vogels!"
+
+    para "Es geschieht!"
 	done
 	
 SageTellsYouToSeeBirdSilver:
 	text "<PLAY_G>."
-	para "LUGIA roosts"
-	line "inside this cave."
-	para "The bird has"
-	line "returned, as"
-	para "predicted in"
-	line "legend."
-	para "I sense that it"
-	line "wants to meet"
-	cont "you."
-	para "It has determined"
-	line "that actions you"
-	para "have taken have"
-	line "shown that you are"
-	para "worthy of"
-	line "approaching it."
-	para "Make your way to"
-	line "the cave."
+
+	para "LUGIA nistet in"
+	line "dieser Höhle."
+
+	para "Der Vogel ist"
+	line "zurückgekehrt,"
+	cont "wie es die Legende"
+	cont "vorhergesagt hat."
+
+    para "Es hat entschie-"
+    line "den, dass deine"
+    para "Taten dich als"
+    line "würdig erweisen,"
+    para "ihm jetzt direkt"
+    line "gegenüberzutreten."
+
+    para "Nun begieb dich"
+    line "in die Höhle."
 	done
 	
 Text_5FSageDuringLugia:

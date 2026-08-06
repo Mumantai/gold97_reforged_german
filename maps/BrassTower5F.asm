@@ -138,7 +138,7 @@ SageTellsYouToSeeBird:
     para "Ich spüre, dass es"
     line "dich treffen will."
 
-    para "Es hat entschie"
+    para "Es hat entschie-"
     line "den, dass deine"
     para "Taten dich als"
     line "würdig erweisen,"
