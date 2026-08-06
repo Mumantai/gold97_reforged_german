@@ -142,6 +142,7 @@ CTEverittSeenText:
     cont "bevor ich zum"
     cont "INDIGO PLATEAU"
     cont "aufbreche!"
+    done
 
 CTEverittBeatenText:
     text "Hä? Was sagst du?"

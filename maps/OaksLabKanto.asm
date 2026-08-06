@@ -20,41 +20,43 @@ OaksLabKantoPC:
 	jumptext OaksLabKantoPCText
 
 OaksLabKantoPoster1Text:
-	text "Press START to"
-	line "open the MENU."
+	text "Drücke START, um"
+	line "das MENÜ zu"
+	cont "öffnen."
 	done
 
 OaksLabKantoPoster2Text:
-	text "The SAVE option is"
-	line "on the MENU."
+	text "Möchtest du deinen"
+	line "Spielstand von"
 
-	para "Use it in a timely"
-	line "manner."
+	para "Zeit zu Zeit"
+	line "speichern, dann"
+	cont "wähle im MENÜ die"
+	cont "Option SICHERN."
 	done
 
 OaksLabKantoPCText:
-	text "It isn't turned"
-	line "on…"
+	text "Er ist nicht"
+	line "an…"
 	done
 
 KantoAide1:
 	jumptextfaceplayer KantoAide1Text
 	
 KantoAide1Text:
-	text "When PROF.OAK up"
-	line "and moved base to"
-	cont "SILENT TOWN, we"
-	cont "had to stay back"
-	cont "to pack up the"
-	cont "old lab."
-	
-	para "I suppose it's a"
-	line "lot easier to"
-	cont "study #MON"
-	cont "out in the"
-	cont "countryside as"
-	cont "opposed to urban"
-	cont "KANTO."
+    text "Als PROF. EICH"
+    line "auf nach SILENITIA"
+    cont "ist, mussten wir"
+    cont "zurückbleiben, um"
+    cont "alles im Labor"
+    cont "zusammenzupacken."
+
+    para "Ich schätze, es"
+    line "ist einfacher,"
+    cont "#MON auf dem"
+    cont "Land zu studieren,"
+    cont "als im urbanen"
+    cont "KANTO."
 	done
 
 KantoAide2:
@@ -77,31 +79,33 @@ AideGivenLevelBall:
 	jumptextfaceplayer AideGivenLevelBallText
 
 AideGivingLevelBallText:
-	text "PROF.OAK ordered"
-	line "a whole bunch of"
-	cont "custom # BALLS"
-	cont "for his research."
-	
-	para "I keep finding"
-	line "them while"
-	cont "sweeping up."
-	
-	para "Here, you can"
-	line "probably make"
-	cont "better use of"
-	cont "one of these."
+    text "PROF. EICH hat"
+    line "eine Menge von"
+    cont "#BÄLLEN für"
+    cont "seine Forschung"
+    cont "bestellt."
+
+    para "Ich finde sie"
+    line "überall beim"
+    cont "Aufräumen."
+
+    para "Hier, du kannst"
+    line "wahrscheinlich"
+    cont "eher etwas damit"
+    cont "anfangen."
 	done
 
 AideGivenLevelBallText:
-	text "He told me that"
-	line "a lot of these"
-	cont "BALLS were made"
-	cont "by none other"
-	cont "than the famous"
-	cont "KURT from PAGOTA"
-	cont "CITY!"
-	
-	para "Use it wisely!"
+    text "Er erzählte, dass"
+    line "viele dieser #-"
+    cont "BÄLLE von niemand"
+    cont "geringerem als dem"
+    cont "berühmten KURT aus"
+    cont "PAGETIA CITY ange-"
+    cont "fertigt wurden!"
+
+    para "Setze ihn mit"
+    line "Bedacht ein!"
 	done
 
 

@@ -23,7 +23,7 @@ Tower1ReceptionistScaredText:
     line "Störungen im TURM."
 
     para "Bitte meide die"
-    cont "oberen Stockwerke."
+    line "oberen Stockwerke."
 	done
 	
 Tower1ReceptionistAfterText:
@@ -80,7 +80,7 @@ Tower1PokefanAfterText:
     line "Erleichterung!"
 
     para "Jetzt kann ich"
-    cont "endlich in Würde"
+    line "endlich in Würde"
     cont "Abschied nehmen."
 	done
 

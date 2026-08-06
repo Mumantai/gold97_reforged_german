@@ -293,7 +293,8 @@ KantoLassText:
 
 KantoPokefanMText:
     text "Ich war nie ein"
-    line "ernsthafter Trainer."
+    line "ernsthafter"
+    cont "Trainer."
 
     para "Ich meine, ich"
     line "trainiere #MON"
@@ -321,7 +322,7 @@ KantoSignText:
     text "WILLKOMMEN IN DER"
     line "KANTO REGION -"
     cont "NIHONs Zentrum des"
-    cont "urbanen Wohlstands."
+    cont "urbanen Wohlstands"
 	done
 
 KantoGymSignText:
@@ -450,6 +451,7 @@ GameCornerSignText:
 
 	para "Löse deine Münzen"
 	line "nebenan ein!"
+	done
 
 TrainerHouseSign:
 	jumptext TrainerHouseSignText

@@ -10,33 +10,33 @@ DaisysLetter:
 	jumptext DaisysLetterText
 	
 DaisysLetterText:
-	text "It's a note left"
-	line "by DAISY."
-	
-	para "Please stop by the"
-	line "house every now"
-	cont "and again while"
-	cont "we're out at"
-	cont "SILENT's LAB."
-	
-	para "It may be a while"
-	line "before we're back"
-	cont "but grandpa is"
-	cont "very excited about"
-	cont "his new project"
-	cont "with the kids from"
-	cont "town."
-	
-	para "If RED needs any-"
-	line "thing, there's"
-	cont "always food in"
-	cont "the fridge."
-	
-	para "Thank you for"
-	line "being a good"
-	cont "neighbor!"
-	
-	para "-DAISY OAK"
+    text "Eine Nachricht"
+    line "von SARAH."
+
+    para "Bitte schau ab und"
+    line "zu nach dem Haus,"
+    cont "während wir in"
+    cont "SILENITIA sind."
+
+    para "Es kann eine Weile"
+    line "dauern, bis wir"
+    cont "zurück sind, aber"
+    cont "Opa freut sich so"
+    cont "sehr auf sein"
+    cont "neues Projekt mit"
+    cont "den Kindern aus"
+    cont "der Stadt."
+
+    para "Falls ROT etwas"
+    line "braucht, es ist"
+    cont "immer Essen im"
+    cont "Kühlschrank."
+
+    para "Danke, dass du ein"
+    line "so guter Nachbar"
+    cont "bist!"
+
+    para "-SARAH EICH"
 	done
 
 

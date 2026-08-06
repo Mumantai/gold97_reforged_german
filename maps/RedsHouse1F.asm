@@ -22,22 +22,26 @@ RedsHouse1FBookshelf:
 RedsMomText1:
 	text "Hi!"
 
-	para "My boy RED is the"
-	line "GYM LEADER here."
-	
-	para "He also defeated"
-	line "the LEAGUE last"
-	cont "year."
-	
-	para "I'm so proud of"
-	line "what my boy has"
-	cont "accomplished."
+	para "Mein Junge, ROT,"
+	line "ist hier der"
+	cont "ARENALEITER."
+
+	para "Er hat letztes"
+	line "Jahr auch die"
+	para "#MON LIGA"
+	line "besiegt."
+
+	para "Ich bin so stolz"
+	line "darauf, was mein"
+	para "Junge bereits"
+	line "erreicht hat."
 	done
 
 
 RedsHouse1FTVText:
-	text "I've never seen"
-	line "this show…"
+    text "Diese Sendung habe"
+    line "ich noch nie"
+    para "gesehen…"
 	done
 
 RedsHouse1F_MapEvents:

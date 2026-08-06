@@ -116,10 +116,12 @@ GameFreakGameDesignerAfterDiplomaText:
 	done
 
 GameFreakGraphicArtistText:
-	text "I'm the GRAPHIC"
-	line "ARTIST."
+	text "Ich bin der"
+	line "GRAFIKER."
 
-	para "I drew you!"
+	para "Ich habe eine"
+	line "Zeichnung von dir"
+	cont "angefertigt!"
 	done
 
 GameFreakGraphicArtistPrintDiplomaText:

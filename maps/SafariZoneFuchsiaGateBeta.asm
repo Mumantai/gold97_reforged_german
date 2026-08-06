@@ -11,11 +11,12 @@ SafariGateMan:
 	jumptextfaceplayer SafariGateManText
 	
 SafariGateManText:
-	text "Welcome to the"
+	text "Willkommen in der"
 	line "SAFARI ZONE!"
-	
-	para "Catch as much"
-	line "as you please!"
+
+	para "Fang so viele"
+	line "#MON, wie du"
+	cont "willst!"
 	done
 
 

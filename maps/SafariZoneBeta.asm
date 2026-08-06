@@ -15,49 +15,53 @@ SafariFatman:
 	jumptextfaceplayer SafariFatmanText
 	
 SafariFatmanText:
-	text "Now that the"
-	line "breeding program"
-	cont "is finished, the"
-	cont "park is totally"
-	cont "open for free."
-	
-	para "The program here"
-	line "helped bring some"
-	cont "#MON such as"
-	cont "RHYHORN and"
-	cont "EXEGGCUTE back to"
-	cont "their native"
-	cont "habitats."
+    text "Jetzt, wo unser"
+    line "Zuchtprogramm"
+    cont "abgeschlossen ist,"
+    cont "ist der Park für"
+    cont "alle komplett"
+    cont "frei zugänglich."
+
+    para "Das Programm hat"
+    line "dabei geholfen,"
+    cont "einige #MON,"
+    cont "wie RIHORN und"
+    cont "OWEI zurück in"
+    cont "ihre natürlichen"
+    cont "Lebensräume zu"
+    cont "bringen."
 	done
 
 SafariPokefan1:
 	jumptextfaceplayer SafariPokefan1Text
 	
 SafariPokefan1Text:
-	text "I heard that"
-	line "WARDEN SLOWPOKE"
-	cont "went to invest"
-	cont "in other ventures"
-	cont "throughout NIHON."
-	
-	para "STAND CITY's ZOO"
-	line "is one of his"
-	cont "latest investment"
-	cont "plans apparently."
+    text "Ich hörte, dieses"
+    line "FLEGMON von WÄRTER"
+    cont "investiert jetzt"
+    cont "in andere Unter-"
+    cont "nehmen in ganz"
+    cont "NIHON."
+
+    para "Der ZOO von"
+    line "SENDESTIA CITY ist"
+    cont "wohl sein neuester"
+    cont "Investitionsplan."
 	done
 
 SafariPokefan2:
 	jumptextfaceplayer SafariPokefan2Text
 	
 SafariPokefan2Text:
-	text "EXEGGUTOR is my"
-	line "favorite #MON!"
-	
-	para "I hope I can"
-	line "grow one tall"
-	cont "enough to shade"
-	cont "my whole backyard"
-	cont "patio!"
+    text "KOKOWEI ist mein"
+    line "Lieblings-#MON!"
+
+    para "Ich hoffe, ich"
+    line "kann eines so groß"
+    cont "züchten, dass es"
+    cont "meinem kompletten"
+    cont "Garten Schatten"
+    cont "spenden kann!"
 	done
 
 
@@ -65,11 +69,10 @@ SafariCooltrainer:
 	jumptextfaceplayer SafariCooltrainerText
 	
 SafariCooltrainerText:
-	text "The SAFARI ZONE"
-	line "is a great place"
-	cont "to pick up a"
-	cont "variety of strong"
-	cont "team members."
+    text "In der SAFARI ZONE"
+    line "kann man viele"
+    cont "starke #MON für"
+    cont "sein Team finden."
 	done
 	
 SafariItem:
@@ -79,23 +82,22 @@ SafarizoneSign:
 	jumptext SafarizoneSignText
 	
 SafarizoneSignText:
-	text "WELCOME TO THE"
-	line "SAFARI ZONE!"
-	
-	para "PLEASE HAVE SOME"
-	line "RESPECT: CARRY"
-	cont "OUT WHAT YOU"
-	cont "CARRY IN!"
-	cont "NO LITTERING!"
+    text "WILLKOMMEN IN DER"
+    line "SAFARI ZONE!"
+
+    para "BITTE HABT ETWAS"
+    line "RESPEKT: NEHMT"
+    cont "EUREN MÜLL WIEDER"
+    cont "MIT NACH DRAUẞEN!"
 	done
 
 SafariTrash:
 	jumptext SafariTrashtext
 	
 SafariTrashtext:
-	text "The trash can"
-	line "is thankfully"
-	cont "not empty."
+    text "Der Mülleimer ist"
+    line "zum Glück nicht"
+    cont "leer."
 	done
 
 SafariZoneBeta_MapEvents:
