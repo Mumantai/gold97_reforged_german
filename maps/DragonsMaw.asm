@@ -258,134 +258,145 @@ DragonOrbGetScript:
 	end
 	
 HeresTheOrb:
-	text "At last, you"
-	line "figured out who"
-	para "has the DRAGON"
-	line "ORB."
-	para "Take this, and"
-	line "bring it to CLAIR."
+	text "Endlich, du hast"
+	line "erkannt, wer den"
+	cont "DRACHEN ORB hat."
+
+	para "Nimm ihn und bring"
+	line "ihn zu SANDRA."
 	done
 	
 HeresTheOrb2:
-	text "got orb"
+	text "erhält Orb"
 	done
 
 CooltrainermDarinSeenText:
-	text "You! Do you have"
-	line "what it takes to"
-	para "train the powerful"
-	line "DRAGON #MON?"
+    text "Du! Hast du das"
+    line "Zeug dazu, die"
+    para "mächtigen Drachen-"
+    line "#MON zu"
+    cont "trainieren?"
 	done
 
 CooltrainermDarinBeatenText:
-	text "S-strong!"
+	text "S-stark!"
 	done
 
 CooltrainermDarinAfterBattleText:
-	text "I trust you will"
-	line "find these grounds"
-	para "a great place to"
-	line "train."
+    text "Ich bin sicher,"
+    line "dass du diesen Ort"
+    cont "als Trainingsplatz"
+    cont "zu schätzen weißt."
 	done
 
 CooltrainermDarinAfterBattleTextNotDone:
-	text "DRAGON ORB?"
-	para "It is not me who"
-	line "is holding it."
+    text "DRACHENORB?"
+
+    para "Ich bin nicht"
+    line "derjenige, der"
+    cont "ihn bei sich hat."
 	done
 
 CooltrainerfCaraSeenText:
-	text "Did CLAIR give you"
-	line "permission to be"
-	cont "in here?"
+    text "Hat SANDRA dir die"
+    line "Erlaubnis gegeben,"
+    cont "hier zu sein?"
 	done
 
 CooltrainerfCaraBeatenText:
-	text "Oh yikes, I lost!"
+	text "Mist, verloren!"
 	done
 
 CooltrainerfCaraAfterBattleTextNotDone:
-	text "Nope, I'm not the"
-	line "holder of the ORB."
-	para "Try again!"
+    text "Nö, ich bin nicht"
+    line "der Besitzer des"
+    cont "ORBs."
+
+    para "Versuch's nochmal!"
 	done
 
 CooltrainerfCaraAfterBattleText:
-	text "Raising DRAGONs is"
-	line "more rewarding"
-	para "than other types,"
-	line "I think."
+    text "Drachen-#MON zu"
+    line "trainieren lohnt"
+    para "sich mehr als"
+    line "andere Typen,"
+    cont "finde ich."
 	done
 
-
 InstructorRandSeenText:
-	text "Have you learned"
-	line "enough about"
-	para "mystical DRAGON"
-	line "#MON in order"
-	para "to respect them"
-	line "properly?"
+	text "Hast du genug über"
+	line "mystische Drachen-"
+	para "#MON gelernt,"
+	line "um sie richtig zu"
+	cont "respektieren?"
 	done
 
 InstructorRandBeatenText:
-	text "Oh yikes, I lost!"
+	text "Oje, verloren!"
 	done
 
 InstructorRandAfterBattleText:
-	text "The history of"
-	line "people training"
-	para "DRAGON #MON is"
-	line "long and storied."
-	para "But some suspect"
-	line "it began here."
+    text "Die Geschichte der"
+    line "Drachen-Trainer"
+    para "ist lang und reich"
+    line "an Geschichten."
+
+    para "Einige vermuten,"
+    line "sie begann hier."
 	done
 
 InstructorRandAfterBattleTextNotDone:
-	text "The ORB? Not here."
-	line "Try someone else."
+	text "Der ORB? Nicht"
+	line "hier."
+
+	para "Frag wen anders."
 	done
 
 TwinsLeaandpia1SeenText:
-	text "It's a stranger we"
-	line "don't know."
+	text "Ein Fremder, den"
+	line "wir nicht kennen."
 	done
 
 TwinsLeaandpia1BeatenText:
-	text "Ouchies."
+	text "Aua!"
 	done
 
 TwinsLeaandpia1AfterBattleText:
-	text "Have you ever"
-	line "battled LANCE?"
-	para "He is the only"
-	line "DRAGON TRAINER"
-	para "considered CLAIR's"
-	line "superior."
+    text "Hast du schon mal"
+    line "gegen SIEGFRIED"
+    cont "gekämpft?"
+
+    para "Er ist der einzige"
+    line "Drachen-Trainer,"
+    para "der SANDRA über-"
+    line "legen ist."
 	done
-	
+
 TwinsLeaandpia1AfterBattleTextNotDone:
-	text "A DRAGON ORB?"
-	line "Nope, not here!"
+	text "Ein DRACHEN ORB?"
+	line "Nein, nicht hier!"
 	done
 
 TwinsLeaandpia2SeenText:
-	text "Who are you?"
+	text "Wer bist du?"
 	done
 
 TwinsLeaandpia2BeatenText:
-	text "Meanie."
+	text "Fiesling."
 	done
 
 TwinsLeaandpia2AfterBattleTextNotDone:
-	text "DRAGON ORB? I"
-	line "don't have it!"
+	text "DRACHEN ORB?"
+	line "Den hab ich"
+	cont "nicht!"
 	done
 
 TwinsLeaandpia2AfterBattleText:
-	text "Me and my sister"
-	line "are going to rival"
-	para "CLAIR and LANCE"
-	line "someday!"
+	text "Meine Schwester"
+	line "und ich werden"
+	para "eines Tages SANDRA"
+	line "und SIEGFRIED"
+	cont "übertreffen!"
 	done
 
 DragonsMaw_MapEvents:
