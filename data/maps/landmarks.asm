@@ -103,19 +103,19 @@ BlueForestName:         db "KITAOMORIA¯CITY@"   ; Kita (jap. Norden) + ao (jap.
 BoardwalkName:          db "PROMENADE@"
 BoulderMinesName:       db "GERÖLLMINEN@"        ;
 BrassTowerName:         db "MESSINGTURM@"
-CastleMountainName:     db "SCHLOSS-%BERG@"      ; NICHT FINAL
+CastleMountainName:     db "SCHLOSS<¯>BERG@"      ; NICHT FINAL
 CharredSummitName:      db "RUẞGIPFEL@"         ;
 CrownCityName:          db "KOROKANIA¯CITY@"    ; Coroa (port. Krone) + oukan (jap. Krone)
-CrownPassName:          db "KOROKANIA-%PFAD@"
+CrownPassName:          db "KOROKANIA<¯>PFAD@"
 DaitoRanchName:         db "DAITO RANCH@"       ; NICHT FINAL Daito - Ort in Ryukyu
-DeepwaterPassageName:   db "TIEFWASSER-%PFAD@"    ;
-DragonsMawName:         db "DRACHEN-%SCHLUND@"    ;
+DeepwaterPassageName:   db "TIEFWASSER<¯>PFAD@"    ;
+DragonsMawName:         db "DRACHEN<¯>SCHLUND@"    ;
 EndonCaveName:          db "ENDON¯HÖHLE@"       ; NICHT FINAL Endon vielleicht von "No End" ?
 FastShipName:           db "SCHNELLBOOT@"
-ForkedStraitName:       db "MEERES-%GABELUNG@"    ;
+ForkedStraitName:       db "MEERES<¯>GABELUNG@"    ;
 FrostpointTownName:     db "SPIZARDIA@"         ; Spitze + Blizzard     NICHT FINAL
 GreatEastStraitName:    db "AGARIDINO-%STRAẞE@"  ; ufuagari (okinawa. äußerster Osten) + Borodino (europ. Name für Daito-Inseln)
-IcedCavernName:         db "GEFRIER-%GROTTE@"     ; alt. FROSTHÖHLE
+IcedCavernName:         db "GEFRIER<¯>GROTTE@"     ; alt. FROSTHÖHLE
 IeTownName:             db "II-SHIMA@"          ; okinawa. Iejima - eine der Ryukyu Inseln
 IsenStraitName:         db "ISEN-STRAẞE@"       ;
 JadeForestName:         db "JADEWALD@"
@@ -133,11 +133,11 @@ MeridianPathName:       db "MERIDIAN-%PFAD@"
 MotobuPathName:         db "MUTUBU-PFAD@"       ; okinawa. Motobu - Ort in Ryukyu
 NagoVillageName:        db "NAGOTANI@"          ; Nago - Stadt auf Okinawa + tanima (jap. Tal)
 NanjoForestName:        db "NANJUU-WALD@"       ; Nanchuu /Nanjuu - okinawa. für Nanjo
-NationalParkName:       db "NATIONAL-%PARK@"      ;
+NationalParkName:       db "NATIONAL<¯>PARK@"      ;
 NihonLeagueName:        db "NIHON¯LIGA@"
 PagotaCityName:         db "PAGETIA¯CITY@"      ; Pagode + vetus (lat. alt)
 RadioTowerName:         db "RADIOTURM@"         ;
-RainbowIslandName:      db "REGENBOGEN-%INSEL@"
+RainbowIslandName:      db "REGENBOGEN<¯>INSEL@"
 RuinsOfAlphName:        db "ALPH-RUINEN@"       ; doch GLYPHONTIA-RUINEN?
 RyukyuCityName:         db "RUUCHUU¯CITY@"      ; Ruuchuu - ryukyu für Ryukyu
 SanskritTownName:       db "GLYPHONTIA@"        ; Glyphe + Font
@@ -154,9 +154,9 @@ TidalGrottoName:        db "GEZEITEN-%GROTTE@"
 TropicalIslandName:     db "TROPENINSEL@"
 UrasoeParkName:         db "URASHI-PARK@"       ; okinawa. für Urasoe - Stadt auf Okinawa
 UrasoeTrailName:        db "URASHI-%WANDERWEG@"  ;
-VictoryRoadName:        db "SIEGES-%STRAẞE@"
+VictoryRoadName:        db "SIEGES<¯>STRAẞE@"
 WestportCityName:       db "PORT¯ABANISHI@"     ; Port (alt. Hafen) + Abanti (ahd. Abend bzw. Westen) + Nishi (jap. Westen)     evtl. PORT ABANTIA
-WhirlIslandName:        db "STRUDEL-%INSEL@"      ;
+WhirlIslandName:        db "STRUDEL<¯>INSEL@"      ;
 
 
 Route101Name:           db "ROUTE 101@"
