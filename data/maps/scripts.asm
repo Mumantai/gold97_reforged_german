@@ -111,10 +111,10 @@ INCLUDE "maps/Route120.asm"
 INCLUDE "maps/TeamRocketBaseB2FOffice.asm"
 INCLUDE "maps/TeamRocketBaseB1F.asm"
 INCLUDE "maps/TeamRocketBaseB2F.asm"
-
 INCLUDE "maps/ForkedStraitWestExit.asm"
 INCLUDE "maps/RainbowIsland.asm"
 INCLUDE "maps/RainbowIslandCave.asm"
+INCLUDE "maps/CrownCityScopeLensHouse.asm"
 
 
 
@@ -247,7 +247,6 @@ INCLUDE "maps/StandGym.asm"
 INCLUDE "maps/SunpointPokecenter1F.asm"
 INCLUDE "maps/CrownCitySpeechHouse.asm"
 INCLUDE "maps/SunpointPhotoStudio.asm"
-INCLUDE "maps/CrownCityScopeLensHouse.asm"
 INCLUDE "maps/PokeSeersHouse.asm"
 INCLUDE "maps/BattleTower1F.asm"
 INCLUDE "maps/BattleTowerBattleRoom.asm"
