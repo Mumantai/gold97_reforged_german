@@ -813,7 +813,7 @@ OakGiveMasterBallText2:
 	line "als ich, <PLAY_G>!"
 	done
 
-Oak2GiveTicketText1:
+OakGiveTicketText1:
 	text "EICH: <PLAYER>!"
 	line "Da bist du ja!"
 
