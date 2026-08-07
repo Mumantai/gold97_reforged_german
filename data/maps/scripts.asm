@@ -115,6 +115,8 @@ INCLUDE "maps/VictoryRoad2F.asm"
 INCLUDE "maps/ForkedStraitWestExit.asm"
 INCLUDE "maps/RainbowIsland.asm"
 INCLUDE "maps/CrownCityScopeLensHouse.asm"
+INCLUDE "maps/BoulderMinesB2F.asm"
+INCLUDE "maps/BoulderMinesB3F.asm"
 
 
 
@@ -152,8 +154,6 @@ SECTION "Map Scripts 8", ROMX
 INCLUDE "maps/EndonCave1F.asm"
 INCLUDE "maps/BoulderMinesB4F.asm"
 INCLUDE "maps/CrownPass.asm"
-INCLUDE "maps/BoulderMinesB2F.asm"
-INCLUDE "maps/BoulderMinesB3F.asm"
 INCLUDE "maps/VictoryRoad.asm"
 INCLUDE "maps/WestportPort.asm"
 INCLUDE "maps/AmamiPort.asm"
