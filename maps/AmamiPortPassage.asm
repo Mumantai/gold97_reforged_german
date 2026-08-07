@@ -91,10 +91,10 @@ DollSalesmanFridayMenu:
 .MenuData:
 	db STATICMENU_CURSOR ; flags
 	db 4 ; items
-	db "VOLTORB     ¥5000@"
-	db "WEEDLE      ¥5000@"
-	db "GEODUDE     ¥5000@"
-	db "CANCEL@"
+	db "VOLTOBAL    ¥5000@"
+	db "HORNLIU     ¥5000@"
+	db "KLEINSTEIN  ¥5000@"
+	db "ZURÜCK@"
 	
 DollSalesmanFriday_FinishScript:
 	waitsfx
@@ -117,49 +117,57 @@ DollSalesmanFridayNoMoney:
 	end
 	
 SendItemToPCTextDollFriday:
-	text "Send this DOLL to"
-	line "your bedroom PC?"
+    text "Die PUPPE an den"
+    line "PC schicken?"
 	done
 
 AlreadyHaveDecorItemTextSalesmanFriday:
-	text "You already have"
-	line "this DOLL!"
+    text "Du hast diese"
+    line "PUPPE bereits!"
 	done
 
 DollSalesmanFriday_HereYouGoText:
-	text "Here you go!"
+	text "Hier, bitte schön!"
 	done
-	
+
 DollSalesmanFridayComeAgain:
-	text "Hope to see you"
-	line "again somewhere!"
+    text "Ich hoffe, wir"
+    line "sehen uns bald"
+    cont "wieder irgendwo!"
 	done
-	
+
 DollSalesmanFridayNoMoneyText:
-	text "Sorry, you'll"
-	line "need more money!"
+    text "Tut mir leid, du"
+    line "hast nicht genug"
+    line "Geld!"
 	done
-	
+
 DollSalesmanTextFriday:
-	text "Hiya!"
-	para "I'm a traveling"
-	line "DOLL salesman!"
-	para "What does that"
-	line "mean?"
-	para "It means that I'm"
-	line "who you talk to"
-	para "if you want to"
-	line "deck out your"
-	cont "bedroom!"
-	para "My stock and my"
-	line "location change"
-	para "daily, so keep an"
-	line "eye out for me!"
+    text "Hey!"
+
+    para "Ich bin ein rei-"
+    line "sender PUPPEN-"
+    cont "Händler!"
+
+    para "Was das heißt?"
+
+    para "Das soll heißen,"
+    line "ich bin dein"
+    para "Ansprechpartner,"
+    line "wenn es darum"
+    cont "geht, dein Zimmer"
+    cont "aufzupeppen!"
+
+    para "Mein Angebot und"
+    line "mein Standort"
+    para "wechseln täglich,"
+    line "also halte deine"
+    cont "Augen offen!"
 	done
-	
+
 DollSalesmanTextFriday_AskWhichPrizeText:
-	text "Now which DOLL"
-	line "would you like?"
+    text "Also, welche PUPPE"
+    line "hättest du gerne?"
 	done
 	
 
@@ -203,45 +211,55 @@ AbraScript:
 
 
 AmamiPortPassageTeacherText:
-	text "The S.S.AQUA sails"
-	line "to WESTPORT CITY"
-	para "on Wednesdays and"
-	line "Sundays."
+	text "Die M.S. AQUA"
+	line "fährt immer"
+	para "mittwochs und"
+	line "sonntags nach"
+	cont "PORT ABANISHI."
 	done
 	
 
 TeleportGuyText1:
-	text "Don't feel like"
-	line "taking the ship?"
-	para "Or maybe it isn't"
-	line "running today?"
-	para "Well look here!"
-	para "My beloved ABRA"
-	line "can send you back"
-	para "to the mainland in"
-	line "an instant!"
-	para "I got a buddy "
-	line "waiting at the"
-	cont "WESTPORT DOCKS."
-	para "I'll send you to"
-	line "him!"
-	para "How about it?"
+    text "Fühlst du dich"
+    line "nicht danach, das"
+    cont "Schiff zu nehmen?"
+
+    para "Oder vielleicht"
+    line "fährt es heute"
+    line "gar nicht?"
+
+    para "Dann schau mal!"
+
+    para "Mein liebes ABRA"
+    line "kann dich im"
+    para "Handumdrehen aufs"
+    line "Festland bringen!"
+
+    para "Ich habe einen"
+    line "Kumpel, der am"
+    para "PIER von PORT"
+    line "ABANISHI wartet."
+
+    para "Ich schicke dich"
+    line "zu ihm!"
+
+    para "Na, wie wär's?"
 	done
 	
 TeleportGuyText1_2:
-	text "Want to go to"
-	line "WESTPORT CITY?"
+	text "Möchtest du nach"
+	line "PORT ABANISHI?"
 	done
 
 TeleportGuyYesText:
-	text "OK, OK. Picture"
-	line "WESTPORT CITY in"
-	cont "your mind…"
+	text "O.K. Stell dir"
+	line "PORT ABANISHI"
+	cont "vor…"
 	done
 
 TeleportGuyNoText:
-	text "OK, OK. I'll be"
-	line "here!"
+	text "O.K. Alles"
+	line "Gute!"
 	done
 
 AbraText:

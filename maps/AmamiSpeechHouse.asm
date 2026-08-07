@@ -10,15 +10,17 @@ AmamiSpeechHouseGentlemanScript:
 	jumptextfaceplayer AmamiSpeechHouseGentlemanText
 
 AmamiSpeechHouseGentlemanText:
-	text "Over many years,"
-	line "a long time ago,"
-	para "people from the"
-	line "mainland sailed"
-	para "here and settled"
-	line "on the islands."
-	para "I feel our culture"
-	line "is slightly more"
-	cont "relaxed here."
+    text "Für viele Jahre,"
+    line "vor langer Zeit,"
+    para "segelten Leute vom"
+    line "Festland hierher"
+    para "und ließen sich"
+    line "auf den Inseln"
+    cont "nieder."
+
+    para "Ich finde, unsere"
+    line "Kultur ist hier"
+    cont "etwas entspannter."
 	done
 
 AmamiSpeechHouse_MapEvents:

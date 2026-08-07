@@ -234,113 +234,127 @@ AmamiPlayerLeavesShip4:
 
 	
 ThanksForTheFuelLine:
-	text "Thanks, kid!"
-	para "The S.S.AQUA is"
-	line "back to being"
-	cont "fully operational!"
-	para "We can't thank you"
-	line "enough!"
-	para "Talk to the"
-	line "CAPTAIN next time"
-	cont "you're onboard."
-	para "I'm sure he'll"
-	line "have some way to"
-	cont "show his thanks!"
+    text "Danke, Kleiner!"
+
+    para "Die M.S. AQUA ist"
+    line "wieder voll"
+    cont "funktionsfähig!"
+
+    para "Wir können dir"
+    line "nicht genug"
+    cont "danken!"
+
+    para "Sprich mit dem"
+    line "KAPITÄN, wenn du"
+    cont "das nächste Mal"
+    cont "an Bord bist."
+
+    para "Ich bin sicher,"
+    line "er wird sich dir"
+    cont "irgendwie erkennt-"
+    cont "lich zeigen!"
 	done
 	
 YouHaveTheFuelLine:
-	text "Ah, the FUEL LINE!"
-	para "Wow!"
-	para "Let me go bring"
-	line "this to the ship"
-	cont "crew!"
+    text "Ah, die BENZIN-"
+    line "LEITUNG! Wow!"
+
+    para "Lass mich das der"
+    line "Crew an Bord"
+    cont "bringen!"
 	done
 	
 NeedANewPartText:
-	text "Wait, Kid!"
-	para "That rough sea we"
-	line "just had, damaged"
-	cont "the ship's FUEL"
-	cont "LINE!"
-	
-	para "There's a guy in"
-	line "KUME CITY who'll"
-	cont "have a new one for"
-	cont "us."
-	
-	para "Until then, we"
-	line "can't get back to"
-	cont "WESTPORT."
-	
-	para "Can you head to"
-	line "KUME CITY and"
-	cont "pick up the new"
-	cont "FUEL LINE?"
-	
-	para "Otherwise, we will"
-	line "be stranded here!"
+    text "Warte, Knirps"
+
+    para "Das Unwetter hat"
+    line "die BENZINLEITUNG"
+    cont "des Schiffs"
+    cont "beschädigt!"
+
+    para "In KUMIA CITY gibt"
+    line "es jemanden, der"
+    cont "sicherlich eine"
+    cont "neue für uns hat."
+
+    para "Bis dahin können"
+    line "wir nicht nach"
+    cont "PORT ABANISHI"
+    cont "zurück."
+
+    para "Kannst du nach"
+    line "KUMIA CITY gehen"
+    cont "und die BENZIN-"
+    cont "LEITUNG holen?"
+
+    para "Ansonsten sind wir"
+    line "hier gestrandet!"
 	done
 		
 GoGetThePart:
-	text "Alright, kid. We"
-	line "need a new FUEL"
-	cont "LINE."
-	para "There's a guy in"
-	line "KUME CITY who'll"
-	cont "have what we need."
-	para "Bring it back here"
-	line "when you have it!"
+    text "Okay, Knirps. Wir"
+    line "brauchen eine neue"
+    cont "BENZINLEITUNG."
+
+    para "Es gibt da einen"
+    line "Typen in KUMIA"
+    cont "CITY, der eine"
+    cont "haben sollte."
+
+    para "Bring sie hierher"
+    line "zurück, wenn du"
+    cont "sie hast!"
 	done
 
 AmamiPortSailorBoardingSoonText:
-	text "We're departing"
-	line "soon. Please get"
-	cont "on board."
+	text "Wir legen bald ab."
+	line "Komm bitte"
+	cont "an Bord."
 	done
 
 AmamiPortSailorGoToWestportText:
-	text "Welcome to FAST"
-	line "SHIP S.S.AQUA."
+	text "Willkommen am"
+	line "AMAMIA PIER."
 
-	para "Will you be board-"
-	line "ing for WESTPORT"
-	cont "today?"
+	para "Trittst du heute"
+	line "deine Reise nach"
+	cont "PORT ABANISHI an?"
 	done
 
 UnknownText_0x74f8b:
-	text "May I see your"
-	line "S.S.TICKET?"
+	text "Zeige mir bitte"
+	line "dein BOOTSTICKET!"
 	done
 
 UnknownText_0x74fa7:
-	text "We hope to see you"
-	line "again!"
+	text "Komm jederzeit"
+	line "wieder vorbei!"
 	done
 
 AmamiPortSSTicketText:
-	text "<PLAYER> flashed"
-	line "the S.S.TICKET."
+	text "<PLAYER> zeigt"
+	line "das BOOTSTICKET."
 
-	para "That's it."
-	line "Thank you!"
+	para "In Ordnung."
+	line "Dankeschön!"
 	done
 	
 AmamiSailorNoTicketText:
 	text "…"
-	para "Sorry!"
-	line "Trips to"
-	para "WESTPORT require"
-	line "you to have an"
-	cont "S.S.TICKET."
+	para "Tut mir Leid!"
+	line "Du darfst nur"
+
+	para "mit TICKET"
+	line "an Bord."
 	done
 
 UnknownText_0x750a6:
-	text "You came from"
-	line "the mainland?"
+	text "Du kommst vom"
+	line "Festland?"
 
-	para "I hear many rare"
-	line "#MON live over"
-	cont "there."
+	para "Dort sollen viele"
+	line "seltene #MON"
+	cont "leben."
 	done
 
 AmamiPort_MapEvents:

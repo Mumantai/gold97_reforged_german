@@ -88,14 +88,18 @@ ChucksWifeChubbyText:
 	done
 
 SunpointCityYoungsterText:
-	text "Have you ever been"
-	line "to BLUE FOREST?"
-	para "It's cold and"
-	line "snowy over there."
-	para "I couldn't live"
-	line "there!"
-	para "The cold is not"
-	line "for me."
+    text "Warst du schon mal"
+    line "in KITAOMORIA"
+    cont "CITY?"
+
+    para "Dort ist es kalt"
+    line "und verschneit."
+
+    para "Ich könnte da"
+    line "nicht leben!"
+
+    para "Die Kälte ist"
+    line "nichts für mich."
 	done
 
 SunpointCityPokefanMText:
