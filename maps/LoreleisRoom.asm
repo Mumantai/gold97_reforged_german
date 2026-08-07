@@ -87,52 +87,53 @@ LoreleisRoom_EnterMovement:
 	step_end
 
 LoreleiScript_LoreleiBeforeText:
-	text "Welcome to the"
-	line "NIHON LEAGUE,"
-	cont "<PLAYER>."
+    text "Willkommen in der"
+    line "#MON LIGA,
+    cont "<PLAYER>."
 
-	para "Allow me to intro-"
-	line "duce myself. I am"
-	cont "LORELEI."
+    para "Erlaube mir, mich"
+    line "vorzustellen."
+    cont "Ich bin LORELEI."
 
-	para "My freezing cold"
-	line "#MON have left"
+    para "Meine eiskalten"
+    line "#MON haben"
+    cont "schon so manchen"
+    cont "Trainer vor Angst"
+    cont "erstarren lassen."
 
-	para "many challengers"
-	line "frozen with fear."
+    para "Eis-#MON sind"
+    line "kalt und gnaden-"
+    cont "los, aber auch"
+    cont "wunderschön."
 
-	para "Ice-types are cold"
-	line "and ruthless but"
-	cont "also beautiful."
-
-	para "Your #MON"
-	line "will be at my"
-	cont "mercy when they"
-	cont "are frozen solid!"
+	para "Du wirst um Gnade"
+	line "winseln, wenn ich"
+	cont "deine  #MON"
+	cont "eingefroren habe!"
 
 	para "Hehe…"
 	
-	para "Let us begin!"
+	para "Lass und anfangen!"
 	done
 
 LoreleiScript_LoreleiBeatenText:
-	text "I… I can't…"
-	line "believe it…"
+	text "Ich… Ich kann…"
+	line "es nicht glauben…"
 	done
 
 LoreleiScript_LoreleiDefeatText:
-	text "Well done trainer."
+    text "Gut gemacht,"
+    line "Trainer."
 
-	para "But it will only"
-	line "get harder from"
-	cont "here."
+    para "Aber von hier an"
+    line "wird es nur noch"
+    cont "schwerer."
 
-	para "Go."
-	
-	para "You have only"
-	line "experienced a"
-	cont "taste of the"
-	cont "ELITE FOUR."	
+    para "Geh."
+
+    para "Das hier war nur"
+    line "ein Vorgeschmack"
+    cont "auf die TOP VIER."
 	done
 
 LoreleisRoom_MapEvents:

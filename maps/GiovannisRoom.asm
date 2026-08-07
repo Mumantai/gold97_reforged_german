@@ -86,69 +86,67 @@ GiovannisRoom_EnterMovement:
 	step_end
 
 GiovanniScript_GiovanniBeforeText:
-	text "Fwahaha!"
+	text "Uwahaha!"
 
-	para "Your eyes do not"
-	line "deceive you!"
+	para "Deine Augen trügen"
+	line "dich nicht!"
 
-	para "It is I, GIOVANNI!"
+	para "Ich bin es,"
+	line "GIOVANNI!"
 
-	para "While you may know"
-	line "my true identity,"
-	
-	para "I am also a valid"
-	line "member of the"
-	cont "ELITE FOUR!"
-	
-	para "My ambition to"
-	line "restore my "
-	cont "organization has"
-	cont "not changed,"
-	
-	para "but until then I"
-	line "will do what I"
-	cont "must to accomplish"
-	cont "it!"
-	
-	para "Now then,"
-	line "<PLAY_G>,"
-	
-	para "I hope you have"
-	line "prepared yourself,"
-	
-	para "because your"
-	line "journey ends here!"
+	para "Du magst mein"
+    line "wahres Ich kennen,"
+    cont "doch ich bin auch"
+    cont "ein vollwertiges"
+    cont "Mitglied der"
+    cont "TOP VIER!"
+
+    para "Ich habe immer"
+    line "noch vor TEAM"
+    cont "ROCKET wieder"
+    cont "aufzubauen."
+
+    para "Bis dahin werde"
+    line "ich alles Nötige"
+    cont "tun um dieses Ziel"
+    cont "zu erreichen!"
+
+    para "Also dann,"
+    line "<PLAY_G>,"
+    para "ich hoffe du bist"
+    line "gut vorbereitet,"
+    cont "denn deine Reise"
+    cont "endet hier!"
 	done
 
 GiovanniScript_GiovanniBeatenText:
 	text "Argh!"
 
-	para "It seems you are"
-	line "much stronger"
-	cont "than last time!"
+	para "Du bist ja sogar"
+	line "noch stärker als"
+	cont "beim letzten Mal!"
 	done
 
 GiovanniScript_GiovanniDefeatText:
-	text "I loathe you."
+    text "Ich verachte dich."
 
-	para "But you have my"
-	line "respect."
-	
-	para "Perhaps if times"
-	line "were different,"
-	
-	para "we could have been"
-	line "allies…"
-	
-	para "Regardless…"
-	
-	para "You have defeated"
-	line "me."
+    para "Aber du hast"
+    line "meinen Respekt."
 
-	para "Proceed ahead."
-	
-	para "The CHAMPION is"
-	line "waiting…"
+    para "Unter anderen"
+    line "Umständen hätten"
+    cont "wir vielleicht"
+    cont "Verbündete sein"
+    cont "können…"
+
+    para "Dennoch…"
+
+    para "Du hast mich"
+    line "besiegt."
+
+    para "Geh weiter."
+
+    para "Der CHAMP wartet…"
 	done
 
 GiovannisRoom_MapEvents:

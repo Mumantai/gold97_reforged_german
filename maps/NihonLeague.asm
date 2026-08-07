@@ -12,12 +12,14 @@ NihonLeagueSign:
 	jumptext NihonLeagueSignText
 
 NihonLeagueSignText:
-	text "MT.FUJI"
+	text "KOROKANIABERG"
 
-	para "The Ultimate Goal"
-	line "for Trainers!"
+	para "Das Ultimative"
+	line "Ziel Aller"
+	cont "Trainer!"
 
-	para "NIHON LEAGUE HQ"
+	para "HAUPTQUARTIER der"
+	line "#MON LIGA"
 	done
 
 NihonLeague_MapEvents:
