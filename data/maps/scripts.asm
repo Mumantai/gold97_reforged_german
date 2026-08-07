@@ -58,6 +58,7 @@ INCLUDE "maps/KikaiVillage.asm"
 INCLUDE "maps/KikaiHouse1.asm"
 INCLUDE "maps/KikaiHouse2.asm"
 INCLUDE "maps/FrostpointMart.asm"
+INCLUDE "maps/ForkedStraitWestExit.asm"
 
 
 
@@ -112,7 +113,7 @@ INCLUDE "maps/TeamRocketBaseB2FOffice.asm"
 INCLUDE "maps/TeamRocketBaseB1F.asm"
 INCLUDE "maps/TeamRocketBaseB2F.asm"
 INCLUDE "maps/VictoryRoad2F.asm"
-INCLUDE "maps/ForkedStraitWestExit.asm"
+
 INCLUDE "maps/RainbowIsland.asm"
 INCLUDE "maps/RainbowIslandCave.asm"
 
