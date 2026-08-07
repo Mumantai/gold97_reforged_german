@@ -216,13 +216,13 @@ FastShipBedText2:
 	line "frisch!"
 	done
 
-FastShipArrivedAlloyText:
+FastShipArrivedOlivineText:
 	text "Die M.S. AQUA legt"
 	line "in PORT ABANISHI"
 	cont "an."
 	done
 
-FastShipArrivedAmamiText:
+FastShipArrivedVermilionText:
 	text "Die M.S. AQUA legt"
 	line "in AMAMIA an."
 	done
