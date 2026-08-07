@@ -375,11 +375,11 @@ OakGiveMasterBallScript:
 	end
 
 OakGiveTicketScript:
-	writetext OakGiveTicketText
+	writetext OakGiveTicketText1
 	buttonsound
 	verbosegiveitem S_S_TICKET
 	setevent EVENT_GOT_SS_TICKET_FROM_OAK
-	writetext OakGiveTicketText
+	writetext OakGiveTicketText2
 	waitbutton
 	closetext
 	end
@@ -813,7 +813,20 @@ OakGiveMasterBallText2:
 	line "als ich, <PLAY_G>!"
 	done
 
-OakGiveTicketText:
+Oak2GiveTicketText1:
+	text "EICH: <PLAYER>!"
+	line "Da bist du ja!"
+
+	para "Ich habe dich ge-"
+	line "rufen, weil ich"
+	cont "dir etwas geben"
+	cont "möchte."
+
+	para "Es handelt sich um"
+	line "ein BOOTSTICKET."
+	done
+
+OakGiveTicketText2:
     text "Am Hafen von PORT"
     line "ABANISHI kannst du"
     para "mit dem Schiff zu"
