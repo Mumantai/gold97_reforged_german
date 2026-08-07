@@ -88,7 +88,7 @@ LoreleisRoom_EnterMovement:
 
 LoreleiScript_LoreleiBeforeText:
     text "Willkommen in der"
-    line "#MON LIGA,
+    line "#MON LIGA,"
     cont "<PLAYER>."
 
     para "Erlaube mir, mich"
