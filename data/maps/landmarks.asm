@@ -106,7 +106,7 @@ BrassTowerName:         db "MESSINGTURM@"
 CastleMountainName:     db "SCHLOSS<¯>BERG@"      ; NICHT FINAL
 CharredSummitName:      db "RUẞGIPFEL@"         ;
 CrownCityName:          db "KOROKANIA¯CITY@"    ; Coroa (port. Krone) + oukan (jap. Krone)
-CrownPassName:          db "KOROKANIA<¯>PFAD@"
+CrownPassName:          db "KOROKANIA-%PASS@"
 DaitoRanchName:         db "DAITO RANCH@"       ; NICHT FINAL Daito - Ort in Ryukyu
 DeepwaterPassageName:   db "TIEFWASSER<¯>PFAD@"    ;
 DragonsMawName:         db "DRACHEN<¯>SCHLUND@"    ;

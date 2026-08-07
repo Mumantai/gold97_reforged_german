@@ -40,7 +40,7 @@ ELIF DEF(_SILVER)
 ENDC
 
 LugiaText:
-	text "Gyaaas!"
+	text "Uargh!"
 	done
 
 WhirlIslandLugiaChamber_MapEvents:

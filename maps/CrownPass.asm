@@ -98,24 +98,25 @@ CrownPassSilverLeavesMovement:
 CrownPassSilverBeforeText:
 	text "Hi, <PLAY_G>!"
 
-	para "You're about to"
-	line "climb MT.FUJI,"
-	cont "right?"
+	para "Du willst den"
+	line "KOROKANIABERG"
+	cont "erklimmen, oder?"
 
-	para "It's been a long"
-	line "journey."
+	para "Es war eine lange"
+	line "Reise."
 
-	para "We've both been"
-	line "through a lot."
+	para "Wir beide haben"
+	line "viel durchgemacht."
 
-	para "Are your #MON"
-	line "ready?"
+	para "Sind deine #MON"
+	line "bereit?"
 
-	para "Let's face off,"
-	line "right here!"
+	para "Lass uns genau"
+	line "hier gegeneinander"
+	cont "antreten!"
 
-	para "A battle between"
-	line "friends!"
+	para "Ein Kampf zwischen"
+	line "zwei Freunden!"
 	done
 
 CrownPassSilverWinText:
@@ -127,40 +128,44 @@ CrownPassSilverLossText:
 	done
 
 CrownPassSilverAfterText:
-	text "You know what I've"
-	line "realized?"
+    text "Weißt du, was mir"
+    line "klar geworden ist?"
 
-	para "I was so excited"
-	line "to challenge the"
-	cont "LEAGUE."
+    para "Ich war so aufge-"
+    line "regt, die LIGA"
+    cont "herauszufordern."
 
-	para "I wanted to have"
-	line "the strongest"
-	cont "#MON."
+    para "Ich wollte die"
+    line "stärksten #MON"
+    cont "haben."
 
-	para "I wanted to be the"
-	line "toughest trainer"
-	cont "there is."
+    para "Ich wollte der"
+    line "härteste Trainer"
+    cont "sein, den es gibt."
 
-	para "But dealing with"
-	line "TEAM ROCKET has"
-	cont "made me think."
+    para "Aber die ganze"
+    line "Sache mit TEAM"
+    para "ROCKET hat mich"
+    line "zum Nachdenken"
+    cont "gebracht."
 
-	para "I've realized I"
-	line "need to treat my"
-	cont "team with love."
+    para "Ich habe erkannt,"
+    line "dass ich mein Team"
+    para "mit mehr Fürsorge"
+    line "behandeln muss."
 
-	para "So, I don't think"
-	line "I'm quite ready to"
-	cont "face the LEAGUE"
-	cont "until I've worked"
-	cont "on that."
+    para "Darum glaube ich,"
+    line "ich bin noch nicht"
+    para "ganz bereit, mich"
+    line "der #MON LIGA"
+    para "zu stellen, bis"
+    line "ich mehr an mir"
+    para "gearbeitet habe."
 
-	para "<PLAY_G>,"
-	line "good luck."
+	para "Viel Glück,"
+	line "<PLAY_G>."
 
-	para "I'll see you"
-	line "around soon."
+	para "Bis bald."
 	done
 
 CrownPass_MapEvents:
