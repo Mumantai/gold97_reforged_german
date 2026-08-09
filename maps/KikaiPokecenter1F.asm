@@ -19,22 +19,22 @@ KikaiPokecenter1FBlackBelt2Script:
 
 
 KikaiPokecenter1FBlackBeltText1:
-	text "I've been in this"
-	line "#MON CENTER"
-	cont "12 times in the"
-	cont "last week!"
+    text "Ich war diese"
+    line "Woche schon zwölf"
+    cont "Mal in diesem"
+    cont "#MON-CENTER!"
 	done
 
 KikaiPokecenter1FBlackBeltText2:
-	text "This place makes"
-	line "me wish people"
-	cont "could be healed"
-	cont "so easily."
-	
-	para "If they could,"
-	line "I would be able"
-	cont "to train much"
-	cont "harder!"
+	text "Ich wünschte,"
+	line "Menschen könnten"
+	para "hier genauso"
+	line "leicht wie #MON"
+	cont "geheilt werden."
+
+	para "Dann könnte ich"
+	line "noch viel härter"
+	cont "trainieren!"
 	done
 
 KikaiPokecenter1F_MapEvents:

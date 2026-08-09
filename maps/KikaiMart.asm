@@ -21,20 +21,18 @@ KikaiMartWomanScript:
 	jumptextfaceplayer KikaiMartWomanText
 	
 KikaiMartBlackbeltText:
-	text "I need to stock up"
-	line "on supplies for"
-	cont "my long training"
-	cont "session in the"
-	cont "CALDERA!"
+	text "Ich muss mich mit"
+	line "Vorräten für mein"
+	para "langes Training im"
+	line "KESSEL eindecken!"
 	done
 
 KikaiMartWomanText:
-	text "I come across so"
-	line "many injured"
-	cont "fighters that I"
-	cont "started carrying"
-	cont "HYPER POTIONS"
-	cont "everywhere I go."
+    text "Ich treffe viele"
+    line "verletzte Kämpfer,"
+    cont "deshalb habe ich"
+    cont "immer ein paar"
+    cont "HYPERTRÄNKE dabei."
 	done
 
 KikaiMart_MapEvents:

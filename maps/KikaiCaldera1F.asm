@@ -22,20 +22,21 @@ TrainerBBIzo:
 	end
 
 IzoSeenText:
-	text "Hiyah! Feel my"
-	line "burning hot"
-	cont "fighting spirit!"
+	text "Hiyah! Spüre"
+	line "meinen brennend"
+	cont "heißen Kampfgeist!"
 	done
 
 IzoBeatenText:
-	text "Hooah!"
+	text "Huah!"
 	done
-	
+
 IzoAfterBattleText:
-	text "I can't tell what"
-	line "is hotter, this"
-	cont "volcano or my"
-	cont "burning passion!"
+    text "Ich weiß nicht,"
+    line "was heißer ist,"
+    para "dieser Vulkan oder"
+    line "meine brennende"
+    cont "Leidenschaft!"
 	done
 
 TrainerBBKenji:
@@ -49,22 +50,24 @@ TrainerBBKenji:
 	closetext
 	end
 	
-KenjiSeenText:
-	text "Welcome to the"
-	line "CALDERA Kitchen!"
-	
-	para "Now face the heat!"
+TakeshiSeenText:
+    text "Willkommen in"
+    line "KESSELs-Küche!"
+
+    para "Jetzt spüre"
+    line "die Hitze!"
 	done
-	
-KenjiBeatenText:
-	text "I can smell what"
-	line "you're cookin'!"
+
+TakeshiBeatenText:
+	text "Ich rieche, was"
+	line "du da kochst!"
 	done
-	
-KenjiAfterBattleText:
-	text "Those who can't"
-	line "stand the heat"
-	cont "shouldn't be here!"
+
+TakeshiAfterBattleText:
+	text "Wer die Hitze"
+	line "nicht aushält,"
+	para "hat hier nichts"
+	line "verloren!"
 	done
 	
 	
@@ -80,24 +83,26 @@ TrainerBBTaro:
 	end
 
 TaroSeenText:
-	text "My fists flow"
-	line "faster than the"
-	cont "river of sweat"
-	cont "from my efforts!"
+    text "Meine Fäuste flie-"
+    line "gen schneller, als"
+    para "die Schweißperlen"
+    line "von meiner Stirn!"
 	done
-	
+
 TaroBeatenText:
-	text "Maybe it's time"
-	line "to hit the sauna."
+    text "Vielleicht ist"
+    line "es Zeit für"
+    cont "die Sauna."
 	done
-	
+
 TaroAfterBattleText:
-	text "Fighters began to"
-	line "train in the"
-	cont "CALDERA because"
-	cont "the intense heat"
-	cont "builds their"
-	cont "cardiac strength!"
+    text "Kämpfer haben mit"
+    line "hier im KESSEL mit"
+    para "dem Training be-"
+    line "gonnen, weil die"
+    para "intensive Hitze"
+    line "ihre Herzfunktion"
+    cont "stärkt!"
 	done
 
 KikaiCaldera1FItemball1:

@@ -76,67 +76,76 @@ KikaiBrunoScript:
 BrunoHooHahSmashText:
 	text "…"
 	
-	para "HOO HAH!"
+	para "UH AH!"
 	done
 	
 BrunoPrebattleText:
-	text "I am BRUNO of the"
-	line "former ELITE FOUR."
+	text "Ich bin BRUNO."
 
-	para "I always train to"
-	line "the extreme be-"
-	cont "cause I believe in"
-	cont "our potential."
+	para "Ein ehemaliges"
+	line "Mitglied der"
+	cont "TOP VIER."
 
-	para "That is how we"
-	line "became strong."
+	para "Ich trainiere, bis"
+	line "ich erschöpft bin,"
+	cont "da ich an mein"
+	cont "Potential glaube."
 
-	para "Can you withstand"
-	line "our power?"
+	para "Auf diese Art bin"
+	line "ich so stark"
+	cont "geworden."
 
-	para "Hm? I see no fear"
-	line "in you. You look"
+	para "Kannst du unserer"
+	line "Kraft widerstehen?"
 
-	para "determined. Per-"
-	line "fect for battle!"
+	para "Hm? Ich sehe, du"
+	line "fürchtest dich"
+	para "nicht und siehst"
+	line "entschlossen aus."
 
-	para "You will bow down"
-	line "to our overwhelm-"
-	cont "ing power!"
+	para "Genau richtig für"
+	line "einen Kampf!"
 
-	para "Hoo hah!"
+	para "Du wirst dich vor"
+	line "unserer überwälti-"
+    cont "genden Kraft"
+    cont "verneigen!"
+
+	para "Uh Ah!"
 	done
 
 BrunoWinText:
-	text "Why? How could we"
-	line "lose?"
+	text "Warum? Wie konnte"
+	line "ich nur verlieren?"
 	done
 	
 BrunoAfterBattletext:
-	text "Having lost, I"
-	line "have no right to"
-	cont "say anything…"
+    text "Da ich verloren"
+    line "habe, habe ich"
+    cont "kein Recht, etwas"
+    cont "zu sagen…"
 
-	para "Go forth and face"
-	line "whatever challen-"
-	cont "ges you may find."
+    para "Geh fort und"
+    line "stelle dich der"
+    cont "nächsten Heraus-"
+    cont "forderung."
 	done
 
 KikaiBlackBeltText:
-	text "This village is"
-	line "a popular place"
-	cont "for practicioners"
-	cont "of the martial"
-	cont "arts!"
+    text "Dieses Dorf ist"
+    line "ein beliebter Ort"
+    para "für Anhänger der"
+    line "Kampfkünste!"
 	done
 
 KikaiGrampsText:
-	text "The CALDERA is a"
-	line "training ground"
-	cont "for martial"
-	cont "artists, be ready"
-	cont "for a fight if"
-	cont "you enter!"
+    text "Der KESSEL ist ein"
+    line "Trainingsplatz für"
+    cont "Kampfkünstler."
+
+    para "Sei bereit für"
+    line "einen Kampf, wenn"
+    cont "du ihn betrittst!"
 	done
 
 KikaiSign:
@@ -146,14 +155,16 @@ CalderaSign:
 	jumptext CalderaSignText
 	
 KikaiSignText:
-	text "KIKAI VILLAGE"
-	line "The firey hot"
-	cont "fighters town!"
+	text "KIKAITANI"
+
+	para "Die Stadt der"
+	line "heißblütigen"
+	cont "Kämpfer"
 	done
 
 CalderaSignText:
-	text "KIKAI CALDERA"
-	line "Be wary of lava."
+	text "KIKAI-KESSEL"
+	line "Achtung Lava"
 	done
 
 KikaiVillage_MapEvents:
