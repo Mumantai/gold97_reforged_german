@@ -68,7 +68,7 @@ NagoImposterHouseImposterText:
 	done
 
 
-NagoDiglettText:
+CeruleanDiglettText:
 	text "DIGDA: Dig dig."
 	done
 
