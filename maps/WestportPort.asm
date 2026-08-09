@@ -57,7 +57,7 @@ WestportPortSailorGuardScript:
 	jump .MenuSWIslesCommon
 .MenuSWIsles
 	writetext WestportPortSailorGoToTekuText
-	loadmenu MenuSWIslesCommon
+	jump .MenuSWIslesCommon
 .MenuSWIslesCommon
 	loadmenu WestportPortLocationMenu2
 	verticalmenu
