@@ -537,7 +537,7 @@ Text_PlayerGotFive:
 	text_ram wStringBuffer4
 	text "!@"
 	sound_item
-	text_promptbutton
+	text_waitbutton
 	text_end
 
 Text_YourPackIsStuffedFull:
