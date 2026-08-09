@@ -23,25 +23,28 @@ TrainerSailorEugene:
 	
 
 SailorEugeneSeenText:
-	text "I just got back"
-	line "from sea."
+	text "Ich bin gerade"
+	line "von der See"
+	cont "zurückgekommen."
 
-	para "So how about a"
-	line "#MON battle?"
+	para "Wie steht es nun"
+	line "mit dem #MON-"
+	cont "Kampf?"
 	done
 
 SailorEugeneBeatenText:
-	text "Awaaargh!"
+	text "Aah!"
 	done
 
 SailorEugeneAfterBattleText:
-	text "My #MON were"
-	line "caught and raised"
-	cont "overseas."
+	text "Meine #MON"
+	line "sin im Ausland"
+	cont "eingefangen und"
+	cont "aufgezogen worden."
 
-	para "They're my compan-"
-	line "ions on those long"
-	cont "voyages."
+	para "Sie begleiten mich"
+	line "auf meinen langen"
+	cont "Reisen."
 	done
 
 
@@ -58,20 +61,21 @@ TrainerTeacherHolly:
 	
 
 TeacherHollySeenText:
-	text "Um, excuse me"
-	line "but this is a"
-	cont "private date!"
+    text "Äh, entschuldigung"
+    line "aber das ist ein"
+    cont "privates Treffen!"
 	done
 
 TeacherHollyBeatenText:
-	text "Buzz off twerp!"
+	text "Hau ab, du"
+	line "Schwachkopf!"
 	done
 
 TeacherHollyAfterBattleText:
-	text "As if I don't"
-	line "have to deal"
-	cont "with enough kids"
-	cont "at work already!"
+    text "Als ob ich nicht"
+    line "auf Arbeit schon"
+    para "genug mit Kindern"
+    line "zu tun hätte!"
 	done
 
 
@@ -88,23 +92,24 @@ TrainerInstrMoshe:
 	
 
 InstrMosheSeenText:
-	text "If you're looking"
-	line "for tutoring then"
-	cont "you've come at"
-	cont "the wrong time!"
+    text "Falls du Nachhilfe"
+    line "wolltest, bist du"
+    para "zur falschen Zeit"
+    line "gekommen!"
 	done
 
 InstrMosheBeatenText:
-	text "Ah come on!"
+	text "Ach, komm schon!"
 	done
 
 InstrMosheAfterBattleText:
-	text "Us schoolteachers"
-	line "can't even have"
-	cont "a cute date with-"
-	cont "out some kids"
-	cont "showing up to"
-	cont "pester us!"
+    text "Es ist so typisch,"
+    line "dass ich nicht mal"
+    para "auf ein Rendezvous"
+    line "gehen kann, ohne"
+    para "von irgendeinem"
+    line "Kind belästigt"
+    cont "zu werden!"
 	done
 
 TrainerSNNorton:
@@ -120,23 +125,25 @@ TrainerSNNorton:
 	
 
 SNNortonSeenText:
-	text "I hang around at"
-	line "HEART POND every"
-	cont "day but I still"
-	cont "don't have a"
-	cont "girlfriend!"
+    text "Ich hänge jeden"
+    line "Tag am HERZTEICH"
+    cont "rum!"
+
+    para "Also warum finde"
+    line "ich dann keine"
+    cont "Freundin?"
 	done
 
 SNNortonBeatenText:
-	text "It's a tough"
-	line "life of a nerd."
+    text "Das Leben eines"
+    line "STREBERs ist hart."
 	done
 
 SNNortonAfterBattleText:
-	text "Would bathing in"
-	line "the HEART POND"
-	cont "help my chances"
-	cont "at all?"
+    text "Hätte ich bessere"
+    line "Chancen, wenn ich"
+    para "im HERZTEICH baden"
+    line "würde?"
 	done
 
 TPItemball:
@@ -146,20 +153,21 @@ HeartPondSign:
 	jumptext HeartPondSignText
 	
 HeartPondSignText:
-	text "HEART POND"
-	line "A place where"
-	cont "lovers meet."
+	text "HERZTEICH"
+
+	para "Ein Treffpunkt"
+	line "für Liebende"
 	done
 
 KikaiStraitSign:
 	jumptext KikaiStraitSignText
 	
 KikaiStraitSignText:
-	text "TATSUGO PATH -"
-	line "KIKAI STRAIT"
+	text "TATSUGO PFAD -"
+	line "STRAẞE VON KIKAI"
 	
-	para "KIKAI VILLAGE"
-	line "AHEAD"
+	para "KIKAITANI"
+	line "VORAUS"
 	done
 
 TatsugoPath_MapEvents:

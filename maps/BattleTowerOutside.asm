@@ -50,84 +50,86 @@ ThiefNewBTScript:
 	
 ThiefManIntroText:
 	text "Psst…"
-	line "Hey kid…"
-	
-	para "Ya wanna know"
-	line "how to win at"
-	cont "the BATTLE TOWER?"
-	
-	para "You need items"
-	line "to put on your"
-	cont "#MON!"
-	
-	para "But held items are"
-	line "hard to come by,"
-	cont "right?"
-	
-	para "Here, I got a lil'"
-	line "somethin' to make"
-	cont "em' easier to get!"
+	line "Hey Knirps…"
+
+	para "Willst du wissen,"
+	line "wie man im DUELL-"
+	cont "TURM gewinnt?"
+
+	para "Du brauchst Items,"
+	line "die du deinen"
+	cont "#MON zu tragen"
+	cont "gibst!"
+
+	para "An die kommt man"
+	line "aber nur schwer"
+	cont "ran, nicht wahr?"
+
+	para "Tja, ich habe hier"
+	line "etwas, das es dir"
+	cont "leichter macht,"
+	cont "welche zu kriegen!"
 	done
 
 ThiefManSecondText:
-	text "With THIEF, you"
-	line "can snatch the"
-	cont "held items right"
-	cont "off trainers!"
-	
-	para "I bet if you go"
-	line "and try this on"
-	cont "the GYM LEADERS"
-	cont "offering rematch"
-	cont "battles, you'll"
-	cont "find all kinds"
-	cont "of things…"
+    text "Mit RAUB kannst du"
+    line "deinem Gegner das"
+    cont "getragene Item"
+    cont "einfach wegnehmen!"
+
+    para "Wenn du das mal"
+    line "bei ARENALEITERN"
+    cont "ausprobierst,"
+    cont "kannst du aller-"
+    cont "hand guter Items"
+    cont "abstauben…"
 	done
 
 
 BattleTowerOutsideYoungsterText:
-	text "Wow, the BATTLE"
-	line "TOWER is huge!"
+	text "Wow, der DUELLTURM"
+	line "ist riesig!"
 
-	para "There must be many"
-	line "kinds of #MON"
-	cont "in there!"
+	para "Es muss dort viele"
+	line "#MON geben!"
 	done
 
 BattleTowerOutsideBuenaText:
-	text "You can use only"
-	line "three #MON."
+	text "Du darfst nur drei"
+	line "#MON einsetzen."
 
-	para "It's so hard to"
-	line "decide which three"
+	para "Es fällt einem"
+	line "nicht leicht, drei"
 
-	para "should go into"
-	line "battle…"
+	para "#MON für den"
+	line "Kampf auszuwählen…"
 	done
 
 BattleTowerOutsideSailorText:
-	text "Hehehe, I snuck"
-	line "out from work."
+	text "Hehehe, ich drücke"
+	line "mich vor der Ar-"
+	cont "beit. Ich kann"
 
-	para "I can't bail out"
-	line "until I've won!"
+	para "nicht zurück, bis"
+	line "ich siege. Ich"
 
-	para "I have to win it"
-	line "all. That I must!"
+	para "muss alles gewin-"
+	line "nen. Es ist ein"
+	cont "Zwang!"
 	done
 
 BattleTowerOutsideSignText:
-	text "BATTLE TOWER"
+	text "DUELLTURM"
 
-	para "Take the Ultimate"
-	line "Trainer Challenge!"
+	para "Die ultimative"
+	line "Herausforderung!"
 	done
 
 TatsugoPathSignText:
-	text "TATSUGO PATH"
+	text "TATSUGO PFAD"
 	
-	para "AMAMI TOWN -"
-	line "KIKAI VILLAGE"
+	para "AMAMIA  -"
+	line "KIKAITANI"
 	done
 
 BattleTowerOutside_MapEvents:

@@ -830,8 +830,8 @@ OakGiveTicketText2:
     text "Am Hafen von PORT"
     line "ABANISHI kannst du"
     para "mit dem Schiff zu"
-    line "den SÜDWESTINSELN"
-    cont "NIHONs fahren."
+    line "den NANTO-INSELN"
+    cont "im Südwesten."
 
     para "Dort gibt es viele"
     line "seltene #MON,"

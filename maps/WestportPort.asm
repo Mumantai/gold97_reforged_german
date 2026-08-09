@@ -173,7 +173,7 @@ WestportPortLocationMenu2:
 	db STATICMENU_CURSOR ; flags
 	db 3 ; items
 	db "TEKNOPIA CITY@"
-	db "SÜDWESTINSELN@"
+	db "NANTO-INSELN@"
 	db "ZURÜCK@"
 
 
@@ -284,8 +284,8 @@ WestportPortSailorFirstTimeIslesText:
 
     para "Wir bieten jetzt"
     line "auch Fahrten zu"
-    cont "NIHONs SÜDWEST-"
-    cont "INSELN an."
+    cont "den NANTO-INSELN"
+    cont "im Südwesten an."
 
     para "Wohin möchtest du"
     line "heute fahren?"
@@ -305,7 +305,7 @@ WestportPortSailorBoardingSoonText:
 WestportPortSailorGoingToSWIsles:
     text "O.K.! Abfahrt nach"
     line "AMAMIA auf den"
-    cont "SÜDWESTINSELN."
+    cont "NANTO-INSELN."
 	done
 
 SailorSeeTicketText:
