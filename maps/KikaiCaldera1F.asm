@@ -50,7 +50,7 @@ TrainerBBKenji:
 	closetext
 	end
 	
-TakeshiSeenText:
+KenjiSeenText:
     text "Willkommen in"
     line "KESSELs-Küche!"
 
@@ -58,12 +58,12 @@ TakeshiSeenText:
     line "die Hitze!"
 	done
 
-TakeshiBeatenText:
+KenjiBeatenText:
 	text "Ich rieche, was"
 	line "du da kochst!"
 	done
 
-TakeshiAfterBattleText:
+KenjiAfterBattleText:
 	text "Wer die Hitze"
 	line "nicht aushält,"
 	para "hat hier nichts"
