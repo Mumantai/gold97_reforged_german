@@ -55,8 +55,7 @@ INCLUDE "maps/RadioTower4F.asm"
 INCLUDE "maps/KantoPokecenter1F.asm"
 INCLUDE "maps/TeknosAquarium1F.asm"
 INCLUDE "maps/KikaiVillage.asm"
-INCLUDE "maps/KikaiHouse1.asm"
-INCLUDE "maps/KikaiHouse2.asm"
+
 INCLUDE "maps/FrostpointMart.asm"
 
 
@@ -229,6 +228,8 @@ INCLUDE "maps/IeTMShop.asm"
 INCLUDE "maps/IePokecenter1F.asm"
 INCLUDE "maps/IeHouse1.asm"
 INCLUDE "maps/IeHouse2.asm"
+INCLUDE "maps/KikaiHouse1.asm"
+INCLUDE "maps/KikaiHouse2.asm"
 
 
 
