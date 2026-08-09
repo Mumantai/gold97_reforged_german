@@ -18,7 +18,7 @@ CeruleanDiglett:
 	closetext
 	end
 
-NagoImposterHouseImposterText:
+NagoImposterHouseFishingGuruText:
     text "BETRÜGER EICH: Oh."
 
     para "Du bist es."
