@@ -45,59 +45,62 @@ TrainerSwimmerfKatie:
 
 
 SwimmerfJillSeenText:
-	text "The water is so"
-	line "nice and warm"
-	cont "around here!"
+    text "Das Wasser ist"
+    line "so schön und"
+    cont "warm hier!"
 	done
 
 SwimmerfJillBeatenText:
-	text "Kyah!"
+	text "Iieh!"
 	done
 
 SwimmerfJillAfterBattleText:
-	text "Going to the"
-	line "#MON CENTER"
-	cont "means I have to"
-	cont "get out of the"
-	cont "water, oh well."
+    text "Jetzt muss ich ins"
+    line "#MON-CENTER,"
+    para "also muss ich auch"
+    line "aus dem Wasser."
+    cont "Na ja."
 	done
 
 SwimmerfMarySeenText:
-	text "I'll swim circles"
-	line "around you!"
+    text "Ich ziehe Kreise"
+    line "um dich herum!"
 	done
 
 SwimmerfMaryBeatenText:
-	text "I'm dizzy!"
+	text "Jetzt ist mir"
+	line "schwindelig!"
 	done
 
 SwimmerfMaryAfterBattleText:
-	text "I think I'm"
-	line "getting some heat"
-	cont "stroke out here."
+    text "Ich glaube, ich"
+    line "kriege hier einen"
+    cont "Hitzschlag."
 	done
 
 SwimmerfKatieSeenText:
-	text "Ka-splash!"
+	text "Platsch!"
 	done
 
 SwimmerfKatieBeatenText:
-	text "Washed out!"
+	text "Weggespült!"
 	done
 
 SwimmerfKatieAfterBattleText:
-	text "Want to see how"
-	line "long I can hold"
-	cont "my breath?"
+    text "Willst du sehen,"
+    line "wie lange ich die"
+    para "Luft anhalten"
+    line "kann?"
 	done
 
 MotobuPathSign:
 	jumptext MotobuPathSignText
 	
 MotobuPathSignText:
-	text "MOTOBU PATH -"
-	line "NAGO VILLAGE to"
-	cont "IE TOWN."
+	text "MUTUBU-PFAD"
+
+	para "NAGOTANI -"
+	line "II-SHIMA"
 	done
 
 

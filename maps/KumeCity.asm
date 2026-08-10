@@ -47,44 +47,51 @@ KumeCityRockerScript:
 	jumptextfaceplayer KumeCityRockerText
 	
 KumeCityFisherText:
-	text "It's cold over in"
-	line "ICED CAVERN."
-	para "Be prepared for"
-	line "that if you go"
-	cont "exploring."
+    text "In der GEFRIER-"
+    line "GROTTE ist es"
+    cont "sehr kalt."
+
+    para "Sei vorbereitet,"
+    line "wenn du sie"
+    cont "erkunden willst."
 	done
-	
+
 KumeCityLassText:
-	text "You've been to"
-	line "FROSTPOINT TOWN?"
-	para "Wow, that's so far"
-	line "from here."
+	text "Du warst schon mal"
+	line "in SPIZARDIA?"
+
+	para "Wow, das ist echt"
+	line "weit weg von hier."
 	done
-	
+
 KumeCityTeacherText:
-	text "You look like"
-	line "you're ready to go"
-	para "anywhere with"
-	line "#MON."
+	text "Du siehst aus,"
+	line "als wärst du mit"
+	para "deinen #MON für"
+	line "jede Reise bereit."
 	done
-	
+
 KumeCityRockerText:
-	text "The climate isn't"
-	line "as tropical here"
-	cont "as RYUKYU CITY,"
-	para "so we don't get as"
-	line "many tourists."
+	text "Das Klima ist hier"
+	line "nicht so tropisch"
+	cont "wie in RUUCHUU"
+	cont "CITY."
+
+	para "Deshalb kommen"
+	line "nicht so viele"
+	cont "Touristen her."
 	done
 	
 KumeCitySignText:
-	text "KUME CITY"
-	para "The rocky mountain"
-	line "town."
+	text "KUMIA CITY"
+
+	para "Die felsige"
+	line "Bergstadt"
 	done
 	
 IcedCavernSignText:
-	text "ICED CAVERN"
-	line "ENTRANCE"
+	text "GEFRIERGROTTE"
+	line "Eingang"
 	done
 
 KumeCity_MapEvents:

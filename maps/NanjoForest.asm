@@ -141,109 +141,141 @@ NanjoForestSign:
 	jumptext NanjoForestSignText
 	
 NanjoForestSignText:
-	text "'NO LITTERING'"
-	para "Please pick up"
-	line "after yourself."
+    text "KEINEN MÜLL"
+    line "ABLADEN"
+
+    para "Bitte räumt hinter"
+    line "euch auf."
 	done
 	
 NanjoForestSilverBefore:
 	text "<RIVAL>: Hey,"
 	line "<PLAY_G>!"
-	para "It's been a while!"
-	para "I'm here out on"
-	line "the ISLANDS to"
-	cont "continue training"
-	cont "and bonding with"
-	cont "my #MON."
-	para "I've learned more"
-	line "about how to work"
-	cont "with them as a"
-	cont "team."
-	para "We've grown a lot"
-	line "closer recently."
-	cont "But we've also"
-	cont "grown a lot"
-	cont "stronger!"
-	para "You know what that"
-	line "means!"
+
+	para "Lange nicht"
+	line "gesehen!"
+
+	para "Ich bin hier auf"
+	line "den INSELN, um"
+	para "weiter zu trainie-"
+	line "ren und das Band"
+	para "mit meinen #MON"
+	line "zu stärken."
+
+	para "Ich habe mehr da-"
+	line "rüber gelernt, wie"
+	para "ich mit ihnen als"
+    line "Team arbeite."
+
+    para "Wir sind uns in"
+    line "letzter Zeit viel"
+    cont "näher gekommen."
+
+    para "Wir sind auch viel"
+    line "stärker geworden!"
+
+    para "Du weißt, was das"
+    line "bedeutet!"
 	done
 	
 NanjoForestSilverTextWin:
-	text "You got me!"
+	text "Du hast mich!"
 	done
-	
+
 NanjoForestSilverTextLoss:
-	text "Alright!"
+	text "Alles klar!"
 	done
 	
 NanjoForestSilverAfter:
-	text "Whew, that was a"
-	line "great battle."
-	para "I think I'm about"
-	line "done training"
-	cont "here for today."
-	para "I also heard that"
-	line "BLUE is around"
-	cont "the ISLANDS doing"
-	cont "research, maybe"
-	cont "you'll see him"
-	cont "sometime!"
+	text "Puh, das war ein"
+	line "guter Kampf."
+
+	para "Ich glaube, ich"
+	line "bin mit dem Trai-"
+	cont "ning hier fertig."
+
+	para "Ich habe gehört,"
+	line "BLAU soll auch auf"
+	cont "den INSELN sein"
+	cont "um Nachforschungen"
+	cont "zu betreiben."
+
+	para "Vielleicht triffst"
+	line "du ihn irgendwann!"
 	done
 	
 WhatDoesTriWingDoText:
-	text "I wonder what it"
-	line "came from."
-	para "Could it have been"
-	line "a #MON?"
+	text "Ich frage mich,"
+	line "woher es kommt."
+
+	para "Könnte es ein"
+	line "#MON gewesen"
+	cont "sein?"
 	done
 	
 HeresTriWingText:
-	text "Hey, check this"
-	line "out!"
-	para "It's a weird,"
-	line "three-colored"
-	cont "wing!"
-	para "It's kind of neat,"
-	line "but it's all wet"
-	cont "and gross."
-	para "You can have it!"
+    text "Hey, schau dir"
+    line "das mal an!"
+
+    para "Es ist eine"
+    line "seltsame, drei-"
+    cont "farbige Feder!"
+
+    para "Schon irgendwie"
+    line "cool, aber sie ist"
+    cont "ganz nass und"
+    cont "eklig."
+
+    para "Du kannst sie"
+    line "gerne haben!"
 	done
 	
 AlreadyGaveTriWingText:
-	text "You never know"
-	line "what you'll find"
-	cont "here."
+	text "Man weiß nie, was"
+	line "man hier findet."
 	done
 	
 NoTriWingYetText:
-	text "I'm looking for"
-	line "interesting things"
-	para "that wash up on"
-	line "the shore."
-	para "I find lots of"
-	line "items like POTIONS"
-	cont "and FULL HEALS."
-	para "Once I even found"
-	line "a NUGGET!"
-	para "You can find some"
-	line "cool stuff here."
-	para "Come back and"
-	line "check with me"
-	cont "sometime."
-	para "I'll share some-"
-	line "thing I find"
-	cont "with you."
+    text "Ich suche nach"
+    line "interessanten"
+    para "Sachen, die an den"
+    line "Strand gespült"
+    cont "werden."
+
+    para "Ich finde viele"
+    line "Items, wie TRÄNKE"
+    cont "und HYPERHEILER."
+
+    para "Einmal habe ich"
+    line "sogar ein NUGGET"
+    cont "gefunden!"
+
+    para "Hier kann man"
+    line "echt coole Sachen"
+    cont "finden."
+
+    para "Komm doch irgend-"
+    line "wann mal wieder"
+    para "und schau bei mir"
+    line "vorbei."
+
+    para "Ich teile dann ein"
+    line "Bisschen von dem,"
+    para "was ich gefunden"
+    line "habe, mit dir!"
 	done
 	
 TriWingBugCatcherText:
-	text "My brother and I"
-	line "find lots of cool"
-	para "things that wash"
-	line "up on the shore!"
-	para "We don't think of"
-	line "it as trash,"
-	para "because sometimes"
-	line "we find treasure!"
+    text "Mein Bruder und"
+    line "ich finden viele"
+    para "coole Sachen, die"
+    line "an den Strand ge-"
+    cont "spült werden!"
+
+    para "Wir sehen das"
+    line "nicht als Müll,"
+    para "denn manchmal sind"
+    line "es echte Schätze!"
 	done	
 
 NanjoForest_MapEvents:

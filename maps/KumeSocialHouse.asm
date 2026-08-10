@@ -71,64 +71,77 @@ KumeSocialHouseN64LassUpMovement:
 	step_end
 	
 KumeSocialHouseYoungsterText:
-	text "I think KOGA is"
-	line "the coolest member"
-	cont "of the ELITE FOUR."
-	para "It's not even"
-	line "close!"
+    text "Ich finde KOGA"
+    line "ist mit Abstand"
+    para "der coolste der"
+    line "TOP VIER!"
 	done
 	
 KumeSocialHouseCooltrainerfText:
-	text "It's definitely"
-	line "LORELEI who is"
-	cont "the coolest!"
-	para "She has so much"
-	line "style!"
+    text "LORELEI ist ganz"
+    line "klar die Coolste!"
+
+    para "Sie hat einfach"
+    line "Klasse!"
 	done
 	
 KumeSocialHousePokefanfText:
-	text "I hear that some"
-	line "kids took down"
-	cont "TEAM ROCKET!"
-	para "That sounds un-"
-	line "believeable to"
-	cont "me, honestly."
+    text "Ich hörte, dass"
+    line "ein paar Kinder"
+    para "TEAM ROCKET zer-"
+    line "schlagen haben!"
+
+    para "Das klingt ehrlich"
+    line "gesagt ziemlich"
+    cont "unglaubwürdig."
 	done
 
 KumeSocialHouseFisherText:
-	text "This place is"
-	line "where people come"
-	para "to socialize and"
-	line "gossip around"
-	cont "here."
-	para "I just prefer"
-	line "listening."
+    text "Hier kommen die"
+    line "Leute für Klatsch"
+    cont "und Tratsch her."
+
+    para "Ich höre lieber"
+    line "bloß zu."
 	done
 	
 SendN64LassOffText:
-	text "I haven't been to"
-	line "the mainland in"
-	cont "a while."
-	para "It'd be good to"
-	line "make a trip."
-	para "I have a friend"
-	line "in WESTPORT who"
-	cont "I'd like to see."
-	para "It'd be fun for"
-	line "us to just meet"
-	para "up and play video"
-	line "games and chat."
-	para "Hm?"
-	para "You know of a"
-	line "place for us to"
-	cont "do just that?"
-	para "Well, I guess"
-	line "there's never been"
-	para "a better time for"
-	line "me to make a trip."
-	para "I'm gonna start"
-	line "making plans!"
-	para "Thanks!"
+    text "Ich war schon"
+    line "lange nicht mehr"
+    cont "auf dem Festland."
+
+    para "Es wäre schön, mal"
+    line "wieder eine Reise"
+    cont "dahin zu machen."
+
+    para "Ich habe einen"
+    line "Freund in PORT"
+    cont "ABANISHI, den ich"
+    cont "gerne sehen würde."
+
+    para "Es wäre schon, ihn"
+    line "zu treffen und"
+    para "einfach ein paar"
+    line "Videospiele zu"
+    para "spielen und uns zu"
+    line "unterhalten."
+
+    para "Was?"
+
+    para "Du kennst genau"
+    line "den richtigen Ort"
+    cont "dafür?"
+
+    para "Tja, dann ist es"
+    line "wohl jetzt an der"
+    para "Zeit dies Reise"
+    line "anzutreten."
+
+    para "Ich fange gleich"
+    line "mit der Urlaubs-"
+    cont "planung an!"
+
+    para "Danke!"
 	done
 	
 KumeSocialHouse_MapEvents:
