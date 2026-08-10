@@ -335,166 +335,211 @@ RyukyuFakeGymGuyScript:
 	end
 
 GymGuyFakeGymAfterText:
-	text "It's always fun to"
-	line "face off against"
-	para "a GYM, whether or"
-	line "not you actually"
-	cont "get a BADGE."
+	text "Es macht immer"
+	line "Spaß, in einer"
+	cont "ARENA zu kämpfen."
+
+	para "Auch wenn man"
+	line "keinen ORDEN"
+	cont "bekommt."
 	done
 	
 GymGuyText:
-	text "What's this?"
-	para "A #MON GYM?"
-	para "Well, not quite."
-	para "TREVOR here has"
-	line "always wanted to"
-	cont "be a GYM LEADER."
-	para "It's a long and"
-	line "difficult process"
-	para "to make it"
-	line "official, though."
-	para "But we're here,"
-	line "playing the part"
-	para "until he can do it"
-	line "for real!"
+	text "Was ist das?"
+
+	para "Eine #MON-"
+	line "ARENA?"
+
+	para "Naja, nicht ganz."
+
+	para "ERNST wollte"
+	line "schon immer"
+	cont "ARENLEITER sein."
+
+	para "Offiziell einer zu"
+	line "werden ist aber"
+	cont "schwer und dauert"
+	cont "lange."
+
+	para "Bis er wirklich"
+	line "einer ist, Spielen"
+    cont "wir einfach ARENA!"
 	done
 	
 GymGuyGrassText:
-	text "Oh, yeah. He uses"
-	line "GRASS #MON."
-	para "I'm sure you know"
-	line "what you'd need to"
-	cont "do to win."
+	text "Ach ja, er setzt"
+	line "Pflanzen-#MON"
+	cont "ein."
+
+	para "Du weißt sicher,"
+	line "was du tun musst,"
+	cont "um zu gewinnen."
 	done
 	
 GymGuyFireText:
-	text "Oh, yeah. He uses"
-	line "FIRE #MON."
-	para "I'm sure you know"
-	line "what you'd need to"
-	cont "do to win."
+	text "Ach ja, er setzt"
+	line "Feuer-#MON"
+	cont "ein."
+
+	para "Du weißt sicher,"
+	line "was du tun musst,"
+	cont "um zu gewinnen."
 	done
 	
 GymGuyWaterText:
-	text "Oh, yeah. He uses"
-	line "WATER #MON."
-	para "I'm sure you know"
-	line "what you'd need to"
-	cont "do to win."
+	text "Ach ja, er setzt"
+	line "Wasser-#MON"
+	cont "ein."
+
+	para "Du weißt sicher,"
+	line "was du tun musst,"
+	cont "um zu gewinnen."
 	done
 
 TakeGoodCareOfStarter2:
-	text "Take good care of"
-	line "that #MON!"
-	para "It's one of my"
-	line "favorite kinds!"
+	text "Kümmere dich gut"
+	line "um das #MON!"
+
+	para "Es ist eine"
+	line "meiner liebsten"
+	cont "Arten!"
 	done
 	
 HaveStarter2Egg:
-	text "Wow! That was a"
-	line "great battle!"
-	para "I feel like a real"
-	line "GYM LEADER, even"
-	cont "though I lost."
-	para "I can't give you"
-	line "a badge, but I've"
-	para "got an EGG of a"
-	line "rare #MON of"
-	cont "my favorite type!"
-	para "Here, have this!"
+	text "Wow! Das war ein"
+	line "klasse Kampf!"
+
+	para "Ich fühlte mich"
+	line "wie ein echter"
+	para "ARENLEITER, auch"
+	line "wenn ich verloren"
+    cont "habe."
+
+	para "Einen ORDEN kann"
+	line "ich dir nicht"
+	para "geben, aber ich"
+	line "habe ein EI."
+
+	para "Es ist von einem"
+	line "seltenen #MON"
+	cont "meines Lieblings-"
+	cont "typs!"
+
+	para "Hier, nimm es!"
 	done
 	
 NoRoomForStarter2:
-	text "Oh, wait! You need"
-	line "to make room!"
+	text "Oh, warte!"
+
+	para "Du musst erst"
+	line "Platz schaffen!"
 	done
 
 
 TrevorLossTextFake:
-	text "I'm good at this!"
+	text "Ich bin echt"
+	line "gut darin!"
 	done
 	
 TrevorWinTextFake:
-	text "Bahah! What a good"
-	line "time that was!"
+	text "Hahaha! Das hat"
+	line "echt Spaß gemacht!"
 	done
 	
 TrevorBeforeText:
-	text "Hey there!"
-	para "Welcome to my GYM!"
-	para "…Well, it's not"
-	line "an official one."
-	para "But one day!"
-	para "I'm going to be a"
-	line "GYM LEADER!"
-	para "As for now though,"
-	line "I can at least act"
-	cont "the part."
-	para "And there's"
-	line "nothing more I"
-	para "love than a good"
-	line "battle!"
+	text "Hey!"
+
+	para "Willkommen in"
+	line "meiner ARENA!"
+
+	para "…Naja, es ist"
+	line "keine offizielle."
+
+	para "Aber eines Tages"
+	line "werde ich ein"
+	cont "ARENLEITER!"
+
+	para "Bis dahin spiele"
+	line "ich die Rolle."
+
+	para "Es gibt nichts,"
+	line "was ich mehr"
+	para "liebe, als einen"
+	line "guten Kampf!"
 	done
 	
 TrevorGrassText:	
-	text "GRASS type #MON"
-	line "are my favorite!"
-	para "Their vines and"
-	line "leaves will beat"
-	cont "you down!"
-	para "Are you ready?"
+    text "Pflanzen-#MON"
+    line "sind meine"
+    cont "Favoriten!"
+
+    para "Ihre Ranken und"
+    line "Blätter hauen dich"
+    cont "kurz und klein!"
+
+    para "Bist du bereit?"
 	done
 
 TrevorFireText:	
-	text "FIRE type #MON"
-	line "are my favorite!"
-	para "They'll burn you"
-	line "if you take them"
-	cont "on!"
-	para "Are you ready?"
+    text "Feuer-#MON"
+    line "sind meine"
+    cont "Favoriten!"
+
+    para "Die brennen dich"
+    line "nieder, wenn du"
+    cont "dich mit ihnen"
+    cont "anlegst!"
+
+    para "Bist du bereit?"
 	done
 	
 TrevorWaterText:	
-	text "WATER type #MON"
-	line "are my favorite!"
-	para "They'll drench you"
-	line "if you take them"
-	cont "on!"
-	para "Are you ready?"
+	text "Wasser-#MON"
+	line "sind meine"
+	cont "Favoriten!"
+
+	para "Die durchnässen"
+	line "dich komplett!"
+
+	para "Bist du bereit?"
 	done
 	
 JasonSeenText:
-	text "Can you handle"
-	line "this GYM?"
+    text "Packst du diese"
+    line "ARENA?"
 	done
 	
 JasonWinText:
-	text "I got scorched!"
+	text "Ich hab' mich"
+	line "verbrannt!"
 	done
 	
 JasonAfterBattleText:
-	text "TREVOR is always"
-	line "trying to be a"
-	cont "GYM LEADER."
-	
-	para "I hope he can"
-	line "become one"
-	cont "someday."
+    text "ERNST versucht"
+    line "schon lange, ein"
+    cont "echter ARENALEITER"
+    cont "zu werden."
+
+    para "Ich hoffe, er wird"
+    line "es eines Tages"
+    cont "schaffen."
 	done
 	
 LindaSeenText:
-	text "Isn't it fun in"
-	line "here?"
+    text "Ist es hier nicht"
+    line "echt spaßig?"
 	done
 	
 LindaWinText:
-	text "A pretend GYM is"
-	line "so much fun!"
+    text "Es macht so viel"
+    line "Spaß, ARENA zu"
+    cont "spielen!"
 	done
 	
 LindaAfterBattleText:
-	text "TREVOR is tough."
-	line "Good luck!"
+    text "ERNST ist 'ne"
+    line "harte Nuss."
+    cont "Viel Glück!"
 	done
 
 	

@@ -58,71 +58,74 @@ RyukyuCityHotelSign:
 	jumptext RyukyuCityHotelSignText
 	
 RyukyuCitySignText:
-	text "RYUKYU CITY -"
-	para "The SOUTHWEST"
-	line "ISLANDS' shining"
-	cont "gem."
+	text "RUUCHUU CITY"
+
+	para "Das strahlende"
+	line "Juwel der"
+	cont "NANTO-INSELN"
 	done
 
 SaffronTeacherText:
-	text "Now now, children."
-	para "Don't just run off"
-	line "into the ocean!"
+    text "Aber aber, Kinder."
+
+    para "Lauft doch nicht"
+    line "einfach ins Meer!"
 	done
 	
 SaffronPokefanMText:
-	text "The weather is"
-	line "perfect here, if a"
-	cont "bit humid."
+	text "Das Wetter hier"
+	line "ist perfekt, wenn"
+	cont "auch etwas feucht."
 	done
 	
 SaffronBugCatcherText:
-	text "I wanna go"
-	line "swimming!"
+	text "Ich will schwimmen"
+	line "gehen!"
 	done
 	
 SaffronTwinText:
-	text "Let's get some"
-	line "ice cream!"
+	text "Lass uns ein Eis"
+	line "holen!"
 	done
 	
 SaffronCooltrainerMText:
-	text "I think I'll go"
-	line "out on a boat"
-	cont "today."
+	text "Ich glaube, ich"
+	line "fahre heute mit"
+	cont "dem Boot raus."
 	done
 	
 SaffronLassText:
-	text "Many of the people"
-	line "you see in this"
-	para "city don't live"
-	line "here."
+    text "Viele Leute, die"
+    line "du in der Stadt"
+    para "siehst, leben gar"
+    line "nicht hier."
 	done
 	
 SaffronSwimmerGuyText:
-	text "I come here on"
-	line "vacation whenever"
-	cont "I get the chance!"
+	text "Ich komme im"
+	line "Urlaub immer her,"
+	cont "wenn ich kann!"
 	done
 	
 SaffronSwimmerGirlText:
-	text "There's nowhere"
-	line "better to relax"
-	cont "than right here!"
+    text "Nirgendwo kann man"
+    line "sich besser ent-"
+    cont "spannen, als hier!"
 	done
 
 RyukyuPokefanM2Text:
-	text "I just enjoy"
-	line "watching the waves"
-	cont "on the sea."
+    text "Ich schaue gerne"
+    line "den Wellen auf"
+    cont "dem Meer zu."
 	done
 
 RyukyuCityHotelSignText:
-	text "RYUKYU HOTEL AND"
+	text "RUUCHUU HOTEL UND"
 	line "RESTAURANT"
-	para "The ultimate"
-	line "SOUTHWEST ISLANDS"
-	cont "travel experience!"
+
+	para "Das ultimative"
+	line "Reiseerlebnis auf"
+	cont "den NANTO-INSELN!"
 	done
 
 

@@ -32,18 +32,20 @@ RyukyuTradeSpeechHouseZubatScript:
 	end
 
 RyukyuTradeSpeechHouseGrannyText:
-	text "My husband lives"
-	line "happily with #-"
-	cont "MON he got through"
-	cont "trades."
+    text "Mein Mann lebt"
+    line "zufrieden mit den"
+    para "#MON, die er"
+    line "durch Tauschen"
+    cont "bekommen hat."
 	done
 
 RyukyuTradeSpeechHouseGrampsText:
-	text "Ah… I'm so happy…"
+	text "Ah… Ich bin so"
+	line "glücklich…"
 	done
 
 RyukyuTradeSpeechHouseRhydonText:
-	text "KANGASKHAN: Garu"
+	text "KANGAMA: Garu"
 	line "garuu."
 	done
 
