@@ -732,7 +732,7 @@ UnknownText_0x1c0cd0::
 	prompt
 
 UnknownText_0x1c0ce0::
-	text " steigt!"
+	text "<SCROLL>steigt!"
 	prompt
 
 UnknownText_0x1c0ceb::
