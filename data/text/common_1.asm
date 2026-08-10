@@ -1604,9 +1604,11 @@ UnknownText_0x1bd621::
 ;	para "Möchtest du PIEPI"
     para "Möchtest du @"
     text_ram wStringBuffer1
+	text ""
 	line "gegen mein"
 	para "@"
 	text_ram wStringBuffer2
+	text ""
 	line "tauschen?"
 ;	cont "PANZAERON"
 ;	cont "tauschen?"
