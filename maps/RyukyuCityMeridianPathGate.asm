@@ -13,9 +13,8 @@ RyukyuCityMeridianPathGateOfficerScript:
 RyukyuCityMeridianPathGateOfficerText:
     text "RUUCHUU CITY ist"
     line "die wahrscheinlich"
-    para "beliebteste"
-    line "Touristenattraktion"
-    cont "auf NANTO."
+    para "NANTOs beliebteste"
+    line "Touristen-<SCROLL>attraktion"
 	done
 
 RyukyuCityMeridianPathGate_MapEvents:

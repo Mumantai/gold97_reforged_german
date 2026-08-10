@@ -37,8 +37,8 @@ NagoPokecenter1FGymGuyText:
     line "viele Menschen in"
     cont "dieser Stadt."
 
-    para "In RUUCHUU CITY ist"
-    line "viel mehr los."
+    para "In RUUCHUU CITY"
+    line "ist viel mehr los."
 	done
 
 NagoPokecenter1F_MapEvents:
