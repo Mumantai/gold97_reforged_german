@@ -26,30 +26,28 @@ IeShopNPC1Script:
 	jumptextfaceplayer IeShopNPC1Text
 
 IeShopNPC1Text:
-	text "The TMs sold here"
-	line "are the most"
-	cont "popular for use"
-	cont "at the BATTLE"
-	cont "TOWER!"
-	
-	para "Any trainer worth"
-	line "their salt should"
-	cont "know how to use"
-	cont "these moves!"
+    text "Die TMs, die hier"
+    line "verkauft werden,"
+    cont "sind im DUELLTURM"
+    cont "am beliebtesten!"
+
+    para "Jeder Trainer, der"
+    line "etwas auf sich"
+    cont "hält, sollte diese"
+    cont "Attacken kennen!"
 	done
 
 IeShopNPC2Script:
 	jumptextfaceplayer IeShopNPC2Text
 	
 IeShopNPC2Text:
-	text "REST and SLEEP"
-	line "TALK are a common"
-	cont "pair of moves to"
-	cont "carry on a"
-	cont "#MON that you"
-	cont "want to keep"
-	cont "both healthy and"
-	cont "attacking."
+    text "ERHOLUNG und"
+    line "SCHLAFREDE sind"
+    cont "ein bekanntes Paar"
+    cont "von Attacken, um"
+    cont "ein #MON gesund"
+    cont "und angriffsbereit"
+    cont "zu halten."
 	done
 	
 	
@@ -57,15 +55,15 @@ IeShopNPC3Script:
 	jumptextfaceplayer IeShopNPC3Text
 
 IeShopNPC3Text:
-	text "CURSE is a very"
-	line "pecuiliar move"
-	cont "that's great for"
-	cont "slow #MON."
-	
-	para "They won't have"
-	line "anything but a"
-	cont "net gain from"
-	cont "using it!"
+    text "FLUCH ist eine"
+    line "sehr eigenartige"
+    cont "Attacke, die sich"
+    cont "besonders gut mit"
+    cont "langsamen #MON"
+    cont "einsetzen lässt."
+
+    para "Sie können davon"
+    line "nur profitieren!"
 	done
 
 

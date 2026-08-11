@@ -38,31 +38,32 @@ TrainerGruntM35:
 	end
 	
 GruntM35SeenText:
-	text "Dark and dingy,"
-	line "I couldn't have"
-	cont "picked a better"
-	cont "hideout spot"
-	cont "myself!"
+    text "Schön dunkel und"
+    line "schmuddelig. Ich"
+    cont "hätte mir kein"
+    cont "besseres Versteck"
+    cont "aussuchen können!"
 	done
 	
 GruntM35BeatenText:
-	text "Now I'm all"
-	line "covered in dust!"
-	
-	para "I love it!"
+    text "Jetzt bin ich"
+    line "voller Staub!"
+
+    para "Ich liebe es!"
 	done
 	
 GruntM35AfterBattleText:
-	text "Madame EXECUTIVE"
-	line "always plans the"
-	cont "best missions."
-	
-	para "…Even if this"
-	line "mission involves"
-	cont "hiding as far"
-	cont "away from the"
-	cont "authorities in"
-	cont "NIHON as we can."
+    text "Die Dame vom"
+    line "VORSTAND plant die"
+    cont "besten Missionen."
+
+    para "…Auch wenn diese"
+    line "Mission bloß als"
+    cont "Ziel hat, sich so"
+    cont "weit wie möglich"
+    cont "vor den Behörden"
+    cont "aus NIHON zu"
+    cont "verstecken."
 	done
 
 
@@ -78,25 +79,26 @@ TrainerGruntM36:
 	end
 	
 GruntM36SeenText:
-	text "We're an elite"
-	line "ROCKET unit!"
+    text "Wir sind eine"
+    line "TEAM ROCKET"
+    cont "Eliteeinheit!"
 	done
 	
 GruntM36BeatenText:
-	text "Y-you must be"
-	line "elite as well!"
+    text "D-du musst auch"
+    line "elitär sein!"
 	done
 	
 GruntM36AfterBattleText:
-	text "Hiding in this"
-	line "CASTLE makes me"
-	cont "feel like we"
-	cont "should call"
-	cont "ourselves a"
-	cont "better name than"
-	cont "just TEAM ROCKET."
-	
-	para "Something like…"
+    text "Dieses Schloss"
+    line "gibt mir das"
+    cont "Gefühl, dass wir"
+    cont "uns einen besseren"
+    cont "Namen, als einfach"
+    cont "nur TEAM ROCKET,"
+    cont "geben sollten."
+
+    para "Vielleicht…"
 	
 	para "TEAM GREAT ROCKET!"
 	done
@@ -114,29 +116,33 @@ TrainerGruntF10:
 	end
 	
 GruntF10SeenText:
-	text "Madame EXECUTIVE"
-	line "is too good to"
-	cont "fight some kid"
-	cont "like you, so"
-	cont "it's up to me!"
+    text "Die Dame vom"
+    line "VORSTAND ist zu"
+    cont "gut, um gegen 'nen"
+    cont "Knirps wie dich zu"
+    cont "kämpfen, also muss"
+    cont "ich jetzt ran!"
 	done
 	
 GruntF10BeatenText:
-	text "You're not"
-	line "kidding around!"
+    text "Du machst keine"
+    line "halben Sachen!"
 	done
 	
 GruntF10AfterBattleText:
-	text "There's more girls"
-	line "in our unit than"
-	cont "most others."
-	
-	para "That's because"
-	line "madame EXECUTIVE"
-	cont "picks all the"
-	cont "toughest girls"
-	cont "in TEAM ROCKET"
-	cont "to train herself!"
+    text "In unserer Einheit"
+    line "gibt es mehr Mäd-"
+    cont "chen als in den"
+    cont "anderen Einheiten."
+
+    para "Das liegt daran,"
+    line "dass die Dame vom"
+    cont "VORSTAND selbst"
+    cont "die härtesten"
+    cont "Mädels aus TEAM"
+    cont "ROCKET aussucht,"
+    cont "um sie persönlich"
+    cont "zu trainieren!"
 	done
 
 TrainerGruntF11:
@@ -151,29 +157,29 @@ TrainerGruntF11:
 	end
 	
 GruntF11SeenText:
-	text "I heard that this"
-	line "old CASTLE is"
-	cont "cursed! As if I"
-	cont "would believe in"
-	cont "something so"
-	cont "stupid!"
+    text "Ich hörte, dieses"
+    line "alte SCHLOSS sei"
+    cont "verflucht! Als ob"
+    cont "ich an so etwas"
+    cont "Dummes glauben"
+    cont "würde!"
 	done
 	
 GruntF11BeatenText:
-	text "Curses!"
+	text "Verflucht!"
 	done
 	
 GruntF11AfterBattleText:
-	text "Everybody in town"
-	line "is afraid to come"
-	cont "in here because"
-	cont "of some GREEN"
-	cont "DRAGON and some"
-	cont "sad woman ghost."
-	
-	para "Well good! It"
-	line "means nobody will"
-	cont "come bother us!"
+    text "Die ganze Stadt"
+    line "hat Angst, hier"
+    cont "herzukommen, wegen"
+    cont "einem traurigen"
+    cont "Geist und einem"
+    cont "GRÜNEN DRACHEN."
+
+    para "Gut! Das bedeutet,"
+    line "dass uns niemand"
+    cont "hier stören wird!"
 	done
 
 HiddenDebris1:

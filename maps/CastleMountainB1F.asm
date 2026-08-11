@@ -78,71 +78,72 @@ ArianaDungeonScript:
 	end
 	
 OuchFallText:
-	text "Ouch… I should"
-	line "have looked at"
-	cont "the trap door"
-	cont "levers more"
-	cont "carefully…"
-	
-	para "This is all"
-	line "your fault!"
-	
-	para "If you hadn't"
-	line "been there to"
-	cont "blow the whole"
-	cont "RADIO TOWER"
-	cont "operation then"
-	cont "my unit wouldn't"
-	cont "be hiding out in"
-	cont "this dump in the"
-	cont "first place!"
+    text "Autsch…"
+    para "Ich hätte besser"
+    line "auf die Hebel für"
+    cont "die Falltüren"
+    cont "achten sollen…"
+
+    para "Das ist alles nur"
+    line "deine Schuld!"
+
+    para "Hättest du nicht"
+    line "unsere Mission im"
+    cont "RADIOTURM sabo-"
+    cont "tiert, dann müsste"
+    cont "meine Einheit sich"
+    cont "nicht in diesem"
+    cont "Drecksloch hier"
+    cont "verstecken!"
 	done
 
 DidYouHearThatText:
-	text "…Did you hear"
-	line "something?"
+	text "…Hast du etwas"
+	line "gehört?"
 	done
 
 
 DragoniteCryText:
-	text "DRAGONITE: KYUUUU!"
+	text "DRAGORAN: KYUUUU!"
 	done
 
 	
 IThinkHesAngryText:
-	text "No way! That old"
-	line "town legend was"
-	cont "true! It's the"
-	cont "GREEN DRAGON!"
-	
-	para "A-and it's looking"
-	line "pretty angry!"
+    text "Als ob! Die alte"
+    line "Stadtlegende war"
+    cont "wahr! Es ist der"
+    cont "GRÜNE DRACHE!"
+
+    para "U-und er sieht"
+    line "echt wütend aus!"
 	done
 
 DontForgetTRText:
-	text "Whew…"
-	
-	para "Don't think I'll"
-	line "just let what"
-	cont "you've done here"
-	cont "slide!"
-	
-	para "You saw the truth"
-	line "for yourself at"
-	cont "the NIHON LEAGUE!"
-	
-	para "GIOVANNI is still"
-	line "just as much in"
-	cont "power as ever!"
-	
-	para "TEAM ROCKET's got"
-	line "operatives in"
-	cont "places all over"
-	cont "the world!"
-	
-	para "We'll be back!"
-	line "Count on it you"
-	cont "little twerp!"
+	text "Puh…"
+
+	para "Denk nicht, dass"
+	line "ich dir einfach so"
+	cont "durchgehen lasse,"
+    cont "was du hier getan"
+    cont "hast!"
+
+    para "Du hast die Wahr-"
+    line "heit doch selber"
+    cont "in der NIHON LIGA"
+    cont "gesehen!"
+
+    para "GIOVANNI ist noch"
+    line "immer so mächtig,"
+    cont "wie eh und je!"
+
+    para "TEAM ROCKET hat"
+    line "Agenten überall"
+    cont "auf der Welt!"
+
+    para "Wir kommen wieder!"
+    line "Darauf kannst du"
+    cont "Knirps dich aber"
+    cont "verlassen!"
 	done
 
 CMB1Itemball1:

@@ -61,25 +61,24 @@ TrainerGruntM38:
 	end
 	
 GruntM38SeenText:
-	text "I'm the left"
-	line "ROCKET! Don't"
-	cont "believe what"
-	cont "the right one"
-	cont "says about me!"
+    text "Ich bin der linke"
+    line "Rüpel! Glaub dem"
+    cont "rechten nicht ein"
+    cont "Wort über mich!"
 	done
 	
 GruntM38BeatenText:
-	text "Left in the"
-	line "dust…"
+	text "Im Staub zurück-"     ; evtl. irgendein Wortspiel mit links
+	line "gelassen…"
 	done
 	
 GruntM38AfterBattleText:
-	text "Don't tell me"
-	line "you're the type"
-	cont "to mix up your"
-	cont "left and right."
-	
-	para "Ooh! I hate that!"
+    text "Sag mir nicht, du"
+    line "hast eine Rechts-"
+    cont "Links-Schwäche!"
+
+    para "Ooh, wie ich das"
+    line "hasse!"
 	done
 
 TrainerGruntM39:
@@ -94,23 +93,22 @@ TrainerGruntM39:
 	end
 	
 GruntM39SeenText:
-	text "I'm the right"
-	line "ROCKET! I'll"
-	cont "put you on the"
-	cont "right track out"
-	cont "of here!"
+    text "Ich bin der rechte"
+    line "Rüpel! Ich bringe"
+    cont "dich auf den"
+    cont "rechten Weg hier"
+    cont "raus!"
 	done
 	
 GruntM39BeatenText:
-	text "Right in the"
-	line "heart!"
+	text "Genau ins Herz!"      ; evtl. irgendein Wortspiel mit rechts
 	done
 	
 GruntM39AfterBattleText:
-	text "I'm definitely"
-	line "stronger than"
-	cont "the left ROCKET"
-	cont "over there!"
+    text "Ich bin auf jeden"
+    line "Fall stärker als"
+    cont "der linke Rüpel"
+    cont "da drüben!"
 	done
 
 TrainerGruntF12:
@@ -125,26 +123,27 @@ TrainerGruntF12:
 	end
 	
 GruntF12SeenText:
-	text "There's nothing"
-	line "past here! You're"
-	cont "going the wrong"
-	cont "way through!"
+    text "Hier gibt's nichts"
+    line "zu sehen!"
+
+    para "Du gehst aber auch"
+    line "in die falsche"
+    cont "Richtung…"
 	done
 	
 GruntF12BeatenText:
-	text "Keep going and"
-	line "I assure you"
-	cont "won't find"
-	cont "anything!"
-	
-	para "Especially not"
-	line "a huge stash"
-	cont "of treasure or"
-	cont "anything!"
+    text "Geh weiter. Ich"
+    line "versichere dir, du"
+    cont "wirst hier nichts"
+    cont "finden!"
+
+    para "Vor allem keinen"
+    line "riesigen Schatz"
+    cont "oder so!"
 	done
 	
 GruntF12AfterBattleText:
-	text "Whoops…"
+	text "Ups…"
 	done
 
 
@@ -160,55 +159,55 @@ TrainerGruntF13:
 	end
 	
 GruntF13SeenText:
-	text "There's really"
-	line "nothing ahead!"
-	
-	para "I IMPLORE you"
-	line "turn back now!"
+    text "Da hinten ist"
+    line "wirklich nichts!"
+
+    para "Ich FLEHE dich an,"
+    line "dreh jetzt um!"
 	done
 	
 GruntF13BeatenText:
-	text "Are you turning"
-	line "back yet?"
+	text "Drehst du endlich"
+	line "um?"
 	done
 	
 GruntF13AfterBattleText:
-	text "I said turn back!"
+	text "Umdrehen, habe ich"
+	line "gesagt!"
 	done
 
 DeserterScript:
 	jumptextfaceplayer DeserterText
 	
 DeserterText:
-	text "You come lookin'"
-	line "for a fight or"
-	cont "somethin'?"
-	
-	para "Well you ain't"
-	line "gettin' one."
-	
-	para "I'm all done"
-	line "with crime,"
-	cont "tired of wearin'"
-	cont "the red R!"
-	
-	para "I got me a bed"
-	line "right here and"
-	cont "a whole island"
-	cont "where nobody"
-	cont "knows my name"
-	cont "or record!"
-	
-	para "So leave me be!"
-	line "I'm livin' a"
-	cont "better life now."
-	
-	para "There's no big"
-	line "treasure in this"
-	cont "tower, they prob-"
-	cont "ably took the big"
-	cont "stash that was"
-	cont "here with em'."
+    text "Suchst du Ärger?"
+
+    para "Tja, den kriegst"
+    line "du aber nicht."
+
+    para "Ich hab die Nase"
+    line "voll von all den"
+    cont "Verbrechen und"
+    cont "das rote R auf"
+    cont "meiner Brust"
+    cont "zu tragen!"
+
+    para "Ich habe hier ein"
+    line "Bett und eine"
+    cont "ganze Insel, auf"
+    cont "der niemand mich"
+    cont "oder meine Vor-"
+    cont "strafen kennt!"
+
+    para "Also lass mich in"
+    line "Ruhe! Ich lebe"
+    cont "jetzt ein besseres"
+    cont "Leben."
+
+    para "Hier gibt's keinen"
+    line "großen Schatz, die"
+    cont "haben schon alles"
+    cont "hier mitgenommen."
 	done
 
 CM3FABed:
@@ -231,13 +230,13 @@ CM3FABed:
 	end
 
 CM3FABedText1:
-	text "A comfy bed!"
-	line "Time to sleep…"
+	text "Ein weiches Bett!"
+	line "Schlafenszeit…"
 	done
 
 CM3FABedText2:
-	text "Ah, refreshed and"
-	line "restored!"
+	text "Ah, ausgeruht und"
+	line "frisch!"
 	done
 
 CastleMountain3FA_MapEvents:

@@ -38,20 +38,21 @@ TrainerGruntM31:
 	end
 	
 GruntM31SeenText:
-	text "Yeowch! I tripped"
-	line "while running out"
-	cont "of the dancing"
-	cont "hall!"
+    text "Autsch! Ich bin"
+    line "gestolpert, als"
+    cont "ich aus dem Ball-"
+    cont "saal gelaufen bin!"
 	done
 	
 GruntM31BeatenText:
-	text "Party's over…"
+	text "Die Feier ist"
+	line "vorbei…"
 	done
 	
 GruntM31AfterBattleText:
-	text "Why'd you have"
-	line "to go and bust"
-	cont "in on our fun?"
+    text "Warum musstest du"
+    line "unsere Feier"
+    cont "sprengen?"
 	done
 
 
@@ -67,22 +68,25 @@ TrainerGruntF9:
 	end
 	
 GruntF9SeenText:
-	text "I'm so totally"
-	line "like, not letting"
-	cont "you get any"
-	cont "further in here."
+    text "Ich werde dich"
+    line "mal so überhaupt"
+    cont "gar nicht weiter-"
+    cont "kommen lassen."
 	done
 	
 GruntF9BeatenText:
-	text "Like, dang!"
+	text "Ach, verdammt!"
 	done
 	
 GruntF9AfterBattleText:
-	text "Our commander will"
-	line "get you! If you"
-	cont "even make it to"
-	cont "the top of this"
-	cont "stinky old place!"
+    text "Unser Kommandant"
+    line "wird dich kriegen!"
+
+    para "Falls du es über-"
+    line "haupt bis nach"
+    cont "oben in diesem"
+    cont "stinkenden alten"
+    cont "Schloss schaffst!"
 	done
 
 TrainerGruntM34:
@@ -97,23 +101,22 @@ TrainerGruntM34:
 	end
 	
 GruntM34SeenText:
-	text "Halt before the"
-	line "black knight of"
-	cont "CASTLE MOUNTAIN!"
+    text "Haltet ein, vor"
+    line "dem dunklen Ritter"
+    cont "des SCHLOSSBERGs!"
 	done
 	
 GruntM34BeatenText:
-	text "A knight keeps"
-	line "his honor!"
+    text "Ein Ritter wahrt"
+    line "seine Ehre!"
 	done
 	
 GruntM34AfterBattleText:
-	text "What do you mean"
-	line "TEAM ROCKET has"
-	cont "no honor?"
-	
-	para "Honor among"
-	line "thieves!"
+    text "Was meinst du,"
+    line "TEAM ROCKET hat"
+    cont "keine Ehre?"
+
+    para "Ehre unter Dieben!"
 	done
 
 HiddenDebris9:

@@ -108,40 +108,45 @@ Exec1Right:
 
 
 Exec1BeforeText:
-	text "So you made it"
-	line "all the way to"
-	cont "me, hm?"
-	
-	para "Just because you"
-	line "made it past my"
-	cont "underlings, don't"
-	cont "think you'll last"
-	cont "even a second in"
-	cont "battle with me!"
-	
-	para "I'll show you why"
-	line "I'm GIOVANNI's"
-	cont "top EXECUTIVE!"
+    text "Du hast es also"
+    line "wirklich bis zu"
+    cont "mir geschafft, hm?"
+
+    para "Nur weil du es an"
+    line "meinen Schergen"
+    cont "vorbeigeschafft"
+    cont "hast, heißt das"
+    cont "nicht, dass du"
+    cont "auch nur eine"
+    cont "Sekunde gegen mich"
+    cont "überstehen wirst!"
+
+    para "Ich werde dir"
+    line "zeigen, warum ich"
+    cont "GIOVANNIs bester"
+    cont "VORSTAND bin!"
 	done
 
 Exec1BeatenText:
-	text "Impossible!"
-	line "Improbable!"
-	
-	para "No child should"
-	line "have such power!"
+    text "Unmöglich!"
+    line "Unglaublich!"
+
+    para "Kein Kind sollte"
+    line "solch eine Kraft"
+    cont "besitzen!"
 	done
 
 IllSendUToTheDungeonText:
-	text "Ha! Don't think"
-	line "you've won yet!"
-	
-	para "This tower room is"
-	line "boobytrapped!"
-	
-	para "Now, down into the"
-	line "dungeon you go!"
-	cont "Ohohoho!"
+    text "Ha! Denk nicht,"
+    line "du hättest schon"
+    cont "gewonnen!"
+
+    para "Dieser Raum ist"
+    line "voller Fallen!"
+
+    para "Jetzt geht's für"
+    line "dich runter in den"
+    cont "Kerker! Ohohoho!"
 	done
 
 
@@ -173,20 +178,23 @@ CastleArianaScript:
 	
 
 HowDidUGetBackText:
-	text "W-what!?"
-	line "How did you make"
-	cont "it out of the"
-	cont "dungeon alive!?"
+    text "W-was?!"
+
+    para "Wie hast du es"
+    line "lebend aus dem"
+    cont "Kerker geschafft!?"
 	done
 	
 BackToTheDungeonUGoText:
-	text "It's no matter!"
-	
-	para "This room is still"
-	line "full of traps!"
-	
-	para "I'll send you"
-	line "right back down!"
+    text "Ist ja auch egal!"
+
+    para "Dieser Raum ist"
+    line "immer noch voller"
+    cont "Fallen!"
+
+    para "Ich schicke dich"
+    line "direkt wieder nach"
+    cont "unten!"
 	done
 
 AhhhhText:
@@ -211,20 +219,21 @@ TrainerGruntM40:
 	end
 	
 GruntM40SeenText:
-	text "I'm a veteran"
-	line "of the great"
-	cont "raid of SILPH"
-	cont "COMPANY!"
+    text "Ich war damals bei"
+    line "dem großen Angriff"
+    cont "auf die SILPH CO."
+    cont "dabei!"
 	done
 	
 GruntM40BeatenText:
-	text "Kids these days."
+	text "Kinder heutzutage!"
 	done
 	
 GruntM40AfterBattleText:
-	text "I wonder what"
-	line "became of the 4"
-	cont "ROCKET BROTHERS."
+    text "Ich frage mich,"
+    line "was aus den vier"
+    cont "ROCKET-BRÜDERN"
+    cont "geworden ist."
 	done
 
 
@@ -240,25 +249,26 @@ TrainerGruntM41:
 	end
 	
 GruntM41SeenText:
-	text "I'm totally"
-	line "unpredictable!"
-	
-	para "You'll never"
-	line "guess what moves"
-	cont "my #MON have!"
+    text "Ich bin total"
+    line "unberechenbar!"
+
+    para "Du wirst nie"
+    line "erraten, welche"
+    cont "Attacken meine"
+    cont "#MON einsetzen!"
 	done
 	
 GruntM41BeatenText:
-	text "Outplayed!"
+	text "Ausgetrumpft!"
 	done
 	
 GruntM41AfterBattleText:
-	text "SMEARGLE is"
-	line "marvellous!"
-	
-	para "It can learn"
-	line "any move with"
-	cont "a little effort!"
+    text "FARBEAGLE ist"
+    line "wunderbar!"
+
+    para "Es kann ohne Mühe"
+    line "jede Attacke"
+    cont "erlernen!"
 	done
 
 
@@ -274,22 +284,22 @@ TrainerGruntF14:
 	end
 	
 GruntF14SeenText:
-	text "Your little"
-	line "medieval quest"
-	cont "ends right here!"
+    text "Dein mittelalter-"
+    line "liches Abenteuer"
+    cont "endet genau hier!"
 	done
 	
 GruntF14BeatenText:
-	text "Smashed down!"
+	text "Niedergeschlagen!"
 	done
 	
 GruntF14AfterBattleText:
-	text "If a GREEN DRAGON"
-	line "really does exist"
-	cont "in here, TEAM"
-	cont "ROCKET will catch"
-	cont "it and sell it"
-	cont "for profit!"
+    text "Wenn der GRÜNE"
+    line "DRACHE wirklich"
+    cont "existiert, wird"
+    cont "TEAM ROCKET ihn"
+    cont "einfangen und"
+    cont "verkaufen!"
 	done
 
 TrainerGruntF15:
@@ -304,20 +314,20 @@ TrainerGruntF15:
 	end
 	
 GruntF15SeenText:
-	text "I'll show you"
-	line "this mink's"
-	cont "hidden claws!"
+    text "Ich zeige dir"
+    line "meine versteckten"
+    cont "Krallen!"
 	done
 	
 GruntF15BeatenText:
-	text "Worn out like"
-	line "an old fur coat!"
+    text "Abgetragen wie ein"
+    line "alter Pelzmantel!"
 	done
 	
 GruntF15AfterBattleText:
-	text "SNEASEL is cute"
-	line "but deceptively"
-	cont "sneaky, like me!"
+    text "SNIEBEL sind süß,"
+    line "aber hinterhältig"
+    cont "wie ich!"
 	done
 
 
@@ -333,24 +343,27 @@ TrainerGruntF16:
 	end
 	
 GruntF16SeenText:
-	text "TEAM ROCKET has"
-	line "nothing to fear!"
+    text "TEAM ROCKET muss"
+    line "sich vor nichts"
+    cont "fürchten!"
 	done
 	
 GruntF16BeatenText:
-	text "Eek!"
+	text "Iiiih!"
 	done
 	
 GruntF16AfterBattleText:
-	text "TEAM ROCKET is"
-	line "above the law!"
-	
-	para "Why do you think"
-	line "GIOVANNI is still"
-	cont "an ELITE FOUR?"
-	
-	para "Use your brain!"
-	line "We run the show!"
+    text "TEAM ROCKET steht"
+    line "über dem Gesetz!"
+
+    para "Warum sonst ist"
+    line "GIOVANNI immer"
+    cont "noch Mitglied"
+    cont "der TOP VIER?"
+
+    para "Denk nach!"
+    line "Wir schmeißen"
+    cont "den Laden!"
 	done
 
 

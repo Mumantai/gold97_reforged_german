@@ -19,25 +19,26 @@ IePCNPC2Script:
 
 
 IePCNPC1Text:
-	text "I saw her!"
-	line "I saw the sad"
-	cont "woman's ghost up"
-	cont "on the balcony"
-	cont "above the CASTLE!"
-	
-	para "Nobody else will"
-	line "believe me but"
-	cont "it's true!"
+    text "Ich habe sie"
+    line "gesehen!"
+    cont "Ich habe den Geist"
+    cont "der traurigen Frau"
+    cont "auf dem Balkon des"
+    cont "SCHLOSSes gesehen!"
+
+    para "Niemand wird mir"
+    line "glauben, aber es"
+    cont "ist wahr!"
 	done
 
 IePCNPC2Text:
-	text "I'd go explore"
-	line "the inside of"
-	cont "CASTLE MOUNTAIN"
-	cont "but I don't want"
-	cont "to have a run in"
-	cont "with the GREEN"
-	cont "DRAGON!"
+    text "Ich würde ja"
+    line "das Innere des"
+    cont "SCHLOSSBERGs"
+    cont "erkunden, aber ich"
+    cont "möchte nicht dem"
+    cont "GRÜNEN DRACHEN"
+    cont "begegnen!"
 	done
 
 

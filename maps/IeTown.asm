@@ -22,15 +22,16 @@ TMShopSign:
 	jumptext TMShopSignText
 	
 IeTownSignText:
-	text "IE TOWN -"
-	line "The stalwart"
-	cont "castle town."
+	text "II-SHIMA"
+
+	para "Die unerschütter-"
+	line "liche Schlossstadt"
 	done
 
 TMShopSignText:
-	text "TM EMPORIUM"
-	line "Get the hottest"
-	cont "competitive moves"
+	text "TM SUPERMARKT"
+	line "Hol dir die"
+	cont "heißesten Attacken"
 	done
 
 IeTownNPC1Script:
@@ -41,28 +42,28 @@ IeTownNPC2Script:
 
 
 IeTownNPC1Text:
-	text "People here have"
-	line "been hearing odd"
-	cont "noises coming"
-	cont "from the CASTLE"
-	cont "at night."
-	
-	para "I wonder if it's"
-	line "the GREEN DRAGON"
-	cont "that supposedly"
-	cont "lives somewhere"
-	cont "inside…"
+    text "Die Leute hier"
+    line "hören bei Nacht"
+    cont "seltsame Geräusche"
+    cont "aus dem SCHLOSS"
+    cont "kommen."
+
+    para "Ich frage mich, ob"
+    line "der GRÜNE DRACHE"
+    cont "dafür verantwort-"
+    cont "lich ist…"
 	done
 
 IeTownNPC2Text:
-	text "I've seen some"
-	line "shady guys around"
-	cont "the CASTLE at"
-	cont "night."
-	
-	para "I don't think"
-	line "they're from"
-	cont "around here."
+    text "Ich habe einige"
+    line "dubiose Typen"
+    cont "nachts um das"
+    cont "SCHLOSS herum"
+    cont "gesehen."
+
+    para "Ich glaube nicht,"
+    line "dass sie von hier"
+    cont "kommen."
 	done
 
 

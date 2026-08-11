@@ -14,37 +14,37 @@ Ie1NPC2Script:
 	jumptextfaceplayer Ie1NPC2Text
 	
 Ie1NPC1Text:
-	text "When I was young"
-	line "the CASTLE"
-	cont "MOUNTAIN was"
-	cont "the pride of our"
-	cont "whole town."
-	
-	para "Now it's fallen"
-	line "into ruin."
-	cont "Truly it is a"
-	cont "shame…"
+    text "Als ich jung war,"
+    line "war der SCHLOSS-"
+    cont "BERG der ganze"
+    cont "Stolz der Stadt."
+
+    para "Jetzt liegt er in"
+    line "Trümmern. Wirklich"
+    cont "eine Schande…"
 	done
 	
 Ie1NPC2Text:
-	text "The CASTLE was"
-	line "an important"
-	cont "historical land-"
-	cont "mark and was"
-	cont "treated as such."
-	
-	para "That changed when"
-	line "something fierce"
-	cont "moved into the"
-	cont "cavern beneath"
-	cont "the castle."
-	
-	para "Allegedly a GREEN"
-	line "DRAGON appeared"
-	cont "as a result of"
-	cont "the curse of a"
-	cont "sad woman who"
-	cont "perished there."
+    text "Das SCHLOSS war"
+    line "ein historisch"
+    cont "wichtiges Wahrzei-"
+    cont "chen und es wurde"
+    cont "auch so behandelt."
+
+    para "Das änderte sich,"
+    line "als sich etwas"
+    cont "Wildes in die"
+    cont "Höhle unter dem"
+    cont "Schloss einge-"
+    cont "nistet hat."
+
+    para "Angeblich hat der"
+    line "Fluch einer trau-"
+    cont "rigen Frau, die"
+    cont "dort ums Leben"
+    cont "kam, einen GRÜNEN"
+    cont "DRACHEN hervor-"
+    cont "gerufen."
 	done
 
 

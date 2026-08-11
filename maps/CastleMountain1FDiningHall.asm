@@ -32,15 +32,16 @@ LeftoverFoodScript:
 	end
 
 SuspiciousFoodText:
-	text "This food is"
-	line "suspiciously fresh"
-	cont "for being in an"
-	cont "abandoned castle."
+    text "Das Essen sieht"
+    line "verdächtig frisch"
+    cont "aus, für ein ver-"
+    cont "lassenes Schloss."
 	done
 
 TakeSomeAnywayText:
-	text "Can't hurt to"
-	line "take some right?"
+    text "Es kann nicht"
+    line "schaden, etwas"
+    cont "mitzunehmen, oder?"
 	done
 
 CastleMountain1FDiningHall_MapEvents:

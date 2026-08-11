@@ -10,20 +10,20 @@ Ie2NPCScript:
 	jumptextfaceplayer Ie2NPCText
 	
 Ie2NPCText:
-	text "There's an old"
-	line "folktake in this"
-	cont "village about a"
-	cont "sad woman who"
-	cont "climbed the peak"
-	cont "at CASTLE MOUNT-"
-	cont "AIN and fell to"
-	cont "her death."
-	
-	para "Some say her"
-	line "spirit is still"
-	cont "haunting around"
-	cont "the CASTLE to"
-	cont "this day."
+    text "Es gibt eine alte"
+    line "Geschichte hier im"
+    cont "Dorf über eine"
+    cont "traurige Frau, die"
+    cont "auf den Gipfel des"
+    cont "SCHLOSSBERGs stieg"
+    cont "und dort ihr Ende"
+    cont "fand."
+
+    para "Manche sagen, dass"
+    line "ihr Geist noch"
+    cont "heute die Gegend"
+    cont "um das SCHLOSS"
+    cont "heimsucht."
 	done
 
 IeHouse2_MapEvents:
