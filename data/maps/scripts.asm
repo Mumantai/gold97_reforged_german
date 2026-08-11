@@ -144,6 +144,7 @@ INCLUDE "maps/CrownCityTrainerHouse.asm"
 INCLUDE "maps/Route118SunpointGate.asm"
 INCLUDE "maps/IsenStraitSeasidePathGate.asm"
 INCLUDE "maps/PagotaGym.asm"
+INCLUDE "maps/KantoHouse3.asm"
 
 
 
@@ -221,7 +222,6 @@ INCLUDE "maps/SanskritMart.asm"
 INCLUDE "maps/SilentPokecenter1F.asm"
 INCLUDE "maps/Route116Gate.asm"
 INCLUDE "maps/VictoryRoadGate.asm"
-INCLUDE "maps/KantoHouse3.asm"
 INCLUDE "maps/MotobuPath.asm"
 INCLUDE "maps/IeTown.asm"
 INCLUDE "maps/IeTMShop.asm"
