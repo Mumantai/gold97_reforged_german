@@ -285,6 +285,7 @@ INCLUDE "maps/RyukyuRestaurant.asm"
 INCLUDE "maps/RyukyuHotelRooms.asm"
 INCLUDE "maps/BattleTowerOutside.asm"
 INCLUDE "maps/BirdonCafe.asm"
+INCLUDE "maps/SunpointCity.asm"
 
 
 SECTION "Map Scripts 15", ROMX
@@ -417,7 +418,6 @@ INCLUDE "maps/RainbowIslandCave.asm"
 
 SECTION "Map Scripts 21", ROMX
 
-INCLUDE "maps/SunpointCity.asm"
 INCLUDE "maps/Route115.asm"
 INCLUDE "maps/Route101.asm"
 INCLUDE "maps/Route105.asm"
