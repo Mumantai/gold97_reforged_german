@@ -134,14 +134,15 @@ DisplayDexEntry:
 	inc hl
 	push hl
 	dec hl
-	call GetFarHalfword
+	call GetFarWord
 	ld d, l
 	ld e, h
 	ld a, e
 	or d
 	jr z, .skip_weight
 	push de
-	ld hl, sp+$0
+; Print the weight, with three of the four digits in front of the decimal point
+	ld hl, sp+0
 	ld d, h
 	ld e, l
 	hlcoord 12, 9
@@ -172,7 +173,7 @@ DisplayDexEntry:
 	pop af
 	hlcoord 2, 11
 	push af
-	call FarString
+	call PlaceFarString
 	pop bc
 	ld a, [wPokedexStatus]
 	or a ; check for page 2
@@ -201,7 +202,7 @@ DisplayDexEntry:
 	inc de
 	pop af
 	hlcoord 2, 11
-	call FarString
+	call PlaceFarString
 	ret
 
 UnreferencedPOKeString:
