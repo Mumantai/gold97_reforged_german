@@ -77,6 +77,7 @@ DoDexSearchSlowpokeFrame:
 	db -1
 
 DisplayDexEntry:
+DisplayDexEntry:
 	call GetPokemonName
 	hlcoord 9, 3
 	call PlaceString ; mon species
@@ -112,25 +113,22 @@ DisplayDexEntry:
 	inc hl
 	ld a, b
 	push af
-	push hl
-	call GetFarHalfword
-	ld d, l
-	ld e, h
-	pop hl
+	call GetFarByte
 	inc hl
-	inc hl
-	ld a, d
-	or e
+	and a
 	jr z, .skip_height
 	push hl
-	push de
-; Print the height, with two of the three digits in front of the decimal point.
-	ld hl, sp+0
+	push af
+; Print the height, with two of the four digits in front of the decimal point
+	ld hl, sp+1
 	ld d, h
 	ld e, l
 	hlcoord 13, 7
 	lb bc, 1, (2 << 4) | 3
 	call PrintNum
+; Replace the decimal point with a ft symbol        (Removed for German localization)
+;	hlcoord 14, 6
+;	ld [hl], $5e
 	pop af
 	pop hl
 
