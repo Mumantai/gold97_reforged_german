@@ -134,7 +134,7 @@ DisplayDexEntry:
 	inc hl
 	push hl
 	dec hl
-	call GetFarWord
+	call GetFarHalfWord
 	ld d, l
 	ld e, h
 	ld a, e
