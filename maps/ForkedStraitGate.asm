@@ -77,59 +77,55 @@ EventCopHALT:
 	done
 
 EventCopText:
-	text "This is a"
-	line "restricted area!"
-	
-	para "No #MON"
-	line "trainers are"
-	cont "allowed past this"
-	cont "poin-"
-	
-	para "Wait."
-	
-	para "… … …"
-	line "… … …"
-	
-	para "Are you…"
-	
-	para "<PLAY_G>, the"
-	line "NIHON LEAGUE's"
-	cont "new CHAMPION?"
-	
-	para "You are!"
-	line "My apologies!"
-	
-	para "The two SOUTHERN"
-	line "ISLANDS are off"
-	cont "limits to members"
-	cont "of the general"
-	cont "public, but"
-	cont "someone of your"
-	cont "high level of"
-	cont "clearance I'll"
-	cont "allow through."
-	
-	para "These islands are"
-	line "natural #MON"
-	cont "paradises, fully"
-	cont "unspoiled by man."
-	
-	para "As such they are"
-	line "highly valuable"
-	cont "for scientific"
-	cont "research."
-	
-	para "I assume you"
-	line "must have been"
-	cont "informed by BLUE."
-	
-	para "He passed through"
-	line "on his way to"
-	cont "conduct research"
-	cont "on RAINBOW ISLAND"
-	cont "to the west."
-	
-	para "Now, carry on!"
+    text "Das hier ist ein"
+    line "Sperrgebiet!"
+
+    para "Ab hier, sind"
+    line "keine Trainer erl-"
+
+    para "Moment."
+
+    para "… … …"
+    line "… … …"
+
+    para "Bist du…"
+
+    para "<PLAY_G>, der neue"
+    line "CHAMP der #MON"
+    cont "LIGA von NIHON?"
+
+    para "Du bist es!"
+    line "Entschuldige!"
+
+    para "Die beiden"
+    line "SÜDLICHEN INSELN"
+    cont "sind nur für die"
+    cont "Allgemeinheit"
+    cont "gesperrt, aber"
+    cont "jemanden deines"
+    cont "Kalibers, kann ich"
+    cont "durchlassen."
+
+    para "Diese Inseln sind"
+    line "ein Paradies für"
+    cont "#MON. Völlig"
+    cont "unberührte Natur."
+
+    para "Deshalb sind sie"
+    line "für die Forschung"
+    cont "auch so wichtig."
+
+    para "Ich nehme an, du"
+    line "wurdest von BLAU"
+    cont "informiert."
+
+    para "Er ist hier auf"
+    line "dem Weg zu seiner"
+    cont "Forschung auf der"
+    cont "REGENBOGENINSEL"
+    cont "vorbeigekommen."
+
+    para "Geh ruhig weiter!"
 	done
 
 ForkedStraitGateCopScript:
@@ -137,7 +133,7 @@ ForkedStraitGateCopScript:
 	
 ForkedStraitGateCopNormalText:
 	text "<PLAY_G>!"
-	line "You may proceed!"
+	line "Du darfst durch!"
 	done
 
 
@@ -145,35 +141,34 @@ ForkedStraitGateScientist1Script:
 	jumptextfaceplayer ForkedStraitGateScientist1Text
 	
 ForkedStraitGateScientist1Text:
-	text "TROPICAL ISLAND"
-	line "to the east is"
-	cont "full of rare"
-	cont "#MON species!"
-	
-	para "I'm researching"
-	line "the potential"
-	cont "of a NEW SPECIES"
-	cont "on the island."
+    text "Die TROPENINSEL"
+    line "im Osten ist voll"
+    para "mit seltenen Arten"
+    line "von #MON!"
+
+    para "Ich erforsche das"
+    line "Potenzial einer"
+    para "NEUEN ART auf der"
+    line "Insel."
 	done
 
 ForkedStraitGateScientist2Script:
 	jumptextfaceplayer ForkedStraitGateScientist2Text
 	
 ForkedStraitGateScientist2Text:
-	text "I'm one of the"
-	line "lucky few that"
-	cont "could obtain the"
-	cont "clearance needed"
-	cont "to study the"
-	cont "SOUTHERN ISLANDS."
-	
-	para "They're even"
-	line "printing a promo"
-	cont "card set with"
-	cont "the incredible"
-	cont "#MON photos"
-	cont "taken during our"
-	cont "research tour!"
+    text "Ich bin einer der"
+    line "Glücklichen, die"
+    para "die Freigabe zum"
+    line "Studieren der"
+    para "SÜDLICHEN INSELN"
+    line "bekommen hat."
+
+    para "Es soll sogar ein"
+    line "Promokartenset mit"
+    para "den unglaublichen"
+    line "#MON-Fotos der"
+    para "Forschungsreise"
+    line "gedruckt werden!"
 	done
 
 
@@ -181,19 +176,23 @@ ForkedStraitGateScientist3Script:
 	jumptextfaceplayer ForkedStraitGateScientist3Text
 	
 ForkedStraitGateScientist3Text:
-	text "There's ancient"
-	line "manuscripts that"
-	cont "describe RAINBOW"
-	cont "ISLAND as a"
-	cont "miraculous site"
-	cont "cloaked always in"
-	cont "rainbow light."
-	
-	para "I wonder if that"
-	line "was just a legend"
-	cont "or if the island"
-	cont "really had some"
-	cont "special power…"
+    text "Es gibt alte"
+    line "Manuskripte, in"
+    para "denen die REGEN-"
+    line "BOGENINSEL als ein"
+    para "wundersamer Ort"
+    line "beschrieben wird,"
+    para "der immer in"
+    line "Regenbogenlicht"
+    cont "gehüllt ist."
+
+    para "Ich frage mich, ob"
+    line "das bloß eine"
+    para "Legende ist oder"
+    line "ob diese Insel"
+    para "wirklich eine"
+    line "besondere Kraft"
+    cont "hat…"
 	done
 
 TropicalSign:
@@ -203,13 +202,13 @@ RainbowSign:
 	jumptext RainbowSignText
 	
 TropicalSignText:
-	text "TROPICAL ISLAND"
-	line "AHEAD TO EAST"
+	text "TROPENINSEL"
+	line "nach Osten"
 	done
 	
 RainbowSignText:
-	text "RAINBOW ISLAND"
-	line "AHEAD TO WEST"
+	text "REGENBOGENINSEL"
+	line "nach Westen"
 	done
 
 

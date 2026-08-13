@@ -23,26 +23,26 @@ TrainerForkedStrait1:
 	end
 
 FisherStirnerSeenText:
-	text "I want to go"
-	line "fishing in the"
-	cont "SOUTHERN ISLANDS,"
-	cont "but they only let"
-	cont "scientists go"
-	cont "there!"
+    text "Ich will bei den"
+    line "SÜDLICHEN INSELN"
+    para "angeln gehen, aber"
+    line "sie lassen nur"
+    para "Wissenschaftler"
+    line "dort hin!"
 	done
-	
+
 FisherStirnerBeatenText:
-	text "Philosophy is"
-	line "a science! Let"
-	cont "me in!"
+    text "Philosophie ist"
+    line "eine Wissenschaft!"
+    cont "Lasst mich rein!"
 	done
-	
+
 FisherStirnerAfterBattleText:
-	text "Legality is a"
-	line "spook!"
-	
-	para "I'll fish where"
-	line "I please!"
+    text "Das Gesetz ist ein"
+    line "Schreckgespenst!"
+
+    para "Ich angle, wo ich"
+    line "will!"
 	done
 
 
@@ -58,33 +58,39 @@ TrainerForkedStrait2:
 	end
 
 FisherEdgarSeenText:
-	text "I am the strongest"
-	line "angler in the"
-	cont "world! Challenge"
-	cont "me… If you dare!"
+    text "Ich bin der"
+    line "stärkste Angler"
+    cont "der Welt!"
+
+    para "Fordere mich"
+    line "heraus… Wenn"
+    cont "du dich traust!"
 	done
 
 FisherEdgarBeatenText:
-	text "You are worthy of"
-	line "your SUPER ROD…"
+	text "Du bist einer"
+	line "SUPERANGEL würdig…"
 	done
 	
 FisherEdgarAfterBattleText:
-	text "I have nothing to"
-	line "teach you, young"
-	cont "one. You are the"
-	cont "fish master now…"
+    text "Ich kann dir"
+    line "nichts mehr bei-"
+    cont "bringen, Kleiner."
+
+    para "Du bist jetzt der"
+    line "Angelmeister!"
 	done
 
 CheckpointSignpost:
 	jumptext CheckpointSignpostText
 	
 CheckpointSignpostText:
-	text "SOUTHERN ISLANDS"
-	line "ACCESS CHECKPOINT"
-	
-	para "OFFICIAL CLEARANCE"
-	line "REQUIRED TO ENTER"
+	text "SÜDLICHE INSELN"
+	line "KONTROLLPUNKT"
+
+	para "OFFIZIELLE"
+	line "ERLAUBSNIS ZUM"
+	cont "BETRETEN BENÖTIGT"
 	done
 
 

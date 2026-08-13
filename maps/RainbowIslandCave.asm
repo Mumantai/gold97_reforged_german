@@ -162,84 +162,86 @@ LegendsDanceStep7:
 
 
 BlueAfterEventText:
-	text "Quick! Outside!"
-	
-	para "Meet me on the"
-	line "northmost point!"
+    text "Schnell!"
+    line "Nach draußen!"
+
+    para "Triff mich im"
+    line "Norden der Insel!"
 	done
 
 BlueDontHaveMonsText:
-	text "If you can get"
-	line "both LEGENDARY"
-	cont "#MON somehow,"
-	cont "stand there!"
+    text "Wenn du beide"
+    line "LEGENDÄREN #MON"
+    cont "irgendwie hier"
+    cont "hingestellt"
+    cont "bekommen würdest!"
 	done
 
 BlueHaveThemBothText:
-	text "Woah!? You went"
-	line "and actually got"
-	cont "HO-OH and LUGIA!?"
-	
-	para "This is amazing!"
-	
-	para "Alright! Send em'"
-	line "out and let's get"
-	cont "things started!"
+    text "Was?! Du hast echt"
+    line "HO-OH und LUGIA"
+    cont "gefangen?!"
+
+    para "Das ist der"
+    line "Wahnsinn!"
+
+    para "Alles klar! Lass"
+    line "sie raus, dann"
+    cont "geht's los!"
 	done
 
 BlueTellsLegendText:
-	text "Alright, you made"
-	line "it here!"
-	
-	para "So here's what I"
-	line "found out…"
-	
-	para "This island used"
-	line "to be home to a"
-	cont "tribe of people"
-	cont "that performed a"
-	cont "ritual here to"
-	cont "summon a pair"
-	cont "of LEGENDARY"
-	cont "#MON!"
-	
-	para "In the text it"
-	line "said that the"
-	cont "rainbows that"
-	cont "cover the island"
-	cont "were made when"
-	cont "LUGIA's rains"
-	cont "filled the sky,"
-	cont "then were cleared"
-	cont "by HO-OH's SACRED"
-	cont "FIRE!"
-	
-	para "What the text"
-	line "lacked was any"
-	cont "description of"
-	cont "how to perform"
-	cont "the ritual!"
-	
-	para "So, I have no"
-	line "idea how to get"
-	cont "HO-OH and LUGIA"
-	cont "here to perform."
+    text "Super, du hast es"
+    line "hierher geschafft!"
+
+    para "Also, das habe ich"
+    line "herausgefunden…"
+
+    para "Diese Insel war"
+    line "einst Heimat eines"
+    cont "Volkes, das hier"
+    cont "ein Ritual durch-"
+    cont "führte, um zwei"
+    cont "LEGENDÄRE #MON"
+    cont "herbeizurufen!"
+
+    para "In den Schriften"
+    line "heißt es, dass die"
+    cont "Regenbögen, die"
+    cont "sich über die"
+    cont "Insel erstreckten,"
+    cont "entstanden, als"
+    cont "LUGIAs Regen von"
+    cont "HO-OHs LÄUTERFEUER"
+    cont "geklärt wurde!"
+
+    para "Was die Schriften"
+    line "nicht enthielten,"
+    cont "war eine Beschrei-"
+    cont "bung, des Rituals."
+
+    para "Ich weiß also"
+    line "nicht, wie man"
+    cont "HO-OH und LUGIA"
+    cont "hierher bekommt."
 	done
 	
 BlueTellsYouToGoThereText:
-	text "This might be an"
-	line "extra tall order,"
-	cont "but if you can"
-	cont "somehow get both"
-	cont "HO-OH and LUGIA"
-	cont "here, maybe we"
-	cont "can restore the"
-	cont "island!"
-	
-	para "If you do, stand"
-	line "over on the other"
-	cont "side of this"
-	cont "waterfall!"
+    text "Das mag jetzt viel"
+    line "verlangt sein,"
+    cont "aber solltest du"
+    cont "es schaffen, HO-OH"
+    cont "und LUGIA hierher"
+    cont "zu bringen, können"
+    cont "wir diese Insel"
+    cont "vielleicht wieder"
+    cont "herstellen!"
+
+    para "Stell dich auf die"
+    line "andere Seite des"
+    cont "Wasserfalls, wenn"
+    cont "du sie beide"
+    cont "gefangen hast!"
 	done
 
 

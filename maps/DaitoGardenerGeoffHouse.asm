@@ -168,12 +168,12 @@ BananaText:
     cont "sind?"
 
     para "Wegen der kommer-"
-    line "ziellen Zucht haben"
-    cont "die Bananen keine"
-    cont "Samen, also müssen"
-    cont "sie durch Steck-"
-    cont "linge vermehrt"
-    cont "werden."
+    line "ziellen Zucht"
+    cont "haben die Bananen"
+    cont "keine Samen, also"
+    cont "müssen sie durch"
+    cont "Stecklinge ver-"
+    cont "mehrt werden."
 
     para "Das bedeutet, dass"
     line "alle Pflanzen"

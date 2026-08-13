@@ -149,58 +149,59 @@ BlueFirstScript:
 
 BluePt1Text:
 	text "Hey! <PLAY_G>!"
-	line "I'm surprised to"
-	cont "see you all the"
-	cont "way out here on"
-	cont "RAINBOW ISLAND!"
-	
-	para "I came out here"
-	line "to do #MON"
-	cont "research, but I"
-	cont "became intrigued"
-	cont "by something else…"
+	line "Ich bin über-"
+	cont "rascht, dich hier"
+	cont "auf der REGENBO-"
+	cont "GENINSEL zu sehen!"
+
+	para "Ich bin hierher"
+	line "gekommen, um die"
+	cont "#MON hier zu"
+	cont "erforschen, aber"
+	cont "etwas Anderes hat"
+	cont "mich neugierig"
+    cont "gemacht…"
 	done
 
 BluePt2Text:
-	text "Look at these"
-	line "palms and grass,"
-	cont "they're totally"
-	cont "brown!"
-	
-	para "Old stories and"
-	line "legends of this"
-	cont "island suggest"
-	cont "that it used to"
-	cont "be an amazingly"
-	cont "colorful place…"
-	
-	para "But now it looks"
-	line "like this? What"
-	cont "happened here?"
+    text "Sieh dir diese"
+    line "Palmen und das"
+    cont "Gras an, sie sind"
+    cont "total braun!"
+
+    para "Alten Geschichten"
+    line "und Legenden über"
+    cont "diese Insel zu-"
+    cont "folge, war sie"
+    cont "einst ein unglaub-"
+    cont "lich farbenfroher"
+    cont "Ort…"
+
+    para "Aber jetzt sieht"
+    line "es so aus? Was ist"
+    cont "hier passiert?"
 	done
 
 BluePt3Text:
-	text "So I did some"
-	line "more research,"
-	cont "and I think I"
-	cont "might have a"
-	cont "theory!"
-	
-	para "Although…"
-	line "It's a long"
-	cont "shot to say the"
-	cont "least if I'm"
-	cont "correct."
-	
-	para "Meet me in the"
-	line "cave to the"
-	cont "northeast of the"
-	cont "island and I'll"
-	cont "explain more!"
-	
-	para "You'll need"
-	line "WATERFALL to get"
-	cont "there!"
+    text "Ich habe also"
+    line "nachgeforscht und"
+    cont "ich glaube, ich"
+    cont "habe eine Theorie!"
+
+    para "Obwohl…"
+    line "Es wäre schon sehr"
+    cont "weit hergeholt,"
+    cont "muss ich zugeben."
+
+    para "Triff mich in der"
+    line "Höhle nordöstlich"
+    cont "der Insel und ich"
+    cont "werde dir mehr"
+    cont "erklären!"
+
+    para "Du wirst KASKADE"
+    line "brauchen, um dort"
+    cont "hin zu gelangen!"
 	done
 
 BlueBattleScript:
@@ -280,121 +281,126 @@ BlueBattleScript:
 
 
 BlueCommendsText:
-	text "This is just"
-	line "incredible…"
-	
-	para "<PLAY_G>, you've"
-	line "really got a"
-	cont "talent for making"
-	cont "the impossible"
-	cont "happen!"
-	
-	para "You've grown so"
-	line "much as a trainer"
-	cont "since me and"
-	cont "gramps sent you"
-	cont "out from SILENT"
-	cont "TOWN…"
-	
-	para "But this HAS to"
-	line "take the cake for"
-	cont "the most amazing"
-	cont "thing I've ever"
-	cont "seen!"
-	
-	para "Truly it's been"
-	line "an honor helping"
-	cont "you get this far!"
+    text "Das ist einfach"
+    line "unglaublich…"
+
+    para "<PLAY_G>, du hast"
+    line "wirklich ein"
+    cont "Talent dafür, das"
+    cont "Unmögliche möglich"
+    cont "zu machen!"
+
+    para "Du bist seit dem"
+    line "Tag, an dem Opa"
+    cont "und ich dich aus"
+    cont "SILENITIA entsandt"
+    cont "haben, als Trainer"
+    cont "so sehr gewachsen…"
+
+    para "Aber das hier MUSS"
+    line "das wohl unfass-"
+    cont "barste sein, was"
+    cont "ich jemals gesehen"
+    cont "habe!"
+
+    para "Es war mir eine"
+    line "Ehre, dich auf"
+    cont "deinem Weg zu"
+    cont "begleiten."
 	done
 
 BlueFirstChallengeText:
-	text "If I was to give"
-	line "you a reward for"
-	cont "an occasion like"
-	cont "this…"
+	text "Wenn ich dir eine"
+	line "Belohnung für so"
+    cont "eine Gelegenheit"
+    cont "geben würde…"
 
-	para "Well… There's"
-	line "only one thing"
-	cont "I could imagine"
-	cont "you'd want!"
+    para "Tja… Es gibt"
+    line "nur eine Sache,"
+    para "die du dir wohl"
+    line "wünschen könntest!"
 	
 	para "<PLAY_G>!"
 	
-	para "As the former"
-	line "CHAMPION of the"
-	cont "#MON LEAGUE,"
-	cont "I challenge you!"
+    para "Als ehemaliger"
+    line "CHAMP der #MON"
+    para "LIGA, fordere ich"
+    line "dich heraus!"
 	done
 	
 BlueFirstWinText:
-	text "It's all over!"
-	
-	para "That was a battle"
-	line "for the history"
-	cont "books, no doubt"
-	cont "about it!"
+    text "Es ist vorbei!"
+
+    para "Das war wirklich"
+    line "ein Kampf für die"
+    cont "Geschichtsbücher!"
 	done
 
 BlueFirstAfterText:
-	text "Whew…"
-	
-	para "I haven't had"
-	line "someone give me a"
-	cont "run for my money"
-	cont "like that since"
-	cont "I fought my old"
-	cont "pal at INDIGO"
-	cont "PLATEAU!"
-	
-	para "Man… That still"
-	line "feels like it was"
-	cont "just yesterday…"
-	
-	para "Welp! I guess its"
-	line "time for me to"
-	cont "wrap up my"
-	cont "research tour."
-	
-	para "What a time it's"
-	line "been!"
-	
-	para "<PLAY_G>! I guess"
-	line "I'll…"
-	
-	para "Smell ya later!"
+	text "Puh…"
+
+	para "So ins Schwitzen"
+	line "gebracht wurde ich"
+	para "das zuletzt, als"
+    line "ich gegen meinen"
+    para "alten Kumpel am"
+    line "INDIGO PLATEAU"
+    cont "gekämpft habe!"
+
+    para "Mann… Das fühlt"
+    line "sich an, als wäre"
+    cont "es erst gestern"
+    cont "gewesen…"
+
+    para "Naja! Ich denke,"
+    line "es ist Zeit für"
+    para "mich, meine For-"
+    line "schungsreise zu"
+    cont "beenden."
+
+    para "Was für eine Zeit"
+    line "das doch war!"
+
+    para "<PLAY_G>! Wir…"
+
+    para "Ciao!"
 	done
 
 
 BlueSecondChallengeText:
-	text "Hey <PLAY_G>!"
-	
-	para "Back for round"
-	line "two huh?"
-	
-	para "Well, don't think"
-	line "I'll go easy if"
-	cont "you've beat me"
-	cont "before!"
-	
-	para "Let's go!"
+	text "Hey, <PLAY_G>!"
+
+	para "Zurück für eine"
+	line "zweite Runde, was?"
+
+	para "Denk nur nicht,"
+	line "ich würde mich"
+	cont "zurückhalten."
+
+	para "Du hast mich"
+	cont "immerhin schon"
+	cont "einmal geschlagen!"
+
+	para "Los geht's!"
 	done
 
 
 BlueSecondAfterText:
-	text "Whew! I'll be"
-	line "doing some more"
-	cont "training!"
-	
-	para "Until then, I'll"
-	line "see you around!"
+    text "Puh! Ich muss wohl"
+    line "noch ein Bisschen"
+    cont "mehr trainieren!"
+
+    para "Also, bis dann."
+    line "Wir sehen uns!"
 	done
 
 
 BlueSecondWinText:
-	text "You're no joke!"
-	
-	para "Keep on getting"
-	line "stronger!"
+    text "Mit dir ist nicht"
+    line "zu spaßen!"
+
+    para "Hör nicht auf,"
+    line "stärker zu werden!"
 	done
 
 
