@@ -112,26 +112,19 @@ DisplayDexEntry:
 	inc hl
 	ld a, b
 	push af
-	push hl
-	call GetFarHalfword
-	ld d, l
-	ld e, h
-	pop hl
+	call GetFarByte
 	inc hl
-	inc hl
-	ld a, d
-	or e
+	and a
 	jr z, .skip_height
 	push hl
-	push de
-	ld hl, sp+$0
+	push af
+; Print the height, with two of the three digits in front of the decimal point
+	ld hl, sp+1
 	ld d, h
 	ld e, l
 	hlcoord 13, 7
 	lb bc, 1, (2 << 4) | 3
 	call PrintNum
-;	hlcoord 14, 7
-;	ld [hl], $5e ; ft symbol
 	pop af
 	pop hl
 
