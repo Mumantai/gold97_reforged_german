@@ -1,10 +1,10 @@
-	db "PUPPY@" ; species name
-	dw 204, 420 ; height, weight
+	db "HUND@" ; species name
+	dw 7, 190 ; height, weight
 
-	db   "Extremely loyal,"
-	next "it will fearlessly"
-	next "bark at any oppo-"
+	db   "Es ist sehr loyal."
+	next "Es bellt furchtlos"
+	next "jeden Gegner an,"
 
-	page "nent to protect"
-	next "its own trainer"
-	next "from harm.@"
+	page "um seinen Trainer"
+	next "vor Schaden zu"
+	next "bewahren.@"

@@ -1,10 +1,10 @@
-	db "CORAL@" ; species name
-	dw 200, 110 ; height, weight
+	db "KORALLE@" ; species name
+	dw 6, 50 ; height, weight
 
-	db   "In a south sea"
-	next "nation, the people"
-	next "live in communi-"
+	db   "Sie schließen sich"
+	next "in Gruppen zusam-"
+	next "men und bilden"
 
-	page "ties that are"
-	next "built on groups of"
-	next "these #MON.@"
+	page "Inseln, auf denen"
+	next "im Südmeer Men-"
+	next "schen leben.@"

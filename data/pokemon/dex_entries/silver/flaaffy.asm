@@ -1,10 +1,10 @@
-	db "WOOL@" ; species name
-	dw 207, 290 ; height, weight
+	db "WOLLE@" ; species name
+	dw 8, 133 ; height, weight
 
-	db   "Its fluffy fleece"
-	next "easily stores"
-	next "electricity. Its"
+	db   "Sein flauschiges"
+	next "Fell speichert"
+	next "Elektrizität."
 
-	page "rubbery hide keeps"
-	next "it from being"
-	next "electrocuted.@"
+	page "Seine Gummihaut"
+	next "schützt es vor"
+	next "Stromstößen.@"

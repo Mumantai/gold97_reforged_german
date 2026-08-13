@@ -1,10 +1,10 @@
-	db "LIVE COAL@" ; species name
-	dw 204, 470 ; height, weight
+	db "GLUTHERD@" ; species name
+	dw 7, 214 ; height, weight
 
-	db   "It is found in"
-	next "volcanic craters."
-	next "Its body temp. is"
+	db   "Zu finden ist es"
+	next "in Vulkankratern."
+	next "Seine Körpertempe-"
 
-	page "over 1100 degrees,"
-	next "so don't under-"
-	next "estimate it.@"
+	page "ratur erreicht"
+	next "über 600 Grad."
+	next "Vergiss das nicht!@"

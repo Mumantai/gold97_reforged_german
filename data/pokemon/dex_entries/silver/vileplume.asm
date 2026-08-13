@@ -1,10 +1,10 @@
-	db "FLOWER@" ; species name
-	dw 311, 410 ; height, weight
+	db "BLUME@" ; species name
+	dw 12, 186 ; height, weight
 
-	db   "The bud bursts"
-	next "into bloom with a"
-	next "bang. It then"
+	db   "Die Knospe wird"
+	next "mit einem Knall"
+	next "zur Blüte. Dann"
 
-	page "starts scattering"
-	next "allergenic, poi-"
-	next "sonous pollen.@"
+	page "verteilt es seine"
+	next "allergetischen,"
+	next "giftigen Pollen.@"

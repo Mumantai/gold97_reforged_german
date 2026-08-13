@@ -1,10 +1,10 @@
-	db "RAT@" ; species name
-	dw 204, 410 ; height, weight
+	db "MAUS@" ; species name
+	dw 7, 185 ; height, weight
 
-	db   "Its whiskers help"
-	next "it to maintain"
-	next "balance. Its fangs"
+	db   "Mit seinen Bart-"
+	next "haaren hält es die"
+	next "Balance. Da seine"
 
-	page "never stop grow-"
-	next "ing, so it gnaws"
-	next "to pare them down.@"
+	page "Zähne stetig wach-"
+	next "sen, muss es stän-"
+	next "dig etwas annagen.@"

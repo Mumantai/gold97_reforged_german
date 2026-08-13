@@ -1,10 +1,10 @@
-	db "BAT@" ; species name
-	dw 503, 1210 ; height, weight
+	db "FLEDERMAUS@" ; species name
+	dw 16, 550 ; height, weight
 
-	db   "It can drink more"
-	next "than 10 ounces of"
-	next "blood at once. If"
+	db   "Es kann bis zu 0,3"
+	next "Liter Blut auf"
+	next "einmal trinken."
 
-	page "it has too much,"
-	next "it gets heavy and"
-	next "flies clumsily.@"
+	page "Trinkt es zu viel,"
+	next "wird es schwer und"
+	next "fliegt behäbig.@"

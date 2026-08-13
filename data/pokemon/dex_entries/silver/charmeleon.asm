@@ -1,10 +1,10 @@
-	db "FLAME@" ; species name
-	dw 307, 420 ; height, weight
+	db "FLAMME@" ; species name
+	dw 11, 190 ; height, weight
 
-	db   "It has a barbaric"
-	next "nature. In battle,"
-	next "it whips its"
+	db   "Es ist brutal ver-"
+	next "anlagt. Im Kampf"
+	next "schlägt es mit"
 
-	page "fiery tail around"
-	next "and slashes away"
-	next "with sharp claws.@"
+	page "seinem Schwanz und"
+	next "setzt seine schar-"
+	next "fen Klauen ein.@"

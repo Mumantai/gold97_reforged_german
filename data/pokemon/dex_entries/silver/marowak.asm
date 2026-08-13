@@ -1,10 +1,10 @@
-	db "BONEKEEPER@" ; species name
-	dw 303, 990 ; height, weight
+	db "KNOCHENFAN@" ; species name
+	dw 10, 450 ; height, weight
 
-	db   "It collects bones"
-	next "from an unknown"
-	next "place. A MAROWAK"
+	db   "Es sammelt Knochen"
+	next "an geheimen Orten."
+	next "Es soll irgendwo"
 
-	page "graveyard exists"
-	next "somewhere in the"
-	next "world, rumors say.@"
+	page "eine Begräbniss-"
+	next "tätte für KNOGGA"
+	next "geben.@"

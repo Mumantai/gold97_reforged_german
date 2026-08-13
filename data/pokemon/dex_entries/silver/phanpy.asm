@@ -1,10 +1,10 @@
-	db "LONG NOSE@" ; species name
-	dw 108, 740 ; height, weight
+	db "LANGRÜSSEL@" ; species name
+	dw 5, 335 ; height, weight
 
-	db   "As a sign of af-"
-	next "fection, it bumps"
-	next "with its snout."
+	db   "Als Zeichen seiner"
+	next "Zuneigung stubbst"
+	next "es dich mit dem"
 
-	page "However, it is so"
-	next "strong, it may"
-	next "send you flying.@"
+	page "Rüssel, was dich"
+	next "aber buchstäblich"
+	next "umwerfen könnte.@"

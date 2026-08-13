@@ -1,10 +1,10 @@
 	db "GAS@" ; species name
-	dw 403, 2 ; height, weight
+	dw 13, 1 ; height, weight
 
-	db   "Its thin body is"
-	next "made of gas. It"
-	next "can envelop an"
+	db   "Es hat einen gas-"
+	next "förmigen Körper."
+	next "Es kann jeden Geg-"
 
-	page "opponent of any"
-	next "size and cause"
-	next "suffocation.@"
+	page "ner mit Giftgas"
+	next "einnebeln und da-"
+	next "durch ersticken.@"

@@ -1,10 +1,10 @@
-	db "PIG MONKEY@" ; species name
-	dw 303, 710 ; height, weight
+	db "SCHWEINAFFE@" ; species name
+	dw 10, 320 ; height, weight
 
-	db   "It becomes wildly"
-	next "furious if it even"
-	next "senses someone"
+	db   "Spürt es, dass je-"
+	next "mand es anblickt,"
+	next "wird es zornig. Es"
 
-	page "looking at it. It"
-	next "chases anyone that"
-	next "meets its glare.@"
+	page "folgt jedem, der"
+	next "es wagt, seinen"
+	next "Blick zu erwidern.@"

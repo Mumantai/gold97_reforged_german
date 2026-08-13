@@ -1,10 +1,10 @@
-	db "SPIKES@" ; species name
-	dw 303, 2540 ; height, weight
+	db "STACHLER@" ; species name
+	dw 10, 1150 ; height, weight
 
-	db   "It doesn't care if"
-	next "there is anything"
-	next "in its way. It"
+	db   "Es schert sich"
+	next "nicht um Hinder-"
+	next "nisse in seinem"
 
-	page "just charges and"
-	next "destroys all ob-"
-	next "stacles.@"
+	page "Weg. Es greift an"
+	next "und zerstört alles"
+	next "in seinem Weg.@"

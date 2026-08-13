@@ -1,10 +1,10 @@
-	db "TADPOLE@" ; species name
-	dw 303, 440 ; height, weight
+	db "KAULQUAPPE@" ; species name
+	dw 10, 200 ; height, weight
 
-	db   "The skin on most"
-	next "of its body is"
-	next "moist. However,"
+	db   "Der Großteil sei-"
+	next "ner Haut ist"
+	next "feucht. Dennoch"
 
-	page "the skin on its"
-	next "belly spiral feels"
-	next "smooth.@"
+	page "ist die Haut um"
+	next "seine Spirale"
+	next "glatt und weich.@"

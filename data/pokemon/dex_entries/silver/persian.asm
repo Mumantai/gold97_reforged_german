@@ -1,10 +1,10 @@
-	db "CLASSY CAT@" ; species name
-	dw 303, 710 ; height, weight
+	db "RASSEKATZE@" ; species name
+	dw 10, 320 ; height, weight
 
-	db   "Its lithe muscles"
-	next "allow it to walk"
-	next "without making"
+	db   "Aufgrund seiner"
+	next "geschmeidigen Mus-"
+	next "keln kann es sich"
 
-	page "a sound. It"
-	next "attacks in an"
-	next "instant.@"
+	page "lautlos bewegen."
+	next "Es greift ohne"
+	next "Vorwarnung an.@"

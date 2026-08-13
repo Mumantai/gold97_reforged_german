@@ -1,10 +1,10 @@
-	db "LIGHTNING@" ; species name
-	dw 207, 540 ; height, weight
+	db "BLITZ@" ; species name
+	dw 8, 245 ; height, weight
 
-	db   "Every hair on its"
-	next "body starts to"
-	next "stand sharply on"
+	db   "Lädt es sich mit"
+	next "Elektrizität auf,"
+	next "steht jedes ein-"
 
-	page "end if it becomes"
-	next "charged with"
-	next "electricity.@"
+	page "zelne seiner Kör-"
+	next "perhaare steil"
+	next "nach oben.@"

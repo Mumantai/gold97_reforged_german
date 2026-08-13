@@ -1,10 +1,10 @@
 	db "PSI@" ; species name
-	dw 403, 1250 ; height, weight
+	dw 13, 565 ; height, weight
 
-	db   "If it uses its"
-	next "abilities, it"
-	next "emits special"
+	db   "Setzt es seine"
+	next "Kräfte ein, sendet"
+	next "es Alphawellen"
 
-	page "alpha waves that"
-	next "cause machines to"
-	next "malfunction.@"
+	page "aus, die einen De-"
+	next "fekt bei Maschinen"
+	next "auslösen können.@"

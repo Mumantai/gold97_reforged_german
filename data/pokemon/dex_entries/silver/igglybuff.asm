@@ -1,10 +1,10 @@
-	db "BALLOON@" ; species name
-	dw 100, 20 ; height, weight
+	db "BALLON@" ; species name
+	dw 3, 10 ; height, weight
 
-	db   "Its extremely"
-	next "flexible and elas-"
-	next "tic body makes it"
+	db   "Aufgrund seines"
+	next "extrem flexiblen"
+	next "und elastischen"
 
-	page "bounce continuous-"
-	next "ly--anytime, any-"
-	next "where.@"
+	page "Körpers springt es"
+	next "ständig überall"
+	next "umher.@"

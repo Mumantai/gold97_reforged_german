@@ -1,10 +1,18 @@
-	db "SPOTBILL@" ; species name
-	dw 401, 710 ; height, weight
+	db "WILDENTE@" ; species name
+	dw 12, 322 ; height, weight
 
-	db   "Very territorial."
-	next "Will defend its"
-	next "hatchlings if it"
+	db   "Sehr territorial."
+	next "Verteidigt seine"
+	next "Küken, sobald es"
 
-	page "has a slight sense"
-	next "of danger from its"
-	next "surroundings.@"
+	page "nur den Hauch"
+	next "einer Gefahr"
+	next "wittert.@"
+
+;	db   "Very territorial."
+;	next "Will defend its"
+;	next "hatchlings if it"
+
+;	page "has a slight sense"
+;	next "of danger from its"
+;	next "surroundings.@"

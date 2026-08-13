@@ -1,10 +1,10 @@
-	db "BEAK@" ; species name
-	dw 311, 840 ; height, weight
+	db "PICKVOGEL@" ; species name
+	dw 12, 380 ; height, weight
 
-	db   "It cleverly uses"
-	next "its thin, long"
-	next "beak to pluck and"
+	db   "Es setzt seinen"
+	next "langen, dünnen"
+	next "Schnabel geschickt"
 
-	page "eat small insects"
-	next "that hide under"
-	next "the ground.@"
+	page "ein, um kleine"
+	next "Insekten am Boden"
+	next "aufzupicken.@"

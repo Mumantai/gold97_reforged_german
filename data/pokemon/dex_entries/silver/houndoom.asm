@@ -1,10 +1,10 @@
-	db "DARK@" ; species name
-	dw 407, 770 ; height, weight
+	db "HADES@" ; species name
+	dw 14, 350 ; height, weight
 
-	db   "Upon hearing its"
-	next "eerie howls, other"
-	next "#MON get the"
+	db   "Wenn andere #-"
+	next "MON sein gräuli-"
+	next "ches Geheul hören,"
 
-	page "shivers and head"
-	next "straight back to"
-	next "their nests.@"
+	page "erschauern sie und"
+	next "verstecken sich"
+	next "schleunigst.@"

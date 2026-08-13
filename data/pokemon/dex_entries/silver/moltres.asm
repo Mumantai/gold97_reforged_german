@@ -1,10 +1,10 @@
-	db "FLAME@" ; species name
-	dw 607, 1320 ; height, weight
+	db "FLAMME@" ; species name
+	dw 20, 600 ; height, weight
 
-	db   "This legendary"
-	next "bird #MON is"
-	next "said to bring"
+	db   "Dieses legendäre"
+	next "Vogel-#MON soll"
+	next "Wintergebieten bei"
 
-	page "early spring to"
-	next "the wintry lands"
-	next "it visits.@"
+	page "Besuch einen"
+	next "frühen Frühling"
+	next "bescheren.@"

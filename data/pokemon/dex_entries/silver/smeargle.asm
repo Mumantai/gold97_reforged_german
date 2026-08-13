@@ -1,10 +1,10 @@
-	db "PAINTER@" ; species name
-	dw 311, 1280 ; height, weight
+	db "MALER@" ; species name
+	dw 12, 580 ; height, weight
 
-	db   "Once it becomes an"
-	next "adult, it has a"
-	next "tendency to let"
+	db   "Ist es erwachsen,"
+	next "lässt es sich gern"
+	next "von seinen Kamera-"
 
-	page "its comrades plant"
-	next "footprints on its"
-	next "back.@"
+	page "den Fußabdrücke"
+	next "auf den Rücken"
+	next "setzen.@"

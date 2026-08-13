@@ -1,10 +1,10 @@
-	db "AQUARABBIT@" ; species name
-	dw 207, 630 ; height, weight
+	db "AQUAHASE@" ; species name
+	dw 8, 285 ; height, weight
 
-	db   "When it plays in"
-	next "water, it rolls up"
-	next "its elongated ears"
+	db   "Spielt es im"
+	next "Wasser, rollt es"
+	next "seine langen Ohren"
 
-	page "to prevent their"
-	next "insides from get-"
-	next "ting wet.@"
+	page "zusammen, um zu"
+	next "verhindern, dass"
+	next "Wasser eindringt.@"

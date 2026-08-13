@@ -1,10 +1,10 @@
-	db "TADPOLE@" ; species name
-	dw 403, 1190 ; height, weight
+	db "KAULQUAPPE@" ; species name
+	dw 13, 540 ; height, weight
 
-	db   "Although an ener-"
-	next "getic, skilled"
-	next "swimmer that uses"
+	db   "Obwohl es ein ge-"
+	next "schickter und aus-"
+	next "dauernder Schwim-"
 
-	page "all of its mus-"
-	next "cles, it lives on"
-	next "dry land.@"
+	page "mer ist, der alle"
+	next "Muskeln einsetzt,"
+	next "lebt es an Land.@"

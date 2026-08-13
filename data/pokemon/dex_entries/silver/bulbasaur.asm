@@ -1,10 +1,10 @@
-	db "SEED@" ; species name
-	dw 204, 150 ; height, weight
+	db "SAMEN@" ; species name
+	dw 7, 69 ; height, weight
 
-	db   "It carries a seed"
-	next "on its back right"
-	next "from birth. As it"
+	db   "Von Geburt an"
+	next "trägt es einen"
+	next "Samen auf seinem"
 
-	page "grows older, the"
-	next "seed also grows"
-	next "larger.@"
+	page "Rücken. Wächst es,"
+	next "so wächst auch der"
+	next "Samen.@"

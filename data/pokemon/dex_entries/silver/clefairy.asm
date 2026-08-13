@@ -1,10 +1,10 @@
-	db "FAIRY@" ; species name
-	dw 200, 170 ; height, weight
+	db "FEE@" ; species name
+	dw 6, 75 ; height, weight
 
-	db   "Its adorable be-"
-	next "havior and cry"
-	next "make it highly"
+	db   "Aufgrund seines"
+	next "freundlichen Ver-"
+	next "haltens ist es"
 
-	page "popular. However,"
-	next "this cute #MON"
-	next "is rarely found.@"
+	page "sehr beliebt. Die-"
+	next "ses Pokémon ist"
+	next "jedoch selten.@"

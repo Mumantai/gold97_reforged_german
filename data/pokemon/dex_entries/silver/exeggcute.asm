@@ -1,10 +1,9 @@
-	db "EGG@" ; species name
-	dw 104, 60 ; height, weight
+	db "EI@" ; species name
+	dw 4, 25 ; height, weight
 
-	db   "Using telepathy"
-	next "only they can"
-	next "receive, they"
+	db   "Mit Telepathie,"
+	next "die nur sie ver-"
+	next "stehen, bilden sie"
 
-	page "always form a"
-	next "cluster of six"
-	next "EXEGGCUTE.@"
+	page "stets eine Gruppe"
+	next "von sechs Owei.@"

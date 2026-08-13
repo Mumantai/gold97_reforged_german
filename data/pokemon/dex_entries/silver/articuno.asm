@@ -1,10 +1,10 @@
-	db "FREEZE@" ; species name
-	dw 507, 1220 ; height, weight
+	db "EIS@" ; species name
+	dw 17, 554 ; height, weight
 
-	db   "One of the legen-"
-	next "dary bird #MON,"
-	next "it chills moisture"
+	db   "Ein legendäres"
+	next "Vogel-#MON."
+	next "Es gefriert das"
 
-	page "in the atmosphere"
-	next "to create snow"
-	next "while flying.@"
+	page "Wasser in der"
+	next "Atmosphäre, um im"
+	next "Schnee zu fliegen.@"

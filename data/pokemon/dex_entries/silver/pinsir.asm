@@ -1,10 +1,10 @@
-	db "STAGBEETLE@" ; species name
-	dw 411, 1210 ; height, weight
+	db "KNEIFKFER@" ; species name
+	dw 15, 550 ; height, weight
 
-	db   "Swings its long"
-	next "antlers wildly to"
-	next "attack. During"
+	db   "Beim Angriff"
+	next "verdreht es sein"
+	next "Geweih."
 
-	page "cold periods, it"
-	next "hides deep in"
-	next "forests.@"
+	page "In Kälteperioden"
+	next "versteckt es sich"
+	next "tief im Wald.@"

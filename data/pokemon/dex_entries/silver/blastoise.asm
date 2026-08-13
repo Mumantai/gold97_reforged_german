@@ -1,10 +1,10 @@
-	db "SHELLFISH@" ; species name
-	dw 503, 1890 ; height, weight
+	db "PANZERTIER@" ; species name
+	dw 16, 855 ; height, weight
 
-	db   "The rocket cannons"
-	next "on its shell fire"
-	next "jets of water"
+	db   "Die Wassersalven,"
+	next "die es mit den"
+	next "Kanonen in seinem"
 
-	page "capable of punch-"
-	next "ing holes through"
-	next "thick steel.@"
+	page "Panzer abfeuert,"
+	next "durchdringen sogar"
+	next "Panzerstahl.@"

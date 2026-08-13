@@ -1,10 +1,10 @@
-	db "SNAKE@" ; species name
-	dw 607, 150 ; height, weight
+	db "SCHLANGE@" ; species name
+	dw 20, 69 ; height, weight
 
-	db   "It always hides in"
-	next "grass. When first"
-	next "born, it has no"
+	db   "Es versteckt sich"
+	next "stets im Gras. Bei"
+	next "Geburt hat es noch"
 
-	page "poison, so its"
-	next "bite is painful,"
-	next "but harmless.@"
+	page "kein Gift. Sein"
+	next "Biss tut weh, ist"
+	next "aber harmlos.@"

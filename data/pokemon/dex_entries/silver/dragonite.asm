@@ -1,10 +1,10 @@
-	db "DRAGON@" ; species name
-	dw 703, 4630 ; height, weight
+	db "DRACHE@" ; species name
+	dw 22, 2100 ; height, weight
 
-	db   "This marine #-"
-	next "MON has an impres-"
-	next "sive build that"
+	db   "Dieses #MON ist"
+	next "so gebaut, dass es"
+	next "bedenkenlos selbst"
 
-	page "lets it freely fly"
-	next "over raging seas"
-	next "without trouble.@"
+	page "über tosenden Ge-"
+	next "wässer fliegen"
+	next "kann.@"

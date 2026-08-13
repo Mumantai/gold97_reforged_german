@@ -1,10 +1,10 @@
-	db "SLUDGE@" ; species name
-	dw 211, 660 ; height, weight
+	db "SCHLAMM@" ; species name
+	dw 9, 300 ; height, weight
 
-	db   "Wherever GRIMER"
-	next "has passed, so"
-	next "many germs are"
+	db   "Egal, wo SLEIMA"
+	next "auch vorbeikommt,"
+	next "es hinterlässt so"
 
-	page "left behind that"
-	next "no plants will"
-	next "ever grow again.@"
+	page "viele Keime, dass"
+	next "dort nie wieder"
+	next "Pflanzen wachsen.@"

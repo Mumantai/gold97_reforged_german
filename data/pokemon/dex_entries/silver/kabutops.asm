@@ -1,10 +1,10 @@
-	db "SHELLFISH@" ; species name
-	dw 403, 890 ; height, weight
+	db "SCHALTIER@" ; species name
+	dw 13, 405 ; height, weight
 
-	db   "With sharp claws,"
-	next "this ferocious,"
-	next "ancient #MON"
+	db   "Dieses antike und"
+	next "brutale #MON"
+	next "schlitzt die Beute"
 
-	page "rips apart prey"
-	next "and sucks their"
-	next "body fluids.@"
+	page "mit seinen schar-"
+	next "fen Klauen auf und"
+	next "saugt sie aus.@"

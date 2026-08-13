@@ -1,10 +1,18 @@
-	db "SMOOTH SEAL@" ; species name
-	dw 304, 910 ; height, weight
+	db "WEICHROBBE@" ; species name
+	dw 10, 413 ; height, weight
 
-	db   "Its skin is a good"
-	next "insulator. Able to"
-	next "withstand freezing"
+    db   "Seine Haut wirkt"
+    next "isolierend. Hält"
+    next "selbst extremer"
 
-	page "temperatures with"
-	next "ease. Is also"
-	next "quick on land.@"
+    page "Kälte stand. Ist"
+    next "auch an Land flott"
+    next "und wendig.@"
+
+;	db   "Its skin is a good"
+;	next "insulator. Able to"
+;	next "withstand freezing"
+
+;	page "temperatures with"
+;	next "ease. Is also"
+;	next "quick on land.@"

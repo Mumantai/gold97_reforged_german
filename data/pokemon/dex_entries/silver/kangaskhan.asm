@@ -1,10 +1,10 @@
-	db "PARENT@" ; species name
-	dw 703, 1760 ; height, weight
+	db "MUTTERTIER@" ; species name
+	dw 22, 800 ; height, weight
 
-	db   "To protect its"
-	next "young, it will"
-	next "never give up"
+	db   "Um sein Junges zu"
+	next "beschützen, gibt"
+	next "es einen Kampf nie"
 
-	page "during battle, no"
-	next "matter how badly"
-	next "wounded it is.@"
+	page "auf, egal wie"
+	next "schwer verwundet"
+	next "es ist.@"

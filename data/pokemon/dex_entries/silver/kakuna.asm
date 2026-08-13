@@ -1,10 +1,10 @@
-	db "COCOON@" ; species name
-	dw 200, 220 ; height, weight
+	db "KOKON@" ; species name
+	dw 6, 100 ; height, weight
 
-	db   "From this form,"
-	next "it will grow into"
-	next "an adult. As its"
+	db   "Es befindet sich"
+	next "in einem Zwischen-"
+	next "stadium. Sein Kör-"
 
-	page "body becomes soft-"
-	next "er, the external"
-	next "shell hardens.@"
+	page "per wird immer"
+	next "weicher und seine"
+	next "Schale härter.@"

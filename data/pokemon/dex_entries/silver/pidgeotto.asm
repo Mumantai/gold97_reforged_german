@@ -1,10 +1,10 @@
-	db "BIRD@" ; species name
-	dw 307, 660 ; height, weight
+	db "VOGEL@" ; species name
+	dw 11, 300 ; height, weight
 
-	db   "It immobilizes its"
-	next "prey using well-"
-	next "developed claws,"
+	db   "Es lähmt seine"
+	next "Gegner mit seinen"
+	next "Krallen und trägt"
 
-	page "then carries the"
-	next "prey more than 60"
-	next "miles to its nest.@"
+	page "die Beute in sein"
+	next "bis zu 100 km ent-"
+	next "ferntes Nest.@"

@@ -1,10 +1,10 @@
-	db "MOLE@" ; species name
-	dw 8, 20 ; height, weight
+	db "MAULWURF@" ; species name
+	dw 2, 8 ; height, weight
 
-	db   "If a DIGLETT DIGS"
-	next "through a field,"
-	next "it leaves the soil"
+	db   "Setzt ein Digda"
+	next "Schaufler auf ei-"
+	next "nem Acker ein, ist"
 
-	page "perfectly tilled"
-	next "and ideal for"
-	next "planting crops.@"
+	page "die Erde ideal"
+	next "gepflügt, um etwas"
+	next "anzupflanzen.@"

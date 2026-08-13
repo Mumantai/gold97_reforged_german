@@ -1,10 +1,10 @@
-	db "FLAME@" ; species name
-	dw 507, 2000 ; height, weight
+	db "FLAMME@" ; species name
+	dw 17, 905 ; height, weight
 
-	db   "Breathing intense,"
-	next "hot flames, it can"
-	next "melt almost any-"
+	db   "Sein heißer Feuer-"
+	next "atem kann fast al-"
+	next "les schmelzen."
 
-	page "thing. Its breath"
-	next "inflicts terrible"
-	next "pain on enemies.@"
+	page "Sein Atem fügt den"
+	next "Gegnern enorme"
+	next "Schmerzen zu.@"

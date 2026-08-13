@@ -1,10 +1,10 @@
-	db "HAIRY BUG@" ; species name
-	dw 100, 70 ; height, weight
+	db "RAUPE@" ; species name
+	dw 3, 32 ; height, weight
 
-	db   "It attacks using a"
-	next "two-inch poison"
-	next "barb on its head."
+	db   "Es greift mit dem"
+	next "5 cm großen Gift-"
+	next "stachel auf seinem"
 
-	page "It can usually be"
-	next "found under the"
-	next "leaves it eats.@"
+	page "Kopf an. Es ist"
+	next "stets unter Laub"
+	next "anzutreffen.@"

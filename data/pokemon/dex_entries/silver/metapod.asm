@@ -1,10 +1,10 @@
-	db "COCOON@" ; species name
-	dw 204, 220 ; height, weight
+	db "KOKON@" ; species name
+	dw 7, 99 ; height, weight
 
-	db   "It prepares for"
-	next "evolution by har-"
-	next "dening its shell"
+	db   "Steht seine Ent-"
+	next "wicklung bevor,"
+	next "härtet es seine"
 
-	page "as much as possi-"
-	next "ble to protect its"
-	next "soft body.@"
+	page "Schale, um seinen"
+	next "empfindlichen Kör-"
+	next "per zu schützen.@"

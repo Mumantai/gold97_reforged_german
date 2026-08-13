@@ -232,7 +232,7 @@ PokemonNames::
 	db "PHANPY@@@@"
 	db "DONPHAN@@@"
 	db "PORYGON2@@"
-	db "PANTIRINA@"     ; Pantomime + Ballerina     evtl. doch PANTIMIMI?
+	db "PANTIMIMI@"
 	db "FARBEAGLE@"
 	db "RABAUZ@@@@"
 	db "KAPOERA@@@"

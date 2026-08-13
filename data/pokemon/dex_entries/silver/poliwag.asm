@@ -1,10 +1,10 @@
-	db "TADPOLE@" ; species name
-	dw 200, 270 ; height, weight
+	db "KAULQUAPPE@" ; species name
+	dw 6, 124 ; height, weight
 
-	db   "The direction of"
-	next "its belly spiral"
-	next "differs by area."
+	db   "Die Ausrichtung"
+	next "seiner Spirale"
+	next "hängt von dem Ge-"
 
-	page "The equator is"
-	next "thought to have an"
-	next "effect on this.@"
+	page "biet ab. Man sagt,"
+	next "der Äquator hat"
+	next "damit zu tun.@"

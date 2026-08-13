@@ -1,10 +1,10 @@
-	db "WEED@" ; species name
-	dw 108, 120 ; height, weight
+	db "UNKRAUT@" ; species name
+	dw 5, 54 ; height, weight
 
-	db   "If exposed to"
-	next "moonlight, it"
-	next "starts to move."
+	db   "Wird es vom Mond-"
+	next "schein getroffen,"
+	next "bewegt es sich."
 
-	page "It roams far and"
-	next "wide at night to"
-	next "scatter its seeds.@"
+	page "Nachts wandert es"
+	next "weite Wege, um"
+	next "Samen zu streuen.@"

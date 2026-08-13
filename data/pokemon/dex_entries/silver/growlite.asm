@@ -1,10 +1,18 @@
-	db "PUPPY@" ; species name
-	dw 111, 300 ; height, weight
+	db "WELPE@" ; species name
+	dw 6, 136 ; height, weight
 
-	db   "Is territorial"
-	next "but has not yet"
-	next "developed the"
+	db   "Ist territorial,"
+	next "aber es fehlt ihm"
+	next "die Kraft, sich"
 
-	page "strength to defend"
-	next "itself fully. Is"
-	next "also affectionate.@"
+	page "selbst zu vertei-"
+	next "digen. Es ist auch"
+	next "anhänglich.@"
+
+;	db   "Is territorial"
+;	next "but has not yet"
+;	next "developed the"
+
+;	page "strength to defend"
+;	next "itself fully. Is"
+;	next "also affectionate.@"

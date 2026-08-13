@@ -1,10 +1,10 @@
-	db "SCISSORS@" ; species name
-	dw 511, 2600 ; height, weight
+	db "KNEIFER@" ; species name
+	dw 18, 1180 ; height, weight
 
-	db   "Its wings are not"
-	next "used for flying."
-	next "They are flapped"
+	db   "Es benutzt seine"
+	next "Flügel nicht zum"
+	next "Fliegen, sondern"
 
-	page "at high speed to"
-	next "adjust its body"
-	next "temperature.@"
+	page "regelt durch emsi-"
+	next "ges Schlagen die"
+	next "Körpertemperatur.@"

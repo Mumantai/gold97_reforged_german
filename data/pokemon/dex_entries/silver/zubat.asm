@@ -1,10 +1,10 @@
-	db "BAT@" ; species name
-	dw 207, 170 ; height, weight
+	db "FLEDERMAUS@" ; species name
+	dw 8, 75 ; height, weight
 
-	db   "Capable of flying"
-	next "safely in dark"
-	next "places, it emits"
+	db   "Es kann sicher im"
+	next "Dunkeln fliegen,"
+	next "da es sich mittels"
 
-	page "ultrasonic cries"
-	next "to check for any"
-	next "obstacles.@"
+	page "Ultraschallwellen"
+	next "perfekt orientie-"
+	next "ren kann.@"

@@ -1,10 +1,10 @@
-	db "POISON BEE@" ; species name
-	dw 303, 650 ; height, weight
+	db "GIFTBIENE@" ; species name
+	dw 10, 295 ; height, weight
 
-	db   "It has three"
-	next "poison barbs."
-	next "The barb on its"
+	db   "Es besitzt drei"
+	next "Giftstacheln."
+	next "Mit dem Stachel an"
 
-	page "tail secretes the"
-	next "most powerful"
-	next "poison.@"
+	page "seinem Hinterleib"
+	next "injiziert es das"
+	next "wirksamste Gift.@"

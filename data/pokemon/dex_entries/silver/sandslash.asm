@@ -1,10 +1,10 @@
-	db "MOUSE@" ; species name
-	dw 303, 650 ; height, weight
+	db "MAUS@" ; species name
+	dw 10, 295 ; height, weight
 
-	db   "If it digs at an"
-	next "incredible pace,"
-	next "it may snap off"
+	db   "Wenn es schnell"
+	next "gräbt, können"
+	next "seine Stacheln und"
 
-	page "its spikes and"
-	next "claws. They grow"
-	next "back in a day.@"
+	page "Krallen abbrechen."
+	next "Sie wachsen binnen"
+	next "eines Tages nach.@"

@@ -1,10 +1,18 @@
-	db "MISCHIEF@" ; species name
-	dw 504, 1220 ; height, weight
+	db "SCHBERNACK@" ; species name
+	dw 16, 555 ; height, weight
 
-	db   "Its vision is very"
-	next "poor. However, its"
-	next "other senses are"
+    db   "Es sieht schlecht,"
+    next "aber seine anderen"
+    next "Sinne sind umso"
 
-	page "heightened and it"
-	next "uses its vines to"
-	next "observe around it.@"
+    page "schärfer. Es nutzt"
+    next "seine Ranken, zur"
+    next "Orientierung.@"
+
+;	db   "Its vision is very"
+;	next "poor. However, its"
+;	next "other senses are"
+;
+;	page "hightened and it"
+;	next "uses its vines to"
+;	next "observe around it.@"

@@ -1,10 +1,10 @@
-	db "SEED@" ; species name
-	dw 303, 290 ; height, weight
+	db "SAMEN@" ; species name
+	dw 10, 130 ; height, weight
 
-	db   "If the bud on its"
-	next "back starts to"
-	next "smell sweet, it"
+	db   "Verbreitet die"
+	next "Knospe auf seinem"
+	next "Rücken einen süßen"
 
-	page "is evidence that"
-	next "the large flower"
-	next "will soon bloom.@"
+	page "Duft, ist das ein"
+	next "Anzeichen, dass"
+	next "sie bald blüht.@"

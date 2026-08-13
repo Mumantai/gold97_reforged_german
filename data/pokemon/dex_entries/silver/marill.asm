@@ -1,10 +1,10 @@
-	db "AQUAMOUSE@" ; species name
-	dw 104, 190 ; height, weight
+	db "AQUAMAUS@" ; species name
+	dw 4, 85 ; height, weight
 
-	db   "The end of its"
-	next "tail serves as a"
-	next "buoy that keeps"
+	db   "Da es am Schwanz-"
+	next "ende eine Art Boje"
+	next "trägt, kann es"
 
-	page "it from drowning,"
-	next "even in a vicious"
-	next "current.@"
+	page "selbst bei der"
+	next "stärksten Strömung"
+	next "nicht ertrinken.@"

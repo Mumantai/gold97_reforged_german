@@ -1,10 +1,10 @@
-	db "TINYTURTLE@" ; species name
-	dw 108, 200 ; height, weight
+	db "MINIKRÖTE@" ; species name
+	dw 5, 90 ; height, weight
 
-	db   "The shell, which"
-	next "hardens soon after"
-	next "it is born, is"
+	db   "Sein Panzer, der"
+	next "bald nach der"
+	next "Geburt aushärtet,"
 
-	page "resilient. If you"
-	next "poke it, it will"
-	next "bounce back out.@"
+	page "bleibt federnd."
+	next "Drückt man darauf,"
+	next "springt er zurück.@"

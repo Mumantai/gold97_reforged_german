@@ -1,10 +1,10 @@
-	db "WORM@" ; species name
-	dw 100, 60 ; height, weight
+	db "WURM@" ; species name
+	dw 3, 29 ; height, weight
 
-	db   "Its feet have"
-	next "suction cups"
-	next "designed to stick"
+	db   "Die Saugnäpfe an"
+	next "den Beinen haften"
+	next "auf jedem Unter-"
 
-	page "to any surface. It"
-	next "tenaciously climbs"
-	next "trees to forage.@"
+	page "grund. Es sucht"
+	next "hartnäckig in Bäu-"
+	next "men nach Futter.@"

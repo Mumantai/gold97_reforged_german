@@ -1,10 +1,9 @@
-	db "IRON SNAKE@" ; species name
-	dw 3002, 8820 ; height, weight
+	db "STAHLBOA@" ; species name
+	dw 92, 4000 ; height, weight
 
-	db   "It is said that if"
-	next "an ONIX lives for"
-	next "over 100 years,"
+	db   "Man sagt, dass ein"
+	next "ONIX, das über 100"
+	next "Jahre alt ist,"
 
-	page "its composition"
-	next "changes to become"
-	next "diamond-like.@"
+	page "hart wie ein Dia-"
+	next "mant sein soll.@"

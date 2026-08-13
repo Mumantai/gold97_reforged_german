@@ -1,10 +1,10 @@
-	db "FIRE HORSE@" ; species name
-	dw 507, 2090 ; height, weight
+	db "FEUERPFERD@" ; species name
+	dw 17, 950 ; height, weight
 
-	db   "With incredible"
-	next "acceleration, it"
-	next "reaches its top"
+	db   "Bereits nach 10"
+	next "Schritten erreicht"
+	next "es seine Höchstge-"
 
-	page "speed of 150 mph"
-	next "after running just"
-	next "ten steps.@"
+	page "schwindigkeit von"
+	next "sage und schreibe"
+	next "240 km/h.@"

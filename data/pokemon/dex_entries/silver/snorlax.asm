@@ -1,10 +1,9 @@
-	db "SLEEPING@" ; species name
-	dw 611, 10140 ; height, weight
+	db "TAGTRÄUMER@" ; species name
+	dw 21, 4600 ; height, weight
 
-	db   "Its stomach's di-"
-	next "gestive juices can"
-	next "dissolve any kind"
+	db   "Seine Magensäfte"
+	next "können jedes Gift"
+	next "zersetzen. Es kann"
 
-	page "of poison. It can"
-	next "even eat things"
-	next "off the ground.@"
+	page "sich sogar nur von"
+	next "Erdreich ernähren.@"

@@ -1,10 +1,9 @@
-	db "FLYCATCHER@" ; species name
-	dw 303, 140 ; height, weight
+	db "FLIEGENTOT@" ; species name
+	dw 10, 64 ; height, weight
 
-	db   "If its prey is"
-	next "bigger than its"
-	next "mouth, it slices"
+	db   "Wenn die Beute"
+	next "nicht in sein Maul"
+	next "passt, zerstückelt"
 
-	page "up the victim with"
-	next "sharp leaves, then"
-	next "eats every morsel.@"
+	page "es sie und frisst"
+	next "jeden Krümel.@"

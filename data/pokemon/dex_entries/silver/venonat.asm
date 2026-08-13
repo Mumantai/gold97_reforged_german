@@ -1,10 +1,10 @@
-	db "INSECT@" ; species name
-	dw 303, 660 ; height, weight
+	db "INSEKT@" ; species name
+	dw 10, 300 ; height, weight
 
-	db   "Poison oozes from"
-	next "all over its body."
-	next "It catches and"
+	db   "Gift bedeckt seinen"
+	next "Körper. Es fängt"
+	next "und frisst nachts"
 
-	page "eats small bugs at"
-	next "night that are at-"
-	next "tracted by light.@"
+	page "kleine Käfer, die"
+	next "von Licht ange-"
+	next "lockt wurden.@"

@@ -1,10 +1,10 @@
-	db "LONG TAIL@" ; species name
-	dw 207, 250 ; height, weight
+	db "LANGSCHWEIF@" ; species name
+	dw 8, 115 ; height, weight
 
-	db   "It lives atop tall"
-	next "trees. When leap-"
-	next "ing from branch"
+	db   "Es lebt in den"
+	next "Kronen großer Bäu-"
+	next "me. Es hüpft von"
 
-	page "to branch, it"
-	next "deftly uses its"
-	next "tail for balance.@"
+	page "Ast zu Ast und"
+	next "balanciert mit"
+	next "seinem Schwanz.@"

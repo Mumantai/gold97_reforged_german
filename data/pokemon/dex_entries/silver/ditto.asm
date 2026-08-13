@@ -1,10 +1,10 @@
-	db "TRANSFORM@" ; species name
-	dw 100, 90 ; height, weight
+	db "WANDLER@" ; species name
+	dw 3, 40 ; height, weight
 
-	db   "Its transformation"
-	next "ability is per-"
-	next "fect. However, if"
+	db   "Seine Verwandlungs-"
+	next "kunst ist perfekt."
+	next "Bringt man es je-"
 
-	page "made to laugh, it"
-	next "can't maintain its"
-	next "disguise.@"
+	page "doch zum Lachen,"
+	next "fällt seine Tar-"
+	next "nung.@"

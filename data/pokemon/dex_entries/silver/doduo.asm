@@ -1,10 +1,10 @@
-	db "TWIN BIRD@" ; species name
-	dw 407, 860 ; height, weight
+	db "DUOVOGEL@" ; species name
+	dw 14, 392 ; height, weight
 
-	db   "It races through"
-	next "grassy plains with"
-	next "powerful strides,"
+	db   "Es rennt sehr"
+	next "schnell über be-"
+	next "wachsene Felder"
 
-	page "leaving footprints"
-	next "up to four inches"
-	next "deep.@"
+	page "und hinterlässt"
+	next "10cm tiefe Fußspu-"
+	next "ren.@"

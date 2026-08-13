@@ -1,10 +1,10 @@
-	db "POISON GAS@" ; species name
-	dw 200, 20 ; height, weight
+	db "GIFTWOLKE@" ; species name
+	dw 6, 10 ; height, weight
 
-	db   "The poisonous"
-	next "gases it contains"
-	next "are a little bit"
+	db   "Das Giftgas, das"
+	next "es umgibt, ist"
+	next "etwas leichter als"
 
-	page "lighter than air,"
-	next "keeping it slight-"
-	next "ly airborne.@"
+	page "Luft. Dadurch"
+	next "schwebt es in"
+	next "geringer Höhe.@"

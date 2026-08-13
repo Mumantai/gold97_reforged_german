@@ -1,10 +1,10 @@
-	db "SUPERPOWER@" ; species name
-	dw 503, 2870 ; height, weight
+	db "KRAFTPROTZ@" ; species name
+	dw 16, 1300 ; height, weight
 
-	db   "It uses its four"
-	next "powerful arms to"
-	next "pin the limbs of"
+	db   "Es setzt seine"
+	next "vier Arme ein, um"
+	next "die Glieder seiner"
 
-	page "its foe, then"
-	next "throws the victim"
-	next "over the horizon.@"
+	page "Gegner festzuhal-"
+	next "ten. Dann wirft es"
+	next "sie hinfort.@"

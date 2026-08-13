@@ -1,10 +1,10 @@
-	db "COCONUT@" ; species name
-	dw 607, 2650 ; height, weight
+	db "PALMFRUCHT@" ; species name
+	dw 20, 1200 ; height, weight
 
-	db   "If a head drops"
-	next "off, it emits a"
-	next "telepathic call in"
+	db   "Fällt einer der"
+	next "Köpfe ab, sendet"
+	next "er Telepathiewel-"
 
-	page "search of others"
-	next "to form an"
-	next "EXEGGCUTE cluster.@"
+	page "len aus, um mit"
+	next "anderen OWEIS eine"
+	next "Gruppe zu bilden.@"

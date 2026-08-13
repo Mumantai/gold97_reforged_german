@@ -1,10 +1,10 @@
-	db "RAT@" ; species name
-	dw 100, 80 ; height, weight
+	db "MAUS@" ; species name
+	dw 3, 35 ; height, weight
 
-	db   "Living wherever"
-	next "there is food"
-	next "available, it"
+	db   "Es baut sein Nest,"
+	next "wo es Futter"
+	next "findet. Es ist"
 
-	page "ceaselessly scav-"
-	next "enges for edibles"
-	next "the entire day.@"
+	page "den ganzen Tag auf"
+	next "der Suche nach"
+	next "etwas Essbarem.@"

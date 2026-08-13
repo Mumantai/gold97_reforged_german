@@ -1,10 +1,10 @@
-	db "LEGENDARY@" ; species name
-	dw 603, 3420 ; height, weight
+	db "LEGENDÄR@" ; species name
+	dw 19, 1550 ; height, weight
 
-	db   "Its magnificent"
-	next "bark conveys a"
-	next "sense of majesty."
+	db   "Sein bezauberndes"
+	next "Bellen klingt ma-"
+	next "jestätisch. Jeder,"
 
-	page "Anyone hearing it"
-	next "can't help but"
-	next "grovel before it.@"
+	page "der es vernimmt,"
+	next "muss sich automa-"
+	next "tisch verbeugen.@"

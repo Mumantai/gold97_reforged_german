@@ -1,10 +1,10 @@
-	db "FIVE STAR@" ; species name
-	dw 303, 240 ; height, weight
+	db "FÜNFPUNKT@" ; species name
+	dw 10, 108 ; height, weight
 
-	db   "When the weather"
-	next "turns cold, lots"
-	next "of LEDYBA gather"
+	db   "Wird es kalt, ver-"
+	next "sammeln sich viele"
+	next "LEDYBA von nah und"
 
-	page "from everywhere to"
-	next "cluster and keep"
-	next "each other warm.@"
+	page "fern, um sich ge-"
+	next "genseitig Wärme zu"
+	next "schenken.@"

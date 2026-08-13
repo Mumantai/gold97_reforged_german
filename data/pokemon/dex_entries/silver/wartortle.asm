@@ -1,10 +1,10 @@
-	db "TURTLE@" ; species name
-	dw 303, 500 ; height, weight
+	db "KRÖTE@" ; species name
+	dw 10, 225 ; height, weight
 
-	db   "It cleverly con-"
-	next "trols its furry"
-	next "ears and tail to"
+	db   "Es balanciert ge-"
+	next "schickt mit seinen"
+	next "buschigen Ohren"
 
-	page "maintain its"
-	next "balance while"
-	next "swimming.@"
+	page "und dem Schwanz,"
+	next "während es im Was-"
+	next "ser schwimmt.@"

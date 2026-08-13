@@ -1,10 +1,10 @@
-	db "MOUSE@" ; species name
-	dw 104, 130 ; height, weight
+	db "MAUS@" ; species name
+	dw 4, 60 ; height, weight
 
-	db   "It raises its tail"
-	next "to check its sur-"
-	next "roundings. The"
+	db   "Es streckt seinen"
+	next "Schwanz nach oben,"
+	next "um seine Umgebung"
 
-	page "tail is sometimes"
-	next "struck by light-"
-	next "ning in this pose.@"
+	page "zu prüfen. Häufig"
+	next "fährt ein Blitz in"
+	next "den Schwanz.@"

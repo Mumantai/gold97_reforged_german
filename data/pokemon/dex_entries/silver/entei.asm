@@ -1,10 +1,10 @@
-	db "VOLCANO@" ; species name
-	dw 607, 4370 ; height, weight
+	db "VULKAN@" ; species name
+	dw 21, 1980 ; height, weight
 
-	db   "A #MON that"
-	next "races across the"
-	next "land. It is said"
+	db   "Dieses Pokémon"
+	next "jagt über das Land"
+	next "und man sagt, in"
 
-	page "that one is born"
-	next "every time a new"
-	next "volcano appears.@"
+	page "jedem neuen Vulkan"
+	next "wird ein Entei"
+	next "geboren.@"

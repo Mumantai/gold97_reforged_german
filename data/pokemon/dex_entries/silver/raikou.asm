@@ -1,10 +1,10 @@
-	db "THUNDER@" ; species name
-	dw 603, 3920 ; height, weight
+	db "DONNER@" ; species name
+	dw 19, 1780 ; height, weight
 
-	db   "A #MON that"
-	next "races across the"
-	next "land while barking"
+	db   "Dieses #MON"
+	next "jagt über das Land"
+	next "und stößt dabei"
 
-	page "a cry that sounds"
-	next "like crashing"
-	next "thunder.@"
+	page "ein Gebrüll aus,"
+	next "das wie krachender"
+	next "Donner klingt.@"

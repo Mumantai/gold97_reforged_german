@@ -1,10 +1,9 @@
-	db "KISS@" ; species name
-	dw 104, 130 ; height, weight
+	db "KUSS@" ; species name
+	dw 4, 60 ; height, weight
 
-	db   "It always rocks"
-	next "its head slowly"
-	next "backwards and for-"
+	db   "Es wippt mit dem"
+	next "Kopf langsam vor"
+	next "und zurück, als"
 
-	page "wards as if it is"
-	next "trying to kiss"
-	next "someone.@"
+	page "versuche es, je-"
+	next "manden zu küssen.@"

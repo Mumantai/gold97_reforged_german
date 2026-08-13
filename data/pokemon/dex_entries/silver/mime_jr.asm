@@ -1,10 +1,18 @@
-	db "BARRIER@" ; species name
-	dw 205, 430 ; height, weight
+	db "BARRIERE@" ; species name
+	dw 7, 195 ; height, weight
 
-	db   "Is able to stop"
-	next "foes in their"
-	next "tracks by using"
+    db   "Kann Gegner auf-"
+    next "halten, indem es"
+    next "sie mit seinem"
 
-	page "its mind to fool"
-	next "them into losing"
-	next "their orientation.@"
+    page "Geist verwirrt und"
+    next "ihnen die Orien-"
+    next "tierung nimmt.@"
+
+;	db   "Is able to stop"
+;	next "foes in their"
+;	next "tracks by using"
+;
+;	page "its mind to fool"
+;	next "them into losing"
+;	next "their orientation.@"

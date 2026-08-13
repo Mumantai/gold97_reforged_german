@@ -1,10 +1,10 @@
-	db "ROYAL@" ; species name
-	dw 607, 1750 ; height, weight
+	db "MONARCH@" ; species name
+	dw 20, 795 ; height, weight
 
-	db   "When its head was"
-	next "bitten, toxins"
-	next "entered SLOWPOKE's"
+	db   "Als FLEGMON in den"
+	next "Kopf gebissen wur-"
+	next "de, floss Gift in"
 
-	page "head and unlocked"
-	next "an extraordinary"
-	next "power.@"
+	page "seinen Kopf und"
+	next "setzte eine gewal-"
+	next "tige Kraft frei.@"

@@ -1,10 +1,10 @@
-	db "SHARP CLAW@" ; species name
-	dw 211, 620 ; height, weight
+	db "STICHKLAUE@" ; species name
+	dw 9, 280 ; height, weight
 
-	db   "Vicious in nature,"
-	next "it drives PIDGEY"
-	next "from their nests"
+	db   "Es besitzt ein"
+	next "grausames Wesen."
+	next "Es verjagt TAUBSI"
 
-	page "and feasts on the"
-	next "eggs that are left"
-	next "behind.@"
+	page "von deren Nest und"
+	next "labt sich an den"
+	next "Eiern.@"

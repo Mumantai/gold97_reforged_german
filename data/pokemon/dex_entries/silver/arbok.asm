@@ -1,10 +1,10 @@
-	db "COBRA@" ; species name
-	dw 1106, 1430 ; height, weight
+	db "KOBRA@" ; species name
+	dw 35, 650 ; height, weight
 
-	db   "With a very venge-"
-	next "ful nature, it"
-	next "won't give up the"
+	db   "Es ist sehr rach-"
+	next "süchtig, denn es"
+	next "verfolgt seine"
 
-	page "chase, no matter"
-	next "how far, once it"
-	next "targets its prey.@"
+	page "Beute, egal wie"
+	next "weit, wenn es sie"
+	next "erst erspäht hat.@"
