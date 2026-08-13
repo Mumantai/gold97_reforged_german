@@ -173,6 +173,7 @@ DisplayDexEntry:
 	ld [hl], $57 ; 1
 	pop de
 	inc de
+	inc de
 	pop af
 	hlcoord 2, 11
 	push af
