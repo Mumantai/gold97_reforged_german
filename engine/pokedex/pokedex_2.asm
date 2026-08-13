@@ -173,7 +173,7 @@ DisplayDexEntry:
 	pop af
 	hlcoord 2, 11
 	push af
-	call PlaceFarString
+	call FarString
 	pop bc
 	ld a, [wPokedexStatus]
 	or a ; check for page 2
@@ -202,7 +202,7 @@ DisplayDexEntry:
 	inc de
 	pop af
 	hlcoord 2, 11
-	call PlaceFarString
+	call FarString
 	ret
 
 UnreferencedPOKeString:
