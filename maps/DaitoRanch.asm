@@ -22,19 +22,19 @@ DaitoRanchSign:
 	jumptext DaitoRanchSignText
 	
 DaitoRanchSignText:
-	text "DAITO RANCH -"
-	line "Dairy producers"
-	cont "of the SOUTHWEST"
-	cont "ISLANDS."
+	text "DAITO RANCH"
+
+	para "Milcherzeuger der"
+	line "NANTO-INSELN"
 	done
 
 SummerHomeSign:
 	jumptext SummerHomeSignText
 	
 SummerHomeSignText:
-	text "GEOFFREY the"
-	line "Gardener's summer"
-	cont "resort house."
+    text "Sommerhaus von"
+    line "GEOFFREY dem"
+    cont "Gärtner."
 	done
 
 Route39Miltank:
@@ -46,41 +46,40 @@ Route39Miltank:
 	end
 
 Route39MiltankText:
-	text "MILTANK: Mooo!"
+	text "MILTANK: Muuh!"
 	done
 	
 DaitoFarmer1Script:
 	jumptextfaceplayer DaitoFarmer1Text
 	
 DaitoFarmer1Text:
-	text "See those trees?"
-	
-	para "This is called"
-	line "a windbreak, it"
-	cont "protects the"
-	cont "crops from being"
-	cont "damaged by the"
-	cont "winds that blow"
-	cont "through here."
+	text "Siehst du die"
+	line "Bäume dort?"
+
+	para "Das nennt man"
+	line "einen Windschutz."
+
+	para "Er schützt die"
+	line "Felder vor den"
+	cont "starken Winden,"
+	cont "die hier durch-"
+	cont "wehen."
 	done
 
 DaitoFarmer2Script:
 	jumptextfaceplayer DaitoFarmer2Text
 	
 DaitoFarmer2Text:
-	text "This crop field"
-	line "is full of"
-	cont "flowers right now"
-	cont "because we're"
-	cont "cycling the land"
-	cont "in preparation"
-	cont "for next planting"
-	cont "season!"
-	
-	para "If you look around"
-	line "you might find"
-	cont "some left over"
-	cont "berries."
+	text "Das Feld ist zur"
+	line "Zeit voll von"
+	cont "Blumen, weil wir"
+	cont "den Boden für die"
+	cont "nächste Pflanzzeit"
+	cont "vorbereiten!"
+
+	para "Eventuell liegen"
+	line "hier noch ein paar"
+	cont "Beeren herum."
 	done
 
 HiddenBerry1:
@@ -114,37 +113,39 @@ DaitoGeoffPatioScript:
 	end
 
 GeoffThanksVisitText:
-	text "Hey hey, a"
-	line "visitor on my"
-	cont "patio deck!"
-	
-	para "Since you took"
-	line "the time to come"
-	cont "all the way out"
-	cont "here to see me,"
-	cont "this drink's on"
-	cont "the house!"
+    text "Hey hey! Ein"
+    line "Besucher auf"
+    cont "meiner Veranda!"
+
+    para "Da du dir extra"
+    line "die Mühe gemacht"
+    cont "hast, hierher zu"
+    cont "kommen, gebe ich"
+    cont "dir ein Getränk"
+    cont "aus!"
 	done
 
 GeoffIslandLifeText:
-	text "What do you"
-	line "think of this"
-	cont "place?"
-	
-	para "Great view isn't"
-	line "it, sure beats"
-	cont "living out on"
-	cont "dusty ol' ROUTE"
-	cont "104!"
-	
-	para "I can grow all"
-	line "kinds of tropical"
-	cont "plants here too!"
-	
-	para "Come inside some"
-	line "time later and"
-	cont "I'll tell you"
-	cont "all about it."
+    text "Was hälst du von"
+    line "diesem Ort?"
+
+    para "Tolle Aussicht,"
+    line "oder?"
+
+    para "Viel besser als"
+    line "das Leben auf der"
+    cont "verstauben, ollen"
+    cont "ROUTE 104."
+
+    para "Hier kann ich"
+    line "sogar allerlei"
+    cont "tropische Pflanzen"
+    cont "anbauen!"
+
+    para "Komm doch später"
+    line "mal rein, dann"
+    cont "erzähle ich dir"
+    cont "alles darüber."
 	done
 
 

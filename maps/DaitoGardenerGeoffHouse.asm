@@ -46,41 +46,39 @@ papayas:
 	
 	
 WantFactText:
-	text "Want to hear"
-	line "about some of"
-	cont "the tropical"
-	cont "fruits I've"
-	cont "been growing?"
+	text "Willst du über"
+	line "die tropischen"
+	cont "Früchte lernen,"
+	cont "die ich anbaue?"
 	done
 	
 AhOkText:
-	text "Ah alright,"
-	line "maybe another"
-	cont "time then."
+    text "Ach so, gut."
+    line "Vielleicht ein"
+    cont "andermal."
 	done
 	
 PapayaText:
-	text "Papayas are one"
-	line "of the easiest"
-	cont "tropical fruit"
-	cont "to grow, all"
-	cont "you really need"
-	cont "to do is throw"
-	cont "the seeds in"
-	cont "your yard and"
-	cont "watch them all"
-	cont "spring up!"
-	
-	para "The things take"
-	line "so well that"
-	cont "they're almost"
-	cont "like a weed!"
-	
-	para "The male plants"
-	line "won't produce"
-	cont "any fruit, feel"
-	cont "free to just"
-	cont "chop them down."
+    text "Papayas gehören zu"
+    line "den Früchten, die"
+    cont "man am leichtesten"
+    cont "anbauen kann."
+
+    para "Man muss bloß die"
+    line "Samen in den Boden"
+    cont "werfen und kann"
+    cont "ihnen beim Wachsen"
+    cont "zusehen!"
+
+    para "Die wachsen so"
+    line "gut, dass sie fast"
+    cont "wie Unkraut sind!"
+
+    para "Die männlichen"
+    line "Pflanzen tragen"
+    cont "keine Früchte, die"
+    cont "kann man also"
+    cont "einfach fällen."
 	done
 	
 coconuts:
@@ -89,33 +87,33 @@ coconuts:
 	jump NoRoomGeoff
 	
 CoconutText:
-	text "People usually"
-	line "think of a"
-	cont "coconut as a"
-	cont "hairy, brown"
-	cont "sphere."
-	
-	para "Actually, they"
-	line "only look like"
-	cont "that after their"
-	cont "dense, fibrous"
-	cont "husk is removed."
-	
-	para "The best way to"
-	line "husk a coconut is"
-	cont "with the nail"
-	cont "removing part"
-	cont "of a hammer, by"
-	cont "making slats in"
-	cont "the husk then"
-	cont "prying it back"
-	cont "in parts!"
-	
-	para "Try this trick"
-	line "if you ever"
-	cont "end up stranded"
-	cont "on an island"
-	cont "with a carpenter."
+    text "Kokosnüsse stellen"
+    line "sich die Meisten"
+    cont "als braune Kugeln"
+    cont "mit Haaren vor."
+
+    para "Tatsächlich sehen"
+    line "sie erst so aus,"
+    cont "wenn ihre dicke,"
+    cont "faserige Schale"
+    cont "entfernt wurde."
+
+    para "Am besten entfernt"
+    line "man die Schale mit"
+    cont "dem spitzen Ende"
+    cont "eines Hammers."
+
+    para "Zuerst schlägt man"
+    line "Schlitze hinein"
+    cont "und hebt sie dann"
+    cont "stückweise ab!"
+
+    para "Falls du also mal"
+    line "mit einem Zimmer-"
+    cont "mann auf einer"
+    cont "Insel strandest,"
+    cont "kannst du diesen"
+    cont "Trick testen."
 	done
 	
 mangoes:
@@ -124,30 +122,32 @@ mangoes:
 	jump NoRoomGeoff
 	
 MangoText:
-	text "Mangoes take a"
-	line "few months to"
-	cont "fully mature on"
-	cont "the tree."
-	
-	para "And the trees"
-	line "themselves can"
-	cont "take years to"
-	cont "get large enough"
-	cont "to produce a"
-	cont "single mango."
-	
-	para "Some cultures eat"
-	line "mangoes unripe."
-	
-	para "They're painfully"
-	line "hard to bite"
-	cont "into, and very"
-	cont "ascorbic."
-	
-	para "I eat them like"
-	line "that anyway"
-	cont "because I'm"
-	cont "impatient!"
+    text "Mangos brauchen"
+    line "ein paar Monate,"
+    cont "um am Baum voll"
+    cont "zu reifen."
+
+    para "Und die Bäume"
+    line "selbst brauchen"
+    cont "Jahre, um groß"
+    cont "genug zu werden,"
+    cont "um eine einzige"
+    cont "Mango zu tragen."
+
+    para "Manchen Kulturen"
+    line "essen die Mangos"
+    cont "auch unreif."
+
+	para "Sie sind dann so"
+	line "hart, dass man"
+	cont "kaum hineinbeißen"
+	cont "kann und sie sind"
+	cont "dann sehr sauer."
+
+	para "Ich esse sie aber"
+	line "trotzdem so, ich"
+	cont "bin nämlich sehr"
+	cont "ungeduldig!"
 	done
 	
 	
@@ -157,40 +157,41 @@ bananas:
 	jump NoRoomGeoff
 	
 BananaText:
-	text "Bananas are one"
-	line "of the most"
-	cont "recognizable of"
-	cont "all the fruits."
-	
-	para "But did you know"
-	line "all the bananas"
-	cont "you see at the"
-	cont "supermarket are"
-	cont "genetically the"
-	cont "same?"
-	
-	para "Commercial banana"
-	line "crops have no"
-	cont "seeds due to"
-	cont "domestication so"
-	cont "they have to be"
-	cont "stem-propagated."
-	
-	para "This means all"
-	line "banana plants are"
-	cont "practically the"
-	cont "same in a crop."
-	
-	para "This backfired"
-	line "once when a"
-	cont "blight made an"
-	cont "entire cultivar"
-	cont "of banana go"
-	cont "extinct, and"
-	cont "growers had"
-	cont "to switch to"
-	cont "one that was"
-	cont "immune!"
+    text "Bananen gehören zu"
+    line "den bekanntesten"
+    cont "Früchten."
+
+    para "Aber wusstest du,"
+    line "dass alle Bananen"
+    cont "im Supermarkt"
+    cont "genetisch gleich"
+    cont "sind?"
+
+    para "Wegen der kommer-"
+    line "ziellen Zucht haben"
+    cont "die Bananen keine"
+    cont "Samen, also müssen"
+    cont "sie durch Steck-"
+    cont "linge vermehrt"
+    cont "werden."
+
+    para "Das bedeutet, dass"
+    line "alle Pflanzen"
+    cont "einer Plantage im"
+    cont "Prinzip identisch"
+    cont "sind!"
+
+    para "Das ging einmal"
+    line "nach hinten los,"
+    cont "als eine Krankheit"
+    cont "eine ganze Sorte"
+    cont "Bananen ausgerott-"
+    cont "et hat, und die"
+    cont "Züchter auf eine"
+    cont "andere Sorte"
+    cont "umsteigen mussten,"
+    cont "die immun dagegen"
+    cont "war!"
 	done
 	
 	
@@ -201,62 +202,59 @@ pineapples:
 	jump NoRoomGeoff
 
 PineappleText:
-	text "Similar to the"
-	line "banana, most"
-	cont "pineapples are"
-	cont "exactly the"
-	cont "same because of"
-	cont "how they're"
-	cont "propagated!"
-	
-	para "Try this at"
-	line "home if you live"
-	cont "somewhere warm"
-	cont "enough:"
-	
-	para "Keep the top"
-	line "spines of your"
-	cont "pineapple from"
-	cont "the store, and"
-	cont "plant it right"
-	cont "back into the"
-	cont "ground."
-	
-	para "Water it and"
-	line "take good care"
-	cont "and you'll soon"
-	cont "find it growing"
-	cont "again, and it'll"
-	cont "even sprout a"
-	cont "new pineapple!"
+    text "Ähnlich wie bei"
+    line "Bananen, sind auch"
+    cont "Ananas genetisch"
+    cont "identisch, durch"
+    cont "die Art, wie sie"
+    cont "vermehrt werden!"
 
-	para "Repeat this"
-	line "process for an"
-	cont "endless supply of"
-	cont "free pineapples."
+    para "Versuch das mal,"
+    line "wenn du irgendwo"
+    cont "wohnst, wo es warm"
+    cont "genug ist:"
+
+    para "Schneide die Krone"
+    line "deiner Ananas ab"
+    cont "und pflanze sie"
+    cont "direkt in den"
+    cont "Boden."
+
+    para "Gieß sie und pass"
+    line "gut auf sie auf,"
+    cont "dann wirst du bald"
+    cont "sehen, wie eine"
+    cont "neue Ananas an"
+    cont "ihr wächst!"
+
+    para "Das kannst du"
+    line "immer wieder tun"
+    cont "und so einen"
+    cont "endlosen Vorrat an"
+    cont "Ananas bekommen."
 	done
 
 GeoffInsideMeetText:
-	text "Hey I remember"
-	line "you from ROUTE"
-	cont "104, you've"
-	cont "come a long way"
-	cont "to get to my"
-	cont "summer home!"
-	
-	para "This is where"
-	line "I come to spend"
-	cont "some comfy rest &"
-	cont "relaxation time"
-	cont "away from the"
-	cont "rough desert."
-	
-	para "Since you took"
-	line "the time to come"
-	cont "all the way out"
-	cont "here to see me,"
-	cont "this drink's on"
-	cont "the house!"
+    text "Hey, haben wir uns"
+    line "nicht schon mal"
+    cont "auf ROUTE 104"
+    cont "getroffen?"
+
+    para "Ich war es satt,"
+    line "zu versuchen, im"
+    cont "Wüstenboden etwas"
+    cont "anzubauen, also"
+    cont "bin ich hierher"
+    cont "gezogen, um auf"
+    cont "dieser RANCH zu"
+    cont "arbeiten!"
+
+    para "Da du dir extra"
+    line "die Mühe gemacht"
+    cont "hast, hierher zu"
+    cont "kommen, gebe ich"
+    cont "dir ein Getränk"
+    cont "aus!"
 	done
 
 
@@ -264,10 +262,12 @@ GeoffOutNote:
 	jumptext GeoffOutNoteText
 	
 GeoffOutNoteText:
-	text "Out getting some"
-	line "supplies, be back"
-	cont "in the afternoon"
-	cont "- GEOFFREY"
+    text "Bin Besorgungen"
+    line "machen. Bin am"
+    para "Nachmittag wieder"
+    line "zurück."
+
+    para "- GEOFFREY"
 	done
 
 DaitoGardenerGeoffHouse_MapEvents:

@@ -11,9 +11,9 @@ GreatEastSign:
 	jumptext GreatEastSignText
 	
 GreatEastSignText:
-	text "GREAT EAST STRAIT"
-	line "ahead, watch out"
-	cont "for whirlpools!"
+    text "AGARIDINO-STRAẞE"
+	line "voraus. Vorsicht"
+	cont "vor den STRUDELN!"
 	done
 
 
@@ -29,15 +29,15 @@ TrainerSoldierDan:
 	end
 
 DanSeenText:
-	text "This island is"
-	line "my battleground,"
-	cont "the waves my war"
-	cont "siren."
+    text "Diese Insel ist"
+    line "mein Schlachtfeld,"
+    para "die Wellen mein"
+    line "Luftalarm."
 
-	para "As long as I'm"
-	line "above water you"
-	cont "will never take"
-	cont "me alive!"
+    para "Solange ich über"
+    line "Wasser bin, wirst"
+    para "du mich niemals"
+    line "lebend kriegen!"
 	done
 
 DanBeatenText:
@@ -45,10 +45,12 @@ DanBeatenText:
 	done
 
 DanAfterBattleText:
-	text "The war is never"
-	line "over! I fight my"
-	cont "own war every day"
-	cont "in this place!"
+    text "Der Krieg ist nie"
+    line "vorbei!"
+
+    para "Ich kämpfe jeden"
+    line "Tag meinen eigenen"
+    cont "Krieg hier!"
 	done
 
 GreatEastStraitItemball:

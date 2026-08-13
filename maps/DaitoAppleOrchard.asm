@@ -17,8 +17,7 @@ AppleOrchardSign:
 	jumptext AppleOrchardSignText
 	
 AppleOrchardSignText:
-	text "DAITO APPLE"
-	line "ORCHARD"
+	text "DAITO APFELGARTEN"
 	done
 
 Appletree1:
