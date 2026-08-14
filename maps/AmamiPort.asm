@@ -234,7 +234,7 @@ AmamiPlayerLeavesShip4:
 
 	
 ThanksForTheFuelLine:
-    text "Danke, Kleiner!"
+    text "Danke, Knirps!"
 
     para "Die M.S. AQUA ist"
     line "wieder voll"

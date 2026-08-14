@@ -34,19 +34,21 @@ TrainerGruntM37:
 	end
 	
 GruntM37SeenText:
-	text "Mind your own and"
-	line "turn back now!"
+    text "Kümmere dich um"
+    line "deinen Kram und"
+    cont "dreh jetzt um!"
 	done
 	
 GruntM37BeatenText:
-	text "I've got a"
-	line "lot on my mind."
+	text "Ich muss über"
+	line "vieles nachdenken."
 	done
 	
 GruntM37AfterBattleText:
-	text "Well it's like"
-	line "they say, mind"
-	cont "over matter."
+    text "Tja wie sagt man"
+    line "so schön: Der"
+    cont "Geist siegt über"
+    cont "die Materie."
 	done
 
 TrainerGruntM38:

@@ -1,8 +1,8 @@
 	db "REGENBOGEN@" ; species name
 	dw 38, 1990 ; height, weight
 
-	db   "Sein Körper soll in"
-	next "sieben Farben"
+	db   "Sein Körper soll"
+	next "in sieben Farben"
 	next "leuchten. Im Flug"
 
 	page "zieht es einen"
