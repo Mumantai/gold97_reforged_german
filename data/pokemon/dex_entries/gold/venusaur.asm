@@ -1,10 +1,10 @@
-	db "SEED@" ; species name
-	dw 607, 2210 ; height, weight
+	db "SAMEN@" ; species name
+	dw 20, 1000 ; height, weight
 
-	db   "By spreading the"
-	next "broad petals of"
-	next "its flower and"
+	db   "Es spreizt die"
+	next "breiten Blätter"
+	next "seiner Blüte, um"
 
-	page "catching the sun's"
-	next "rays, it fills its"
-	next "body with power.@"
+	page "seinen Körper mit"
+	next "Sonnenenergie zu"
+	next "durchfluten.@"

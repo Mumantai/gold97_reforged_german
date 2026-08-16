@@ -1,10 +1,10 @@
-	db "KICKING@" ; species name
-	dw 411, 1100 ; height, weight
+	db "KICKER@" ; species name
+	dw 15, 498 ; height, weight
 
-	db   "This amazing #-"
-	next "MON has an awesome"
-	next "sense of balance."
+	db   "Dieses #MON"
+	next "besitzt einen for-"
+	next "midablen Gleichge-"
 
-	page "It can kick in"
-	next "succession from"
-	next "any position.@"
+	page "wichtssinn. Es"
+	next "kann pausenlos"
+	next "zutreten.@"

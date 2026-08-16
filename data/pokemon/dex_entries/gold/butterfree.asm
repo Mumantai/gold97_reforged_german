@@ -1,10 +1,10 @@
-	db "BUTTERFLY@" ; species name
-	dw 307, 710 ; height, weight
+	db "FALTER@" ; species name
+	dw 11, 320 ; height, weight
 
-	db   "It collects honey"
-	next "every day. It rubs"
-	next "honey onto the"
+	db   "Es sammelt täglich"
+	next "Honig. Es reibt"
+	next "ihn in seine Bein-"
 
-	page "hairs on its legs"
-	next "to carry it back"
-	next "to its nest.@"
+	page "haare, um ihn in"
+	next "sein Nest zu"
+	next "transportieren.@"

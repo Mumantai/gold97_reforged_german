@@ -1,10 +1,9 @@
-	db "SHELLFISH@" ; species name
-	dw 503, 1890 ; height, weight
+	db "PANZERTIER@" ; species name
+	dw 16, 855 ; height, weight
 
-	db   "It deliberately"
-	next "makes itself heavy"
-	next "so it can with-"
+	db   "Es macht sich ab-"
+	next "sichtlich schwer,"
+	next "um den Rückstoß"
 
-	page "stand the recoil"
-	next "of the water jets"
-	next "it fires.@"
+	page "seiner Hydropumpe"
+	next "abzufangen.@"

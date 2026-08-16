@@ -1,4 +1,4 @@
-	db "SCHBERNACK@" ; species name
+	db "SCHABERNACK@" ; species name
 	dw 16, 555 ; height, weight
 
     db   "Es sieht schlecht,"

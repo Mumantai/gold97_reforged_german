@@ -1,10 +1,10 @@
-	db "FLYCATCHER@" ; species name
-	dw 507, 340 ; height, weight
+	db "FLIEGENTOT@" ; species name
+	dw 17, 155 ; height, weight
 
-	db   "ACID that has dis-"
-	next "solved many prey"
-	next "becomes sweeter,"
+	db   "Säure, in der be-"
+	next "reits viele Insek-"
+	next "ten aufgelöst wur-"
 
-	page "making it even"
-	next "more effective at"
-	next "attracting prey.@"
+	page "den, ist süßer und"
+	next "effektiver beim"
+	next "Beutefang.@"

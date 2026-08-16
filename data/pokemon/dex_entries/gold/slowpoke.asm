@@ -1,10 +1,10 @@
-	db "DOPEY@" ; species name
-	dw 311, 790 ; height, weight
+	db "SCHNARCHER@" ; species name
+	dw 12, 360 ; height, weight
 
-	db   "It lazes vacantly"
-	next "near water. If"
-	next "something bites"
+	db   "Es faulenzt am"
+	next "Wasser. Wenn es in"
+	next "den Schwanz gebis-"
 
-	page "its tail, it won't"
-	next "even notice for a"
-	next "whole day.@"
+	page "sen wird, bemerkt"
+	next "es das erst am"
+	next "nächsten Tag.@"

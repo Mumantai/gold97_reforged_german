@@ -1,10 +1,10 @@
-	db "POISON PIN@" ; species name
-	dw 104, 150 ; height, weight
+	db "GIFTDORN@" ; species name
+	dw 4, 70 ; height, weight
 
-	db   "The poison hidden"
-	next "in its small horn"
-	next "is extremely po-"
+	db   "Das Gift in seinem"
+	next "kleinen Horn ist"
+	next "sehr potent. Ein"
 
-	page "tent. Even a tiny"
-	next "scratch can have"
-	next "fatal results.@"
+	page "kleiner Kratzer"
+	next "kann fatale Folgen"
+	next "haben.@"

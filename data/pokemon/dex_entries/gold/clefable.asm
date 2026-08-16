@@ -1,10 +1,10 @@
-	db "FAIRY@" ; species name
-	dw 403, 880 ; height, weight
+	db "FEE@" ; species name
+	dw 13, 400 ; height, weight
 
-	db   "With its acute"
-	next "hearing, it can"
-	next "pick up sounds"
+	db   "Mit seinem sensi-"
+	next "blen Gehör nimmt"
+	next "es entfernte Ge-"
 
-	page "from far away. It"
-	next "usually hides in"
-	next "quiet places.@"
+	page "räusche wahr. Es"
+	next "versteckt sich an"
+	next "ruhigen Orten.@"

@@ -1,10 +1,10 @@
-	db "PIG MONKEY@" ; species name
-	dw 303, 710 ; height, weight
+	db "SCHWEINAFFE@" ; species name
+	dw 10, 320 ; height, weight
 
-	db   "If approached"
-	next "while asleep, it"
-	next "may awaken and"
+	db   "Wenn man sich ihm"
+	next "nähert, während es"
+	next "schläft, wacht es"
 
-	page "angrily give chase"
-	next "in a groggy state"
-	next "of semi-sleep.@"
+	page "auf und startet"
+	next "eine Verfolgung im"
+	next "Halbschlaf.@"

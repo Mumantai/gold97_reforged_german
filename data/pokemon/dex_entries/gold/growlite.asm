@@ -1,10 +1,18 @@
-	db "PUPPY@" ; species name
-	dw 111, 300 ; height, weight
+	db "WELPE@" ; species name
+	dw 6, 136 ; height, weight
 
-	db   "A popular family"
-	next "pet, known for"
-	next "growing alongside"
+    db   "Ein beliebtes"
+    next "Haustier. Wächst"
+    next "gemeinsam mit Kin-"
 
-	page "children into"
-	next "adulthood as an"
-	next "ARCANINE.@"
+    page "dern heran, bis es"
+    next "die Erwachsenen"
+    next "als ARKANI hütet.@"
+
+;	db   "A popular family"
+;	next "pet, known for"
+;	next "growing alongside"
+
+;	page "children into"
+;	next "adulthood as an"
+;	next "ARCANINE.@"

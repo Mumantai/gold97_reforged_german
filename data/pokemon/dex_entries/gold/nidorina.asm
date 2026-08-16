@@ -1,10 +1,9 @@
-	db "POISON PIN@" ; species name
-	dw 207, 440 ; height, weight
+	db "GIFTDORN@" ; species name
+	dw 8, 200 ; height, weight
 
-	db   "When feeding its"
-	next "young, it first"
-	next "chews and tender-"
+	db   "Ehe es seine Jun-"
+	next "gen füttert, zer-"
+	next "kaut es das Futter"
 
-	page "izes the food,"
-	next "then spits it out"
-	next "for the offspring.@"
+	page "und gibt es ihnen"
+	next "anschließend.@"

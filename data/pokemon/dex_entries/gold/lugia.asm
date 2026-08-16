@@ -1,10 +1,10 @@
-	db "DIVING@" ; species name
-	dw 1701, 4760 ; height, weight
+	db "TAUCHER@" ; species name
+	dw 52, 2160 ; height, weight
 
-	db   "It is said that it"
-	next "quietly spends its"
-	next "time deep at the"
+	db   "Man sagt, dass es"
+	next "sich meist ruhig"
+	next "am Meeresboden"
 
-	page "bottom of the sea"
-	next "because its powers"
-	next "are too strong.@"
+	page "aufhält, um seine"
+	next "Kräfte im Zaum zu"
+	next "halten.@"

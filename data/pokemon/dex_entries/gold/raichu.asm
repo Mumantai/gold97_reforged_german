@@ -1,10 +1,9 @@
-	db "MOUSE@" ; species name
-	dw 207, 660 ; height, weight
+	db "MAUS@" ; species name
+	dw 8, 300 ; height, weight
 
-	db   "When its electric-"
-	next "ity builds, its"
-	next "muscles are stimu-"
+	db   "Wenn es sich auf-"
+	next "lädt, zucken seine"
+	next "Muskeln und es"
 
-	page "lated, and it be-"
-	next "comes more aggres-"
-	next "sive than usual.@"
+	page "wird aggressiver"
+	next "und kampflustiger.@"

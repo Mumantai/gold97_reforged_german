@@ -1,10 +1,18 @@
-	db "CONICAL@" ; species name
-	dw 401, 1380 ; height, weight
+	db "KEGEL@" ; species name
+	dw 12, 625 ; height, weight
 
-	db   "After breaking off"
-	next "of its host, the"
-	next "toxins it began"
+    db   "Nachdem es sich"
+    next "von seinem Wirt"
+    next "löst, fließt das"
 
-	page "to release run"
-	next "through it. Giving"
-	next "its potent venom.@"
+    page "Gift, das es inji-"
+    next "ziert, nun durch"
+    next "seinen Körper.@"
+
+;	db   "After breaking off"
+;	next "of its host, the"
+;	next "toxins it began"
+
+;	page "to release run"
+;	next "through it. Giving"
+;	next "its potent venom.@"

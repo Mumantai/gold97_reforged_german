@@ -1,10 +1,10 @@
-	db "BIRD@" ; species name
-	dw 411, 870 ; height, weight
+	db "VOGEL@" ; species name
+	dw 15, 395 ; height, weight
 
-	db   "Its well-developed"
-	next "chest muscles make"
-	next "it strong enough"
+	db   "Seine Brustmuskeln"
+	next "sind so kräftig,"
+	next "dass es mit wenig"
 
-	page "to whip up a gusty"
-	next "windstorm with"
-	next "just a few flaps.@"
+	page "Flattern einen"
+	next "starken Windstoß"
+	next "erzeugen kann.@"

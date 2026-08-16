@@ -1,10 +1,10 @@
-	db "BUBBLE JET@" ; species name
-	dw 303, 640 ; height, weight
+	db "BLUBBLASE@" ; species name
+	dw 10, 290 ; height, weight
 
-	db   "When VAPOREON's"
-	next "fins begin to vi-"
-	next "brate, it is a"
+	db   "Vibrieren die"
+	next "Flossen Aquanas,"
+	next "bedeutet dies,"
 
-	page "sign that rain"
-	next "will come within a"
-	next "few hours.@"
+	page "dass es in den"
+	next "nächsten Stunden"
+	next "zu regnen beginnt.@"

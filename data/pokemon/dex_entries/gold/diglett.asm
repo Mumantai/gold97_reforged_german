@@ -1,10 +1,10 @@
-	db "MOLE@" ; species name
-	dw 8, 20 ; height, weight
+	db "MAULWURF@" ; species name
+	dw 2, 8 ; height, weight
 
-	db   "Its skin is very"
-	next "thin. If it is"
-	next "exposed to light,"
+	db   "Seine Haut ist"
+	next "sehr dünn. Wird es"
+	next "Sonnenlicht ausge-"
 
-	page "its blood heats"
-	next "up, causing it to"
-	next "grow weak.@"
+	page "setzt, erhitzt"
+	next "sich sein Blut und"
+	next "es wird schwach.@"

@@ -1,10 +1,10 @@
-	db "EGG@" ; species name
-	dw 104, 60 ; height, weight
+	db "EI@" ; species name
+	dw 4, 25 ; height, weight
 
-	db   "The shell is very"
-	next "durable. Even if"
-	next "it cracks, it can"
+	db   "Seine Schale ist"
+	next "sehr hart. Selbst"
+	next "Risse schaden ihm"
 
-	page "survive without"
-	next "spilling the"
-	next "contents.@"
+	page "nicht, da es sein"
+	next "Inneres nicht ver-"
+	next "schüttet.@"

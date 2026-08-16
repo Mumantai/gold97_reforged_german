@@ -1,10 +1,9 @@
-	db "RAT@" ; species name
-	dw 100, 80 ; height, weight
+	db "MAUS@" ; species name
+	dw 3, 35 ; height, weight
 
-	db   "It eats anything."
-	next "Wherever food is"
-	next "available, it will"
+	db   "Es frisst alles."
+	next "Wo es Nahrung fin-"
+	next "det, baut es ein"
 
-	page "settle down and"
-	next "produce offspring"
-	next "continuously.@"
+	page "Nest und pflanzt"
+	next "sich ständig fort.@"

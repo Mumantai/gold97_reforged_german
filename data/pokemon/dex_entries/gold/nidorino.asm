@@ -1,10 +1,10 @@
-	db "POISON PIN@" ; species name
-	dw 211, 430 ; height, weight
+	db "GIFTDORN@" ; species name
+	dw 9, 195 ; height, weight
 
-	db   "It raises its big"
-	next "ears to check its"
-	next "surroundings. If"
+	db   "Es überwacht mit"
+	next "seinen riesigen"
+	next "Ohren die Umge-"
 
-	page "it senses any-"
-	next "thing, it attacks"
-	next "immediately.@"
+	page "bung. Registriert"
+	next "es eine Bewegung,"
+	next "greift es an.@"

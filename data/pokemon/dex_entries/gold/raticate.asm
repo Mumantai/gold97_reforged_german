@@ -1,10 +1,10 @@
-	db "RAT@" ; species name
-	dw 204, 410 ; height, weight
+	db "MAUS@" ; species name
+	dw 7, 185 ; height, weight
 
-	db   "Gnaws on anything"
-	next "with its tough"
-	next "fangs. It can even"
+	db   "Es nagt mit seinen"
+	next "Zähnen alles an."
+	next "Es kann sogar Ge-"
 
-	page "topple concrete"
-	next "buildings by gnaw-"
-	next "ing on them.@"
+	page "bäude aus Beton"
+	next "dadurch zum Ein-"
+	next "sturz bringen.@"

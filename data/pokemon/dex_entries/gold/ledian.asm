@@ -1,10 +1,10 @@
-	db "FIVE STAR@" ; species name
-	dw 407, 780 ; height, weight
+	db "FÜNFPUNKT@" ; species name
+	dw 14, 356 ; height, weight
 
-	db   "When the stars"
-	next "flicker in the"
-	next "night sky, it"
+	db   "Leuchten die Ster-"
+	next "ne am Nachthimmel,"
+	next "schwirrt es umher"
 
-	page "flutters about,"
-	next "scattering a"
-	next "glowing powder.@"
+	page "und verstreut"
+	next "einen strahlenden,"
+	next "leuchtenden Puder.@"

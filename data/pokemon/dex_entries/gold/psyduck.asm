@@ -1,10 +1,10 @@
-	db "DUCK@" ; species name
-	dw 207, 430 ; height, weight
+	db "ENTE@" ; species name
+	dw 8, 196 ; height, weight
 
-	db   "It has mystical"
-	next "powers but doesn't"
-	next "recall that it has"
+	db   "Es besitzt mysti-"
+	next "sche Kräfte, die"
+	next "es unbewusst ein-"
 
-	page "used them. That is"
-	next "why it always"
-	next "looks puzzled.@"
+	page "setzt. Daher ist"
+	next "sein Blick immer"
+	next "verwirrt.@"

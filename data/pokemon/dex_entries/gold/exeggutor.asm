@@ -1,10 +1,10 @@
-	db "COCONUT@" ; species name
-	dw 607, 2650 ; height, weight
+	db "PALMFRUCHT@" ; species name
+	dw 20, 1200 ; height, weight
 
-	db   "Its three heads"
-	next "think independent-"
-	next "ly. However, they"
+	db   "Seine drei Köpfe"
+	next "denken unabhängig"
+	next "voneinander. Den-"
 
-	page "are friendly and"
-	next "never appear to"
-	next "squabble.@"
+	page "noch sind sie nett"
+	next "zueinander und"
+	next "streiten nie.@"

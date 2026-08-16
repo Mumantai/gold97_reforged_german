@@ -1,10 +1,10 @@
-	db "VINE@" ; species name
-	dw 303, 770 ; height, weight
+	db "RANKE@" ; species name
+	dw 10, 350 ; height, weight
 
-	db   "The vines that"
-	next "cloak its entire"
-	next "body are always"
+	db   "Die Ranken an sei-"
+	next "nem Körper sind"
+	next "ständig in Bewe-"
 
-	page "jiggling. They"
-	next "effectively un-"
-	next "nerve its foes.@"
+	page "gung. Dadurch wer-"
+	next "den seine Gegner"
+	next "verwirrt.@"

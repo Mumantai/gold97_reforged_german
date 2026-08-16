@@ -1,5 +1,5 @@
-	db "STEEL FISH@" ; species name
-	dw 311, 360 ; height, weight
+	db "STAHLFISCH@" ; species name
+	dw 12, 295 ; height, weight
 
 	db   "In the deep sea"
 	next "it's unencumbered"

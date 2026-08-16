@@ -1,10 +1,10 @@
 	db "GAS@" ; species name
-	dw 403, 2 ; height, weight
+	dw 13, 1 ; height, weight
 
-	db   "With its gas-like"
-	next "body, it can sneak"
-	next "into any place it"
+	db   "Aufgrund seines"
+	next "Gas-Körpers kommt"
+	next "es an jeden Ort."
 
-	page "desires. However,"
-	next "it can be blown"
-	next "away by wind.@"
+	page "Es kann jedoch vom"
+	next "Wind davongeweht"
+	next "werden.@"

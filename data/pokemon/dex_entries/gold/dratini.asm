@@ -1,10 +1,10 @@
-	db "DRAGON@" ; species name
-	dw 511, 70 ; height, weight
+	db "DRACHE@" ; species name
+	dw 18, 33 ; height, weight
 
-	db   "It is born large"
-	next "to start with. It"
-	next "repeatedly sheds"
+	db   "Es ist bereits bei"
+	next "Geburt sehr lang."
+	next "Durch permanentes"
 
-	page "its skin as it"
-	next "steadily grows"
-	next "longer.@"
+	page "Häuten, wird es"
+	next "schnell noch grö-"
+	next "ßer.@"

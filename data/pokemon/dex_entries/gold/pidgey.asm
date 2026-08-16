@@ -1,10 +1,10 @@
-	db "TINY BIRD@" ; species name
-	dw 100, 40 ; height, weight
+	db "KLEINVOGEL@" ; species name
+	dw 3, 18 ; height, weight
 
-	db   "It usually hides"
-	next "in tall grass. Be-"
-	next "cause it dislikes"
+	db   "Es versteckt sich"
+	next "im hohen Gras. Da"
+	next "es Kämpfe verab-"
 
-	page "fighting, it pro-"
-	next "tects itself by"
-	next "kicking up sand.@"
+	page "scheut, wirbelt es"
+	next "Sand auf, um sich"
+	next "zu schützen.@"

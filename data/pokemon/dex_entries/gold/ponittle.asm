@@ -1,10 +1,18 @@
-	db "FIRE FOAL@" ; species name
-	dw 205, 310 ; height, weight
+	db "FEUERPFERD@" ; species name
+	dw 7, 140 ; height, weight
 
-	db   "They are born"
-	next "relatively steady"
-	next "on their feet but"
+    db   "Sie sind relativ"
+    next "stabil auf den"
+    next "Beinen, müssen"
 
-	page "have to train hard"
-	next "to keep up with"
-	next "their family.@"
+    page "aber hart trainie-"
+    next "ren, um mit ihrer"
+    next "Herde mitzuhalten.@"
+
+;	db   "They are born"
+;	next "relatively steady"
+;	next "on their feet but"
+
+;	page "have to train hard"
+;	next "to keep up with"
+;	next "their family.@"

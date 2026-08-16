@@ -1,10 +1,10 @@
-	db "SPIRAL@" ; species name
-	dw 303, 770 ; height, weight
+	db "SPIRALE@" ; species name
+	dw 10, 350 ; height, weight
 
-	db   "Apparently, it"
-	next "cracked SHELLDER's"
-	next "shell with its"
+	db   "Es scheint, als ob"
+	next "es die Schale von"
+	next "Muschas mit seinen"
 
-	page "sharp fangs and"
-	next "sucked out the"
-	next "insides.@"
+	page "Zähnen aufbrach"
+	next "und den Inhalt"
+	next "trank.@"

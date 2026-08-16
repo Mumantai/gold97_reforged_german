@@ -1,10 +1,18 @@
-	db "FIRE BEAR@" ; species name
-	dw 305, 720 ; height, weight
+	db "FEUERBÄR@" ; species name
+	dw 14, 325 ; height, weight
 
-	db   "When threatened"
-	next "severely, rather"
-	next "than fighting with"
+    db   "Wird es bedroht,"
+    next "so dreht es sich"
+    next "um und stößt eine"
 
-	page "its claws, it will"
-	next "turn around and"
-	next "blast a heat wave.@"
+    page "Hitzewelle aus,"
+    next "anstatt seine"
+    next "Krallen zu nutzen.@"
+
+;	db   "When threatened"
+;	next "severely, rather"
+;	next "than fighting with"
+
+;	page "its claws, it will"
+;	next "turn around and"
+;	next "blast a heat wave.@"

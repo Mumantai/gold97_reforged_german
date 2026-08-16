@@ -1,10 +1,18 @@
-	db "VINE@" ; species name
-	dw 205, 440 ; height, weight
+	db "RANKE@" ; species name
+	dw 7, 200 ; height, weight
 
-	db   "It plants itself"
-	next "in the ground to"
-	next "avoid notice."
+    db   "Pflanzt sich ein,"
+    next "um nicht aufzu-"
+    next "fallen. Pflanzt"
 
-	page "Clipped vines can"
-	next "be planted to grow"
-	next "more TANGTRIP.@"
+    page "man seine Ranken"
+    next "ein, wachsen neue"
+    next "ZAUSELA daraus.@"
+
+;	db   "It plants itself"
+;	next "in the ground to"
+;	next "avoid notice."
+
+;	page "Clipped vines can"
+;	next "be planted to grow"
+;	next "more TANGTRIP.@"

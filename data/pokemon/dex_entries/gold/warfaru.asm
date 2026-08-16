@@ -1,10 +1,19 @@
-	db "TRIBE@" ; species name
-	dw 504, 2230 ; height, weight
+	db "EISMONSTER@" ; species name
+	dw 16, 1012 ; height, weight
 
-	db   "They hunt in a"
-	next "tribe, hiding in"
-	next "the pitch white"
+    db   "Sie jagen in einem"
+    next "Stamm, versteckt"
+    next "im grellen weißen"
 
-	page "snow. When looking"
-	next "through the cloak"
-	next "it shows no face.@"
+    page "Schnee. Man sieht"
+    next "durch den Mantel"
+    next "kein Gesicht.@"
+
+
+;	db   "They hunt in a"
+;	next "tribe, hiding in"
+;	next "the pitch white"
+
+;	page "snow. When looking"
+;	next "through the cloak"
+;	next "it shows no face.@"

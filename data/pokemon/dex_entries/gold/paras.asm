@@ -1,10 +1,18 @@
-	db "MUSHROOM@" ; species name
-	dw 100, 120 ; height, weight
+	db "PILZ@" ; species name
+	dw 3, 54 ; height, weight
 
-	db   "It is doused with"
-	next "spores from when"
-	next "it was a PARAMITE."
+;	db   "Es ist von Geburt"
+;	next "an mit Pilzsporen"
+;	next "übersät. Wenn es"
 
-	page "As its body grows,"
-	next "mushrooms sprout"
-	next "from its back.@"
+;	page "wächst, sprießen"
+;	next "Pilze auf seinem"
+;	next "Rücken.@"
+
+    db   "Es ist mit Pilz-"
+    next "sporen aus seiner"
+    next "Zeit als SPORAS"
+
+    page "bedeckt. Die Pilze"
+    next "sprießen später"
+    next "auf seinem Rücken.@"

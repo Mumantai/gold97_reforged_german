@@ -1,10 +1,10 @@
-	db "POISON PIN@" ; species name
-	dw 108, 200 ; height, weight
+	db "GIFTDORN@" ; species name
+	dw 5, 90 ; height, weight
 
-	db   "It is small, but"
-	next "its horn is filled"
-	next "with poison. It"
+	db   "Es ist klein, aber"
+	next "sein Horn ist gif-"
+	next "tig. Es bohrt sein"
 
-	page "charges then stabs"
-	next "with the horn to"
-	next "inject poison.@"
+	page "Horn in seine Geg-"
+	next "ner, um Gift zu"
+	next "injizieren.@"

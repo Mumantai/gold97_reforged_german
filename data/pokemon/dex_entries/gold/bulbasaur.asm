@@ -1,10 +1,10 @@
-	db "SEED@" ; species name
-	dw 204, 150 ; height, weight
+	db "SAMEN@" ; species name
+	dw 7, 69 ; height, weight
 
-	db   "The seed on its"
-	next "back is filled"
-	next "with nutrients."
+	db   "Der Samen auf dem"
+	next "Rücken enthält"
+	next "Nährstoffe."
 
-	page "The seed grows"
-	next "steadily larger as"
-	next "its body grows.@"
+	page "Er wächst mit"
+	next "zunehmender"
+	next "Körpergröße.@"

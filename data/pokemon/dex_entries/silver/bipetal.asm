@@ -1,4 +1,4 @@
-	db "FALLE@" ; species name
+	db "FLIEGENTOD@" ; species name
 	dw 13, 120 ; height, weight
 
     db   "Eine überraschend"

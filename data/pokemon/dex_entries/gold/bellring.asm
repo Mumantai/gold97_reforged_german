@@ -1,10 +1,18 @@
-	db "LOUDCAT@" ; species name
-	dw 207, 410 ; height, weight
+	db "LAUTKATZE@" ; species name
+	dw 8, 185 ; height, weight
 
-	db   "Each clan has its"
-	next "own distinctive"
-	next "pitch to their"
+    db   "Die Glocken jedes"
+    next "Clanes haben einen"
+    next "eigenen Klang."
 
-	page "bell chime. They"
-	next "communicate using"
-	next "chime sequences.@"
+    page "Sie kommunizieren"
+    next "miteinander über"
+    next "Glockenfolgen.@"
+
+;	db   "Each clan has its"
+;	next "own distinctive"
+;	next "pitch to their"
+
+;	page "bell chime. They"
+;	next "communicate using"
+;	next "chime sequences.@"

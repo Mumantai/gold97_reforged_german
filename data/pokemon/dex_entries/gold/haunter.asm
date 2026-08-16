@@ -1,10 +1,10 @@
 	db "GAS@" ; species name
-	dw 503, 2 ; height, weight
+	dw 16, 1 ; height, weight
 
-	db   "In total darkness,"
-	next "where nothing is"
-	next "visible, HAUNTER"
+	db   "ALPOLLO wartet in"
+	next "der Finsternis auf"
+	next "seine Opfer. Es"
 
-	page "lurks, silently"
-	next "stalking its next"
-	next "victim.@"
+	page "lauert ihnen auf"
+	next "und stellt ihnen"
+	next "nach.@"

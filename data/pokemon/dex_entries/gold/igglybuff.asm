@@ -1,10 +1,10 @@
-	db "BALLOON@" ; species name
-	dw 100, 20 ; height, weight
+	db "BALLON@" ; species name
+	dw 3, 10 ; height, weight
 
-	db   "It has a very soft"
-	next "body. If it starts"
-	next "to roll, it will"
+	db   "Sein Körper ist"
+	next "sehr weich. Kommt"
+	next "es ins Rollen,"
 
-	page "bounce all over"
-	next "and be impossible"
-	next "to stop.@"
+	page "hüpft es herum und"
+	next "man kann es nicht"
+	next "aufhalten.@"

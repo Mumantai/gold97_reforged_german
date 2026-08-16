@@ -1,11 +1,19 @@
-	db "GOLDFISH@" ; species name
-	dw 108, 210 ; height, weight
+	db "GOLDFISCH@" ; species name
+	dw 5, 95 ; height, weight
 
-	db   "Fancy breeds of"
-	next "GUPGOLD with puff"
-	next "cheeks and eyes"
+    db   "Zuchtformen mit"
+    next "aufgeblasenen"
+    next "Wangen und Augen"
 
-	page "are popular, but"
-	next "they don't evolve"
-	next "healthily.@"
+    page "sind beliebt, aber"
+    next "sie entwickeln"
+    next "sich nicht gesund.@"
+
+;	db   "Fancy breeds of"
+;	next "GUPGOLD with puff"
+;	next "cheeks and eyes"
+
+;	page "are popular, but"
+;	next "they don't evolve"
+;	next "healthily.@"
 	

@@ -1,10 +1,10 @@
-	db "MOUSE@" ; species name
-	dw 303, 650 ; height, weight
+	db "MAUS@" ; species name
+	dw 10, 295 ; height, weight
 
-	db   "In an attempt to"
-	next "hide itself, it"
-	next "will run around"
+	db   "Um sich zu verste-"
+	next "cken, wirbelt es"
+	next "wild herum und"
 
-	page "at top speed to"
-	next "kick up a blinding"
-	next "dust storm.@"
+	page "erzeugt so einen"
+	next "Sandsturm, der den"
+	next "Gegner verwirrt.@"

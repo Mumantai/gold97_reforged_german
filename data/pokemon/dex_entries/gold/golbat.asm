@@ -1,10 +1,10 @@
-	db "BAT@" ; species name
-	dw 503, 1210 ; height, weight
+	db "FLEDERMAUS@" ; species name
+	dw 16, 550 ; height, weight
 
-	db   "However hard its"
-	next "victim's hide may"
-	next "be, it punctures"
+	db   "Wie dick die Haut"
+	next "des Opfers auch"
+	next "ist, seine spitzen"
 
-	page "with sharp fangs"
-	next "and gorges itself"
-	next "with blood.@"
+	page "Zähne durchbohren"
+	next "sie und es trinkt"
+	next "von seinem Blut.@"
