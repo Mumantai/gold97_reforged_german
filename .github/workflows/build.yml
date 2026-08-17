@@ -32,7 +32,7 @@ jobs:
           make Q= LDFLAGS="-Wl,--allow-multiple-definition"
           sudo make install
 
-      - name: Gold ROM bauen
+      - name: Gold und Silber ROMs bauen
         run: |
           make -j$(nproc) -k --output-sync=target all
         working-directory: .
