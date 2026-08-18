@@ -68,14 +68,23 @@ jobs:
           ./flips/flips --create --ips baserom.gbc pokegold97.gbc dist/Gold_97_Reforged_German.ips
           ./flips/flips --create --ips baserom.gbc pokesilver97.gbc dist/Silver_97_Reforged_German.ips
 
-      - name: Upload IPS artifact
+      - name: Build BPS patch
+        run: |
+          ./flips/flips --create --bps baserom.gbc pokegold97.gbc dist/Gold_97_Reforged_German.bps
+          ./flips/flips --create --bps baserom.gbc pokesilver97.gbc dist/Silver_97_Reforged_German.bps
+
+      - name: Upload patch artifacts
         uses: actions/upload-artifact@v7
         with:
           name: gold-silver-97-reforged-german-ips
-          path: dist/*.ips
+          path: |
+            dist/*.ips
+            dist/*.bps
 
       - name: Upload IPS to GitHub Release
         if: github.event_name == 'release'
         uses: softprops/action-gh-release@v2
         with:
-          files: dist/*.ips
+          files: |
+            dist/*.ips
+            dist/*.bps
