@@ -152,7 +152,7 @@ TitleScreenGameTitle:
 ; Draw game title
 	hlcoord 5, 6
 	lb bc, 1, 11
-	lb de, TITLE_LOGO_TILE + 126, 11
+	lb de, TITLE_LOGO_TILE + 125, 11
 	call DrawTitleGraphic
 
 	ld de, 20
