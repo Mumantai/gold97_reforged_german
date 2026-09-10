@@ -150,8 +150,8 @@ TitleScreenGameTitle:
 	ret nz
 
 ; Draw game title
-	hlcoord 6, 6
-	lb bc, 1, 9
+	hlcoord 5, 6
+	lb bc, 1, 11
 	lb de, TITLE_LOGO_TILE + 126, 9
 	call DrawTitleGraphic
 
