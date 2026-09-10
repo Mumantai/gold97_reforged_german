@@ -40,11 +40,12 @@ Route101PagotaGate2FSign:
 	jumptext Route101PagotaGate2FSignText
 	
 Route101PagotaGate2FSignText:
-	text "<PLAY_G> peeked"
-	line "through the"
-	cont "telescope!"
-	para "Whoa! A tall tower"
-	line "can be seen!"
+	text "<PLAY_G> schaut"
+    line "durch das"
+    cont "Fernrohr!"
+
+    para "Wow! Ein hoher"
+    line "Turm ist zu sehen!"
 	done
 
 Route101PagotaGate2FSign2:
@@ -55,8 +56,8 @@ Route101PagotaGate2FSign2Text:
     line "durch das"
     cont "Fernrohr!"
 
-    para "Wow! Ein hoher"
-    line "Turm ist zu sehen!"
+    para "Ein Fluss windet"
+    line "sich in die Ferne."
 	done
 	
 Route101PagotaGate2F_MapEvents:

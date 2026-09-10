@@ -312,7 +312,7 @@ MainMenu_PrintCurrentTimeAndDay:
 	db "v6.1e@"
 
 .LocVersionPrint:
-    db "DE1.0@"
+    db "DE1.1@"
 
 .Days:
 	db "SONNTAG   @"

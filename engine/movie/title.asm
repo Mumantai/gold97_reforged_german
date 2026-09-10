@@ -418,8 +418,8 @@ TitleScreenLoadGFX:
 	lb de, TITLE_LOGO_TILE, 20
 	call DrawTitleGraphic
 ; ...except game title and tm
-	hlcoord 6, 6
-	ld bc, 9
+	hlcoord 5, 6
+	ld bc, 11
 	ld a, $80
 	call ByteFill
 	ld bc, 3
