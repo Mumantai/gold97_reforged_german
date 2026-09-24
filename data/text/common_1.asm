@@ -586,7 +586,7 @@ _OPT_SwarmText6::
 	done
 
 _OPT_SwarmText7::
-    text:start
+    text_start
     line "da draußen ein"
     done
 
