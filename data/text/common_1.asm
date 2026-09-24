@@ -604,21 +604,25 @@ _OPT_SwarmText9::
 _OPT_SwarmText10::
     text_start
     line "sollte er sich"
+    done
 
 _OPT_SwarmText11::
 	text_start
 	line "hierhin begeben:"
-	cont "@"
-	text_from_ram wStringBuffer1
-	text "."
 	done
 
 _OPT_SwarmText12::
+    text_start
+	line "@"
+	text_from_ram wStringBuffer1
+	text "."
+
+_OPT_SwarmText13::
 	text_start
 	line "Und jetzt weiter"
 	done
 
-_OPT_SwarmText13::
+_OPT_SwarmText14::
 	text_start
 	line "mit der Sendung!"
 	done

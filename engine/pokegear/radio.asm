@@ -130,6 +130,7 @@ RadioJumptable:
 	dw OaksPKMNTalkSwarm11 ; $62
 	dw OaksPKMNTalkSwarm12 ; $63
 	dw OaksPKMNTalkSwarm13 ; $64
+	dw OaksPKMNTalkSwarm14 ; $65
 
 PrintRadioLine:
 	ld [wNextRadioLine], a
@@ -387,7 +388,12 @@ OaksPKMNTalkSwarm12:
 	jp NextRadioLine
 
 OaksPKMNTalkSwarm13:
-    ld hl, OPT_SwarmText13
+	ld hl, OPT_SwarmText13
+	ld a, OAKS_POKEMON_TALK_SWARM_14
+	jp NextRadioLine
+
+OaksPKMNTalkSwarm14:
+    ld hl, OPT_SwarmText14
     ld a, OAKS_POKEMON_TALK_4
     jp NextRadioLine
 

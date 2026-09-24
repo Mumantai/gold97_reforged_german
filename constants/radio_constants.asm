@@ -98,6 +98,7 @@
 	const OAKS_POKEMON_TALK_SWARM_11 ; 62
 	const OAKS_POKEMON_TALK_SWARM_12 ; 63
 	const OAKS_POKEMON_TALK_SWARM_13 ; 64
+	const OAKS_POKEMON_TALK_SWARM_14 ; 65
 
 ; PlayRadio.StationPointers indexes (see engine/pokegear/pokegear.asm)
 	const_def
