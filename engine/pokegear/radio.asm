@@ -129,6 +129,7 @@ RadioJumptable:
 	dw OaksPKMNTalkSwarm10 ; $61
 	dw OaksPKMNTalkSwarm11 ; $62
 	dw OaksPKMNTalkSwarm12 ; $63
+	dw OaksPKMNTalkSwarm13 ; $64
 
 PrintRadioLine:
 	ld [wNextRadioLine], a
@@ -384,6 +385,11 @@ OaksPKMNTalkSwarm12:
 	ld hl, OPT_SwarmText12
 	ld a, OAKS_POKEMON_TALK_4
 	jp NextRadioLine
+
+OaksPKMTalkSwarm13:
+    ld hl, OPT_SwarmText13
+    ld a, OAKS_POKEMON_TALK_4
+    jp NextRadioLine
 
 OaksPKMNTalk4:
 ; Choose a random route, and a random Pokemon from that route.

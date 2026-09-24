@@ -204,7 +204,7 @@ OakPhoneDisasterText:
 	line "Ort, um die"
 	para "seltsame Beziehung"
 	line "zwischen FLEGMON"
-	para "und DISTURBAN zu"
+	para "und BISTURBAN zu"
 	line "untersuchen."
 	
 	para "<RIVAL>, BLAU und"
