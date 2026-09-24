@@ -386,7 +386,7 @@ OaksPKMNTalkSwarm12:
 	ld a, OAKS_POKEMON_TALK_SWARM_13
 	jp NextRadioLine
 
-OaksPKMTalkSwarm13:
+OaksPKMNTalkSwarm13:
     ld hl, OPT_SwarmText13
     ld a, OAKS_POKEMON_TALK_4
     jp NextRadioLine
