@@ -557,22 +557,22 @@ OPT_SwarmText9:
 
 OPT_SwarmText10:
 	; @ .
-	text_far _OPT_SwarmText5
+	text_far _OPT_SwarmText10
 	db "@"
 
 OPT_SwarmText11:
 	; Now, let's start
-	text_far _OPT_SwarmText10
+	text_far _OPT_SwarmText11
 	db "@"
 
 OPT_SwarmText12:
 	; the show!
-	text_far _OPT_SwarmText11
+	text_far _OPT_SwarmText12
 	db "@"
 
 OPT_SwarmText13:
 	; the show!
-	text_far _OPT_SwarmText11
+	text_far _OPT_SwarmText13
 	db "@"
 
 OPT_OakText1:
