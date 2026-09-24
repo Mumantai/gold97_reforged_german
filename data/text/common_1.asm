@@ -616,6 +616,7 @@ _OPT_SwarmText12::
 	line "@"
 	text_from_ram wStringBuffer1
 	text "."
+	done
 
 _OPT_SwarmText13::
 	text_start
