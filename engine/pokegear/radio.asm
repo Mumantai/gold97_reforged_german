@@ -570,6 +570,11 @@ OPT_SwarmText12:
 	text_far _OPT_SwarmText11
 	db "@"
 
+OPT_SwarmText13:
+	; the show!
+	text_far _OPT_SwarmText11
+	db "@"
+
 OPT_OakText1:
 	; OAK: @ @
 	text_far _OPT_OakText1
